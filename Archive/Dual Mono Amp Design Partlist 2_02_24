@@ -1,0 +1,142 @@
+Partlist
+
+Exported from AK4493-v1.64_22.sch at 2/2/24 10:52 PM
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value                       Device                 Package           Library               Sheet
+
+BD1      I2SOVERUSBV3                I2SOVERUSBV3           I2SOVERUSBV3      Dual Mono Amp Library 1
+C1A                                  C-EUC0805K             C0805K            rcl_user              1
+C2A1     0.1u, Ceramic Capacitor X7R C-POL-MLCCC0603K       C0603K            Dual Mono Amp Library 1
+C2A2     0.1u, Ceramic Capacitor X7R C-POL-MLCCC0603K       C0603K            Dual Mono Amp Library 1
+C3A                                  CPOL-EUE2.5-5          E2,5-5            Dual Mono Amp Library 1
+C3B                                  CPOL-EUE2.5-5          E2,5-5            Dual Mono Amp Library 1
+C4A1     0.1u, Ceramic Capacitor X7R C-POL-MLCCC0603K       C0603K            Dual Mono Amp Library 1
+C4A2     0.1u, Ceramic Capacitor X7R C-POL-MLCCC0603K       C0603K            Dual Mono Amp Library 1
+C5A                                  CPOL-EUE2.5-5          E2,5-5            Dual Mono Amp Library 1
+C5B                                  CPOL-EUE2.5-5          E2,5-5            Dual Mono Amp Library 1
+C6A1     0.1u, Ceramic Capacitor X7R C-POL-MLCCC0603K       C0603K            Dual Mono Amp Library 1
+C6A2     0.1u, Ceramic Capacitor X7R C-POL-MLCCC0603K       C0603K            Dual Mono Amp Library 1
+C7A                                  CPOL-EUE5-8.5          E5-8,5            rcl                   1
+C7B                                  CPOL-EUE5-8.5          E5-8,5            rcl                   1
+C8A1     0.1u, Ceramic Capacitor X7R C-POL-MLCCC0603K       C0603K            Dual Mono Amp Library 1
+C8A2     0.1u, Ceramic Capacitor X7R C-POL-MLCCC0603K       C0603K            Dual Mono Amp Library 1
+C9A                                  CPOL-EUE2-4            E2-4              rcl                   1
+C9B                                  CPOL-EUE2-4            E2-4              rcl                   1
+C10A1    0.1u, Ceramic Capacitor X7R C-POL-MLCCC0603K       C0603K            Dual Mono Amp Library 1
+C10A2    0.1u, Ceramic Capacitor X7R C-POL-MLCCC0603K       C0603K            Dual Mono Amp Library 1
+C11A                                 CPOL-EUE5-8.5          E5-8,5            Dual Mono Amp Library 1
+C11B                                 CPOL-EUE5-8.5          E5-8,5            Dual Mono Amp Library 1
+C12A1    0.1u, Ceramic Capacitor X7R C-POL-MLCCC0603K       C0603K            Dual Mono Amp Library 1
+C12A2    0.1u, Ceramic Capacitor X7R C-POL-MLCCC0603K       C0603K            Dual Mono Amp Library 1
+C13A                                 CPOL-EUE2-4            E2-4              Dual Mono Amp Library 1
+C13B                                 CPOL-EUE2-4            E2-4              Dual Mono Amp Library 1
+C14A1    0.1u, Ceramic Capacitor X7R C-POL-MLCCC0603K       C0603K            Dual Mono Amp Library 1
+C14A2    0.1u, Ceramic Capacitor X7R C-POL-MLCCC0603K       C0603K            Dual Mono Amp Library 1
+C15A                                 CPOL-EUE2-4            E2-4              Dual Mono Amp Library 1
+C15B                                 CPOL-EUE2-4            E2-4              Dual Mono Amp Library 1
+C16A1    0.1u, Ceramic Capacitor X7R C-POL-MLCCC0603K       C0603K            Dual Mono Amp Library 1
+C16A2    0.1u, Ceramic Capacitor X7R C-POL-MLCCC0603K       C0603K            Dual Mono Amp Library 1
+C17A                                 CPOL-EUE2-4            E2-4              Dual Mono Amp Library 1
+C17B                                 CPOL-EUE2-4            E2-4              Dual Mono Amp Library 1
+C18A     4.7u                        C-POL-MLCCC0805K       C0805K            Dual Mono Amp Library 1
+C18B     4.7u                        C-POL-MLCCC0805K       C0805K            Dual Mono Amp Library 1
+C18C     4.7u                        C-POL-MLCCC0805K       C0805K            Dual Mono Amp Library 1
+C18D     4.7u                        C-POL-MLCCC0805K       C0805K            Dual Mono Amp Library 1
+C18E     4.7u                        C-POL-MLCCC0805K       C0805K            Dual Mono Amp Library 1
+C18F     4.7u                        C-POL-MLCCC0805K       C0805K            Dual Mono Amp Library 1
+C19A     22u                         C-EUC1206K             C1206K            rcl_user              1
+C19B     22u                         C-EUC1206K             C1206K            rcl_user              1
+C19C     22u                         C-EUC1206K             C1206K            rcl_user              1
+C19D     22u                         C-EUC1206K             C1206K            rcl_user              1
+C19E     22u                         C-EUC1206K             C1206K            rcl_user              1
+C19F     22u                         C-EUC1206K             C1206K            rcl_user              1
+C20A     10u                         C-POL-MLCCC0805K       C0805K            Dual Mono Amp Library 1
+C20B     10u                         C-POL-MLCCC0805K       C0805K            Dual Mono Amp Library 1
+C20C     10u                         C-POL-MLCCC0805K       C0805K            Dual Mono Amp Library 1
+C20D     10u                         C-POL-MLCCC0805K       C0805K            Dual Mono Amp Library 1
+C20E     10u                         C-POL-MLCCC0805K       C0805K            Dual Mono Amp Library 1
+C20F     10u                         C-POL-MLCCC0805K       C0805K            Dual Mono Amp Library 1
+C21A     0.1u                        C-POL-MLCCC0805K       C0805K            Dual Mono Amp Library 1
+C21B     0.1u                        C-POL-MLCCC0805K       C0805K            Dual Mono Amp Library 1
+C21C     0.1u                        C-POL-MLCCC0805K       C0805K            Dual Mono Amp Library 1
+C21D     0.1u                        C-POL-MLCCC0805K       C0805K            Dual Mono Amp Library 1
+C21E     0.1u                        C-POL-MLCCC0805K       C0805K            Dual Mono Amp Library 1
+C21F     0.1u                        C-POL-MLCCC0805K       C0805K            Dual Mono Amp Library 1
+C22A                                 C-POL-MLCCC0603K       C0603K            Dual Mono Amp Library 1
+C23A                                 C-POL-MLCCC0603K       C0603K            Dual Mono Amp Library 1
+C24A                                 C-POL-MLCCC0603K       C0603K            Dual Mono Amp Library 1
+C25A     470u                        CPOL-EUE2.5-7          E2,5-7            rcl                   1
+C25B     470u                        CPOL-EUE2.5-7          E2,5-7            rcl                   1
+C25C     470u                        CPOL-EUE2.5-7          E2,5-7            rcl                   1
+C26A                                 C-POL-MLCCC0805K       C0805K            Dual Mono Amp Library 1
+C26B                                 C-POL-MLCCC0805K       C0805K            Dual Mono Amp Library 1
+C27A                                 C-POL-MLCCC0805K       C0805K            Dual Mono Amp Library 1
+C27B                                 C-POL-MLCCC0805K       C0805K            Dual Mono Amp Library 1
+C28A                                 C-POL-MLCCC0603K       C0603K            Dual Mono Amp Library 1
+C28B                                 C-POL-MLCCC0603K       C0603K            Dual Mono Amp Library 1
+DIF1                                 SJ2W                   SJ_2              Dual Mono Amp Library 1
+DIF3                                 SJ2W                   SJ_2              Dual Mono Amp Library 1
+IC2      AK4493                      AK4493                 LQFP48_           Dual Mono Amp Library 1
+IC3      AK4493                      AK4493                 LQFP48_           Dual Mono Amp Library 1
+IC4A     SN74ABT273DBR               SN74ABT273DBR          SOP65P780X200-20N Dual Mono Amp Library 1
+J1                                   CONN_02                1X02              Dual Mono Amp Library 1
+J2                                   CONN_02                1X02              Dual Mono Amp Library 1
+J3                                   CONN_07                1X07              Dual Mono Amp Library 1
+J4                                   CONN_06SILK_FEMALE_PTH 1X06              Dual Mono Amp Library 1
+J5                                   CONN_07                1X07              Dual Mono Amp Library 1
+J6                                   CONN_07                1X07              Dual Mono Amp Library 1
+J7                                   CONN_07                1X07              Dual Mono Amp Library 1
+J8                                   CONN_07                1X07              Dual Mono Amp Library 1
+J9                                   CONN_07                1X07              Dual Mono Amp Library 1
+J10                                  CONN_07                1X07              Dual Mono Amp Library 1
+J11                                  CONN_07                1X07              Dual Mono Amp Library 1
+J12                                  CONN_07                1X07              Dual Mono Amp Library 1
+J13                                  CONN_06SILK_FEMALE_PTH 1X06              Dual Mono Amp Library 1
+J14                                  CONN_02                1X02              Dual Mono Amp Library 1
+LDO1     LT3042                      LT3042                 SOP50P490X110-11N Dual Mono Amp Library 1
+LDO2     LT3042                      LT3042                 SOP50P490X110-11N Dual Mono Amp Library 1
+LDO3     LT3042                      LT3042                 SOP50P490X110-11N Dual Mono Amp Library 1
+LDO4     LT3042                      LT3042                 SOP50P490X110-11N Dual Mono Amp Library 1
+LDO5     LT3042                      LT3042                 SOP50P490X110-11N Dual Mono Amp Library 1
+LDO6     LT3042                      LT3042                 SOP50P490X110-11N Dual Mono Amp Library 1
+LDO7     LP5907-1.8V                 LP5907-1.8V            SOT95P280X145-5N  Dual Mono Amp Library 1
+LDO8     LP5907-1.8V                 LP5907-1.8V            SOT95P280X145-5N  Dual Mono Amp Library 1
+R1A                                  RR0603                 R0603             Dual Mono Amp Library 1
+R1B                                  RR0603                 R0603             Dual Mono Amp Library 1
+R2A                                  RR0603                 R0603             Dual Mono Amp Library 1
+R2B                                  RR0603                 R0603             Dual Mono Amp Library 1
+R3A                                  RR0603                 R0603             Dual Mono Amp Library 1
+R3B                                  RR0603                 R0603             Dual Mono Amp Library 1
+R4A                                  RR0603                 R0603             Dual Mono Amp Library 1
+R4B                                  RR0603                 R0603             Dual Mono Amp Library 1
+R5A                                  RR0805                 R0805             Dual Mono Amp Library 1
+R6A      1k                          R-POLR0805             R0805-POL         Dual Mono Amp Library 1
+R6B      1k                          R-POLR0805             R0805-POL         Dual Mono Amp Library 1
+R6C      1k                          R-POLR0805             R0805-POL         Dual Mono Amp Library 1
+R6D      1k                          R-POLR0805             R0805-POL         Dual Mono Amp Library 1
+R6E      1k                          R-POLR0805             R0805-POL         Dual Mono Amp Library 1
+R6F      1k                          R-POLR0805             R0805-POL         Dual Mono Amp Library 1
+R7A      33k                         R-POLR0805             R0805-POL         Dual Mono Amp Library 1
+R7B      33k                         R-POLR0805             R0805-POL         Dual Mono Amp Library 1
+R7C      33k                         R-POLR0805             R0805-POL         Dual Mono Amp Library 1
+R7D      33k                         R-POLR0805             R0805-POL         Dual Mono Amp Library 1
+R7E      33k                         R-POLR0805             R0805-POL         Dual Mono Amp Library 1
+R7F      33k                         R-POLR0805             R0805-POL         Dual Mono Amp Library 1
+R8A      200k                        RR0805                 R0805             Dual Mono Amp Library 1
+R8B      200k                        RR0805                 R0805             Dual Mono Amp Library 1
+R8C      200k                        RR0805                 R0805             Dual Mono Amp Library 1
+R8D      200k                        RR0805                 R0805             Dual Mono Amp Library 1
+R8E      200k                        RR0805                 R0805             Dual Mono Amp Library 1
+R8F      200k                        RR0805                 R0805             Dual Mono Amp Library 1
+R10                                  RR0805                 R0805             Dual Mono Amp Library 1
+R20                                  RR0805                 R0805             Dual Mono Amp Library 1
+R21A                                 R-POLR0805             R0805-POL         Dual Mono Amp Library 1
+SH1      SHORTA5                     SHORTA5                SHORT_ALL-50      Dual Mono Amp Library 1
+SH2      SHORTA5                     SHORTA5                SHORT_ALL-50      Dual Mono Amp Library 1
+SH3      SHORTA5                     SHORTA5                SHORT_ALL-50      Dual Mono Amp Library 1
+SMUTE1                               SJ                     SJ                Dual Mono Amp Library 1
+SMUTE2                               SJ                     SJ                Dual Mono Amp Library 1

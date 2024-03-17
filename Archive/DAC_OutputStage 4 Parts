@@ -1,0 +1,48 @@
+Partlist
+
+Exported from DAC_OutputStage 4.sch at 2/20/24 7:00 PM
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Device                  Package       Library                     Sheet
+
+C1       1uF/16V        CPOL-USA                PANASONIC_A   rcl                         1
+C2       0.1uF, 35V     C_GMJ107BB7104MAHT_0603 C0603         Hifi Nutube DAC (Next 6) 28 1
+C3       1uF/16V        CPOL-USA                PANASONIC_A   rcl                         1
+C4       0.5uF/400V     CPOL-USA                PANASONIC_A   rcl                         1
+C5       0.05uF/400V    C-EUC0603               C0603         rcl                         1
+C6       1uF/400V       C-EUC0603               C0603         rcl                         1
+C7       30uF/400V      C-EUC0603               C0603         rcl                         1
+C8       0.05uF/400V    C-EUC0603               C0603         rcl                         1
+C9       1uF/400V       C-EUC0603               C0603         rcl                         1
+C10      0.1uF, 35V     C_GMJ107BB7104MAHT_0603 C0603         Hifi Nutube DAC (Next 6) 28 1
+C16      1uF/16V        CPOL-USA                PANASONIC_A   rcl                         1
+C17      1uF/16V        CPOL-USA                PANASONIC_A   rcl                         1
+C18      0.5uF/400V     CPOL-USA                PANASONIC_A   rcl                         1
+C19      0.05uF/400V    C-EUC0603               C0603         rcl                         1
+C20      1uF/400V       C-EUC0603               C0603         rcl                         1
+C21      30uF/400V      C-EUC0603               C0603         rcl                         1
+C22      0.05uF/400V    C-EUC0603               C0603         rcl                         1
+C23      1uF/400V       C-EUC0603               C0603         rcl                         1
+J1       1935190        1935190                 1935190       1935190                     1
+J2                      CONN_06SILK_FEMALE_PTH  1X06          Dual Mono Amp Library       1
+J3                      CONN_06SILK_FEMALE_PTH  1X06          Dual Mono Amp Library       1
+R1       47kOhm         R-US_R0805              R0805         rcl                         1
+R2       47kOhm         R-US_R0805              R0805         rcl                         1
+R3       1M*            R-US_R0805              R0805         rcl                         1
+R4       47kOhm         R-US_R0805              R0805         rcl                         1
+R5       150*           R-US_R0805              R0805         rcl                         1
+R6       47kOhm         R-US_R0805              R0805         rcl                         1
+R7       1M*            R-US_R0805              R0805         rcl                         1
+R8       150*           R-US_R0805              R0805         rcl                         1
+R9       150*           R-US_R0805              R0805         rcl                         1
+R10      150*           R-US_R0805              R0805         rcl                         1
+R13      47kOhm         R-US_R0805              R0805         rcl                         1
+R15      47kOhm         R-US_R0805              R0805         rcl                         1
+R17      47kOhm         R-US_R0805              R0805         rcl                         1
+R27      47kOhm         R-US_R0805              R0805         rcl                         1
+SX1      VT9-PT         VT9-PT                  VT9-PT        belton-engineering          1
+SX2      VT9-PT         VT9-PT                  VT9-PT        belton-engineering          1
+U$2      SJ1-3523N      SJ1-3523N               CUI_SJ1-3523N Hifi Nutube DAC (Next 6) 28 1

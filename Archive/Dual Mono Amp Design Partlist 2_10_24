@@ -1,0 +1,142 @@
+Partlist
+
+Exported from AK4493-v1.64_23.brd at 2/10/24 11:21 PM
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value                       Package                Library               Position (mm)         Orientation
+
+BD1      I2SOVERUSBV3                I2SOVERUSBV3           Dual Mono Amp Library (41.92924375 64)      R270
+C1A      0.1uF, X7R                  C0805K                 Dual Mono Amp Library (3.19 59.81)          MR270
+C2A1     0.1u, Ceramic Capacitor X7R C0603K                 Dual Mono Amp Library (60.86665 18.34868125) MR315
+C2A2     0.1u, Ceramic Capacitor X7R C0603K                 Dual Mono Amp Library (21.5528125 25.81770625) MR45
+C3A      80-A758BG106M1EAAE70        CAPPRD150W45D450H600   Dual Mono Amp Library (51.74663125 22.533928125) R180
+C3B      80-A758BG106M1EAAE70        CAPPRD200W55D500H800   Dual Mono Amp Library (19.251884375 36.904615625) R45
+C4A1     0.1u, Ceramic Capacitor X7R C0603K                 Dual Mono Amp Library (61.855184375 15.415603125) MR45
+C4A2     0.1u, Ceramic Capacitor X7R C0603K                 Dual Mono Amp Library (18.619734375 24.829171875) MR135
+C5A      80-A758BG106M1EAAE70        CAPPRD200W55D500H800   Dual Mono Amp Library (52.152403125 13.46575625) R135
+C5B      80-A758BG106M1EAAE70        CAPPRD200W55D500H800   Dual Mono Amp Library (15.5 32.264259375)   R90
+C6A1     0.1u, Ceramic Capacitor X7R C0603K                 Dual Mono Amp Library (64.29753125 13.6803625) MR225
+C6A2     0.1u, Ceramic Capacitor X7R C0603K                 Dual Mono Amp Library (16.88449375 22.386825) MR315
+C7A      RNU1A100MDSASQ              CAPPRD150W45D450H600   Dual Mono Amp Library (78.972978125 27.71655) R315
+C7B      APSG160ELL222MJ20S          CAPPRD500W60D1025H2150 Dual Mono Amp Library (32.217109375 8.09090625) R325
+C8A1     0.1u, Ceramic Capacitor X7R C0603K                 Dual Mono Amp Library (66.87705625 12.338275) MR315
+C8A2     0.1u, Ceramic Capacitor X7R C0603K                 Dual Mono Amp Library (15.54240625 19.8073) MR45
+C9A      647-RNU1A100MDSASQ          CAPPRD150W45D450H600   Dual Mono Amp Library (64.004321875 3.436021875) R190
+C9B      647-RNU1A100MDSASQ          CAPPRD150W45D450H600   Dual Mono Amp Library (6.140153125 22.166534375) R180
+C10A1    0.1u, Ceramic Capacitor X7R C0603K                 Dual Mono Amp Library (72.93088125 22.4579625) MR195
+C10A2    0.1u, Ceramic Capacitor X7R C0603K                 Dual Mono Amp Library (25.66209375 13.753475) MR285
+C11A     APSG160ELL222MJ20S          CAPPRD500W60D1025H2150 Dual Mono Amp Library (56.71138125 7.70090625) R225
+C11B     2200uF, 10V                 CAPPRD500W60D1025H2150 Dual Mono Amp Library (8.751090625 28.916925) R135
+C12A1    0.1u, Ceramic Capacitor X7R C0603K                 Dual Mono Amp Library (74.34078125 19.801996875) MR315
+C12A2    0.1u, Ceramic Capacitor X7R C0603K                 Dual Mono Amp Library (23.006128125 12.343575) MR45
+C13A     647-RNU1A100MDSASQ          CAPPRD150W45D450H600   Dual Mono Amp Library (83.7483375 22.1665375) R0
+C13B     647-RNU1A100MDSASQ          CAPPRD150W45D450H600   Dual Mono Amp Library (25.77066875 3.48601875) R315
+C14A1    0.1u, Ceramic Capacitor X7R C0603K                 Dual Mono Amp Library (71.530809375 13.85954375) MR180
+C14A2    0.1u, Ceramic Capacitor X7R C0603K                 Dual Mono Amp Library (17.063675 15.153546875) MR270
+C15A     647-RNU1A100MDSASQ          CAPPRD150W45D450H600   Dual Mono Amp Library (77.0121 8.61780625)  R45
+C15B     647-RNU1A100MDSASQ          CAPPRD150W45D450H600   Dual Mono Amp Library (8.41280625 13.0813875) R135
+C16A1    0.1u, Ceramic Capacitor X7R C0603K                 Dual Mono Amp Library (72.736428125 15.2419375) MR0
+C16A2    0.1u, Ceramic Capacitor X7R C0603K                 Dual Mono Amp Library (18.44606875 13.94793125) MR90
+C17A     647-RNU1A100MDSASQ          CAPPRD150W45D450H600   Dual Mono Amp Library (81.475684375 13.081390625) R45
+C17B     647-RNU1A100MDSASQ          CAPPRD150W45D450H600   Dual Mono Amp Library (12.876390625 8.61780625) R135
+C18A     4.7u                        C0805K                 Dual Mono Amp Library (67.368025 57.337759375) MR90
+C18B     4.7u                        C0805K                 Dual Mono Amp Library (9.72968125 40.57514375) MR0
+C18C     4.7u                        C0805K                 Dual Mono Amp Library (76.74119375 35.78485625) MR0
+C18D     4.7u                        C0805K                 Dual Mono Amp Library (56.66741875 53.362240625) MR270
+C18E     4.7u                        C0805K                 Dual Mono Amp Library (36.238259375 11.887759375) MR90
+C18F     4.7u                        C0805K                 Dual Mono Amp Library (22.7795375 48.1866375) MR90
+C19A     22u                         C1206                  Dual Mono Amp Library (67.368025 52.982759375) MR270
+C19B     22u                         C1206                  Dual Mono Amp Library (14.08468125 40.57514375) MR180
+C19C     22u                         C1206                  Dual Mono Amp Library (81.09619375 35.78485625) MR180
+C19D     22u                         C1206                  Dual Mono Amp Library (56.66741875 57.717240625) MR90
+C19E     22u                         C1206                  Dual Mono Amp Library (39.224309375 7.532759375) MR270
+C19F     22u                         C1206                  Dual Mono Amp Library (22.7795375 43.8316375) MR270
+C20A     10u                         C0805K                 Dual Mono Amp Library (73.609825 60.460015625) MR0
+C20B     10u                         C0805K                 Dual Mono Amp Library (6.607425 48.60714375) MR90
+C20C     10u                         C0805K                 Dual Mono Amp Library (73.6189375 42.02665625) MR270
+C20D     10u                         C0805K                 Dual Mono Amp Library (50.42561875 50.289984375) MR180
+C20E     10u                         C0805K                 Dual Mono Amp Library (49.033890625 13.0189625) MR180
+C20F     10u                         C0805K                 Dual Mono Amp Library (31.0213375 51.30889375) MR180
+C21A     0.1u                        C0805K                 Dual Mono Amp Library (73.609825 58.4689625) MR0
+C21B     0.1u                        C0805K                 Dual Mono Amp Library (8.598478125 48.60714375) MR90
+C21C     0.1u                        C0805K                 Dual Mono Amp Library (75.609990625 42.02665625) MR270
+C21D     0.1u                        C0805K                 Dual Mono Amp Library (50.42561875 52.2810375) MR180
+C21E     0.1u                        C0805K                 Dual Mono Amp Library (45.466109375 13.0189625) MR0
+C21F     0.1u                        C0805K                 Dual Mono Amp Library (28.8115375 49.317840625) MR0
+C22A     0.1u, Ceramic Capacitor X7R C0603K                 Dual Mono Amp Library (49.466790625 34.62)  MR270
+C23A     0.1u, Ceramic Capacitor X7R C0603K                 Dual Mono Amp Library (46.926790625 34.62)  MR270
+C24A     0.1u, Ceramic Capacitor X7R C0603K                 Dual Mono Amp Library (44.386790625 34.62)  MR270
+C25A     470u                        CAPPRD350W60D825H1300  Dual Mono Amp Library (86.6984875 50.3711125) R150
+C25B     470u                        CAPPRD350W60D825H1300  Dual Mono Amp Library (3.7662 43.3906625)   R315
+C25C     470u                        CAPPRD350W60D825H1300  Dual Mono Amp Library (30.2388875 59.8)     R195
+C26A     4.7u, Ceramic Capacitor X7R C0805K                 Dual Mono Amp Library (53.118553125 33.266934375) MR90
+C26B     4.7u, Ceramic Capacitor X7R C0805K                 Dual Mono Amp Library (26.622753125 37.758746875) MR225
+C27A     4.7u, Ceramic Capacitor X7R C0805K                 Dual Mono Amp Library (53.867496875 23.83660625) MR45
+C27B     4.7u, Ceramic Capacitor X7R C0805K                 Dual Mono Amp Library (28.88991875 31.0739375) MR135
+C28A     0.1u, Ceramic Capacitor X7R C0603K                 Dual Mono Amp Library (56.143396875 25.5732875) MR90
+C28B     0.1u, Ceramic Capacitor X7R C0603K                 Dual Mono Amp Library (26.93476875 32.710890625) MR135
+DIF1                                 SJ_2                   Dual Mono Amp Library (67.606365625 24.67120625) R0
+DIF3                                 SJ_2                   Dual Mono Amp Library (27.8753375 19.077990625) R270
+IC2      AK4493                      LQFP48_                Dual Mono Amp Library (67.606365625 19.077990625) MR135
+IC3      AK4493                      LQFP48_                Dual Mono Amp Library (22.282121875 19.077990625) MR225
+IC4A     SN74ABT273DBR               SOP65P780X200-20N      Dual Mono Amp Library (44.44424375 41.12)   MR180
+J1                                   1X02                   Dual Mono Amp Library (3.19 49.1011125)     R90
+J2                                   1X02                   Dual Mono Amp Library (34.9393375 60.81)    R0
+J3                                   1X07                   Dual Mono Amp Library (6.489834375 60.81)   R0
+J4                                   1X06                   Dual Mono Amp Library (75.0262 3.19)        R0
+J5                                   1X07                   Dual Mono Amp Library (80.178725 19.077990625) MR45
+J6                                   1X07                   Dual Mono Amp Library (67.606365625 6.50563125) MR135
+J7                                   1X07                   Dual Mono Amp Library (55.034009375 19.077990625) MR225
+J8                                   1X07                   Dual Mono Amp Library (67.606365625 31.65035) MR315
+J9                                   1X07                   Dual Mono Amp Library (22.282121875 6.50563125) MR135
+J10                                  1X07                   Dual Mono Amp Library (9.709765625 19.077990625) MR225
+J11                                  1X07                   Dual Mono Amp Library (22.282121875 31.650346875) MR315
+J12                                  1X07                   Dual Mono Amp Library (34.85448125 19.077990625) MR45
+J13                                  1X06                   Dual Mono Amp Library (2.1622875 3.19)      R0
+J14                                  1X02                   Dual Mono Amp Library (86.6984875 44.6606625) R270
+LDO1     LT3042                      SOP50P490X110-11N      Dual Mono Amp Library (72.188025 55.07386875) MR0
+LDO2     LT3042                      SOP50P490X110-11N      Dual Mono Amp Library (11.993571875 45.39514375) MR270
+LDO3     LT3042                      SOP50P490X110-11N      Dual Mono Amp Library (79.005084375 40.60485625) MR270
+LDO4     LT3042                      SOP50P490X110-11N      Dual Mono Amp Library (51.84741875 55.62613125) MR180
+LDO5     LT3042                      SOP50P490X110-11N      Dual Mono Amp Library (44.044309375 9.62386875) MR0
+LDO6     LT3042                      SOP50P490X110-11N      Dual Mono Amp Library (27.5995375 45.922746875) MR0
+LDO7     LP5907-1.8V                 SOT95P280X145-5N       Dual Mono Amp Library (53.7232375 28.46195) MR225
+LDO8     LP5907-1.8V                 SOT95P280X145-5N       Dual Mono Amp Library (24.307865625 35.443859375) MR225
+R1A      RT0603DRE075R1L             R0603                  Dual Mono Amp Library (58.1666125 27.571696875) MR270
+R1B      RT0603DRE075R1L             R0603                  Dual Mono Amp Library (30.526871875 29.1187875) MR315
+R2A      RT0603DRE075R1L             R0603                  Dual Mono Amp Library (59.9626625 29.367746875) MR270
+R2B      RT0603DRE075R1L             R0603                  Dual Mono Amp Library (32.322921875 27.3227375) MR315
+R3A      RT0603DRE075R1L             R0603                  Dual Mono Amp Library (61.7587125 31.163796875) MR270
+R3B      RT0603DRE075R1L             R0603                  Dual Mono Amp Library (34.118971875 25.5266875) MR315
+R4A      RT0603DRE075R1L             R0603                  Dual Mono Amp Library (57.56556875 12.035328125) MR225
+R4B      RT0603DRE075R1L             R0603                  Dual Mono Amp Library (15.239459375 29.1187875) MR315
+R5A      10K, Resistor 1%            R0805                  Dual Mono Amp Library (6.489834375 56.570165625) MR270
+R6A      1k                          R0805-POL              Dual Mono Amp Library (73.450025 51.678775) MR0
+R6B      1k                          R0805-POL              Dual Mono Amp Library (15.388665625 46.65714375) MR270
+R6C      1k                          R0805-POL              Dual Mono Amp Library (82.400178125 41.86685625) MR270
+R6D      1k                          R0805-POL              Dual Mono Amp Library (50.58541875 59.021225) MR180
+R6E      1k                          R0805-POL              Dual Mono Amp Library (50.205309375 6.228775) MR180
+R6F      1k                          R0805-POL              Dual Mono Amp Library (28.8615375 42.527653125) MR0
+R7A      33k                         R0805                  Dual Mono Amp Library (65.127325 53.532759375) MR270
+R7B      33k                         R0805                  Dual Mono Amp Library (13.53468125 38.33444375) MR180
+R7C      33k                         R0805-POL              Dual Mono Amp Library (80.54619375 33.54415625) MR180
+R7D      33k                         R0805-POL              Dual Mono Amp Library (58.90811875 57.167240625) MR90
+R7E      33k                         R0805-POL              Dual Mono Amp Library (36.983609375 8.082759375) MR270
+R7F      33k                         R0805-POL              Dual Mono Amp Library (20.5388375 44.3816375) MR270
+R8A      200k                        R0805                  Dual Mono Amp Library (77.5126875 55.30165) MR270
+R8B      200k                        R0805                  Dual Mono Amp Library (11.765790625 50.71980625) MR180
+R8C      200k                        R0805                  Dual Mono Amp Library (78.777303125 45.92951875) MR180
+R8D      200k                        R0805                  Dual Mono Amp Library (46.52275625 55.39835) MR90
+R8E      200k                        R0805                  Dual Mono Amp Library (49.368971875 9.85165) MR270
+R8F      200k                        R0805                  Dual Mono Amp Library (32.9242 46.150528125) MR270
+R10      2.2k, 1%                    R0805                  Dual Mono Amp Library (9.029834375 56.570165625) MR90
+R20      2.2k, 1%                    R0805                  Dual Mono Amp Library (11.569834375 56.570165625) MR90
+R21A     Not Pop.                    R0805-POL              Dual Mono Amp Library (39.5 34.595)         MR270
+SH1      SHORTA5                     SHORT_ALL-50           Dual Mono Amp Library (3.19 55.99)          R180
+SH2      SHORTA5                     SHORT_ALL-50           Dual Mono Amp Library (40.9093375 60.81)    R180
+SH3      SHORTA5                     SHORT_ALL-50           Dual Mono Amp Library (86.6984875 37.771775) R0
+SMUTE1                               SJ                     Dual Mono Amp Library (63.35170625 22.255021875) R225
+SMUTE2                               SJ                     Dual Mono Amp Library (25.459153125 23.33265) R135

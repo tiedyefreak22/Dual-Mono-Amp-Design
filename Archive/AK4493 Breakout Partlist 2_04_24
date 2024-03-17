@@ -1,0 +1,25 @@
+Partlist
+
+Exported from AK4493_Breakout.sch at 2/4/24 4:52 PM
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value                       Device           Package  Library               Sheet
+
+C2A1     0.1u, Ceramic Capacitor X7R C-POL-MLCCC0603K C0603K   Dual Mono Amp Library 1
+C4A1     0.1u, Ceramic Capacitor X7R C-POL-MLCCC0603K C0603K   Dual Mono Amp Library 1
+C6A1     0.1u, Ceramic Capacitor X7R C-POL-MLCCC0603K C0603K   Dual Mono Amp Library 1
+C8A1     0.1u, Ceramic Capacitor X7R C-POL-MLCCC0603K C0603K   Dual Mono Amp Library 1
+C10A1    0.1u, Ceramic Capacitor X7R C-POL-MLCCC0603K C0603K   Dual Mono Amp Library 1
+C12A1    0.1u, Ceramic Capacitor X7R C-POL-MLCCC0603K C0603K   Dual Mono Amp Library 1
+C14A1    0.1u, Ceramic Capacitor X7R C-POL-MLCCC0603K C0603K   Dual Mono Amp Library 1
+C16A1    0.1u, Ceramic Capacitor X7R C-POL-MLCCC0603K C0603K   Dual Mono Amp Library 1
+DIF1                                 SJ2W             SJ_2     Dual Mono Amp Library 1
+IC2      AK4493                      AK4493           LQFP48_  Dual Mono Amp Library 1
+J5                                   CONN_07          1X07     Dual Mono Amp Library 1
+J6                                   CONN_07          1X07     Dual Mono Amp Library 1
+J7                                   CONN_07          1X07     Dual Mono Amp Library 1
+J8                                   CONN_07          1X07     Dual Mono Amp Library 1
+SMUTE1                               SJ               SJ       Dual Mono Amp Library 1

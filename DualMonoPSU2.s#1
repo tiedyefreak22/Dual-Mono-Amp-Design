@@ -5142,7 +5142,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/977/e_HXW-1600623.pdf"&gt
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="220"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="220"/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="300k"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="100k"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="100k"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="SUPPLY3" library="Dual Mono Amp Library" deviceset="DGND" device=""/>

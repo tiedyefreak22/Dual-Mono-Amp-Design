@@ -8,43 +8,43 @@
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
@@ -65,62 +65,62 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
-<layer number="100" name="Muster" color="7" fill="1" visible="no" active="yes"/>
-<layer number="101" name="Patch_Top" color="7" fill="1" visible="no" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
-<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
-<layer number="104" name="Name" color="7" fill="1" visible="no" active="yes"/>
-<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
-<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
-<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
-<layer number="108" name="tplace-old" color="7" fill="1" visible="no" active="yes"/>
-<layer number="109" name="ref-old" color="7" fill="1" visible="no" active="yes"/>
-<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
-<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="113" name="IDFDebug" color="7" fill="1" visible="no" active="yes"/>
-<layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
-<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
-<layer number="116" name="Patch_BOT" color="7" fill="1" visible="no" active="yes"/>
-<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="no" active="yes"/>
-<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
-<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="no" active="yes"/>
-<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="no" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
-<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="no" active="yes"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
-<layer number="133" name="bottom_silk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="134" name="silk_top" color="7" fill="1" visible="no" active="yes"/>
-<layer number="135" name="silk_bottom" color="7" fill="1" visible="no" active="yes"/>
-<layer number="136" name="silktop" color="7" fill="1" visible="no" active="yes"/>
-<layer number="137" name="silkbottom" color="7" fill="1" visible="no" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Patch_Top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="tplace-old" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="ref-old" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="IDFDebug" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="134" name="silk_top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="135" name="silk_bottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="138" name="EEE" color="7" fill="1" visible="no" active="no"/>
 <layer number="139" name="_tKeepout" color="7" fill="1" visible="no" active="no"/>
 <layer number="140" name="mbKeepout" color="7" fill="1" visible="no" active="no"/>
 <layer number="141" name="ASSEMBLY_TOP" color="7" fill="1" visible="no" active="no"/>
 <layer number="142" name="mbRestrict" color="7" fill="1" visible="no" active="no"/>
 <layer number="143" name="PLACE_BOUND_TOP" color="7" fill="1" visible="no" active="no"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
-<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="no" active="yes"/>
-<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="147" name="PIN_NUMBER" color="7" fill="1" visible="no" active="no"/>
 <layer number="148" name="DrillLegend_01-20" color="7" fill="1" visible="no" active="no"/>
 <layer number="149" name="DrillLegend_02-15" color="7" fill="1" visible="no" active="no"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
-<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
-<layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
-<layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="156" name="gesam-Maß" color="7" fill="1" visible="no" active="no"/>
 <layer number="157" name="FaceMchng" color="7" fill="1" visible="no" active="no"/>
 <layer number="158" name="FaceMMeas" color="7" fill="1" visible="no" active="no"/>
@@ -135,49 +135,49 @@
 <layer number="194" name="mSymbols" color="7" fill="1" visible="no" active="no"/>
 <layer number="195" name="mNames" color="7" fill="1" visible="no" active="no"/>
 <layer number="196" name="mValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
-<layer number="200" name="200bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="201" name="201bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="202" name="202bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="203" name="203bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="204" name="204bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="205" name="205bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="207" name="207bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="208" name="208bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="217" name="217bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="218" name="218bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="219" name="219bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="220" name="220bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="221" name="221bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="222" name="222bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="223" name="223bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="224" name="224bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="231" name="231bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="yes"/>
-<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="yes"/>
-<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
-<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
-<layer number="250" name="Descript" color="7" fill="1" visible="no" active="yes"/>
-<layer number="251" name="SMDround" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="218" name="218bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="219" name="219bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="220" name="220bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="221" name="221bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="222" name="222bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="223" name="223bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="224" name="224bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="252" name="BR-BS" color="7" fill="1" visible="no" active="no"/>
 <layer number="253" name="Extra" color="7" fill="1" visible="no" active="no"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
-<layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -1367,39 +1367,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package3d>
 </packages3d>
 </library>
-<library name="1935190">
-<description>&lt;PCB terminal block, nominal current: 17.5 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm?, Number of potentials: 5, Number of rows: 1, Number of positions per row: 5, product range: PT 1,5/..-H, pitch: 5 mm, connection method: Screw connection with wire protector, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="1935190">
-<description>&lt;b&gt;1935190-1&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="1.3" diameter="1.95" shape="square"/>
-<pad name="2" x="5" y="0" drill="1.3" diameter="1.95"/>
-<pad name="3" x="10" y="0" drill="1.3" diameter="1.95"/>
-<pad name="4" x="15" y="0" drill="1.3" diameter="1.95"/>
-<pad name="5" x="20" y="0" drill="1.3" diameter="1.95"/>
-<text x="10.285" y="-0.5" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="10.285" y="-0.5" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.5" y1="4" x2="23.07" y2="4" width="0.1" layer="51"/>
-<wire x1="23.07" y1="4" x2="23.07" y2="-5" width="0.1" layer="51"/>
-<wire x1="23.07" y1="-5" x2="-2.5" y2="-5" width="0.1" layer="51"/>
-<wire x1="-2.5" y1="-5" x2="-2.5" y2="4" width="0.1" layer="51"/>
-<wire x1="-2.5" y1="4" x2="23.07" y2="4" width="0.2" layer="21"/>
-<wire x1="23.07" y1="4" x2="23.07" y2="-5" width="0.2" layer="21"/>
-<wire x1="23.07" y1="-5" x2="-2.5" y2="-5" width="0.2" layer="21"/>
-<wire x1="-2.5" y1="-5" x2="-2.5" y2="4" width="0.2" layer="21"/>
-<wire x1="-3.5" y1="5" x2="24.07" y2="5" width="0.1" layer="51"/>
-<wire x1="24.07" y1="5" x2="24.07" y2="-6" width="0.1" layer="51"/>
-<wire x1="24.07" y1="-6" x2="-3.5" y2="-6" width="0.1" layer="51"/>
-<wire x1="-3.5" y1="-6" x2="-3.5" y2="5" width="0.1" layer="51"/>
-<wire x1="-3" y1="0" x2="-3" y2="0" width="0.1" layer="21"/>
-<wire x1="-3" y1="0" x2="-3.1" y2="0" width="0.1" layer="21" curve="180"/>
-<wire x1="-3.1" y1="0" x2="-3.1" y2="0" width="0.1" layer="21"/>
-<wire x1="-3.1" y1="0" x2="-3" y2="0" width="0.1" layer="21" curve="180"/>
-</package>
-</packages>
-</library>
 <library name="Dual Mono Amp Library">
 <description>Generated from &lt;b&gt;AK4493-v1.64_21.sch&lt;/b&gt;&lt;p&gt;
 by exp-lbrs.ulp</description>
@@ -1466,33 +1433,34 @@ by exp-lbrs.ulp</description>
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-</packages>
-<packages3d>
-<package3d name="1X06" urn="urn:adsk.eagle:package:38009/2" type="box">
-<description>&lt;h3&gt;Plated Through Hole - 6 Pin&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:6&lt;/li&gt;
-&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_06&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="1X06"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
-<library name="belton-engineering" urn="urn:adsk.eagle:library:110">
-<description>&lt;b&gt;Belton Engineering Co., Ltd.&lt;/b&gt;&lt;p&gt;
-Unit 1208, Daerung Techno town 8&lt;br&gt;
-481-11, Gasan-Dong&lt;br&gt;
-Geumcheon-Gu, Seoul, Korea&lt;br&gt;
-E-mail :&amp;lt;belton@unitel.co.kr&amp;gt;&lt;p&gt;
- 
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="VT9-PT" urn="urn:adsk.eagle:footprint:4681/1" library_version="1">
+<package name="1935190">
+<description>&lt;b&gt;1935190-1&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1.3" diameter="1.95" shape="square"/>
+<pad name="2" x="5" y="0" drill="1.3" diameter="1.95"/>
+<pad name="3" x="10" y="0" drill="1.3" diameter="1.95"/>
+<pad name="4" x="15" y="0" drill="1.3" diameter="1.95"/>
+<pad name="5" x="20" y="0" drill="1.3" diameter="1.95"/>
+<text x="10.285" y="-0.5" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="10.285" y="-0.5" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.5" y1="4" x2="23.07" y2="4" width="0.1" layer="51"/>
+<wire x1="23.07" y1="4" x2="23.07" y2="-5" width="0.1" layer="51"/>
+<wire x1="23.07" y1="-5" x2="-2.5" y2="-5" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="-5" x2="-2.5" y2="4" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="4" x2="23.07" y2="4" width="0.2" layer="21"/>
+<wire x1="23.07" y1="4" x2="23.07" y2="-5" width="0.2" layer="21"/>
+<wire x1="23.07" y1="-5" x2="-2.5" y2="-5" width="0.2" layer="21"/>
+<wire x1="-2.5" y1="-5" x2="-2.5" y2="4" width="0.2" layer="21"/>
+<wire x1="-3.5" y1="5" x2="24.07" y2="5" width="0.1" layer="51"/>
+<wire x1="24.07" y1="5" x2="24.07" y2="-6" width="0.1" layer="51"/>
+<wire x1="24.07" y1="-6" x2="-3.5" y2="-6" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-6" x2="-3.5" y2="5" width="0.1" layer="51"/>
+<wire x1="-3" y1="0" x2="-3" y2="0" width="0.1" layer="21"/>
+<wire x1="-3" y1="0" x2="-3.1" y2="0" width="0.1" layer="21" curve="180"/>
+<wire x1="-3.1" y1="0" x2="-3.1" y2="0" width="0.1" layer="21"/>
+<wire x1="-3.1" y1="0" x2="-3" y2="0" width="0.1" layer="21" curve="180"/>
+</package>
+<package name="VT9-PT" urn="urn:adsk.eagle:footprint:4681/1">
 <description>&lt;b&gt;VACUUM TUBE SOCKET&lt;/b&gt;&lt;p&gt;
 Source: 00004280-VT9-PT.pdf</description>
 <wire x1="-9.15" y1="6.7" x2="9.125" y2="6.7" width="0.2032" layer="51" curve="-107.601135"/>
@@ -1619,111 +1587,6 @@ Source: 00004280-VT9-PT.pdf</description>
 <text x="11.43" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 <text x="4.445" y="6.35" size="1.016" layer="21" font="vector" rot="SR324">1</text>
 </package>
-</packages>
-<packages3d>
-<package3d name="VT9-PT" urn="urn:adsk.eagle:package:4683/1" type="box" library_version="1">
-<description>VACUUM TUBE SOCKET
-Source: 00004280-VT9-PT.pdf</description>
-<packageinstances>
-<packageinstance name="VT9-PT"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
-<library name="MKP4G041005I00JSSD">
-<description>&lt;Film Capacitors 1uF 400 Volts 5%&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="MKP4G041005I00JSSD">
-<description>&lt;b&gt;MKP4G041005I00JSSD-1&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="1" diameter="1.5" shape="square"/>
-<pad name="2" x="22.5" y="0" drill="1" diameter="1.5"/>
-<text x="11.25" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="11.25" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2" y1="-5.5" x2="24.5" y2="-5.5" width="0.1" layer="51"/>
-<wire x1="24.5" y1="-5.5" x2="24.5" y2="5.5" width="0.1" layer="51"/>
-<wire x1="24.5" y1="5.5" x2="-2" y2="5.5" width="0.1" layer="51"/>
-<wire x1="-2" y1="5.5" x2="-2" y2="-5.5" width="0.1" layer="51"/>
-<wire x1="-3" y1="6.5" x2="25.5" y2="6.5" width="0.1" layer="51"/>
-<wire x1="25.5" y1="6.5" x2="25.5" y2="-6.5" width="0.1" layer="51"/>
-<wire x1="25.5" y1="-6.5" x2="-3" y2="-6.5" width="0.1" layer="51"/>
-<wire x1="-3" y1="-6.5" x2="-3" y2="6.5" width="0.1" layer="51"/>
-<wire x1="24.5" y1="5.5" x2="-2" y2="5.5" width="0.2" layer="21"/>
-<wire x1="-2" y1="5.5" x2="-2" y2="-5.5" width="0.2" layer="21"/>
-<wire x1="-2" y1="-5.5" x2="24.5" y2="-5.5" width="0.2" layer="21"/>
-<wire x1="24.5" y1="-5.5" x2="24.5" y2="5.6" width="0.2" layer="21"/>
-<wire x1="-2.6" y1="0" x2="-2.6" y2="0" width="0.1" layer="21"/>
-<wire x1="-2.6" y1="0" x2="-2.5" y2="0" width="0.1" layer="21" curve="180"/>
-<wire x1="-2.5" y1="0" x2="-2.5" y2="0" width="0.1" layer="21"/>
-<wire x1="-2.5" y1="0" x2="-2.6" y2="0" width="0.1" layer="21" curve="180"/>
-</package>
-</packages>
-</library>
-<library name="MKP2C041001N00MN00">
-<description>&lt;Film Capacitors MKP 2 1.0 uF 63 VDC 11x16x7.2 PCM 5&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="MKP2C041001N00MN00">
-<description>&lt;b&gt;MKP2C041001N00MN00-2&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="0.7" diameter="1.2" shape="square"/>
-<pad name="2" x="5" y="0" drill="0.7" diameter="1.2"/>
-<text x="2.5" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="2.5" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.1" y1="-5.5" x2="6.1" y2="-5.5" width="0.1" layer="51"/>
-<wire x1="6.1" y1="-5.5" x2="6.1" y2="5.5" width="0.1" layer="51"/>
-<wire x1="6.1" y1="5.5" x2="-1.1" y2="5.5" width="0.1" layer="51"/>
-<wire x1="-1.1" y1="5.5" x2="-1.1" y2="-5.5" width="0.1" layer="51"/>
-<wire x1="-2.1" y1="6.5" x2="7.1" y2="6.5" width="0.1" layer="51"/>
-<wire x1="7.1" y1="6.5" x2="7.1" y2="-6.5" width="0.1" layer="51"/>
-<wire x1="7.1" y1="-6.5" x2="-2.1" y2="-6.5" width="0.1" layer="51"/>
-<wire x1="-2.1" y1="-6.5" x2="-2.1" y2="6.5" width="0.1" layer="51"/>
-<wire x1="-1.1" y1="5.5" x2="6.1" y2="5.5" width="0.2" layer="21"/>
-<wire x1="6.1" y1="5.5" x2="6.1" y2="-5.5" width="0.2" layer="21"/>
-<wire x1="6.1" y1="-5.5" x2="-1.1" y2="-5.5" width="0.2" layer="21"/>
-<wire x1="-1.1" y1="-5.5" x2="-1.1" y2="5.5" width="0.2" layer="21"/>
-<wire x1="-1.7" y1="0" x2="-1.7" y2="0" width="0.1" layer="21"/>
-<wire x1="-1.7" y1="0" x2="-1.6" y2="0" width="0.1" layer="21" curve="180"/>
-<wire x1="-1.6" y1="0" x2="-1.6" y2="0" width="0.1" layer="21"/>
-<wire x1="-1.6" y1="0" x2="-1.7" y2="0" width="0.1" layer="21" curve="180"/>
-</package>
-</packages>
-</library>
-<library name="MKS4B031002A00JC00">
-<description>&lt;Film Capacitors MKS 4 0.1 uF 50 VDC 2.5x7x10 PCM 7.5&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="MKS4B031002A00JC00">
-<description>&lt;b&gt;MKS4B031002A00JC00-2&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="0.7" diameter="1.2" shape="square"/>
-<pad name="2" x="7.5" y="0" drill="0.7" diameter="1.2"/>
-<text x="3.75" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="3.75" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.25" y1="1.25" x2="8.75" y2="1.25" width="0.1" layer="51"/>
-<wire x1="8.75" y1="1.25" x2="8.75" y2="-1.25" width="0.1" layer="51"/>
-<wire x1="8.75" y1="-1.25" x2="-1.25" y2="-1.25" width="0.1" layer="51"/>
-<wire x1="-1.25" y1="-1.25" x2="-1.25" y2="1.25" width="0.1" layer="51"/>
-<wire x1="-1.25" y1="1.25" x2="8.75" y2="1.25" width="0.2" layer="21"/>
-<wire x1="8.75" y1="1.25" x2="8.75" y2="-1.25" width="0.2" layer="21"/>
-<wire x1="8.75" y1="-1.25" x2="-1.25" y2="-1.25" width="0.2" layer="21"/>
-<wire x1="-1.25" y1="-1.25" x2="-1.25" y2="1.25" width="0.2" layer="21"/>
-<wire x1="-2.25" y1="2.25" x2="9.75" y2="2.25" width="0.1" layer="51"/>
-<wire x1="9.75" y1="2.25" x2="9.75" y2="-2.25" width="0.1" layer="51"/>
-<wire x1="9.75" y1="-2.25" x2="-2.25" y2="-2.25" width="0.1" layer="51"/>
-<wire x1="-2.25" y1="-2.25" x2="-2.25" y2="2.25" width="0.1" layer="51"/>
-<wire x1="-1.8" y1="0" x2="-1.8" y2="0" width="0.1" layer="21"/>
-<wire x1="-1.8" y1="0" x2="-1.9" y2="0" width="0.1" layer="21" curve="180"/>
-<wire x1="-1.9" y1="0" x2="-1.9" y2="0" width="0.1" layer="21"/>
-<wire x1="-1.9" y1="0" x2="-1.8" y2="0" width="0.1" layer="21" curve="180"/>
-</package>
-</packages>
-</library>
-<library name="DCP4G053006ID2KSSD">
-<description>&lt;Film Capacitors DC-LINK MKP 4 30.0 uF 400 VDC 17x34.5x31.5 PCM 27.5&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
 <package name="DCP4G053006ID2KSSD">
 <description>&lt;b&gt;DCP4G053006ID2KSSD-1&lt;/b&gt;&lt;br&gt;
 </description>
@@ -1748,12 +1611,78 @@ Source: 00004280-VT9-PT.pdf</description>
 <wire x1="-2.5" y1="0" x2="-2.5" y2="0" width="0.1" layer="21"/>
 <wire x1="-2.5" y1="0" x2="-2.6" y2="0" width="0.1" layer="21" curve="180"/>
 </package>
-</packages>
-</library>
-<library name="LR1F47K">
-<description>&lt;TE Connectivity LR1F Series Axial Metal Film Resistor 47k +/-1% 0.6W +/-50ppm/C&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
+<package name="MKS4B031002A00JC00">
+<description>&lt;b&gt;MKS4B031002A00JC00-2&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="0.7" diameter="1.2" shape="square"/>
+<pad name="2" x="7.5" y="0" drill="0.7" diameter="1.2"/>
+<text x="3.75" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="3.75" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.25" y1="1.25" x2="8.75" y2="1.25" width="0.1" layer="51"/>
+<wire x1="8.75" y1="1.25" x2="8.75" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="8.75" y1="-1.25" x2="-1.25" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="-1.25" y1="-1.25" x2="-1.25" y2="1.25" width="0.1" layer="51"/>
+<wire x1="-1.25" y1="1.25" x2="8.75" y2="1.25" width="0.2" layer="21"/>
+<wire x1="8.75" y1="1.25" x2="8.75" y2="-1.25" width="0.2" layer="21"/>
+<wire x1="8.75" y1="-1.25" x2="-1.25" y2="-1.25" width="0.2" layer="21"/>
+<wire x1="-1.25" y1="-1.25" x2="-1.25" y2="1.25" width="0.2" layer="21"/>
+<wire x1="-2.25" y1="2.25" x2="9.75" y2="2.25" width="0.1" layer="51"/>
+<wire x1="9.75" y1="2.25" x2="9.75" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="9.75" y1="-2.25" x2="-2.25" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="-2.25" y1="-2.25" x2="-2.25" y2="2.25" width="0.1" layer="51"/>
+<wire x1="-1.8" y1="0" x2="-1.8" y2="0" width="0.1" layer="21"/>
+<wire x1="-1.8" y1="0" x2="-1.9" y2="0" width="0.1" layer="21" curve="180"/>
+<wire x1="-1.9" y1="0" x2="-1.9" y2="0" width="0.1" layer="21"/>
+<wire x1="-1.9" y1="0" x2="-1.8" y2="0" width="0.1" layer="21" curve="180"/>
+</package>
+<package name="MKP4G041005I00JSSD">
+<description>&lt;b&gt;MKP4G041005I00JSSD-1&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1" diameter="1.5" shape="square"/>
+<pad name="2" x="22.5" y="0" drill="1" diameter="1.5"/>
+<text x="11.25" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="11.25" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2" y1="-5.5" x2="24.5" y2="-5.5" width="0.1" layer="51"/>
+<wire x1="24.5" y1="-5.5" x2="24.5" y2="5.5" width="0.1" layer="51"/>
+<wire x1="24.5" y1="5.5" x2="-2" y2="5.5" width="0.1" layer="51"/>
+<wire x1="-2" y1="5.5" x2="-2" y2="-5.5" width="0.1" layer="51"/>
+<wire x1="-3" y1="6.5" x2="25.5" y2="6.5" width="0.1" layer="51"/>
+<wire x1="25.5" y1="6.5" x2="25.5" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="25.5" y1="-6.5" x2="-3" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="-3" y1="-6.5" x2="-3" y2="6.5" width="0.1" layer="51"/>
+<wire x1="24.5" y1="5.5" x2="-2" y2="5.5" width="0.2" layer="21"/>
+<wire x1="-2" y1="5.5" x2="-2" y2="-5.5" width="0.2" layer="21"/>
+<wire x1="-2" y1="-5.5" x2="24.5" y2="-5.5" width="0.2" layer="21"/>
+<wire x1="24.5" y1="-5.5" x2="24.5" y2="5.6" width="0.2" layer="21"/>
+<wire x1="-2.6" y1="0" x2="-2.6" y2="0" width="0.1" layer="21"/>
+<wire x1="-2.6" y1="0" x2="-2.5" y2="0" width="0.1" layer="21" curve="180"/>
+<wire x1="-2.5" y1="0" x2="-2.5" y2="0" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="0" x2="-2.6" y2="0" width="0.1" layer="21" curve="180"/>
+</package>
+<package name="MKP2C041001N00MN00">
+<description>&lt;b&gt;MKP2C041001N00MN00-2&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="0.7" diameter="1.2" shape="square"/>
+<pad name="2" x="5" y="0" drill="0.7" diameter="1.2"/>
+<text x="2.5" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="2.5" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.1" y1="-5.5" x2="6.1" y2="-5.5" width="0.1" layer="51"/>
+<wire x1="6.1" y1="-5.5" x2="6.1" y2="5.5" width="0.1" layer="51"/>
+<wire x1="6.1" y1="5.5" x2="-1.1" y2="5.5" width="0.1" layer="51"/>
+<wire x1="-1.1" y1="5.5" x2="-1.1" y2="-5.5" width="0.1" layer="51"/>
+<wire x1="-2.1" y1="6.5" x2="7.1" y2="6.5" width="0.1" layer="51"/>
+<wire x1="7.1" y1="6.5" x2="7.1" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="7.1" y1="-6.5" x2="-2.1" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="-2.1" y1="-6.5" x2="-2.1" y2="6.5" width="0.1" layer="51"/>
+<wire x1="-1.1" y1="5.5" x2="6.1" y2="5.5" width="0.2" layer="21"/>
+<wire x1="6.1" y1="5.5" x2="6.1" y2="-5.5" width="0.2" layer="21"/>
+<wire x1="6.1" y1="-5.5" x2="-1.1" y2="-5.5" width="0.2" layer="21"/>
+<wire x1="-1.1" y1="-5.5" x2="-1.1" y2="5.5" width="0.2" layer="21"/>
+<wire x1="-1.7" y1="0" x2="-1.7" y2="0" width="0.1" layer="21"/>
+<wire x1="-1.7" y1="0" x2="-1.6" y2="0" width="0.1" layer="21" curve="180"/>
+<wire x1="-1.6" y1="0" x2="-1.6" y2="0" width="0.1" layer="21"/>
+<wire x1="-1.6" y1="0" x2="-1.7" y2="0" width="0.1" layer="21" curve="180"/>
+</package>
 <package name="RESAD1540W55L620D230">
 <description>&lt;b&gt;LR1&lt;/b&gt;&lt;br&gt;
 </description>
@@ -1778,72 +1707,6 @@ Source: 00004280-VT9-PT.pdf</description>
 <wire x1="0.925" y1="0" x2="4.6" y2="0" width="0.2" layer="21"/>
 <wire x1="10.8" y1="0" x2="14.475" y2="0" width="0.2" layer="21"/>
 </package>
-</packages>
-</library>
-<library name="LR1F150R">
-<description>&lt;TE Connectivity LR1F Series Axial Metal Film Resistor 150 +/-1% 0.6W +/-50ppm/C&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="RESAD1540W55L620D230">
-<description>&lt;b&gt;LR1F180R-1&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="0.75" diameter="1.15"/>
-<pad name="2" x="15.4" y="0" drill="0.75" diameter="1.15"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-0.825" y1="1.5" x2="16.225" y2="1.5" width="0.05" layer="51"/>
-<wire x1="16.225" y1="1.5" x2="16.225" y2="-1.5" width="0.05" layer="51"/>
-<wire x1="16.225" y1="-1.5" x2="-0.825" y2="-1.5" width="0.05" layer="51"/>
-<wire x1="-0.825" y1="-1.5" x2="-0.825" y2="1.5" width="0.05" layer="51"/>
-<wire x1="4.6" y1="1.15" x2="10.8" y2="1.15" width="0.1" layer="51"/>
-<wire x1="10.8" y1="1.15" x2="10.8" y2="-1.15" width="0.1" layer="51"/>
-<wire x1="10.8" y1="-1.15" x2="4.6" y2="-1.15" width="0.1" layer="51"/>
-<wire x1="4.6" y1="-1.15" x2="4.6" y2="1.15" width="0.1" layer="51"/>
-<wire x1="0" y1="0" x2="4.6" y2="0" width="0.1" layer="51"/>
-<wire x1="10.8" y1="0" x2="15.4" y2="0" width="0.1" layer="51"/>
-<wire x1="4.6" y1="1.15" x2="10.8" y2="1.15" width="0.2" layer="21"/>
-<wire x1="10.8" y1="1.15" x2="10.8" y2="-1.15" width="0.2" layer="21"/>
-<wire x1="10.8" y1="-1.15" x2="4.6" y2="-1.15" width="0.2" layer="21"/>
-<wire x1="4.6" y1="-1.15" x2="4.6" y2="1.15" width="0.2" layer="21"/>
-<wire x1="0.925" y1="0" x2="4.6" y2="0" width="0.2" layer="21"/>
-<wire x1="10.8" y1="0" x2="14.475" y2="0" width="0.2" layer="21"/>
-</package>
-</packages>
-</library>
-<library name="LR1F10K">
-<description>&lt;Metal film resistor, 10K 0.6W TE Connectivity LR1F Series Axial Metal Film Resistor 10k&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="RESAD1540W55L620D230">
-<description>&lt;b&gt;LR1&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="0.75" diameter="1.15"/>
-<pad name="2" x="15.4" y="0" drill="0.75" diameter="1.15"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-0.825" y1="1.5" x2="16.225" y2="1.5" width="0.05" layer="51"/>
-<wire x1="16.225" y1="1.5" x2="16.225" y2="-1.5" width="0.05" layer="51"/>
-<wire x1="16.225" y1="-1.5" x2="-0.825" y2="-1.5" width="0.05" layer="51"/>
-<wire x1="-0.825" y1="-1.5" x2="-0.825" y2="1.5" width="0.05" layer="51"/>
-<wire x1="4.6" y1="1.15" x2="10.8" y2="1.15" width="0.1" layer="51"/>
-<wire x1="10.8" y1="1.15" x2="10.8" y2="-1.15" width="0.1" layer="51"/>
-<wire x1="10.8" y1="-1.15" x2="4.6" y2="-1.15" width="0.1" layer="51"/>
-<wire x1="4.6" y1="-1.15" x2="4.6" y2="1.15" width="0.1" layer="51"/>
-<wire x1="0" y1="0" x2="4.6" y2="0" width="0.1" layer="51"/>
-<wire x1="10.8" y1="0" x2="15.4" y2="0" width="0.1" layer="51"/>
-<wire x1="4.6" y1="1.15" x2="10.8" y2="1.15" width="0.2" layer="21"/>
-<wire x1="10.8" y1="1.15" x2="10.8" y2="-1.15" width="0.2" layer="21"/>
-<wire x1="10.8" y1="-1.15" x2="4.6" y2="-1.15" width="0.2" layer="21"/>
-<wire x1="4.6" y1="-1.15" x2="4.6" y2="1.15" width="0.2" layer="21"/>
-<wire x1="0.925" y1="0" x2="4.6" y2="0" width="0.2" layer="21"/>
-<wire x1="10.8" y1="0" x2="14.475" y2="0" width="0.2" layer="21"/>
-</package>
-</packages>
-</library>
-<library name="LR1F1M0">
-<description>&lt;TE Connectivity Axial Metal Film Resistor 1m +/-1% 0.6W +/-50ppm/C&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
 <package name="RESAD1540W60L620D230">
 <description>&lt;b&gt;LR1F1M0&lt;/b&gt;&lt;br&gt;
 </description>
@@ -1869,6 +1732,28 @@ Source: 00004280-VT9-PT.pdf</description>
 <wire x1="10.8" y1="0" x2="14.45" y2="0" width="0.2" layer="21"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="1X06" urn="urn:adsk.eagle:package:38009/2" type="box">
+<description>&lt;h3&gt;Plated Through Hole - 6 Pin&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:6&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_06&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="1X06"/>
+</packageinstances>
+</package3d>
+<package3d name="VT9-PT" urn="urn:adsk.eagle:package:4683/1" type="box">
+<description>VACUUM TUBE SOCKET
+Source: 00004280-VT9-PT.pdf</description>
+<packageinstances>
+<packageinstance name="VT9-PT"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 </libraries>
 <attributes>
@@ -2072,7 +1957,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="MKP2C041001N00MN00" package="MKP2C041001N00MN00" value="1uF/16V" x="60.229346875" y="26.2927625" smashed="yes" rot="MR0">
+<element name="C1" library="Dual Mono Amp Library" package="MKP2C041001N00MN00" value="1uF/16V" x="60.229346875" y="26.2927625" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" value="Film Capacitors MKP 2 1.0 uF 63 VDC 11x16x7.2 PCM 5" x="32.289346875" y="-33.3972375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="HEIGHT" value="16mm" x="32.289346875" y="-33.3972375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="WIMA" x="32.289346875" y="-33.3972375" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2082,7 +1967,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="60.229346875" y="30.2927625" size="1.27" layer="26" rot="MR0" align="center"/>
 <attribute name="VALUE" x="60.229346875" y="26.2927625" size="1.27" layer="28" rot="MR0" align="center"/>
 </element>
-<element name="C10" library="MKS4B031002A00JC00" package="MKS4B031002A00JC00" value="0.1uF, 35V" x="46.703446875" y="36.920125" smashed="yes" rot="MR0">
+<element name="C10" library="Dual Mono Amp Library" package="MKS4B031002A00JC00" value="0.1uF, 35V" x="46.703446875" y="36.920125" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" value="Film Capacitors MKS 4 0.1 uF 50 VDC 2.5x7x10 PCM 7.5" x="25.113446875" y="-34.199875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="HEIGHT" value="7mm" x="25.113446875" y="-34.199875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="WIMA" x="25.113446875" y="-34.199875" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2092,7 +1977,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="47.338446875" y="37.555125" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="47.338446875" y="35.015125" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="C16" library="MKP2C041001N00MN00" package="MKP2C041001N00MN00" value="1uF/16V" x="15.960859375" y="29.67" smashed="yes" rot="MR180">
+<element name="C16" library="Dual Mono Amp Library" package="MKP2C041001N00MN00" value="1uF/16V" x="15.960859375" y="29.67" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="Film Capacitors MKP 2 1.0 uF 63 VDC 11x16x7.2 PCM 5" x="52.790859375" y="89.36" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="16mm" x="52.790859375" y="89.36" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="WIMA" x="52.790859375" y="89.36" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2108,7 +1993,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="-12.121046875" y="70.97" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="32.043953125" y="50.27" size="1.016" layer="28" rot="MR90"/>
 </element>
-<element name="C2" library="MKS4B031002A00JC00" package="MKS4B031002A00JC00" value="0.1uF, 35V" x="29.486759375" y="19.0426375" smashed="yes" rot="MR180">
+<element name="C2" library="Dual Mono Amp Library" package="MKS4B031002A00JC00" value="0.1uF, 35V" x="29.486759375" y="19.0426375" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="Film Capacitors MKS 4 0.1 uF 50 VDC 2.5x7x10 PCM 7.5" x="99.336759375" y="85.0826375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="7mm" x="99.336759375" y="85.0826375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="WIMA" x="99.336759375" y="85.0826375" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2118,7 +2003,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="28.851759375" y="18.4076375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="28.851759375" y="20.9476375" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="C21" library="DCP4G053006ID2KSSD" package="DCP4G053006ID2KSSD" value="30uF/400V" x="17.916890625" y="10.85" smashed="yes" rot="MR90">
+<element name="C21" library="Dual Mono Amp Library" package="DCP4G053006ID2KSSD" value="30uF/400V" x="17.916890625" y="10.85" smashed="yes" rot="MR90">
 <attribute name="ARROW_PART_NUMBER" value="" x="17.916890625" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="17.916890625" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DESCRIPTION" value="Film Capacitors DC-LINK MKP 4 30.0 uF 400 VDC 17x34.5x31.5 PCM 27.5" x="17.916890625" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -2130,7 +2015,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="18.551890625" y="10.215" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="16.011890625" y="10.215" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="C23" library="MKP4G041005I00JSSD" package="MKP4G041005I00JSSD" value="1uF/400V" x="21.314034375" y="10.85" smashed="yes" rot="MR90">
+<element name="C23" library="Dual Mono Amp Library" package="MKP4G041005I00JSSD" value="1uF/400V" x="21.314034375" y="10.85" smashed="yes" rot="MR90">
 <attribute name="ARROW_PART_NUMBER" value="" x="21.314034375" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="21.314034375" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DESCRIPTION" value="Film Capacitors 1uF 400 Volts 5%" x="21.314034375" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -2148,7 +2033,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="12.111253125" y="121.77" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="38.496253125" y="50.27" size="1.016" layer="28" rot="MR90"/>
 </element>
-<element name="C7" library="DCP4G053006ID2KSSD" package="DCP4G053006ID2KSSD" value="30uF/400V" x="51.479028125" y="10.85" smashed="yes" rot="MR90">
+<element name="C7" library="Dual Mono Amp Library" package="DCP4G053006ID2KSSD" value="30uF/400V" x="51.479028125" y="10.85" smashed="yes" rot="MR90">
 <attribute name="ARROW_PART_NUMBER" value="" x="51.479028125" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="51.479028125" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DESCRIPTION" value="Film Capacitors DC-LINK MKP 4 30.0 uF 400 VDC 17x34.5x31.5 PCM 27.5" x="51.479028125" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -2160,7 +2045,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="52.114028125" y="10.215" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="49.574028125" y="10.215" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="C9" library="MKP4G041005I00JSSD" package="MKP4G041005I00JSSD" value="1uF/400V" x="58.273315625" y="10.85" smashed="yes" rot="MR90">
+<element name="C9" library="Dual Mono Amp Library" package="MKP4G041005I00JSSD" value="1uF/400V" x="58.273315625" y="10.85" smashed="yes" rot="MR90">
 <attribute name="ARROW_PART_NUMBER" value="" x="58.273315625" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="58.273315625" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DESCRIPTION" value="Film Capacitors 1uF 400 Volts 5%" x="58.273315625" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -2172,7 +2057,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="58.908315625" y="10.215" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="56.368315625" y="10.215" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="J1" library="1935190" package="1935190" value="1935190" x="28.095103125" y="59" smashed="yes">
+<element name="J1" library="Dual Mono Amp Library" package="1935190" value="1935190" x="28.095103125" y="59" smashed="yes">
 <attribute name="DESCRIPTION" value="PCB terminal block, nominal current: 17.5 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm?, Number of potentials: 5, Number of rows: 1, Number of positions per row: 5, product range: PT 1,5/..-H, pitch: 5 mm, connection method: Screw connection with wire protector, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard" x="87.785103125" y="27.25" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="11.55mm" x="87.785103125" y="27.25" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Phoenix Contact" x="87.785103125" y="27.25" size="1.778" layer="27" display="off"/>
@@ -2182,7 +2067,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="38.380103125" y="58.5" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="38.380103125" y="58.5" size="1.27" layer="27" align="center"/>
 </element>
-<element name="R1" library="LR1F47K" package="RESAD1540W55L620D230" value="47kOhm" x="73.02791875" y="41.22" smashed="yes" rot="MR270">
+<element name="R1" library="Dual Mono Amp Library" package="RESAD1540W55L620D230" value="47kOhm" x="73.02791875" y="41.22" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" value="TE Connectivity LR1F Series Axial Metal Film Resistor 47k +/-1% 0.6W +/-50ppm/C" x="73.02791875" y="41.22" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="HEIGHT" value="mm" x="73.02791875" y="41.22" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="73.02791875" y="41.22" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -2192,7 +2077,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="71.75791875" y="41.855" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="75.56791875" y="41.855" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R10" library="LR1F150R" package="RESAD1540W55L620D230" value="150*" x="42.539346875" y="26.85115" smashed="yes" rot="MR90">
+<element name="R10" library="Dual Mono Amp Library" package="RESAD1540W55L620D230" value="150*" x="42.539346875" y="26.85115" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="TE Connectivity LR1F Series Axial Metal Film Resistor 150 +/-1% 0.6W +/-50ppm/C" x="42.539346875" y="26.85115" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="mm" x="42.539346875" y="26.85115" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="42.539346875" y="26.85115" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -2202,7 +2087,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="43.809346875" y="26.21615" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="39.999346875" y="26.21615" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R13" library="LR1F47K" package="RESAD1540W55L620D230" value="47kOhm" x="3.1622875" y="41.22" smashed="yes" rot="MR270">
+<element name="R13" library="Dual Mono Amp Library" package="RESAD1540W55L620D230" value="47kOhm" x="3.1622875" y="41.22" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" value="TE Connectivity LR1F Series Axial Metal Film Resistor 47k +/-1% 0.6W +/-50ppm/C" x="3.1622875" y="41.22" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="HEIGHT" value="mm" x="3.1622875" y="41.22" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="3.1622875" y="41.22" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -2212,7 +2097,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="1.8922875" y="41.855" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="5.7022875" y="41.855" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R15" library="LR1F47K" package="RESAD1540W55L620D230" value="47kOhm" x="3.1622875" y="14.73" smashed="yes" rot="MR90">
+<element name="R15" library="Dual Mono Amp Library" package="RESAD1540W55L620D230" value="47kOhm" x="3.1622875" y="14.73" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="TE Connectivity LR1F Series Axial Metal Film Resistor 47k +/-1% 0.6W +/-50ppm/C" x="3.1622875" y="14.73" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="mm" x="3.1622875" y="14.73" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="3.1622875" y="14.73" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -2222,7 +2107,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="4.4322875" y="14.095" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="0.6222875" y="14.095" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R17" library="LR1F47K" package="RESAD1540W55L620D230" value="47kOhm" x="24.711178125" y="10.95" smashed="yes" rot="MR90">
+<element name="R17" library="Dual Mono Amp Library" package="RESAD1540W55L620D230" value="47kOhm" x="24.711178125" y="10.95" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="TE Connectivity LR1F Series Axial Metal Film Resistor 47k +/-1% 0.6W +/-50ppm/C" x="24.711178125" y="10.95" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="mm" x="24.711178125" y="10.95" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="24.711178125" y="10.95" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -2232,7 +2117,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="25.981178125" y="10.315" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="22.171178125" y="10.315" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R2" library="LR1F47K" package="RESAD1540W55L620D230" value="47kOhm" x="73.02791875" y="14.73" smashed="yes" rot="MR90">
+<element name="R2" library="Dual Mono Amp Library" package="RESAD1540W55L620D230" value="47kOhm" x="73.02791875" y="14.73" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="TE Connectivity LR1F Series Axial Metal Film Resistor 47k +/-1% 0.6W +/-50ppm/C" x="73.02791875" y="14.73" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="mm" x="73.02791875" y="14.73" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="73.02791875" y="14.73" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -2242,7 +2127,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="74.29791875" y="14.095" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="70.48791875" y="14.095" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R27" library="LR1F47K" package="RESAD1540W55L620D230" value="47kOhm" x="17.700859375" y="42.8227125" smashed="yes" rot="MR180">
+<element name="R27" library="Dual Mono Amp Library" package="RESAD1540W55L620D230" value="47kOhm" x="17.700859375" y="42.8227125" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="TE Connectivity LR1F Series Axial Metal Film Resistor 47k +/-1% 0.6W +/-50ppm/C" x="17.700859375" y="42.8227125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="mm" x="17.700859375" y="42.8227125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="17.700859375" y="42.8227125" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2252,17 +2137,17 @@ design rules under a new name.</description>
 <attribute name="NAME" x="17.065859375" y="41.5527125" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="17.065859375" y="45.3627125" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="R3" library="LR1F1M0" package="RESAD1540W60L620D230" value="1M*" x="-15.4" y="-19.05" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="TE Connectivity Axial Metal Film Resistor 1m +/-1% 0.6W +/-50ppm/C" x="-15.4" y="-19.05" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="mm" x="-15.4" y="-19.05" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="-15.4" y="-19.05" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="LR1F1M0" x="-15.4" y="-19.05" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="279-LR1F1M0" x="-15.4" y="-19.05" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F1M0?qs=ip69W3eHERVt%2FmQVAugcSg%3D%3D" x="-15.4" y="-19.05" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-14.765" y="-20.32" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="-14.765" y="-16.51" size="1.27" layer="27" rot="R180"/>
+<element name="R3" library="Dual Mono Amp Library" package="RESAD1540W60L620D230" value="1M*" x="-15.4" y="-69.85" smashed="yes">
+<attribute name="DESCRIPTION" value="TE Connectivity Axial Metal Film Resistor 1m +/-1% 0.6W +/-50ppm/C" x="-15.4" y="-69.85" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-15.4" y="-69.85" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="-15.4" y="-69.85" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LR1F1M0" x="-15.4" y="-69.85" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="279-LR1F1M0" x="-15.4" y="-69.85" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F1M0?qs=ip69W3eHERVt%2FmQVAugcSg%3D%3D" x="-15.4" y="-69.85" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-16.035" y="-68.58" size="1.27" layer="25"/>
+<attribute name="VALUE" x="-16.035" y="-72.39" size="1.27" layer="27"/>
 </element>
-<element name="R4" library="LR1F47K" package="RESAD1540W55L620D230" value="47kOhm" x="54.876171875" y="10.95" smashed="yes" rot="MR90">
+<element name="R4" library="Dual Mono Amp Library" package="RESAD1540W55L620D230" value="47kOhm" x="54.876171875" y="10.95" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="TE Connectivity LR1F Series Axial Metal Film Resistor 47k +/-1% 0.6W +/-50ppm/C" x="54.876171875" y="10.95" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="mm" x="54.876171875" y="10.95" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="54.876171875" y="10.95" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -2272,7 +2157,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="56.146171875" y="10.315" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="52.336171875" y="10.315" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R5" library="LR1F150R" package="RESAD1540W55L620D230" value="150*" x="15.960859375" y="23" smashed="yes" rot="MR0">
+<element name="R5" library="Dual Mono Amp Library" package="RESAD1540W55L620D230" value="150*" x="15.960859375" y="23" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" value="TE Connectivity LR1F Series Axial Metal Film Resistor 150 +/-1% 0.6W +/-50ppm/C" x="15.960859375" y="23" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="HEIGHT" value="mm" x="15.960859375" y="23" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="15.960859375" y="23" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2282,7 +2167,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="16.595859375" y="24.27" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="16.595859375" y="20.46" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="R6" library="LR1F47K" package="RESAD1540W55L620D230" value="47kOhm" x="58.489346875" y="42.8227125" smashed="yes" rot="MR0">
+<element name="R6" library="Dual Mono Amp Library" package="RESAD1540W55L620D230" value="47kOhm" x="58.489346875" y="42.8227125" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" value="TE Connectivity LR1F Series Axial Metal Film Resistor 47k +/-1% 0.6W +/-50ppm/C" x="58.489346875" y="42.8227125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="HEIGHT" value="mm" x="58.489346875" y="42.8227125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="58.489346875" y="42.8227125" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2292,17 +2177,17 @@ design rules under a new name.</description>
 <attribute name="NAME" x="59.124346875" y="44.0927125" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="59.124346875" y="40.2827125" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="R7" library="LR1F1M0" package="RESAD1540W60L620D230" value="1M*" x="-15.4" y="-31.75" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="TE Connectivity Axial Metal Film Resistor 1m +/-1% 0.6W +/-50ppm/C" x="-15.4" y="-31.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="mm" x="-15.4" y="-31.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="-15.4" y="-31.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="LR1F1M0" x="-15.4" y="-31.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="279-LR1F1M0" x="-15.4" y="-31.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F1M0?qs=ip69W3eHERVt%2FmQVAugcSg%3D%3D" x="-15.4" y="-31.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-14.765" y="-33.02" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="-14.765" y="-29.21" size="1.27" layer="27" rot="R180"/>
+<element name="R7" library="Dual Mono Amp Library" package="RESAD1540W60L620D230" value="1M*" x="-15.4" y="-82.55" smashed="yes">
+<attribute name="DESCRIPTION" value="TE Connectivity Axial Metal Film Resistor 1m +/-1% 0.6W +/-50ppm/C" x="-15.4" y="-82.55" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-15.4" y="-82.55" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="-15.4" y="-82.55" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LR1F1M0" x="-15.4" y="-82.55" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="279-LR1F1M0" x="-15.4" y="-82.55" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F1M0?qs=ip69W3eHERVt%2FmQVAugcSg%3D%3D" x="-15.4" y="-82.55" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-16.035" y="-81.28" size="1.27" layer="25"/>
+<attribute name="VALUE" x="-16.035" y="-85.09" size="1.27" layer="27"/>
 </element>
-<element name="R8" library="LR1F150R" package="RESAD1540W55L620D230" value="150*" x="60.229346875" y="32.9627625" smashed="yes" rot="MR180">
+<element name="R8" library="Dual Mono Amp Library" package="RESAD1540W55L620D230" value="150*" x="60.229346875" y="32.9627625" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="TE Connectivity LR1F Series Axial Metal Film Resistor 150 +/-1% 0.6W +/-50ppm/C" x="60.229346875" y="32.9627625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="mm" x="60.229346875" y="32.9627625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="60.229346875" y="32.9627625" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2312,7 +2197,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="59.594346875" y="31.6927625" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="59.594346875" y="35.5027625" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="R9" library="LR1F150R" package="RESAD1540W55L620D230" value="150*" x="33.650859375" y="29.1116125" smashed="yes" rot="MR270">
+<element name="R9" library="Dual Mono Amp Library" package="RESAD1540W55L620D230" value="150*" x="33.650859375" y="29.1116125" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" value="TE Connectivity LR1F Series Axial Metal Film Resistor 150 +/-1% 0.6W +/-50ppm/C" x="33.650859375" y="29.1116125" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="HEIGHT" value="mm" x="33.650859375" y="29.1116125" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="33.650859375" y="29.1116125" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -2322,11 +2207,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="32.380859375" y="29.7466125" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="36.190859375" y="29.7466125" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="SX1" library="belton-engineering" library_urn="urn:adsk.eagle:library:110" package="VT9-PT" package3d_urn="urn:adsk.eagle:package:4683/1" value="VT9-PT" x="18.650859375" y="27.5371375" smashed="yes">
+<element name="SX1" library="Dual Mono Amp Library" package="VT9-PT" package3d_urn="urn:adsk.eagle:package:4683/1" value="VT9-PT" x="18.650859375" y="27.5371375" smashed="yes">
 <attribute name="NAME" x="26.270859375" y="36.4271375" size="1.27" layer="25"/>
 <attribute name="VALUE" x="30.080859375" y="26.2671375" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="SX2" library="belton-engineering" library_urn="urn:adsk.eagle:library:110" package="VT9-PT" package3d_urn="urn:adsk.eagle:package:4683/1" value="VT9-PT" x="57.539346875" y="28.425625" smashed="yes" rot="R180">
+<element name="SX2" library="Dual Mono Amp Library" package="VT9-PT" package3d_urn="urn:adsk.eagle:package:4683/1" value="VT9-PT" x="57.539346875" y="28.425625" smashed="yes" rot="R180">
 <attribute name="NAME" x="49.919346875" y="19.535625" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="46.109346875" y="29.695625" size="1.27" layer="27" rot="R270"/>
 </element>
@@ -2368,7 +2253,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="11.088953125" y="53.92" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="6.263953125" y="52.27" size="1.016" layer="28" rot="MR90"/>
 </element>
-<element name="R11" library="LR1F10K" package="RESAD1540W55L620D230" value="10k" x="9.956571875" y="47.57" smashed="yes" rot="MR270">
+<element name="R11" library="Dual Mono Amp Library" package="RESAD1540W55L620D230" value="10k" x="9.956571875" y="47.57" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" value="Metal film resistor, 10K 0.6W TE Connectivity LR1F Series Axial Metal Film Resistor 10k" x="9.956571875" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="HEIGHT" value="mm" x="9.956571875" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="9.956571875" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -2402,7 +2287,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="13.353715625" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="9.448715625" y="46.935" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R19" library="LR1F10K" package="RESAD1540W55L620D230" value="10k" x="23.54514375" y="47.57" smashed="yes" rot="MR90">
+<element name="R19" library="Dual Mono Amp Library" package="RESAD1540W55L620D230" value="10k" x="23.54514375" y="47.57" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Metal film resistor, 10K 0.6W TE Connectivity LR1F Series Axial Metal Film Resistor 10k" x="23.54514375" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="mm" x="23.54514375" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="23.54514375" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -2412,7 +2297,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="24.18014375" y="46.935" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="21.64014375" y="46.935" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R20" library="LR1F10K" package="RESAD1540W55L620D230" value="10k" x="6.55943125" y="47.57" smashed="yes" rot="MR270">
+<element name="R20" library="Dual Mono Amp Library" package="RESAD1540W55L620D230" value="10k" x="6.55943125" y="47.57" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" value="Metal film resistor, 10K 0.6W TE Connectivity LR1F Series Axial Metal Film Resistor 10k" x="6.55943125" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="HEIGHT" value="mm" x="6.55943125" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="6.55943125" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -2422,7 +2307,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="5.92443125" y="48.205" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="8.46443125" y="48.205" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R21" library="LR1F10K" package="RESAD1540W55L620D230" value="10k" x="20.148003125" y="47.57" smashed="yes" rot="MR90">
+<element name="R21" library="Dual Mono Amp Library" package="RESAD1540W55L620D230" value="10k" x="20.148003125" y="47.57" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Metal film resistor, 10K 0.6W TE Connectivity LR1F Series Axial Metal Film Resistor 10k" x="20.148003125" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="mm" x="20.148003125" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="20.148003125" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -2461,7 +2346,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="68.604584375" y="28.52" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="54.349584375" y="52.27" size="1.016" layer="28" rot="MR90"/>
 </element>
-<element name="R22" library="LR1F10K" package="RESAD1540W55L620D230" value="10k" x="56.042203125" y="47.57" smashed="yes" rot="MR270">
+<element name="R22" library="Dual Mono Amp Library" package="RESAD1540W55L620D230" value="10k" x="56.042203125" y="47.57" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" value="Metal film resistor, 10K 0.6W TE Connectivity LR1F Series Axial Metal Film Resistor 10k" x="56.042203125" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="HEIGHT" value="mm" x="56.042203125" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="56.042203125" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -2495,7 +2380,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="49.279346875" y="22.17" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="57.534346875" y="46.935" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R28" library="LR1F10K" package="RESAD1540W55L620D230" value="10k" x="69.630775" y="47.57" smashed="yes" rot="MR90">
+<element name="R28" library="Dual Mono Amp Library" package="RESAD1540W55L620D230" value="10k" x="69.630775" y="47.57" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Metal film resistor, 10K 0.6W TE Connectivity LR1F Series Axial Metal Film Resistor 10k" x="69.630775" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="mm" x="69.630775" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="69.630775" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -2505,7 +2390,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="70.265775" y="46.935" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="67.725775" y="46.935" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R29" library="LR1F10K" package="RESAD1540W55L620D230" value="10k" x="52.6450625" y="47.57" smashed="yes" rot="MR270">
+<element name="R29" library="Dual Mono Amp Library" package="RESAD1540W55L620D230" value="10k" x="52.6450625" y="47.57" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" value="Metal film resistor, 10K 0.6W TE Connectivity LR1F Series Axial Metal Film Resistor 10k" x="52.6450625" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="HEIGHT" value="mm" x="52.6450625" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="52.6450625" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -2515,7 +2400,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="52.0100625" y="48.205" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="54.5500625" y="48.205" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R30" library="LR1F10K" package="RESAD1540W55L620D230" value="10k" x="66.233634375" y="47.57" smashed="yes" rot="MR90">
+<element name="R30" library="Dual Mono Amp Library" package="RESAD1540W55L620D230" value="10k" x="66.233634375" y="47.57" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Metal film resistor, 10K 0.6W TE Connectivity LR1F Series Axial Metal Film Resistor 10k" x="66.233634375" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="mm" x="66.233634375" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="66.233634375" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -2525,25 +2410,25 @@ design rules under a new name.</description>
 <attribute name="NAME" x="66.868634375" y="46.935" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="64.328634375" y="46.935" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="C5" library="MKP2C041001N00MN00" package="MKP2C041001N00MN00" value="MKP2C041001N00MN00" x="-8" y="-1" smashed="yes">
-<attribute name="DESCRIPTION" value="Film Capacitors MKP 2 1.0 uF 63 VDC 11x16x7.2 PCM 5" x="-8" y="-1" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="16mm" x="-8" y="-1" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="WIMA" x="-8" y="-1" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MKP2C041001N00MN00" x="-8" y="-1" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="505-MKP2C0411NMN" x="-8" y="-1" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/WIMA/MKP2C041001N00MN00?qs=RB4whv9F6rzjnMhXY4f0hA%3D%3D" x="-8" y="-1" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-5.5" y="-1" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-5.5" y="-1" size="1.27" layer="27" align="center"/>
+<element name="C5" library="Dual Mono Amp Library" package="MKP2C041001N00MN00" value="MKP2C041001N00MN00" x="-5" y="-57.15" smashed="yes">
+<attribute name="DESCRIPTION" value="Film Capacitors MKP 2 1.0 uF 63 VDC 11x16x7.2 PCM 5" x="-5" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="16mm" x="-5" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="WIMA" x="-5" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MKP2C041001N00MN00" x="-5" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="505-MKP2C0411NMN" x="-5" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/WIMA/MKP2C041001N00MN00?qs=RB4whv9F6rzjnMhXY4f0hA%3D%3D" x="-5" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-2.5" y="-57.15" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-2.5" y="-57.15" size="1.27" layer="27" align="center"/>
 </element>
-<element name="C6" library="MKP2C041001N00MN00" package="MKP2C041001N00MN00" value="MKP2C041001N00MN00" x="-24" y="-1" smashed="yes">
-<attribute name="DESCRIPTION" value="Film Capacitors MKP 2 1.0 uF 63 VDC 11x16x7.2 PCM 5" x="-24" y="-1" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="16mm" x="-24" y="-1" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="WIMA" x="-24" y="-1" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MKP2C041001N00MN00" x="-24" y="-1" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="505-MKP2C0411NMN" x="-24" y="-1" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/WIMA/MKP2C041001N00MN00?qs=RB4whv9F6rzjnMhXY4f0hA%3D%3D" x="-24" y="-1" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-21.5" y="-1" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-21.5" y="-1" size="1.27" layer="27" align="center"/>
+<element name="C6" library="Dual Mono Amp Library" package="MKP2C041001N00MN00" value="MKP2C041001N00MN00" x="-5" y="-44.45" smashed="yes">
+<attribute name="DESCRIPTION" value="Film Capacitors MKP 2 1.0 uF 63 VDC 11x16x7.2 PCM 5" x="-5" y="-44.45" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="16mm" x="-5" y="-44.45" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="WIMA" x="-5" y="-44.45" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MKP2C041001N00MN00" x="-5" y="-44.45" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="505-MKP2C0411NMN" x="-5" y="-44.45" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/WIMA/MKP2C041001N00MN00?qs=RB4whv9F6rzjnMhXY4f0hA%3D%3D" x="-5" y="-44.45" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-2.5" y="-44.45" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-2.5" y="-44.45" size="1.27" layer="27" align="center"/>
 </element>
 </elements>
 <signals>
@@ -2609,8 +2494,8 @@ design rules under a new name.</description>
 <wire x1="6.55943125" y1="32.17" x2="9.956571875" y2="32.17" width="0" layer="19" extent="1-1"/>
 <wire x1="36.986759375" y1="19.0426375" x2="39.203446875" y2="36.920125" width="0" layer="19" extent="1-1"/>
 <wire x1="38.095103125" y1="5" x2="36.986759375" y2="19.0426375" width="0" layer="19" extent="1-1"/>
-<wire x1="-30.8" y1="-19.05" x2="15.960859375" y2="23" width="0" layer="19" extent="1-1"/>
-<wire x1="-30.8" y1="-31.75" x2="-30.8" y2="-19.05" width="0" layer="19" extent="1-1"/>
+<wire x1="0" y1="-69.85" x2="38.095103125" y2="5" width="0" layer="19" extent="1-1"/>
+<wire x1="0" y1="-82.55" x2="0" y2="-69.85" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+240VDC">
 <contactref element="J1" pad="5"/>
@@ -2662,8 +2547,8 @@ design rules under a new name.</description>
 <wire x1="24.822559375" y1="23.1616125" x2="24.822559375" y2="19.0426375" width="0.3048" layer="16"/>
 <wire x1="36.150859375" y1="34.8317375" x2="42.539346875" y2="42.25115" width="0" layer="19" extent="16-16"/>
 <wire x1="30.6" y1="42.9" x2="36.150859375" y2="34.8317375" width="0" layer="19" extent="16-16"/>
-<wire x1="-3" y1="-1" x2="12.479259375" y2="19.0425375" width="0" layer="19" extent="1-1"/>
-<wire x1="-19" y1="-1" x2="-3" y2="-1" width="0" layer="19" extent="1-1"/>
+<wire x1="0" y1="-44.45" x2="12.479259375" y2="19.0425375" width="0" layer="19" extent="1-1"/>
+<wire x1="0" y1="-57.15" x2="0" y2="-44.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="L_OUT">
 <contactref element="U$2" pad="2"/>
@@ -2671,8 +2556,8 @@ design rules under a new name.</description>
 <contactref element="R4" pad="1"/>
 <contactref element="C9" pad="1"/>
 <contactref element="R7" pad="1"/>
-<wire x1="-15.4" y1="-31.75" x2="43.095103125" y2="10" width="0.3048" layer="1"/>
-<wire x1="-15.4" y1="-31.75" x2="51.479028125" y2="10.85" width="0.3048" layer="1"/>
+<wire x1="-15.4" y1="-82.55" x2="43.095103125" y2="10" width="0.3048" layer="1"/>
+<wire x1="-15.4" y1="-82.55" x2="51.479028125" y2="10.85" width="0.3048" layer="1"/>
 <wire x1="51.479028125" y1="10.85" x2="54.876171875" y2="10.95" width="0.3048" layer="16"/>
 <wire x1="54.876171875" y1="10.95" x2="58.273315625" y2="10.85" width="0.3048" layer="16"/>
 </signal>
@@ -2719,9 +2604,9 @@ design rules under a new name.</description>
 <contactref element="C23" pad="1"/>
 <contactref element="R3" pad="1"/>
 <wire x1="17.916890625" y1="10.85" x2="21.314034375" y2="10.85" width="0.3048" layer="16"/>
-<wire x1="-15.4" y1="-19.05" x2="33.095103125" y2="10" width="0.3048" layer="1"/>
+<wire x1="-15.4" y1="-69.85" x2="33.095103125" y2="10" width="0.3048" layer="1"/>
 <wire x1="21.314034375" y1="10.85" x2="24.711178125" y2="10.95" width="0.3048" layer="16"/>
-<wire x1="24.711178125" y1="10.95" x2="-15.4" y2="-19.05" width="0.3048" layer="1"/>
+<wire x1="24.711178125" y1="10.95" x2="-15.4" y2="-69.85" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$16">
 <contactref element="R13" pad="2"/>
@@ -2748,7 +2633,7 @@ design rules under a new name.</description>
 <wire x1="23.064465625" y1="34.27364375" x2="24.822559375" y2="36.0317375" width="0.3048" layer="16"/>
 <contactref element="C5" pad="1"/>
 <wire x1="24.822559375" y1="36.0317375" x2="32.350859375" y2="31.3616125" width="0" layer="19" extent="16-16"/>
-<wire x1="-8" y1="-1" x2="3.1622875" y2="14.73" width="0" layer="19" extent="1-1"/>
+<wire x1="-5" y1="-57.15" x2="3.1622875" y2="14.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$23">
 <contactref element="R27" pad="2"/>
@@ -2837,7 +2722,7 @@ design rules under a new name.</description>
 <contactref element="C6" pad="1"/>
 <wire x1="43.839346875" y1="17.910415625" x2="51.367646875" y2="19.931025" width="0" layer="19" extent="16-16"/>
 <wire x1="43.839346875" y1="22.762671875" x2="43.839346875" y2="17.910415625" width="0" layer="19" extent="16-16"/>
-<wire x1="-24" y1="-1" x2="43.839346875" y2="17.910415625" width="0" layer="19" extent="16-16"/>
+<wire x1="-5" y1="-44.45" x2="43.839346875" y2="17.910415625" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$7">
 <contactref element="R6" pad="2"/>

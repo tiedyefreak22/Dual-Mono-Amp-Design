@@ -1648,7 +1648,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="49.1" y="32.9" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="45.5186" y="32.265" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="300k" x="49.1" y="26.5" smashed="yes">
+<element name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="100k" x="49.1" y="26.5" smashed="yes">
 <attribute name="NAME" x="44.02" y="28.913" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="2" x="49.1" y="26.5" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="49.1" y="26.5" size="1.778" layer="27" display="off"/>

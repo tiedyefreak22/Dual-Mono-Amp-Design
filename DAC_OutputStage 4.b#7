@@ -187,52 +187,10 @@
 <wire x1="0" y1="64" x2="0" y2="0" width="0" layer="20" locked="yes"/>
 </plain>
 <libraries>
-<library name="UCB1V010MCL1GS">
-<description>&lt;Cap Aluminum Lytic 1uF 35V 20% (4 X 7mm) SMD 6.2mA 7000h 105C T/R&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="CAPAE430X730N">
-<description>&lt;b&gt;UCB1V010MCL1GS&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-2.1" y="0" dx="2.75" dy="1.85" layer="1"/>
-<smd name="2" x="2.1" y="0" dx="2.75" dy="1.85" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-3.975" y1="2.75" x2="3.975" y2="2.75" width="0.05" layer="51"/>
-<wire x1="3.975" y1="2.75" x2="3.975" y2="-2.75" width="0.05" layer="51"/>
-<wire x1="3.975" y1="-2.75" x2="-3.975" y2="-2.75" width="0.05" layer="51"/>
-<wire x1="-3.975" y1="-2.75" x2="-3.975" y2="2.75" width="0.05" layer="51"/>
-<wire x1="2.15" y1="2.15" x2="-1.075" y2="2.15" width="0.1" layer="51"/>
-<wire x1="-1.075" y1="2.15" x2="-2.15" y2="1.075" width="0.1" layer="51"/>
-<wire x1="-2.15" y1="1.075" x2="-2.15" y2="-1.075" width="0.1" layer="51"/>
-<wire x1="-2.15" y1="-1.075" x2="-1.075" y2="-2.15" width="0.1" layer="51"/>
-<wire x1="-1.075" y1="-2.15" x2="2.15" y2="-2.15" width="0.1" layer="51"/>
-<wire x1="2.15" y1="-2.15" x2="2.15" y2="2.15" width="0.1" layer="51"/>
-<wire x1="-3.475" y1="2.15" x2="2.15" y2="2.15" width="0.2" layer="21"/>
-<wire x1="-1.075" y1="-2.15" x2="2.15" y2="-2.15" width="0.2" layer="21"/>
-</package>
-</packages>
-</library>
 <library name="Hifi Nutube DAC (Next 6) 28">
 <description>Generated from &lt;b&gt;Hifi Nutube DAC (Next 6) 28.sch&lt;/b&gt;&lt;p&gt;
 by exp-lbrs.ulp</description>
 <packages>
-<package name="C0603">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-</package>
 <package name="CUI_SJ1-3523N">
 <circle x="0" y="6.8" radius="0.17" width="0.34" layer="21"/>
 <wire x1="-0.4" y1="0.75" x2="0.4" y2="0.75" width="0.0001" layer="46"/>
@@ -1377,38 +1335,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <vertex x="-0.85" y="1.05"/>
 </polygon>
 </package>
-<package name="C0603" urn="urn:adsk.eagle:footprint:23123/1" library_version="11">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
-<package name="R0805" urn="urn:adsk.eagle:footprint:23045/1" library_version="11">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;</description>
-<wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<text x="-0.635" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
-<rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
-</package>
 <package name="R0603" urn="urn:adsk.eagle:footprint:23044/1" library_version="11">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
@@ -1431,18 +1357,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <description>Panasonic Aluminium Electrolytic Capacitor VS-Serie Package A</description>
 <packageinstances>
 <packageinstance name="PANASONIC_A"/>
-</packageinstances>
-</package3d>
-<package3d name="C0603" urn="urn:adsk.eagle:package:23616/2" type="model" library_version="11">
-<description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C0603"/>
-</packageinstances>
-</package3d>
-<package3d name="R0805" urn="urn:adsk.eagle:package:23553/2" type="model" library_version="11">
-<description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R0805"/>
 </packageinstances>
 </package3d>
 <package3d name="R0603" urn="urn:adsk.eagle:package:23555/3" type="model" library_version="11">
@@ -1716,6 +1630,246 @@ Source: 00004280-VT9-PT.pdf</description>
 </package3d>
 </packages3d>
 </library>
+<library name="MKP4G041005I00JSSD">
+<description>&lt;Film Capacitors 1uF 400 Volts 5%&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="MKP4G041005I00JSSD">
+<description>&lt;b&gt;MKP4G041005I00JSSD-1&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1" diameter="1.5" shape="square"/>
+<pad name="2" x="22.5" y="0" drill="1" diameter="1.5"/>
+<text x="11.25" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="11.25" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2" y1="-5.5" x2="24.5" y2="-5.5" width="0.1" layer="51"/>
+<wire x1="24.5" y1="-5.5" x2="24.5" y2="5.5" width="0.1" layer="51"/>
+<wire x1="24.5" y1="5.5" x2="-2" y2="5.5" width="0.1" layer="51"/>
+<wire x1="-2" y1="5.5" x2="-2" y2="-5.5" width="0.1" layer="51"/>
+<wire x1="-3" y1="6.5" x2="25.5" y2="6.5" width="0.1" layer="51"/>
+<wire x1="25.5" y1="6.5" x2="25.5" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="25.5" y1="-6.5" x2="-3" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="-3" y1="-6.5" x2="-3" y2="6.5" width="0.1" layer="51"/>
+<wire x1="24.5" y1="5.5" x2="-2" y2="5.5" width="0.2" layer="21"/>
+<wire x1="-2" y1="5.5" x2="-2" y2="-5.5" width="0.2" layer="21"/>
+<wire x1="-2" y1="-5.5" x2="24.5" y2="-5.5" width="0.2" layer="21"/>
+<wire x1="24.5" y1="-5.5" x2="24.5" y2="5.6" width="0.2" layer="21"/>
+<wire x1="-2.6" y1="0" x2="-2.6" y2="0" width="0.1" layer="21"/>
+<wire x1="-2.6" y1="0" x2="-2.5" y2="0" width="0.1" layer="21" curve="180"/>
+<wire x1="-2.5" y1="0" x2="-2.5" y2="0" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="0" x2="-2.6" y2="0" width="0.1" layer="21" curve="180"/>
+</package>
+</packages>
+</library>
+<library name="MKP2C041001N00MN00">
+<description>&lt;Film Capacitors MKP 2 1.0 uF 63 VDC 11x16x7.2 PCM 5&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="MKP2C041001N00MN00">
+<description>&lt;b&gt;MKP2C041001N00MN00-2&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="0.7" diameter="1.2" shape="square"/>
+<pad name="2" x="5" y="0" drill="0.7" diameter="1.2"/>
+<text x="2.5" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="2.5" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.1" y1="-5.5" x2="6.1" y2="-5.5" width="0.1" layer="51"/>
+<wire x1="6.1" y1="-5.5" x2="6.1" y2="5.5" width="0.1" layer="51"/>
+<wire x1="6.1" y1="5.5" x2="-1.1" y2="5.5" width="0.1" layer="51"/>
+<wire x1="-1.1" y1="5.5" x2="-1.1" y2="-5.5" width="0.1" layer="51"/>
+<wire x1="-2.1" y1="6.5" x2="7.1" y2="6.5" width="0.1" layer="51"/>
+<wire x1="7.1" y1="6.5" x2="7.1" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="7.1" y1="-6.5" x2="-2.1" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="-2.1" y1="-6.5" x2="-2.1" y2="6.5" width="0.1" layer="51"/>
+<wire x1="-1.1" y1="5.5" x2="6.1" y2="5.5" width="0.2" layer="21"/>
+<wire x1="6.1" y1="5.5" x2="6.1" y2="-5.5" width="0.2" layer="21"/>
+<wire x1="6.1" y1="-5.5" x2="-1.1" y2="-5.5" width="0.2" layer="21"/>
+<wire x1="-1.1" y1="-5.5" x2="-1.1" y2="5.5" width="0.2" layer="21"/>
+<wire x1="-1.7" y1="0" x2="-1.7" y2="0" width="0.1" layer="21"/>
+<wire x1="-1.7" y1="0" x2="-1.6" y2="0" width="0.1" layer="21" curve="180"/>
+<wire x1="-1.6" y1="0" x2="-1.6" y2="0" width="0.1" layer="21"/>
+<wire x1="-1.6" y1="0" x2="-1.7" y2="0" width="0.1" layer="21" curve="180"/>
+</package>
+</packages>
+</library>
+<library name="MKS4B031002A00JC00">
+<description>&lt;Film Capacitors MKS 4 0.1 uF 50 VDC 2.5x7x10 PCM 7.5&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="MKS4B031002A00JC00">
+<description>&lt;b&gt;MKS4B031002A00JC00-2&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="0.7" diameter="1.2" shape="square"/>
+<pad name="2" x="7.5" y="0" drill="0.7" diameter="1.2"/>
+<text x="3.75" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="3.75" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.25" y1="1.25" x2="8.75" y2="1.25" width="0.1" layer="51"/>
+<wire x1="8.75" y1="1.25" x2="8.75" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="8.75" y1="-1.25" x2="-1.25" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="-1.25" y1="-1.25" x2="-1.25" y2="1.25" width="0.1" layer="51"/>
+<wire x1="-1.25" y1="1.25" x2="8.75" y2="1.25" width="0.2" layer="21"/>
+<wire x1="8.75" y1="1.25" x2="8.75" y2="-1.25" width="0.2" layer="21"/>
+<wire x1="8.75" y1="-1.25" x2="-1.25" y2="-1.25" width="0.2" layer="21"/>
+<wire x1="-1.25" y1="-1.25" x2="-1.25" y2="1.25" width="0.2" layer="21"/>
+<wire x1="-2.25" y1="2.25" x2="9.75" y2="2.25" width="0.1" layer="51"/>
+<wire x1="9.75" y1="2.25" x2="9.75" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="9.75" y1="-2.25" x2="-2.25" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="-2.25" y1="-2.25" x2="-2.25" y2="2.25" width="0.1" layer="51"/>
+<wire x1="-1.8" y1="0" x2="-1.8" y2="0" width="0.1" layer="21"/>
+<wire x1="-1.8" y1="0" x2="-1.9" y2="0" width="0.1" layer="21" curve="180"/>
+<wire x1="-1.9" y1="0" x2="-1.9" y2="0" width="0.1" layer="21"/>
+<wire x1="-1.9" y1="0" x2="-1.8" y2="0" width="0.1" layer="21" curve="180"/>
+</package>
+</packages>
+</library>
+<library name="DCP4G053006ID2KSSD">
+<description>&lt;Film Capacitors DC-LINK MKP 4 30.0 uF 400 VDC 17x34.5x31.5 PCM 27.5&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="DCP4G053006ID2KSSD">
+<description>&lt;b&gt;DCP4G053006ID2KSSD-1&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1" diameter="1.5" shape="square"/>
+<pad name="2" x="27.5" y="0" drill="1" diameter="1.5"/>
+<text x="13.75" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="13.75" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2" y1="-8.5" x2="29.5" y2="-8.5" width="0.1" layer="51"/>
+<wire x1="29.5" y1="-8.5" x2="29.5" y2="8.5" width="0.1" layer="51"/>
+<wire x1="29.5" y1="8.5" x2="-2" y2="8.5" width="0.1" layer="51"/>
+<wire x1="-2" y1="8.5" x2="-2" y2="-8.5" width="0.1" layer="51"/>
+<wire x1="-2" y1="8.5" x2="29.5" y2="8.5" width="0.2" layer="21"/>
+<wire x1="29.5" y1="8.5" x2="29.5" y2="-8.5" width="0.2" layer="21"/>
+<wire x1="29.5" y1="-8.5" x2="-2" y2="-8.5" width="0.2" layer="21"/>
+<wire x1="-2" y1="-8.5" x2="-2" y2="8.5" width="0.2" layer="21"/>
+<wire x1="-3" y1="9.5" x2="30.5" y2="9.5" width="0.1" layer="51"/>
+<wire x1="30.5" y1="9.5" x2="30.5" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="30.5" y1="-9.5" x2="-3" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="-3" y1="-9.5" x2="-3" y2="9.5" width="0.1" layer="51"/>
+<wire x1="-2.6" y1="0" x2="-2.6" y2="0" width="0.1" layer="21"/>
+<wire x1="-2.6" y1="0" x2="-2.5" y2="0" width="0.1" layer="21" curve="180"/>
+<wire x1="-2.5" y1="0" x2="-2.5" y2="0" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="0" x2="-2.6" y2="0" width="0.1" layer="21" curve="180"/>
+</package>
+</packages>
+</library>
+<library name="LR1F47K">
+<description>&lt;TE Connectivity LR1F Series Axial Metal Film Resistor 47k +/-1% 0.6W +/-50ppm/C&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="RESAD1540W55L620D230">
+<description>&lt;b&gt;LR1&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="0.75" diameter="1.15"/>
+<pad name="2" x="15.4" y="0" drill="0.75" diameter="1.15"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-0.825" y1="1.5" x2="16.225" y2="1.5" width="0.05" layer="51"/>
+<wire x1="16.225" y1="1.5" x2="16.225" y2="-1.5" width="0.05" layer="51"/>
+<wire x1="16.225" y1="-1.5" x2="-0.825" y2="-1.5" width="0.05" layer="51"/>
+<wire x1="-0.825" y1="-1.5" x2="-0.825" y2="1.5" width="0.05" layer="51"/>
+<wire x1="4.6" y1="1.15" x2="10.8" y2="1.15" width="0.1" layer="51"/>
+<wire x1="10.8" y1="1.15" x2="10.8" y2="-1.15" width="0.1" layer="51"/>
+<wire x1="10.8" y1="-1.15" x2="4.6" y2="-1.15" width="0.1" layer="51"/>
+<wire x1="4.6" y1="-1.15" x2="4.6" y2="1.15" width="0.1" layer="51"/>
+<wire x1="0" y1="0" x2="4.6" y2="0" width="0.1" layer="51"/>
+<wire x1="10.8" y1="0" x2="15.4" y2="0" width="0.1" layer="51"/>
+<wire x1="4.6" y1="1.15" x2="10.8" y2="1.15" width="0.2" layer="21"/>
+<wire x1="10.8" y1="1.15" x2="10.8" y2="-1.15" width="0.2" layer="21"/>
+<wire x1="10.8" y1="-1.15" x2="4.6" y2="-1.15" width="0.2" layer="21"/>
+<wire x1="4.6" y1="-1.15" x2="4.6" y2="1.15" width="0.2" layer="21"/>
+<wire x1="0.925" y1="0" x2="4.6" y2="0" width="0.2" layer="21"/>
+<wire x1="10.8" y1="0" x2="14.475" y2="0" width="0.2" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="LR1F150R">
+<description>&lt;TE Connectivity LR1F Series Axial Metal Film Resistor 150 +/-1% 0.6W +/-50ppm/C&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="RESAD1540W55L620D230">
+<description>&lt;b&gt;LR1F180R-1&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="0.75" diameter="1.15"/>
+<pad name="2" x="15.4" y="0" drill="0.75" diameter="1.15"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-0.825" y1="1.5" x2="16.225" y2="1.5" width="0.05" layer="51"/>
+<wire x1="16.225" y1="1.5" x2="16.225" y2="-1.5" width="0.05" layer="51"/>
+<wire x1="16.225" y1="-1.5" x2="-0.825" y2="-1.5" width="0.05" layer="51"/>
+<wire x1="-0.825" y1="-1.5" x2="-0.825" y2="1.5" width="0.05" layer="51"/>
+<wire x1="4.6" y1="1.15" x2="10.8" y2="1.15" width="0.1" layer="51"/>
+<wire x1="10.8" y1="1.15" x2="10.8" y2="-1.15" width="0.1" layer="51"/>
+<wire x1="10.8" y1="-1.15" x2="4.6" y2="-1.15" width="0.1" layer="51"/>
+<wire x1="4.6" y1="-1.15" x2="4.6" y2="1.15" width="0.1" layer="51"/>
+<wire x1="0" y1="0" x2="4.6" y2="0" width="0.1" layer="51"/>
+<wire x1="10.8" y1="0" x2="15.4" y2="0" width="0.1" layer="51"/>
+<wire x1="4.6" y1="1.15" x2="10.8" y2="1.15" width="0.2" layer="21"/>
+<wire x1="10.8" y1="1.15" x2="10.8" y2="-1.15" width="0.2" layer="21"/>
+<wire x1="10.8" y1="-1.15" x2="4.6" y2="-1.15" width="0.2" layer="21"/>
+<wire x1="4.6" y1="-1.15" x2="4.6" y2="1.15" width="0.2" layer="21"/>
+<wire x1="0.925" y1="0" x2="4.6" y2="0" width="0.2" layer="21"/>
+<wire x1="10.8" y1="0" x2="14.475" y2="0" width="0.2" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="LR1F10K">
+<description>&lt;Metal film resistor, 10K 0.6W TE Connectivity LR1F Series Axial Metal Film Resistor 10k&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="RESAD1540W55L620D230">
+<description>&lt;b&gt;LR1&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="0.75" diameter="1.15"/>
+<pad name="2" x="15.4" y="0" drill="0.75" diameter="1.15"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-0.825" y1="1.5" x2="16.225" y2="1.5" width="0.05" layer="51"/>
+<wire x1="16.225" y1="1.5" x2="16.225" y2="-1.5" width="0.05" layer="51"/>
+<wire x1="16.225" y1="-1.5" x2="-0.825" y2="-1.5" width="0.05" layer="51"/>
+<wire x1="-0.825" y1="-1.5" x2="-0.825" y2="1.5" width="0.05" layer="51"/>
+<wire x1="4.6" y1="1.15" x2="10.8" y2="1.15" width="0.1" layer="51"/>
+<wire x1="10.8" y1="1.15" x2="10.8" y2="-1.15" width="0.1" layer="51"/>
+<wire x1="10.8" y1="-1.15" x2="4.6" y2="-1.15" width="0.1" layer="51"/>
+<wire x1="4.6" y1="-1.15" x2="4.6" y2="1.15" width="0.1" layer="51"/>
+<wire x1="0" y1="0" x2="4.6" y2="0" width="0.1" layer="51"/>
+<wire x1="10.8" y1="0" x2="15.4" y2="0" width="0.1" layer="51"/>
+<wire x1="4.6" y1="1.15" x2="10.8" y2="1.15" width="0.2" layer="21"/>
+<wire x1="10.8" y1="1.15" x2="10.8" y2="-1.15" width="0.2" layer="21"/>
+<wire x1="10.8" y1="-1.15" x2="4.6" y2="-1.15" width="0.2" layer="21"/>
+<wire x1="4.6" y1="-1.15" x2="4.6" y2="1.15" width="0.2" layer="21"/>
+<wire x1="0.925" y1="0" x2="4.6" y2="0" width="0.2" layer="21"/>
+<wire x1="10.8" y1="0" x2="14.475" y2="0" width="0.2" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="LR1F1M0">
+<description>&lt;TE Connectivity Axial Metal Film Resistor 1m +/-1% 0.6W +/-50ppm/C&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="RESAD1540W60L620D230">
+<description>&lt;b&gt;LR1F1M0&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="0.8" diameter="1.2"/>
+<pad name="2" x="15.4" y="0" drill="0.8" diameter="1.2"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-0.85" y1="1.5" x2="16.25" y2="1.5" width="0.05" layer="51"/>
+<wire x1="16.25" y1="1.5" x2="16.25" y2="-1.5" width="0.05" layer="51"/>
+<wire x1="16.25" y1="-1.5" x2="-0.85" y2="-1.5" width="0.05" layer="51"/>
+<wire x1="-0.85" y1="-1.5" x2="-0.85" y2="1.5" width="0.05" layer="51"/>
+<wire x1="4.6" y1="1.15" x2="10.8" y2="1.15" width="0.1" layer="51"/>
+<wire x1="10.8" y1="1.15" x2="10.8" y2="-1.15" width="0.1" layer="51"/>
+<wire x1="10.8" y1="-1.15" x2="4.6" y2="-1.15" width="0.1" layer="51"/>
+<wire x1="4.6" y1="-1.15" x2="4.6" y2="1.15" width="0.1" layer="51"/>
+<wire x1="0" y1="0" x2="4.6" y2="0" width="0.1" layer="51"/>
+<wire x1="10.8" y1="0" x2="15.4" y2="0" width="0.1" layer="51"/>
+<wire x1="4.6" y1="1.15" x2="10.8" y2="1.15" width="0.2" layer="21"/>
+<wire x1="10.8" y1="1.15" x2="10.8" y2="-1.15" width="0.2" layer="21"/>
+<wire x1="10.8" y1="-1.15" x2="4.6" y2="-1.15" width="0.2" layer="21"/>
+<wire x1="4.6" y1="-1.15" x2="4.6" y2="1.15" width="0.2" layer="21"/>
+<wire x1="0.95" y1="0" x2="4.6" y2="0" width="0.2" layer="21"/>
+<wire x1="10.8" y1="0" x2="14.45" y2="0" width="0.2" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1918,42 +2072,35 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="UCB1V010MCL1GS" package="CAPAE430X730N" value="1uF/16V" x="60.229346875" y="26.2927625" smashed="yes" rot="MR0">
-<attribute name="DESCRIPTION" value="Cap Aluminum Lytic 1uF 35V 20% (4 X 7mm) SMD 6.2mA 7000h 105C T/R" x="32.289346875" y="-33.3972375" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="HEIGHT" value="7.3mm" x="32.289346875" y="-33.3972375" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nichicon" x="32.289346875" y="-33.3972375" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="UCB1V010MCL1GS" x="32.289346875" y="-33.3972375" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="647-UCB1V010MCL1GS" x="32.289346875" y="-33.3972375" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UCB1V010MCL1GS?qs=Wu4QelNNmeNgBT1zPkLPqg%3D%3D" x="32.289346875" y="-33.3972375" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="C1" library="MKP2C041001N00MN00" package="MKP2C041001N00MN00" value="1uF/16V" x="60.229346875" y="26.2927625" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value="Film Capacitors MKP 2 1.0 uF 63 VDC 11x16x7.2 PCM 5" x="32.289346875" y="-33.3972375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="16mm" x="32.289346875" y="-33.3972375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="WIMA" x="32.289346875" y="-33.3972375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MKP2C041001N00MN00" x="32.289346875" y="-33.3972375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="505-MKP2C0411NMN" x="32.289346875" y="-33.3972375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/WIMA/MKP2C041001N00MN00?qs=RB4whv9F6rzjnMhXY4f0hA%3D%3D" x="32.289346875" y="-33.3972375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="60.229346875" y="30.2927625" size="1.27" layer="26" rot="MR0" align="center"/>
 <attribute name="VALUE" x="60.229346875" y="26.2927625" size="1.27" layer="28" rot="MR0" align="center"/>
 </element>
-<element name="C10" library="Hifi Nutube DAC (Next 6) 28" package="C0603" value="0.1uF, 35V" x="46.703446875" y="36.920125" smashed="yes" rot="MR0">
-<attribute name="BOM" value="Yes" x="25.113446875" y="-34.199875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 35VDC 0.1uF 20% X7R AEC-Q200" x="25.113446875" y="-34.199875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DISTRIBUTOR_PART_NUMBER" value="963-GMJ107BB7104MAHT" x="25.113446875" y="-34.199875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="HEIGHT" value="1mm" x="25.113446875" y="-34.199875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="LINK" value="https://www.mouser.com/ProductDetail/Taiyo-Yuden/GMJ107BB7104MAHT?qs=%2Fha2pyFadujHrlowQtTjdnqfzoSa0Cvv97OkvRNS3sSjPFq524h2H2kGErSK5VOC" x="25.113446875" y="-34.199875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Taiyo Yuden" x="25.113446875" y="-34.199875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="GMJ107BB7104MAHT" x="25.113446875" y="-34.199875" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="C10" library="MKS4B031002A00JC00" package="MKS4B031002A00JC00" value="0.1uF, 35V" x="46.703446875" y="36.920125" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value="Film Capacitors MKS 4 0.1 uF 50 VDC 2.5x7x10 PCM 7.5" x="25.113446875" y="-34.199875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="7mm" x="25.113446875" y="-34.199875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="WIMA" x="25.113446875" y="-34.199875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MKS4B031002A00JC00" x="25.113446875" y="-34.199875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="505-MKS4B0312AJC" x="46.703446875" y="36.920125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/WIMA/MKS4B031002A00JC00?qs=2G4irm%2FqADy9MV8AUfKNYA%3D%3D" x="46.703446875" y="36.920125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="47.338446875" y="37.555125" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="47.338446875" y="35.015125" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="C16" library="UCB1V010MCL1GS" package="CAPAE430X730N" value="1uF/16V" x="15.960859375" y="29.67" smashed="yes" rot="MR180">
-<attribute name="DESCRIPTION" value="Cap Aluminum Lytic 1uF 35V 20% (4 X 7mm) SMD 6.2mA 7000h 105C T/R" x="52.790859375" y="89.36" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="HEIGHT" value="7.3mm" x="52.790859375" y="89.36" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nichicon" x="52.790859375" y="89.36" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="UCB1V010MCL1GS" x="52.790859375" y="89.36" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="647-UCB1V010MCL1GS" x="52.790859375" y="89.36" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UCB1V010MCL1GS?qs=Wu4QelNNmeNgBT1zPkLPqg%3D%3D" x="52.790859375" y="89.36" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="C16" library="MKP2C041001N00MN00" package="MKP2C041001N00MN00" value="1uF/16V" x="15.960859375" y="29.67" smashed="yes" rot="MR180">
+<attribute name="DESCRIPTION" value="Film Capacitors MKP 2 1.0 uF 63 VDC 11x16x7.2 PCM 5" x="52.790859375" y="89.36" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="HEIGHT" value="16mm" x="52.790859375" y="89.36" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="WIMA" x="52.790859375" y="89.36" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MKP2C041001N00MN00" x="52.790859375" y="89.36" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="505-MKP2C0411NMN" x="52.790859375" y="89.36" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/WIMA/MKP2C041001N00MN00?qs=RB4whv9F6rzjnMhXY4f0hA%3D%3D" x="52.790859375" y="89.36" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="15.960859375" y="25.67" size="1.27" layer="26" rot="MR180" align="center"/>
 <attribute name="VALUE" x="15.960859375" y="29.67" size="1.27" layer="28" rot="MR180" align="center"/>
-</element>
-<element name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="PANASONIC_A" package3d_urn="urn:adsk.eagle:package:23418/2" value="1uF/16V" x="33.650859375" y="36.0317375" smashed="yes" rot="MR180">
-<attribute name="NAME" x="32.000859375" y="34.2817375" size="1.016" layer="26" rot="MR180"/>
-<attribute name="POPULARITY" value="1" x="67.940859375" y="83.0217375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="67.940859375" y="83.0217375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VALUE" x="32.000859375" y="38.8567375" size="1.016" layer="28" rot="MR180"/>
 </element>
 <element name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="PANASONIC_A" package3d_urn="urn:adsk.eagle:package:23418/2" value="0.5uF/400V" x="34.868953125" y="51.92" smashed="yes" rot="MR90">
 <attribute name="NAME" x="36.618953125" y="50.27" size="1.016" layer="26" rot="MR90"/>
@@ -1961,34 +2108,39 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="-12.121046875" y="70.97" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="32.043953125" y="50.27" size="1.016" layer="28" rot="MR90"/>
 </element>
-<element name="C2" library="Hifi Nutube DAC (Next 6) 28" package="C0603" value="0.1uF, 35V" x="29.486759375" y="19.0426375" smashed="yes" rot="MR180">
-<attribute name="BOM" value="Yes" x="99.336759375" y="85.0826375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 35VDC 0.1uF 20% X7R AEC-Q200" x="99.336759375" y="85.0826375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DISTRIBUTOR_PART_NUMBER" value="963-GMJ107BB7104MAHT" x="99.336759375" y="85.0826375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="HEIGHT" value="1mm" x="99.336759375" y="85.0826375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="LINK" value="https://www.mouser.com/ProductDetail/Taiyo-Yuden/GMJ107BB7104MAHT?qs=%2Fha2pyFadujHrlowQtTjdnqfzoSa0Cvv97OkvRNS3sSjPFq524h2H2kGErSK5VOC" x="99.336759375" y="85.0826375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Taiyo Yuden" x="99.336759375" y="85.0826375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="GMJ107BB7104MAHT" x="99.336759375" y="85.0826375" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="C2" library="MKS4B031002A00JC00" package="MKS4B031002A00JC00" value="0.1uF, 35V" x="29.486759375" y="19.0426375" smashed="yes" rot="MR180">
+<attribute name="DESCRIPTION" value="Film Capacitors MKS 4 0.1 uF 50 VDC 2.5x7x10 PCM 7.5" x="99.336759375" y="85.0826375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="HEIGHT" value="7mm" x="99.336759375" y="85.0826375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="WIMA" x="99.336759375" y="85.0826375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MKS4B031002A00JC00" x="99.336759375" y="85.0826375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="505-MKS4B0312AJC" x="29.486759375" y="19.0426375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/WIMA/MKS4B031002A00JC00?qs=2G4irm%2FqADy9MV8AUfKNYA%3D%3D" x="29.486759375" y="19.0426375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="28.851759375" y="18.4076375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="28.851759375" y="20.9476375" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="30uF/400V" x="17.916890625" y="10.85" smashed="yes" rot="MR90">
+<element name="C21" library="DCP4G053006ID2KSSD" package="DCP4G053006ID2KSSD" value="30uF/400V" x="17.916890625" y="10.85" smashed="yes" rot="MR90">
+<attribute name="ARROW_PART_NUMBER" value="" x="17.916890625" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="17.916890625" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DESCRIPTION" value="Film Capacitors DC-LINK MKP 4 30.0 uF 400 VDC 17x34.5x31.5 PCM 27.5" x="17.916890625" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="HEIGHT" value="34.5mm" x="17.916890625" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="WIMA" x="17.916890625" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="DCP4G053006ID2KSSD" x="17.916890625" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="505-DCP4G0536ID2KSSD" x="17.916890625" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/WIMA/DCP4G053006ID2KSSD?qs=RB4whv9F6rwxZ2Ey0tRejg%3D%3D" x="17.916890625" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="18.551890625" y="10.215" size="1.27" layer="26" rot="MR90"/>
-<attribute name="POPULARITY" value="73" x="-48.123109375" y="70.54" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-48.123109375" y="70.54" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="16.011890625" y="10.215" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF/400V" x="21.314034375" y="10.85" smashed="yes" rot="MR90">
+<element name="C23" library="MKP4G041005I00JSSD" package="MKP4G041005I00JSSD" value="1uF/400V" x="21.314034375" y="10.85" smashed="yes" rot="MR90">
+<attribute name="ARROW_PART_NUMBER" value="" x="21.314034375" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="21.314034375" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DESCRIPTION" value="Film Capacitors 1uF 400 Volts 5%" x="21.314034375" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="HEIGHT" value="21mm" x="21.314034375" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="WIMA" x="21.314034375" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MKP4G041005I00JSSD" x="21.314034375" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="505-MKP4G041005I00JS" x="21.314034375" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/WIMA/MKP4G041005I00JSSD?qs=JZ%252BiKJYxjZXJVyWNRtSklQ%3D%3D" x="21.314034375" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="21.949034375" y="10.215" size="1.27" layer="26" rot="MR90"/>
-<attribute name="POPULARITY" value="73" x="-49.805965625" y="73.08" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-49.805965625" y="73.08" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="19.409034375" y="10.215" size="1.27" layer="28" rot="MR90"/>
-</element>
-<element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="PANASONIC_A" package3d_urn="urn:adsk.eagle:package:23418/2" value="1uF/16V" x="42.539346875" y="19.931025" smashed="yes" rot="MR0">
-<attribute name="NAME" x="44.189346875" y="21.681025" size="1.016" layer="26" rot="MR0"/>
-<attribute name="POPULARITY" value="1" x="15.869346875" y="-27.058975" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="15.869346875" y="-27.058975" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="44.189346875" y="17.106025" size="1.016" layer="28" rot="MR0"/>
 </element>
 <element name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="PANASONIC_A" package3d_urn="urn:adsk.eagle:package:23418/2" value="0.5uF/400V" x="41.321253125" y="51.92" smashed="yes" rot="MR90">
 <attribute name="NAME" x="43.071253125" y="50.27" size="1.016" layer="26" rot="MR90"/>
@@ -1996,16 +2148,28 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="12.111253125" y="121.77" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="38.496253125" y="50.27" size="1.016" layer="28" rot="MR90"/>
 </element>
-<element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="30uF/400V" x="51.479028125" y="10.85" smashed="yes" rot="MR90">
+<element name="C7" library="DCP4G053006ID2KSSD" package="DCP4G053006ID2KSSD" value="30uF/400V" x="51.479028125" y="10.85" smashed="yes" rot="MR90">
+<attribute name="ARROW_PART_NUMBER" value="" x="51.479028125" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="51.479028125" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DESCRIPTION" value="Film Capacitors DC-LINK MKP 4 30.0 uF 400 VDC 17x34.5x31.5 PCM 27.5" x="51.479028125" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="HEIGHT" value="34.5mm" x="51.479028125" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="WIMA" x="51.479028125" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="DCP4G053006ID2KSSD" x="51.479028125" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="505-DCP4G0536ID2KSSD" x="51.479028125" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/WIMA/DCP4G053006ID2KSSD?qs=RB4whv9F6rwxZ2Ey0tRejg%3D%3D" x="51.479028125" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="52.114028125" y="10.215" size="1.27" layer="26" rot="MR90"/>
-<attribute name="POPULARITY" value="73" x="-14.560971875" y="59.11" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-14.560971875" y="59.11" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="49.574028125" y="10.215" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF/400V" x="58.273315625" y="10.85" smashed="yes" rot="MR90">
+<element name="C9" library="MKP4G041005I00JSSD" package="MKP4G041005I00JSSD" value="1uF/400V" x="58.273315625" y="10.85" smashed="yes" rot="MR90">
+<attribute name="ARROW_PART_NUMBER" value="" x="58.273315625" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="58.273315625" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DESCRIPTION" value="Film Capacitors 1uF 400 Volts 5%" x="58.273315625" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="HEIGHT" value="21mm" x="58.273315625" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="WIMA" x="58.273315625" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MKP4G041005I00JSSD" x="58.273315625" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="505-MKP4G041005I00JS" x="58.273315625" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/WIMA/MKP4G041005I00JSSD?qs=JZ%252BiKJYxjZXJVyWNRtSklQ%3D%3D" x="58.273315625" y="10.85" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="58.908315625" y="10.215" size="1.27" layer="26" rot="MR90"/>
-<attribute name="POPULARITY" value="73" x="-12.846684375" y="52.76" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-12.846684375" y="52.76" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="56.368315625" y="10.215" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="J1" library="1935190" package="1935190" value="1935190" x="28.095103125" y="59" smashed="yes">
@@ -2018,88 +2182,144 @@ design rules under a new name.</description>
 <attribute name="NAME" x="38.380103125" y="58.5" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="38.380103125" y="58.5" size="1.27" layer="27" align="center"/>
 </element>
-<element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47kOhm" x="73.02791875" y="41.22" smashed="yes" rot="MR270">
+<element name="R1" library="LR1F47K" package="RESAD1540W55L620D230" value="47kOhm" x="73.02791875" y="41.22" smashed="yes" rot="MR270">
+<attribute name="DESCRIPTION" value="TE Connectivity LR1F Series Axial Metal Film Resistor 47k +/-1% 0.6W +/-50ppm/C" x="73.02791875" y="41.22" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="HEIGHT" value="mm" x="73.02791875" y="41.22" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="73.02791875" y="41.22" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LR1F47K" x="73.02791875" y="41.22" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="279-LR1F47K" x="73.02791875" y="41.22" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F47K?qs=ip69W3eHERWQ8q3y81tH5w%3D%3D" x="73.02791875" y="41.22" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="71.75791875" y="41.855" size="1.27" layer="26" rot="MR270"/>
-<attribute name="POPULARITY" value="85" x="120.01791875" y="-3.23" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="120.01791875" y="-3.23" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="75.56791875" y="41.855" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="150*" x="42.539346875" y="26.85115" smashed="yes" rot="MR90">
+<element name="R10" library="LR1F150R" package="RESAD1540W55L620D230" value="150*" x="42.539346875" y="26.85115" smashed="yes" rot="MR90">
+<attribute name="DESCRIPTION" value="TE Connectivity LR1F Series Axial Metal Film Resistor 150 +/-1% 0.6W +/-50ppm/C" x="42.539346875" y="26.85115" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="HEIGHT" value="mm" x="42.539346875" y="26.85115" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="42.539346875" y="26.85115" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LR1F150R" x="42.539346875" y="26.85115" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="42.539346875" y="26.85115" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="42.539346875" y="26.85115" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="43.809346875" y="26.21615" size="1.27" layer="26" rot="MR90"/>
-<attribute name="POPULARITY" value="85" x="-10.800653125" y="99.24115" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="-10.800653125" y="99.24115" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="39.999346875" y="26.21615" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47kOhm" x="3.1622875" y="41.22" smashed="yes" rot="MR270">
+<element name="R13" library="LR1F47K" package="RESAD1540W55L620D230" value="47kOhm" x="3.1622875" y="41.22" smashed="yes" rot="MR270">
+<attribute name="DESCRIPTION" value="TE Connectivity LR1F Series Axial Metal Film Resistor 47k +/-1% 0.6W +/-50ppm/C" x="3.1622875" y="41.22" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="HEIGHT" value="mm" x="3.1622875" y="41.22" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="3.1622875" y="41.22" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LR1F47K" x="3.1622875" y="41.22" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="279-LR1F47K" x="3.1622875" y="41.22" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F47K?qs=ip69W3eHERWQ8q3y81tH5w%3D%3D" x="3.1622875" y="41.22" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="1.8922875" y="41.855" size="1.27" layer="26" rot="MR270"/>
-<attribute name="POPULARITY" value="85" x="56.5022875" y="20.9" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="56.5022875" y="20.9" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="5.7022875" y="41.855" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47kOhm" x="3.1622875" y="14.73" smashed="yes" rot="MR90">
+<element name="R15" library="LR1F47K" package="RESAD1540W55L620D230" value="47kOhm" x="3.1622875" y="14.73" smashed="yes" rot="MR90">
+<attribute name="DESCRIPTION" value="TE Connectivity LR1F Series Axial Metal Film Resistor 47k +/-1% 0.6W +/-50ppm/C" x="3.1622875" y="14.73" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="HEIGHT" value="mm" x="3.1622875" y="14.73" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="3.1622875" y="14.73" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LR1F47K" x="3.1622875" y="14.73" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="279-LR1F47K" x="3.1622875" y="14.73" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F47K?qs=ip69W3eHERWQ8q3y81tH5w%3D%3D" x="3.1622875" y="14.73" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="4.4322875" y="14.095" size="1.27" layer="26" rot="MR90"/>
-<attribute name="POPULARITY" value="85" x="-50.1777125" y="43.94" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="-50.1777125" y="43.94" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="0.6222875" y="14.095" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47kOhm" x="24.711178125" y="10.95" smashed="yes" rot="MR90">
+<element name="R17" library="LR1F47K" package="RESAD1540W55L620D230" value="47kOhm" x="24.711178125" y="10.95" smashed="yes" rot="MR90">
+<attribute name="DESCRIPTION" value="TE Connectivity LR1F Series Axial Metal Film Resistor 47k +/-1% 0.6W +/-50ppm/C" x="24.711178125" y="10.95" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="HEIGHT" value="mm" x="24.711178125" y="10.95" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="24.711178125" y="10.95" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LR1F47K" x="24.711178125" y="10.95" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="279-LR1F47K" x="24.711178125" y="10.95" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F47K?qs=ip69W3eHERWQ8q3y81tH5w%3D%3D" x="24.711178125" y="10.95" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="25.981178125" y="10.315" size="1.27" layer="26" rot="MR90"/>
-<attribute name="POPULARITY" value="85" x="-28.628821875" y="49.05" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="-28.628821875" y="49.05" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="22.171178125" y="10.315" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47kOhm" x="73.02791875" y="14.73" smashed="yes" rot="MR90">
+<element name="R2" library="LR1F47K" package="RESAD1540W55L620D230" value="47kOhm" x="73.02791875" y="14.73" smashed="yes" rot="MR90">
+<attribute name="DESCRIPTION" value="TE Connectivity LR1F Series Axial Metal Film Resistor 47k +/-1% 0.6W +/-50ppm/C" x="73.02791875" y="14.73" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="HEIGHT" value="mm" x="73.02791875" y="14.73" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="73.02791875" y="14.73" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LR1F47K" x="73.02791875" y="14.73" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="279-LR1F47K" x="73.02791875" y="14.73" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F47K?qs=ip69W3eHERWQ8q3y81tH5w%3D%3D" x="73.02791875" y="14.73" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="74.29791875" y="14.095" size="1.27" layer="26" rot="MR90"/>
-<attribute name="POPULARITY" value="85" x="26.03791875" y="68.07" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="26.03791875" y="68.07" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="70.48791875" y="14.095" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47kOhm" x="17.700859375" y="42.8227125" smashed="yes" rot="MR180">
+<element name="R27" library="LR1F47K" package="RESAD1540W55L620D230" value="47kOhm" x="17.700859375" y="42.8227125" smashed="yes" rot="MR180">
+<attribute name="DESCRIPTION" value="TE Connectivity LR1F Series Axial Metal Film Resistor 47k +/-1% 0.6W +/-50ppm/C" x="17.700859375" y="42.8227125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="HEIGHT" value="mm" x="17.700859375" y="42.8227125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="17.700859375" y="42.8227125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LR1F47K" x="17.700859375" y="42.8227125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="279-LR1F47K" x="17.700859375" y="42.8227125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F47K?qs=ip69W3eHERWQ8q3y81tH5w%3D%3D" x="17.700859375" y="42.8227125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="17.065859375" y="41.5527125" size="1.27" layer="26" rot="MR180"/>
-<attribute name="POPULARITY" value="85" x="64.690859375" y="96.1627125" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="64.690859375" y="96.1627125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="17.065859375" y="45.3627125" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1M*" x="28.108321875" y="9.05" smashed="yes" rot="MR270">
-<attribute name="NAME" x="26.838321875" y="9.685" size="1.27" layer="26" rot="MR270"/>
-<attribute name="POPULARITY" value="85" x="87.798321875" y="-7.46" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="87.798321875" y="-7.46" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="30.648321875" y="9.685" size="1.27" layer="28" rot="MR270"/>
+<element name="R3" library="LR1F1M0" package="RESAD1540W60L620D230" value="1M*" x="-15.4" y="-19.05" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="TE Connectivity Axial Metal Film Resistor 1m +/-1% 0.6W +/-50ppm/C" x="-15.4" y="-19.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-15.4" y="-19.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="-15.4" y="-19.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LR1F1M0" x="-15.4" y="-19.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="279-LR1F1M0" x="-15.4" y="-19.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F1M0?qs=ip69W3eHERVt%2FmQVAugcSg%3D%3D" x="-15.4" y="-19.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-14.765" y="-20.32" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="-14.765" y="-16.51" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47kOhm" x="54.876171875" y="10.95" smashed="yes" rot="MR90">
+<element name="R4" library="LR1F47K" package="RESAD1540W55L620D230" value="47kOhm" x="54.876171875" y="10.95" smashed="yes" rot="MR90">
+<attribute name="DESCRIPTION" value="TE Connectivity LR1F Series Axial Metal Film Resistor 47k +/-1% 0.6W +/-50ppm/C" x="54.876171875" y="10.95" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="HEIGHT" value="mm" x="54.876171875" y="10.95" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="54.876171875" y="10.95" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LR1F47K" x="54.876171875" y="10.95" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="279-LR1F47K" x="54.876171875" y="10.95" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F47K?qs=ip69W3eHERWQ8q3y81tH5w%3D%3D" x="54.876171875" y="10.95" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="56.146171875" y="10.315" size="1.27" layer="26" rot="MR90"/>
-<attribute name="POPULARITY" value="85" x="7.886171875" y="73.18" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="7.886171875" y="73.18" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="52.336171875" y="10.315" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="150*" x="15.960859375" y="23" smashed="yes" rot="MR0">
+<element name="R5" library="LR1F150R" package="RESAD1540W55L620D230" value="150*" x="15.960859375" y="23" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value="TE Connectivity LR1F Series Axial Metal Film Resistor 150 +/-1% 0.6W +/-50ppm/C" x="15.960859375" y="23" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="mm" x="15.960859375" y="23" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="15.960859375" y="23" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LR1F150R" x="15.960859375" y="23" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="15.960859375" y="23" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="15.960859375" y="23" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="16.595859375" y="24.27" size="1.27" layer="26" rot="MR0"/>
-<attribute name="POPULARITY" value="85" x="-37.379140625" y="-30.34" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="-37.379140625" y="-30.34" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="16.595859375" y="20.46" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47kOhm" x="58.489346875" y="42.8227125" smashed="yes" rot="MR0">
+<element name="R6" library="LR1F47K" package="RESAD1540W55L620D230" value="47kOhm" x="58.489346875" y="42.8227125" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value="TE Connectivity LR1F Series Axial Metal Film Resistor 47k +/-1% 0.6W +/-50ppm/C" x="58.489346875" y="42.8227125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="mm" x="58.489346875" y="42.8227125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="58.489346875" y="42.8227125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LR1F47K" x="58.489346875" y="42.8227125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="279-LR1F47K" x="58.489346875" y="42.8227125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F47K?qs=ip69W3eHERWQ8q3y81tH5w%3D%3D" x="58.489346875" y="42.8227125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="59.124346875" y="44.0927125" size="1.27" layer="26" rot="MR0"/>
-<attribute name="POPULARITY" value="85" x="-12.630653125" y="-4.1672875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="-12.630653125" y="-4.1672875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="59.124346875" y="40.2827125" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1M*" x="48.081884375" y="9.05" smashed="yes" rot="MR270">
-<attribute name="NAME" x="46.811884375" y="9.685" size="1.27" layer="26" rot="MR270"/>
-<attribute name="POPULARITY" value="85" x="107.771884375" y="-12.54" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="107.771884375" y="-12.54" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="50.621884375" y="9.685" size="1.27" layer="28" rot="MR270"/>
+<element name="R7" library="LR1F1M0" package="RESAD1540W60L620D230" value="1M*" x="-15.4" y="-31.75" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="TE Connectivity Axial Metal Film Resistor 1m +/-1% 0.6W +/-50ppm/C" x="-15.4" y="-31.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-15.4" y="-31.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="-15.4" y="-31.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LR1F1M0" x="-15.4" y="-31.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="279-LR1F1M0" x="-15.4" y="-31.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F1M0?qs=ip69W3eHERVt%2FmQVAugcSg%3D%3D" x="-15.4" y="-31.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-14.765" y="-33.02" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="-14.765" y="-29.21" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="150*" x="60.229346875" y="32.9627625" smashed="yes" rot="MR180">
+<element name="R8" library="LR1F150R" package="RESAD1540W55L620D230" value="150*" x="60.229346875" y="32.9627625" smashed="yes" rot="MR180">
+<attribute name="DESCRIPTION" value="TE Connectivity LR1F Series Axial Metal Film Resistor 150 +/-1% 0.6W +/-50ppm/C" x="60.229346875" y="32.9627625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="HEIGHT" value="mm" x="60.229346875" y="32.9627625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="60.229346875" y="32.9627625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LR1F150R" x="60.229346875" y="32.9627625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="60.229346875" y="32.9627625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="60.229346875" y="32.9627625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="59.594346875" y="31.6927625" size="1.27" layer="26" rot="MR180"/>
-<attribute name="POPULARITY" value="85" x="119.919346875" y="86.3027625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="119.919346875" y="86.3027625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="59.594346875" y="35.5027625" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="150*" x="33.650859375" y="29.1116125" smashed="yes" rot="MR270">
+<element name="R9" library="LR1F150R" package="RESAD1540W55L620D230" value="150*" x="33.650859375" y="29.1116125" smashed="yes" rot="MR270">
+<attribute name="DESCRIPTION" value="TE Connectivity LR1F Series Axial Metal Film Resistor 150 +/-1% 0.6W +/-50ppm/C" x="33.650859375" y="29.1116125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="HEIGHT" value="mm" x="33.650859375" y="29.1116125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="33.650859375" y="29.1116125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LR1F150R" x="33.650859375" y="29.1116125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="33.650859375" y="29.1116125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="33.650859375" y="29.1116125" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="32.380859375" y="29.7466125" size="1.27" layer="26" rot="MR270"/>
-<attribute name="POPULARITY" value="85" x="86.990859375" y="-36.9283875" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="86.990859375" y="-36.9283875" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="36.190859375" y="29.7466125" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="SX1" library="belton-engineering" library_urn="urn:adsk.eagle:library:110" package="VT9-PT" package3d_urn="urn:adsk.eagle:package:4683/1" value="VT9-PT" x="18.650859375" y="27.5371375" smashed="yes">
@@ -2148,10 +2368,14 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="11.088953125" y="53.92" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="6.263953125" y="52.27" size="1.016" layer="28" rot="MR90"/>
 </element>
-<element name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k" x="9.956571875" y="47.57" smashed="yes" rot="MR270">
+<element name="R11" library="LR1F10K" package="RESAD1540W55L620D230" value="10k" x="9.956571875" y="47.57" smashed="yes" rot="MR270">
+<attribute name="DESCRIPTION" value="Metal film resistor, 10K 0.6W TE Connectivity LR1F Series Axial Metal Film Resistor 10k" x="9.956571875" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="HEIGHT" value="mm" x="9.956571875" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="9.956571875" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LR1F10K" x="9.956571875" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="279-LR1F10K" x="9.956571875" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F10K?qs=ip69W3eHERWDLLWs2Qv0Lg%3D%3D" x="9.956571875" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="9.321571875" y="48.205" size="1.27" layer="26" rot="MR270"/>
-<attribute name="POPULARITY" value="77" x="9.956571875" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="9.956571875" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="11.861571875" y="48.205" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="182" x="3.1622875" y="47.57" smashed="yes" rot="MR90">
@@ -2178,22 +2402,34 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="13.353715625" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="9.448715625" y="46.935" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k" x="23.54514375" y="47.57" smashed="yes" rot="MR90">
+<element name="R19" library="LR1F10K" package="RESAD1540W55L620D230" value="10k" x="23.54514375" y="47.57" smashed="yes" rot="MR90">
+<attribute name="DESCRIPTION" value="Metal film resistor, 10K 0.6W TE Connectivity LR1F Series Axial Metal Film Resistor 10k" x="23.54514375" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="HEIGHT" value="mm" x="23.54514375" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="23.54514375" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LR1F10K" x="23.54514375" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="279-LR1F10K" x="23.54514375" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F10K?qs=ip69W3eHERWDLLWs2Qv0Lg%3D%3D" x="23.54514375" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="24.18014375" y="46.935" size="1.27" layer="26" rot="MR90"/>
-<attribute name="POPULARITY" value="77" x="23.54514375" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="23.54514375" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="21.64014375" y="46.935" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k" x="6.55943125" y="47.57" smashed="yes" rot="MR270">
+<element name="R20" library="LR1F10K" package="RESAD1540W55L620D230" value="10k" x="6.55943125" y="47.57" smashed="yes" rot="MR270">
+<attribute name="DESCRIPTION" value="Metal film resistor, 10K 0.6W TE Connectivity LR1F Series Axial Metal Film Resistor 10k" x="6.55943125" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="HEIGHT" value="mm" x="6.55943125" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="6.55943125" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LR1F10K" x="6.55943125" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="279-LR1F10K" x="6.55943125" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F10K?qs=ip69W3eHERWDLLWs2Qv0Lg%3D%3D" x="6.55943125" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="5.92443125" y="48.205" size="1.27" layer="26" rot="MR270"/>
-<attribute name="POPULARITY" value="77" x="6.55943125" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="6.55943125" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="8.46443125" y="48.205" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k" x="20.148003125" y="47.57" smashed="yes" rot="MR90">
+<element name="R21" library="LR1F10K" package="RESAD1540W55L620D230" value="10k" x="20.148003125" y="47.57" smashed="yes" rot="MR90">
+<attribute name="DESCRIPTION" value="Metal film resistor, 10K 0.6W TE Connectivity LR1F Series Axial Metal Film Resistor 10k" x="20.148003125" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="HEIGHT" value="mm" x="20.148003125" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="20.148003125" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LR1F10K" x="20.148003125" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="279-LR1F10K" x="20.148003125" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F10K?qs=ip69W3eHERWDLLWs2Qv0Lg%3D%3D" x="20.148003125" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="20.783003125" y="46.935" size="1.27" layer="26" rot="MR90"/>
-<attribute name="POPULARITY" value="77" x="20.148003125" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="20.148003125" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="18.243003125" y="46.935" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="J2" library="Dual Mono Amp Library" package="1X06" package3d_urn="urn:adsk.eagle:package:38009/2" value="" x="61.32791875" y="60.81" smashed="yes">
@@ -2225,10 +2461,14 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="68.604584375" y="28.52" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="54.349584375" y="52.27" size="1.016" layer="28" rot="MR90"/>
 </element>
-<element name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k" x="56.042203125" y="47.57" smashed="yes" rot="MR270">
+<element name="R22" library="LR1F10K" package="RESAD1540W55L620D230" value="10k" x="56.042203125" y="47.57" smashed="yes" rot="MR270">
+<attribute name="DESCRIPTION" value="Metal film resistor, 10K 0.6W TE Connectivity LR1F Series Axial Metal Film Resistor 10k" x="56.042203125" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="HEIGHT" value="mm" x="56.042203125" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="56.042203125" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LR1F10K" x="56.042203125" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="279-LR1F10K" x="56.042203125" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F10K?qs=ip69W3eHERWDLLWs2Qv0Lg%3D%3D" x="56.042203125" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="55.407203125" y="48.205" size="1.27" layer="26" rot="MR270"/>
-<attribute name="POPULARITY" value="77" x="45.882203125" y="78.05" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="45.882203125" y="78.05" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="64.947203125" y="48.205" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="182" x="49.24791875" y="47.57" smashed="yes" rot="MR90">
@@ -2255,23 +2495,55 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="49.279346875" y="22.17" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="57.534346875" y="46.935" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k" x="69.630775" y="47.57" smashed="yes" rot="MR90">
+<element name="R28" library="LR1F10K" package="RESAD1540W55L620D230" value="10k" x="69.630775" y="47.57" smashed="yes" rot="MR90">
+<attribute name="DESCRIPTION" value="Metal film resistor, 10K 0.6W TE Connectivity LR1F Series Axial Metal Film Resistor 10k" x="69.630775" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="HEIGHT" value="mm" x="69.630775" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="69.630775" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LR1F10K" x="69.630775" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="279-LR1F10K" x="69.630775" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F10K?qs=ip69W3eHERWDLLWs2Qv0Lg%3D%3D" x="69.630775" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="70.265775" y="46.935" size="1.27" layer="26" rot="MR90"/>
-<attribute name="POPULARITY" value="77" x="54.390775" y="12.01" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="54.390775" y="12.01" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="67.725775" y="46.935" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k" x="52.6450625" y="47.57" smashed="yes" rot="MR270">
+<element name="R29" library="LR1F10K" package="RESAD1540W55L620D230" value="10k" x="52.6450625" y="47.57" smashed="yes" rot="MR270">
+<attribute name="DESCRIPTION" value="Metal film resistor, 10K 0.6W TE Connectivity LR1F Series Axial Metal Film Resistor 10k" x="52.6450625" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="HEIGHT" value="mm" x="52.6450625" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="52.6450625" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LR1F10K" x="52.6450625" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="279-LR1F10K" x="52.6450625" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F10K?qs=ip69W3eHERWDLLWs2Qv0Lg%3D%3D" x="52.6450625" y="47.57" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="52.0100625" y="48.205" size="1.27" layer="26" rot="MR270"/>
-<attribute name="POPULARITY" value="77" x="72.9650625" y="88.21" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="72.9650625" y="88.21" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="54.5500625" y="48.205" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k" x="66.233634375" y="47.57" smashed="yes" rot="MR90">
+<element name="R30" library="LR1F10K" package="RESAD1540W55L620D230" value="10k" x="66.233634375" y="47.57" smashed="yes" rot="MR90">
+<attribute name="DESCRIPTION" value="Metal film resistor, 10K 0.6W TE Connectivity LR1F Series Axial Metal Film Resistor 10k" x="66.233634375" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="HEIGHT" value="mm" x="66.233634375" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="66.233634375" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LR1F10K" x="66.233634375" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="279-LR1F10K" x="66.233634375" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F10K?qs=ip69W3eHERWDLLWs2Qv0Lg%3D%3D" x="66.233634375" y="47.57" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="66.868634375" y="46.935" size="1.27" layer="26" rot="MR90"/>
-<attribute name="POPULARITY" value="77" x="45.913634375" y="22.17" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="45.913634375" y="22.17" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="64.328634375" y="46.935" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="C5" library="MKP2C041001N00MN00" package="MKP2C041001N00MN00" value="MKP2C041001N00MN00" x="-8" y="-1" smashed="yes">
+<attribute name="DESCRIPTION" value="Film Capacitors MKP 2 1.0 uF 63 VDC 11x16x7.2 PCM 5" x="-8" y="-1" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="16mm" x="-8" y="-1" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="WIMA" x="-8" y="-1" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MKP2C041001N00MN00" x="-8" y="-1" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="505-MKP2C0411NMN" x="-8" y="-1" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/WIMA/MKP2C041001N00MN00?qs=RB4whv9F6rzjnMhXY4f0hA%3D%3D" x="-8" y="-1" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-5.5" y="-1" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-5.5" y="-1" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C6" library="MKP2C041001N00MN00" package="MKP2C041001N00MN00" value="MKP2C041001N00MN00" x="-24" y="-1" smashed="yes">
+<attribute name="DESCRIPTION" value="Film Capacitors MKP 2 1.0 uF 63 VDC 11x16x7.2 PCM 5" x="-24" y="-1" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="16mm" x="-24" y="-1" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="WIMA" x="-24" y="-1" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MKP2C041001N00MN00" x="-24" y="-1" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="505-MKP2C0411NMN" x="-24" y="-1" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/WIMA/MKP2C041001N00MN00?qs=RB4whv9F6rzjnMhXY4f0hA%3D%3D" x="-24" y="-1" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-21.5" y="-1" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-21.5" y="-1" size="1.27" layer="27" align="center"/>
 </element>
 </elements>
 <signals>
@@ -2317,6 +2589,28 @@ design rules under a new name.</description>
 <vertex x="76.19020625" y="64"/>
 <vertex x="76.19020625" y="0"/>
 </polygon>
+<wire x1="63.86791875" y1="60.81" x2="71.48791875" y2="60.81" width="0" layer="19" extent="1-1"/>
+<wire x1="69.630775" y1="47.57" x2="71.48791875" y2="60.81" width="0" layer="19" extent="1-1"/>
+<wire x1="66.233634375" y1="47.57" x2="69.630775" y2="47.57" width="0" layer="19" extent="1-1"/>
+<wire x1="60.229346875" y1="32.9627625" x2="66.233634375" y2="47.57" width="0" layer="19" extent="1-1"/>
+<wire x1="56.042203125" y1="32.17" x2="60.229346875" y2="32.9627625" width="0" layer="19" extent="1-1"/>
+<wire x1="52.6450625" y1="32.17" x2="56.042203125" y2="32.17" width="0" layer="19" extent="1-1"/>
+<wire x1="55.229346875" y1="26.2927625" x2="56.042203125" y2="32.17" width="0" layer="19" extent="1-1"/>
+<wire x1="39.203446875" y1="36.920125" x2="52.6450625" y2="32.17" width="0" layer="19" extent="1-1"/>
+<wire x1="41.321253125" y1="50.62" x2="39.203446875" y2="36.920125" width="0" layer="19" extent="16-16"/>
+<wire x1="34.868953125" y1="50.62" x2="41.321253125" y2="50.62" width="0" layer="19" extent="16-16"/>
+<wire x1="23.54514375" y1="47.57" x2="34.868953125" y2="50.62" width="0" layer="19" extent="16-16"/>
+<wire x1="20.148003125" y1="47.57" x2="23.54514375" y2="47.57" width="0" layer="19" extent="1-1"/>
+<wire x1="12.3222875" y1="60.81" x2="20.148003125" y2="47.57" width="0" layer="19" extent="1-1"/>
+<wire x1="4.7022875" y1="60.81" x2="12.3222875" y2="60.81" width="0" layer="19" extent="1-1"/>
+<wire x1="20.960859375" y1="29.67" x2="20.148003125" y2="47.57" width="0" layer="19" extent="1-1"/>
+<wire x1="15.960859375" y1="23" x2="20.960859375" y2="29.67" width="0" layer="19" extent="1-1"/>
+<wire x1="9.956571875" y1="32.17" x2="15.960859375" y2="23" width="0" layer="19" extent="1-1"/>
+<wire x1="6.55943125" y1="32.17" x2="9.956571875" y2="32.17" width="0" layer="19" extent="1-1"/>
+<wire x1="36.986759375" y1="19.0426375" x2="39.203446875" y2="36.920125" width="0" layer="19" extent="1-1"/>
+<wire x1="38.095103125" y1="5" x2="36.986759375" y2="19.0426375" width="0" layer="19" extent="1-1"/>
+<wire x1="-30.8" y1="-19.05" x2="15.960859375" y2="23" width="0" layer="19" extent="1-1"/>
+<wire x1="-30.8" y1="-31.75" x2="-30.8" y2="-19.05" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+240VDC">
 <contactref element="J1" pad="5"/>
@@ -2347,6 +2641,29 @@ design rules under a new name.</description>
 <wire x1="30.6" y1="42.9" x2="30.6" y2="44.75" width="2.54" layer="16" locked="yes"/>
 <wire x1="30.6" y1="46.6" x2="30.6" y2="44.75" width="2.54" layer="1" locked="yes"/>
 <wire x1="30.6" y1="44.75" x2="30.6" y2="42.9" width="2.54" layer="1" locked="yes"/>
+<contactref element="SX2" pad="8"/>
+<contactref element="R10" pad="2"/>
+<contactref element="C6" pad="2"/>
+<wire x1="40.039346875" y1="22.82808125" x2="40.039346875" y2="23.82271875" width="0.3048" layer="16"/>
+<wire x1="40.039346875" y1="23.82271875" x2="41.5038125" y2="27.358253125" width="0.3048" layer="16" curve="-45"/>
+<wire x1="41.5038125" y1="27.358253125" x2="41.946709375" y2="27.80115" width="0.3048" layer="16"/>
+<wire x1="41.946709375" y1="27.80115" x2="42.539346875" y2="42.25115" width="0.3048" layer="16"/>
+<wire x1="42.539346875" y1="42.25115" x2="46.367646875" y2="27.80115" width="0.3048" layer="16"/>
+<wire x1="46.367646875" y1="27.80115" x2="51.367646875" y2="32.80115" width="0.3048" layer="16" curve="90"/>
+<wire x1="51.367646875" y1="32.80115" x2="51.367646875" y2="36.920125" width="0.3048" layer="16"/>
+<contactref element="SX1" pad="8"/>
+<contactref element="R9" pad="2"/>
+<contactref element="C5" pad="2"/>
+<wire x1="34.243496875" y1="28.1616125" x2="33.650859375" y2="13.7116125" width="0.3048" layer="16"/>
+<wire x1="36.150859375" y1="30.068975" x2="34.243496875" y2="28.1616125" width="0.3048" layer="16"/>
+<wire x1="36.150859375" y1="34.8317375" x2="36.150859375" y2="30.068975" width="0.3048" layer="16"/>
+<wire x1="33.650859375" y1="13.7116125" x2="29.822559375" y2="28.1616125" width="0.3048" layer="16"/>
+<wire x1="29.822559375" y1="28.1616125" x2="24.822559375" y2="23.1616125" width="0.3048" layer="16" curve="90"/>
+<wire x1="24.822559375" y1="23.1616125" x2="24.822559375" y2="19.0426375" width="0.3048" layer="16"/>
+<wire x1="36.150859375" y1="34.8317375" x2="42.539346875" y2="42.25115" width="0" layer="19" extent="16-16"/>
+<wire x1="30.6" y1="42.9" x2="36.150859375" y2="34.8317375" width="0" layer="19" extent="16-16"/>
+<wire x1="-3" y1="-1" x2="12.479259375" y2="19.0425375" width="0" layer="19" extent="1-1"/>
+<wire x1="-19" y1="-1" x2="-3" y2="-1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="L_OUT">
 <contactref element="U$2" pad="2"/>
@@ -2354,10 +2671,10 @@ design rules under a new name.</description>
 <contactref element="R4" pad="1"/>
 <contactref element="C9" pad="1"/>
 <contactref element="R7" pad="1"/>
-<wire x1="48.081884375" y1="10" x2="43.095103125" y2="10" width="0.3048" layer="16"/>
-<wire x1="48.081884375" y1="10" x2="51.479028125" y2="10" width="0.3048" layer="16"/>
-<wire x1="51.479028125" y1="10" x2="54.876171875" y2="10" width="0.3048" layer="16"/>
-<wire x1="54.876171875" y1="10" x2="58.273315625" y2="10" width="0.3048" layer="16"/>
+<wire x1="-15.4" y1="-31.75" x2="43.095103125" y2="10" width="0.3048" layer="1"/>
+<wire x1="-15.4" y1="-31.75" x2="51.479028125" y2="10.85" width="0.3048" layer="1"/>
+<wire x1="51.479028125" y1="10.85" x2="54.876171875" y2="10.95" width="0.3048" layer="16"/>
+<wire x1="54.876171875" y1="10.95" x2="58.273315625" y2="10.85" width="0.3048" layer="16"/>
 </signal>
 <signal name="66.3VAC/1">
 <contactref element="SX1" pad="4"/>
@@ -2401,58 +2718,46 @@ design rules under a new name.</description>
 <contactref element="R17" pad="1"/>
 <contactref element="C23" pad="1"/>
 <contactref element="R3" pad="1"/>
-<wire x1="17.916890625" y1="10" x2="21.314034375" y2="10" width="0.3048" layer="16"/>
-<wire x1="28.108321875" y1="10" x2="33.095103125" y2="10" width="0.3048" layer="16"/>
-<wire x1="21.314034375" y1="10" x2="24.711178125" y2="10" width="0.3048" layer="16"/>
-<wire x1="24.711178125" y1="10" x2="28.108321875" y2="10" width="0.3048" layer="16"/>
+<wire x1="17.916890625" y1="10.85" x2="21.314034375" y2="10.85" width="0.3048" layer="16"/>
+<wire x1="-15.4" y1="-19.05" x2="33.095103125" y2="10" width="0.3048" layer="1"/>
+<wire x1="21.314034375" y1="10.85" x2="24.711178125" y2="10.95" width="0.3048" layer="16"/>
+<wire x1="24.711178125" y1="10.95" x2="-15.4" y2="-19.05" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$16">
 <contactref element="R13" pad="2"/>
 <contactref element="SX1" pad="7"/>
 <contactref element="R15" pad="2"/>
-<wire x1="3.1622875" y1="40.27" x2="3.1622875" y2="19" width="0.3048" layer="16"/>
+<wire x1="3.1622875" y1="25.82" x2="3.1622875" y2="19" width="0.3048" layer="16"/>
 <wire x1="3.1622875" y1="19" x2="3.1622875" y2="17.0373375" width="0.3048" layer="16"/>
-<wire x1="3.1622875" y1="17.0373375" x2="3.1622875" y2="15.68" width="0.3048" layer="16"/>
+<wire x1="3.1622875" y1="17.0373375" x2="3.1622875" y2="30.13" width="0.3048" layer="16"/>
 <wire x1="18.650859375" y1="17.0373375" x2="3.1622875" y2="17.0373375" width="0.3048" layer="16"/>
 </signal>
-<signal name="N$17">
-<contactref element="C17" pad="+"/>
-<contactref element="SX1" pad="8"/>
-<contactref element="R9" pad="2"/>
-<wire x1="34.243496875" y1="28.1616125" x2="33.650859375" y2="28.1616125" width="0.3048" layer="16"/>
-<wire x1="36.150859375" y1="30.068975" x2="34.243496875" y2="28.1616125" width="0.3048" layer="16"/>
-<wire x1="34.950859375" y1="36.0317375" x2="36.150859375" y2="34.8317375" width="0.3048" layer="16"/>
-<wire x1="36.150859375" y1="34.8317375" x2="36.150859375" y2="30.068975" width="0.3048" layer="16"/>
-<wire x1="33.650859375" y1="28.1616125" x2="29.822559375" y2="28.1616125" width="0.3048" layer="16"/>
-<wire x1="29.822559375" y1="28.1616125" x2="24.822559375" y2="23.1616125" width="0.3048" layer="16" curve="90"/>
-<wire x1="24.822559375" y1="23.1616125" x2="24.822559375" y2="19.0426375" width="0.3048" layer="16"/>
-</signal>
 <signal name="N$18">
-<contactref element="C17" pad="-"/>
 <contactref element="R15" pad="1"/>
 <contactref element="C21" pad="2"/>
 <contactref element="SX1" pad="1"/>
 <contactref element="R9" pad="1"/>
-<wire x1="32.350859375" y1="36.0317375" x2="32.350859375" y2="31.3616125" width="0.3048" layer="16"/>
-<wire x1="32.350859375" y1="31.3616125" x2="33.650859375" y2="30.0616125" width="0.3048" layer="16"/>
-<wire x1="24.822559375" y1="36.0317375" x2="32.350859375" y2="36.0317375" width="0.3048" layer="16"/>
-<wire x1="17.916890625" y1="11.7" x2="7.31335625" y2="11.7" width="0.3048" layer="16"/>
+<wire x1="32.350859375" y1="31.3616125" x2="33.650859375" y2="29.1116125" width="0.3048" layer="16"/>
+<wire x1="17.916890625" y1="38.35" x2="7.31335625" y2="11.7" width="0.3048" layer="16"/>
 <wire x1="7.31335625" y1="11.7" x2="3.777821875" y2="13.164465625" width="0.3048" layer="16" curve="-45"/>
-<wire x1="3.777821875" y1="13.164465625" x2="3.1622875" y2="13.78" width="0.3048" layer="16"/>
-<wire x1="17.916890625" y1="11.7" x2="20.135534375" y2="13.91864375" width="0.3048" layer="16"/>
+<wire x1="3.777821875" y1="13.164465625" x2="3.1622875" y2="14.73" width="0.3048" layer="16"/>
+<wire x1="17.916890625" y1="38.35" x2="20.135534375" y2="13.91864375" width="0.3048" layer="16"/>
 <wire x1="20.135534375" y1="13.91864375" x2="21.6" y2="17.454178125" width="0.3048" layer="16" curve="45"/>
 <wire x1="21.6" y1="17.454178125" x2="21.6" y2="30.738109375" width="0.3048" layer="16"/>
 <wire x1="21.6" y1="30.738109375" x2="23.064465625" y2="34.27364375" width="0.3048" layer="16" curve="-45"/>
 <wire x1="23.064465625" y1="34.27364375" x2="24.822559375" y2="36.0317375" width="0.3048" layer="16"/>
+<contactref element="C5" pad="1"/>
+<wire x1="24.822559375" y1="36.0317375" x2="32.350859375" y2="31.3616125" width="0" layer="19" extent="16-16"/>
+<wire x1="-8" y1="-1" x2="3.1622875" y2="14.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$23">
 <contactref element="R27" pad="2"/>
 <contactref element="SX1" pad="2"/>
 <contactref element="C23" pad="2"/>
 <contactref element="R17" pad="2"/>
-<wire x1="18.650859375" y1="42.8227125" x2="18.650859375" y2="38.0371375" width="0.3048" layer="16"/>
-<wire x1="21.314034375" y1="11.7" x2="21.514034375" y2="11.9" width="0.3048" layer="16"/>
-<wire x1="21.514034375" y1="11.9" x2="24.711178125" y2="11.9" width="0.3048" layer="16"/>
+<wire x1="33.100859375" y1="42.8227125" x2="18.650859375" y2="38.0371375" width="0.3048" layer="16"/>
+<wire x1="21.314034375" y1="33.35" x2="21.514034375" y2="11.9" width="0.3048" layer="16"/>
+<wire x1="21.514034375" y1="11.9" x2="24.711178125" y2="26.35" width="0.3048" layer="16"/>
 <wire x1="18.650859375" y1="38.0371375" x2="19.650859375" y2="39.0371375" width="0.3048" layer="16"/>
 <wire x1="19.650859375" y1="39.0371375" x2="35" y2="39.0371375" width="0.3048" layer="16"/>
 <wire x1="35" y1="39.0371375" x2="40" y2="34.0371375" width="0.3048" layer="16" curve="-90"/>
@@ -2464,29 +2769,29 @@ design rules under a new name.</description>
 <wire x1="35" y1="20" x2="30" y2="15" width="0.3048" layer="16" curve="-90"/>
 <wire x1="30" y1="15" x2="29.882246875" y2="15" width="0.3048" layer="16"/>
 <wire x1="29.882246875" y1="15" x2="26.3467125" y2="13.535534375" width="0.3048" layer="16" curve="45"/>
-<wire x1="26.3467125" y1="13.535534375" x2="24.711178125" y2="11.9" width="0.3048" layer="16"/>
+<wire x1="26.3467125" y1="13.535534375" x2="24.711178125" y2="26.35" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$26">
 <contactref element="C16" pad="1"/>
 <contactref element="SX1" pad="3"/>
 <contactref element="R5" pad="2"/>
 <wire x1="12.479159375" y1="36.0317375" x2="13.860859375" y2="32.69601875" width="0.3048" layer="16" curve="-45"/>
-<wire x1="13.860859375" y1="32.69601875" x2="13.860859375" y2="29.67" width="0.3048" layer="16"/>
-<wire x1="13.860859375" y1="29.67" x2="13.860859375" y2="25.776346875" width="0.3048" layer="16"/>
-<wire x1="13.860859375" y1="25.776346875" x2="15.010859375" y2="23" width="0.3048" layer="16" curve="45"/>
+<wire x1="13.860859375" y1="32.69601875" x2="15.960859375" y2="29.67" width="0.3048" layer="16"/>
+<wire x1="15.960859375" y1="29.67" x2="13.860859375" y2="25.776346875" width="0.3048" layer="16"/>
+<wire x1="13.860859375" y1="25.776346875" x2="0.560859375" y2="23" width="0.3048" layer="16" curve="45"/>
 </signal>
 <signal name="R-">
 <contactref element="R14" pad="1"/>
 <contactref element="R16" pad="1"/>
 <contactref element="R27" pad="1"/>
 <wire x1="13.353715625" y1="46.72" x2="16.750859375" y2="46.72" width="0.3048" layer="16"/>
-<wire x1="16.750859375" y1="46.72" x2="16.750859375" y2="42.8227125" width="0.3048" layer="16"/>
+<wire x1="16.750859375" y1="46.72" x2="17.700859375" y2="42.8227125" width="0.3048" layer="16"/>
 </signal>
 <signal name="R+">
 <contactref element="R12" pad="1"/>
 <contactref element="R18" pad="1"/>
 <contactref element="R13" pad="1"/>
-<wire x1="3.1622875" y1="46.72" x2="3.1622875" y2="42.17" width="0.3048" layer="16"/>
+<wire x1="3.1622875" y1="46.72" x2="3.1622875" y2="41.22" width="0.3048" layer="16"/>
 <wire x1="15.0522875" y1="45" x2="6.95335625" y2="45" width="0.3048" layer="16"/>
 <wire x1="6.95335625" y1="45" x2="3.417821875" y2="46.464465625" width="0.3048" layer="16" curve="-45"/>
 <wire x1="3.417821875" y1="46.464465625" x2="3.1622875" y2="46.72" width="0.3048" layer="16"/>
@@ -2500,41 +2805,24 @@ design rules under a new name.</description>
 <signal name="N$2">
 <contactref element="C2" pad="1"/>
 <contactref element="SX1" pad="9"/>
-<wire x1="28.636759375" y1="24.2926375" x2="28.636759375" y2="19.0426375" width="0.3048" layer="16"/>
+<wire x1="28.636759375" y1="24.2926375" x2="29.486759375" y2="19.0426375" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$3">
 <contactref element="R1" pad="2"/>
 <contactref element="SX2" pad="7"/>
 <contactref element="R2" pad="2"/>
-<wire x1="73.02791875" y1="40.27" x2="73.02791875" y2="38.925425" width="0.3048" layer="16"/>
-<wire x1="73.02791875" y1="38.925425" x2="73.02791875" y2="15.68" width="0.3048" layer="16"/>
+<wire x1="73.02791875" y1="25.82" x2="73.02791875" y2="38.925425" width="0.3048" layer="16"/>
+<wire x1="73.02791875" y1="38.925425" x2="73.02791875" y2="30.13" width="0.3048" layer="16"/>
 <wire x1="57.539346875" y1="38.925425" x2="73.02791875" y2="38.925425" width="0.3048" layer="16"/>
 </signal>
-<signal name="N$4">
-<contactref element="C3" pad="+"/>
-<contactref element="SX2" pad="8"/>
-<contactref element="R10" pad="2"/>
-<wire x1="40.039346875" y1="22.82808125" x2="40.039346875" y2="23.82271875" width="0.3048" layer="16"/>
-<wire x1="40.039346875" y1="23.82271875" x2="41.5038125" y2="27.358253125" width="0.3048" layer="16" curve="-45"/>
-<wire x1="41.5038125" y1="27.358253125" x2="41.946709375" y2="27.80115" width="0.3048" layer="16"/>
-<wire x1="41.946709375" y1="27.80115" x2="42.539346875" y2="27.80115" width="0.3048" layer="16"/>
-<wire x1="41.239346875" y1="19.931025" x2="40.039346875" y2="22.82808125" width="0.3048" layer="16" curve="-45"/>
-<wire x1="42.539346875" y1="27.80115" x2="46.367646875" y2="27.80115" width="0.3048" layer="16"/>
-<wire x1="46.367646875" y1="27.80115" x2="51.367646875" y2="32.80115" width="0.3048" layer="16" curve="90"/>
-<wire x1="51.367646875" y1="32.80115" x2="51.367646875" y2="36.920125" width="0.3048" layer="16"/>
-</signal>
 <signal name="N$5">
-<contactref element="C3" pad="-"/>
 <contactref element="R2" pad="1"/>
 <contactref element="C7" pad="2"/>
 <contactref element="SX2" pad="1"/>
 <contactref element="R10" pad="1"/>
-<wire x1="43.839346875" y1="19.931025" x2="43.839346875" y2="22.762671875" width="0.3048" layer="16"/>
-<wire x1="43.839346875" y1="22.762671875" x2="42.539346875" y2="25.90115" width="0.3048" layer="16" curve="45"/>
-<wire x1="51.367646875" y1="19.931025" x2="43.839346875" y2="19.931025" width="0.3048" layer="16"/>
+<wire x1="43.839346875" y1="22.762671875" x2="42.539346875" y2="26.85115" width="0.3048" layer="16" curve="45"/>
 <wire x1="51.367646875" y1="19.931025" x2="51.479028125" y2="19.81964375" width="0.3048" layer="16"/>
-<wire x1="51.479028125" y1="19.81964375" x2="51.479028125" y2="11.7" width="0.3048" layer="16"/>
-<wire x1="43.839346875" y1="19.931025" x2="43.839346875" y2="17.910415625" width="0.3048" layer="16"/>
+<wire x1="51.479028125" y1="19.81964375" x2="51.479028125" y2="38.35" width="0.3048" layer="16"/>
 <wire x1="43.839346875" y1="17.910415625" x2="42.37488125" y2="14.37488125" width="0.3048" layer="16" curve="-45"/>
 <wire x1="42.37488125" y1="14.37488125" x2="42.264465625" y2="14.264465625" width="0.3048" layer="16"/>
 <wire x1="42.264465625" y1="14.264465625" x2="40.8" y2="10.72893125" width="0.3048" layer="16" curve="45"/>
@@ -2545,36 +2833,40 @@ design rules under a new name.</description>
 <wire x1="45.421321875" y1="6.578678125" x2="47.542640625" y2="5.7" width="0.3048" layer="16" curve="44.99994"/>
 <wire x1="47.542640625" y1="5.7" x2="62.87685" y2="5.7" width="0.3048" layer="16"/>
 <wire x1="62.87685" y1="5.7" x2="66.412384375" y2="7.164465625" width="0.3048" layer="16" curve="45"/>
-<wire x1="66.412384375" y1="7.164465625" x2="73.02791875" y2="13.78" width="0.3048" layer="16"/>
+<wire x1="66.412384375" y1="7.164465625" x2="73.02791875" y2="14.73" width="0.3048" layer="16"/>
+<contactref element="C6" pad="1"/>
+<wire x1="43.839346875" y1="17.910415625" x2="51.367646875" y2="19.931025" width="0" layer="19" extent="16-16"/>
+<wire x1="43.839346875" y1="22.762671875" x2="43.839346875" y2="17.910415625" width="0" layer="19" extent="16-16"/>
+<wire x1="-24" y1="-1" x2="43.839346875" y2="17.910415625" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$7">
 <contactref element="R6" pad="2"/>
 <contactref element="SX2" pad="2"/>
 <contactref element="C9" pad="2"/>
 <contactref element="R4" pad="2"/>
-<wire x1="57.539346875" y1="42.8227125" x2="55.5038125" y2="40.787178125" width="0.3048" layer="16"/>
+<wire x1="43.089346875" y1="42.8227125" x2="55.5038125" y2="40.787178125" width="0.3048" layer="16"/>
 <wire x1="55.5038125" y1="40.787178125" x2="54.039346875" y2="37.25164375" width="0.3048" layer="16" curve="45"/>
 <wire x1="54.039346875" y1="37.25164375" x2="54.039346875" y2="23.49669375" width="0.3048" layer="16"/>
 <wire x1="54.039346875" y1="23.49669375" x2="55.5038125" y2="19.961159375" width="0.3048" layer="16" curve="45"/>
 <wire x1="55.5038125" y1="19.961159375" x2="57.539346875" y2="17.925625" width="0.3048" layer="16"/>
-<wire x1="54.876171875" y1="11.9" x2="58.073315625" y2="11.9" width="0.3048" layer="16"/>
-<wire x1="58.073315625" y1="11.9" x2="58.273315625" y2="11.7" width="0.3048" layer="16"/>
-<wire x1="58.273315625" y1="11.7" x2="58.273315625" y2="17.19165625" width="0.3048" layer="16"/>
+<wire x1="54.876171875" y1="26.35" x2="58.073315625" y2="11.9" width="0.3048" layer="16"/>
+<wire x1="58.073315625" y1="11.9" x2="58.273315625" y2="33.35" width="0.3048" layer="16"/>
+<wire x1="58.273315625" y1="33.35" x2="58.273315625" y2="17.19165625" width="0.3048" layer="16"/>
 <wire x1="58.273315625" y1="17.19165625" x2="57.539346875" y2="17.925625" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$8">
 <contactref element="C1" pad="1"/>
 <contactref element="SX2" pad="3"/>
 <contactref element="R8" pad="2"/>
-<wire x1="61.179346875" y1="32.9627625" x2="62.329346875" y2="30.186415625" width="0.3048" layer="16" curve="-45"/>
-<wire x1="62.329346875" y1="30.186415625" x2="62.329346875" y2="26.2927625" width="0.3048" layer="16"/>
+<wire x1="75.629346875" y1="32.9627625" x2="62.329346875" y2="30.186415625" width="0.3048" layer="16" curve="-45"/>
+<wire x1="62.329346875" y1="30.186415625" x2="60.229346875" y2="26.2927625" width="0.3048" layer="16"/>
 <wire x1="63.711046875" y1="19.931025" x2="62.329346875" y2="23.26674375" width="0.3048" layer="16" curve="-45"/>
-<wire x1="62.329346875" y1="23.26674375" x2="62.329346875" y2="26.2927625" width="0.3048" layer="16"/>
+<wire x1="62.329346875" y1="23.26674375" x2="60.229346875" y2="26.2927625" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$9">
 <contactref element="C10" pad="1"/>
 <contactref element="SX2" pad="9"/>
-<wire x1="47.553446875" y1="31.670125" x2="47.553446875" y2="36.920125" width="0.3048" layer="16"/>
+<wire x1="47.553446875" y1="31.670125" x2="46.703446875" y2="36.920125" width="0.3048" layer="16"/>
 </signal>
 <signal name="L+">
 <contactref element="R24" pad="1"/>
@@ -2587,7 +2879,7 @@ design rules under a new name.</description>
 <via x="73.02791875" y="45" extent="1-16" drill="0.35"/>
 <via x="54.34363125" y="50.5" extent="1-16" drill="0.35"/>
 <wire x1="73.02791875" y1="46.72" x2="73.02791875" y2="45" width="0.3048" layer="16"/>
-<wire x1="73.02791875" y1="45" x2="73.02791875" y2="42.17" width="0.3048" layer="16"/>
+<wire x1="73.02791875" y1="45" x2="73.02791875" y2="41.22" width="0.3048" layer="16"/>
 <wire x1="73.02791875" y1="45" x2="68.992384375" y2="49.035534375" width="0.3048" layer="1"/>
 <wire x1="68.992384375" y1="49.035534375" x2="65.45685" y2="50.5" width="0.3048" layer="1" curve="45"/>
 <wire x1="65.45685" y1="50.5" x2="54.34363125" y2="50.5" width="0.3048" layer="1"/>
@@ -2597,7 +2889,7 @@ design rules under a new name.</description>
 <contactref element="R26" pad="1"/>
 <contactref element="R6" pad="1"/>
 <wire x1="59.439346875" y1="46.72" x2="62.836490625" y2="46.72" width="0.3048" layer="16"/>
-<wire x1="59.439346875" y1="42.8227125" x2="59.439346875" y2="46.72" width="0.3048" layer="16"/>
+<wire x1="58.489346875" y1="42.8227125" x2="59.439346875" y2="46.72" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$10">
 <contactref element="J13" pad="6"/>
@@ -2611,7 +2903,7 @@ design rules under a new name.</description>
 <contactref element="R12" pad="2"/>
 <contactref element="R19" pad="2"/>
 <wire x1="26.9422875" y1="52.62" x2="26.9422875" y2="48.42" width="0.3048" layer="16"/>
-<wire x1="23.54514375" y1="48.42" x2="26.9422875" y2="48.42" width="0.3048" layer="16"/>
+<wire x1="23.54514375" y1="62.97" x2="26.9422875" y2="48.42" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$15">
 <contactref element="J13" pad="1"/>
@@ -2624,7 +2916,7 @@ design rules under a new name.</description>
 <contactref element="R18" pad="2"/>
 <contactref element="R20" pad="1"/>
 <wire x1="3.1622875" y1="52.62" x2="3.1622875" y2="48.42" width="0.3048" layer="16"/>
-<wire x1="3.1622875" y1="48.42" x2="6.55943125" y2="48.42" width="0.3048" layer="16"/>
+<wire x1="3.1622875" y1="48.42" x2="6.55943125" y2="47.57" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$21">
 <contactref element="J13" pad="4"/>
@@ -2647,7 +2939,7 @@ design rules under a new name.</description>
 <contactref element="R11" pad="1"/>
 <contactref element="R16" pad="2"/>
 <wire x1="11.088953125" y1="52.62" x2="9.956571875" y2="49.886190625" width="0.3048" layer="16" curve="45"/>
-<wire x1="9.956571875" y1="49.886190625" x2="9.956571875" y2="48.42" width="0.3048" layer="16"/>
+<wire x1="9.956571875" y1="49.886190625" x2="9.956571875" y2="47.57" width="0.3048" layer="16"/>
 <wire x1="11.088953125" y1="52.62" x2="11.985296875" y2="51.72365625" width="0.3048" layer="16"/>
 <wire x1="11.985296875" y1="51.72365625" x2="13.353715625" y2="48.42" width="0.3048" layer="16" curve="-45"/>
 </signal>
@@ -2658,7 +2950,7 @@ design rules under a new name.</description>
 <wire x1="19.015621875" y1="52.62" x2="18.119278125" y2="51.72365625" width="0.3048" layer="16"/>
 <wire x1="18.119278125" y1="51.72365625" x2="16.750859375" y2="48.42" width="0.3048" layer="16" curve="45"/>
 <wire x1="19.015621875" y1="52.62" x2="20.148003125" y2="49.886190625" width="0.3048" layer="16" curve="-45"/>
-<wire x1="20.148003125" y1="49.886190625" x2="20.148003125" y2="48.42" width="0.3048" layer="16"/>
+<wire x1="20.148003125" y1="49.886190625" x2="20.148003125" y2="62.97" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$12">
 <contactref element="J2" pad="6"/>
@@ -2670,7 +2962,7 @@ design rules under a new name.</description>
 <contactref element="C15" pad="-"/>
 <contactref element="R24" pad="2"/>
 <contactref element="R28" pad="2"/>
-<wire x1="69.630775" y1="48.42" x2="73.02791875" y2="48.42" width="0.3048" layer="16"/>
+<wire x1="69.630775" y1="62.97" x2="73.02791875" y2="48.42" width="0.3048" layer="16"/>
 <wire x1="73.02791875" y1="48.42" x2="73.02791875" y2="52.62" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$30">
@@ -2685,7 +2977,7 @@ design rules under a new name.</description>
 <contactref element="R23" pad="2"/>
 <contactref element="R29" pad="1"/>
 <wire x1="49.24791875" y1="52.62" x2="49.24791875" y2="48.42" width="0.3048" layer="16"/>
-<wire x1="49.24791875" y1="48.42" x2="52.6450625" y2="48.42" width="0.3048" layer="16"/>
+<wire x1="49.24791875" y1="48.42" x2="52.6450625" y2="47.57" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$32">
 <contactref element="J2" pad="4"/>
@@ -2707,7 +2999,7 @@ design rules under a new name.</description>
 <contactref element="C26" pad="-"/>
 <contactref element="R22" pad="1"/>
 <contactref element="R26" pad="2"/>
-<wire x1="56.042203125" y1="48.42" x2="56.042203125" y2="49.886190625" width="0.3048" layer="16"/>
+<wire x1="56.042203125" y1="47.57" x2="56.042203125" y2="49.886190625" width="0.3048" layer="16"/>
 <wire x1="56.042203125" y1="49.886190625" x2="57.174584375" y2="52.62" width="0.3048" layer="16" curve="-45"/>
 <wire x1="57.174584375" y1="52.62" x2="58.070928125" y2="51.72365625" width="0.3048" layer="16"/>
 <wire x1="58.070928125" y1="51.72365625" x2="59.439346875" y2="48.42" width="0.3048" layer="16" curve="-45"/>
@@ -2719,7 +3011,7 @@ design rules under a new name.</description>
 <wire x1="65.101253125" y1="52.62" x2="64.204909375" y2="51.72365625" width="0.3048" layer="16"/>
 <wire x1="64.204909375" y1="51.72365625" x2="62.836490625" y2="48.42" width="0.3048" layer="16" curve="45"/>
 <wire x1="65.101253125" y1="52.62" x2="66.233634375" y2="49.886190625" width="0.3048" layer="16" curve="-45"/>
-<wire x1="66.233634375" y1="49.886190625" x2="66.233634375" y2="48.42" width="0.3048" layer="16"/>
+<wire x1="66.233634375" y1="49.886190625" x2="66.233634375" y2="62.97" width="0.3048" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

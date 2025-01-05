@@ -2369,13 +2369,13 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="Combine 8288+14485" x="6.489834375" y="60.81" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="5.219834375" y="58.778" locked="yes" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
-<element name="J4" library="Dual Mono Amp Library" package="1X06" package3d_urn="urn:adsk.eagle:package:38009/2" value="" x="75.0262" y="3.19" locked="yes" smashed="yes">
-<attribute name="PROD_ID" value="CONN-08437" x="75.0262" y="3.19" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="73.7562" y="1.158" locked="yes" size="0.6096" layer="27" font="vector" ratio="20"/>
+<element name="J4" library="Dual Mono Amp Library" package="1X06" package3d_urn="urn:adsk.eagle:package:38009/2" value="" x="74.03174375" y="3.19" smashed="yes">
+<attribute name="PROD_ID" value="CONN-08437" x="74.03174375" y="3.19" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="72.76174375" y="1.158" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
-<element name="J13" library="Dual Mono Amp Library" package="1X06" package3d_urn="urn:adsk.eagle:package:38009/2" value="" x="2.1622875" y="3.19" locked="yes" smashed="yes">
-<attribute name="PROD_ID" value="CONN-08437" x="2.1622875" y="3.19" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="0.8922875" y="1.158" locked="yes" size="0.6096" layer="27" font="vector" ratio="20"/>
+<element name="J13" library="Dual Mono Amp Library" package="1X06" package3d_urn="urn:adsk.eagle:package:38009/2" value="" x="3.15674375" y="3.19" smashed="yes">
+<attribute name="PROD_ID" value="CONN-08437" x="3.15674375" y="3.19" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="1.88674375" y="1.158" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="J14" library="Dual Mono Amp Library" package="1X02" package3d_urn="urn:adsk.eagle:package:38039/2" value="" x="86.6984875" y="44.6606625" locked="yes" smashed="yes" rot="R270">
 <attribute name="VALUE" x="84.6664875" y="45.9306625" locked="yes" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>

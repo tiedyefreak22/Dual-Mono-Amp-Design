@@ -65,16 +65,6 @@
 #define ROT_LEDR A7  // red LED
 #define TEENSY_LED 13
 
-// RGB LED colors (for common anode LED, 0 is on, 1 is off)
-#define OFF B111
-#define RED B110
-#define GREEN B101
-#define YELLOW B100
-#define BLUE B011
-#define PURPLE B010
-#define CYAN B001
-#define WHITE B000
-
 volatile int rotary_counter = 0;  // current "position" of rotary encoder (increments CW)
 volatile int volume = 0;
 
@@ -95,7 +85,6 @@ void setup() {
   pinMode(ROT_LEDG, OUTPUT);
   pinMode(ROT_LEDR, OUTPUT);
 
-  //setLED(WHITE);
   volumeLED(volume);
 
   Serial.begin(115200);  // Use serial for debugging
@@ -117,7 +106,7 @@ void loop() {
   // Turn on or off the LED
   if ((value == HIGH) & (mute == false)) {
     Serial.println("Muted");
-    setLED(RED);
+    setMUTE();
     mute = true;
     delay(1000);  // Small delay for stability
   } else if ((value == HIGH) & (mute == true)) {
@@ -125,6 +114,8 @@ void loop() {
     volumeLED(volume);
     mute = false;
     delay(1000);  // Small delay for stability
+  } else if (volume == 0) {
+    setMUTE();
   }
 
   if (mute == false) {
@@ -137,7 +128,7 @@ void loop() {
       if (messageCounter % 2 == 1) {  // Only print every second message
         if (newPosition > lastPosition) {
           Serial.println("Rotating Counterclockwise ←");
-          if (volume - 1 < 0) {
+          if (volume - 1 <= 0) {
             volume = 0;
           } else {
             volume = volume - 1;
@@ -162,12 +153,11 @@ void loop() {
   delay(5);  // Small delay for stability
 }
 
-void setLED(unsigned char color)
-// Set RGB LED to one of eight colors (see #defines above)
+void setMUTE()
 {
-  digitalWrite(ROT_LEDR, color & B001);
-  digitalWrite(ROT_LEDG, color & B010);
-  digitalWrite(ROT_LEDB, color & B100);
+  analogWrite(ROT_LEDR, 0);
+  analogWrite(ROT_LEDG, 255);
+  analogWrite(ROT_LEDB, 255);
 }
 
 void volumeLED(int volume)  // Volume from 1 - 50

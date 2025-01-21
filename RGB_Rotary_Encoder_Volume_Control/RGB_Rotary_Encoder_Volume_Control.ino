@@ -57,12 +57,12 @@
 #include <Bounce.h>
 #include <Encoder.h>
 
-#define ROT_LEDG A1  // green LED
+#define ROT_LEDG A8  // green LED
 #define ROT_B 6      // rotary B
 #define ROT_A 3      // rotary A
 #define ROT_SW 4     // rotary puhbutton
-#define ROT_LEDB 5   // blue LED
-#define ROT_LEDR 10  // red LED
+#define ROT_LEDB A9   // blue LED
+#define ROT_LEDR A7  // red LED
 #define TEENSY_LED 13
 
 // RGB LED colors (for common anode LED, 0 is on, 1 is off)
@@ -95,7 +95,8 @@ void setup() {
   pinMode(ROT_LEDG, OUTPUT);
   pinMode(ROT_LEDR, OUTPUT);
 
-  setLED(WHITE);
+  //setLED(WHITE);
+  volumeLED(volume);
 
   Serial.begin(115200);  // Use serial for debugging
   Serial.println("Begin RGB Rotary Encoder Testing");
@@ -107,25 +108,6 @@ int messageCounter = 0;        // Tracks how many messages have been processed
 bool mute = false;
 
 void loop() {
-  long newPosition = myEnc.read();
-  int movement = newPosition - lastPosition;
-
-  if (abs(movement) >= stepsPerDetent) {
-    messageCounter++;  // Increment the counter
-
-    if (messageCounter % 2 == 1) {  // Only print every second message
-      if (newPosition > lastPosition) {
-        Serial.println("Rotating Counterclockwise ←");
-      } else {
-        Serial.println("Rotating Clockwise →");
-      }
-    }
-
-    lastPosition = newPosition;  // Update position
-  }
-
-  delay(5);  // Small delay for stability
-
   // Update the debouncer
   bouncer.update();
 
@@ -134,15 +116,50 @@ void loop() {
 
   // Turn on or off the LED
   if ((value == HIGH) & (mute == false)) {
-      setLED(RED);
-      mute = true;
-      delay(1000);  // Small delay for stability
+    Serial.println("Muted");
+    setLED(RED);
+    mute = true;
+    delay(1000);  // Small delay for stability
+  } else if ((value == HIGH) & (mute == true)) {
+    Serial.println("Unmuted");
+    volumeLED(volume);
+    mute = false;
+    delay(1000);  // Small delay for stability
+  }
+
+  if (mute == false) {
+    long newPosition = myEnc.read();
+    int movement = newPosition - lastPosition;
+
+    if (abs(movement) >= stepsPerDetent) {
+      messageCounter++;  // Increment the counter
+
+      if (messageCounter % 2 == 1) {  // Only print every second message
+        if (newPosition > lastPosition) {
+          Serial.println("Rotating Counterclockwise ←");
+          if (volume - 1 < 0) {
+            volume = 0;
+          } else {
+            volume = volume - 1;
+          }
+          Serial.println(volume);
+          volumeLED(volume);
+        } else {
+          Serial.println("Rotating Clockwise →");
+          if (volume + 1 > 50) {
+            volume = 50;
+          } else {
+            volume = volume + 1;
+          }
+          Serial.println(volume);
+          volumeLED(volume);
+        }
+      }
+
+      lastPosition = newPosition;  // Update position
     }
-  else if ((value == HIGH) & (mute == true)) {
-      setLED(WHITE);
-      mute = false;
-      delay(1000);  // Small delay for stability
-    }
+  }
+  delay(5);  // Small delay for stability
 }
 
 void setLED(unsigned char color)
@@ -153,9 +170,9 @@ void setLED(unsigned char color)
   digitalWrite(ROT_LEDB, color & B100);
 }
 
-void volumeLED(int volume) // Volume from 1 - 100
+void volumeLED(int volume)  // Volume from 1 - 50
 {
-  analogWrite(ROT_LEDR, color & B001);
-  analogWrite(ROT_LEDG, color & B010);
-  analogWrite(ROT_LEDB, color & B100);
+  analogWrite(ROT_LEDR, 0);
+  analogWrite(ROT_LEDG, 255 - round((97 / 50) * volume));
+  analogWrite(ROT_LEDB, round((255 / 50) * volume));
 }

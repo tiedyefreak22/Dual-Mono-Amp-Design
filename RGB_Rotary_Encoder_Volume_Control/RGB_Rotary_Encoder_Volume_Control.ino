@@ -163,6 +163,8 @@ void setMUTE()
 void volumeLED(int volume)  // Volume from 1 - 50
 {
   analogWrite(ROT_LEDR, 0);
-  analogWrite(ROT_LEDG, 255 - round((97 / 50) * volume));
-  analogWrite(ROT_LEDB, round((255 / 50) * volume));
+  //analogWrite(ROT_LEDG, 255 - round((97 / 50) * volume));
+  analogWrite(ROT_LEDG, round(194 / (1 + exp(0.17 * volume)) + 158));
+  //analogWrite(ROT_LEDB, round((255 / 50) * volume));
+  analogWrite(ROT_LEDB, round(529.031 / (1 + exp(-0.08 * volume)) - 264.516));
 }

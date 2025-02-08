@@ -58,11 +58,11 @@
 #include <Encoder.h>
 
 #define ROT_LEDG A8  // green LED
-#define ROT_B 6      // rotary B
-#define ROT_A 3      // rotary A
+#define ROT_B 5      // rotary A
+#define ROT_A 3      // rotary B
 #define ROT_SW 4     // rotary puhbutton
-#define ROT_LEDB A9   // blue LED
-#define ROT_LEDR A7  // red LED
+#define ROT_LEDB A9  // blue LED
+#define ROT_LEDR A5  // red LED
 #define TEENSY_LED 13
 
 volatile int rotary_counter = 0;  // current "position" of rotary encoder (increments CW)
@@ -79,6 +79,7 @@ Bounce bouncer = Bounce(ROT_SW, 5);
 
 void setup() {
   pinMode(TEENSY_LED, OUTPUT);
+  digitalWrite(TEENSY_LED, 1);
   pinMode(ROT_SW, INPUT);
   // The rotary switch is common anode with external pulldown, do not turn on pullup
   pinMode(ROT_LEDB, OUTPUT);

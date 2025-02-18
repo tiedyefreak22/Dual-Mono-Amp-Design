@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.7.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -13,7 +13,7 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
@@ -181,7 +181,7 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="Dual Mono Amp Library">
+<library name="Dual Mono Amp Library" urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw">
 <description>Generated from &lt;b&gt;AK4493-v1.64_21.sch&lt;/b&gt;&lt;p&gt;
 by exp-lbrs.ulp</description>
 <packages>
@@ -269,9 +269,7 @@ by exp-lbrs.ulp</description>
 <wire x1="24.07" y1="5" x2="24.07" y2="-6" width="0.1" layer="51"/>
 <wire x1="24.07" y1="-6" x2="-3.5" y2="-6" width="0.1" layer="51"/>
 <wire x1="-3.5" y1="-6" x2="-3.5" y2="5" width="0.1" layer="51"/>
-<wire x1="-3" y1="0" x2="-3" y2="0" width="0.1" layer="21"/>
 <wire x1="-3" y1="0" x2="-3.1" y2="0" width="0.1" layer="21" curve="180"/>
-<wire x1="-3.1" y1="0" x2="-3.1" y2="0" width="0.1" layer="21"/>
 <wire x1="-3.1" y1="0" x2="-3" y2="0" width="0.1" layer="21" curve="180"/>
 </package>
 <package name="VT9-PT" urn="urn:adsk.eagle:footprint:4681/1">
@@ -420,9 +418,7 @@ Source: 00004280-VT9-PT.pdf</description>
 <wire x1="30.5" y1="9.5" x2="30.5" y2="-9.5" width="0.1" layer="51"/>
 <wire x1="30.5" y1="-9.5" x2="-3" y2="-9.5" width="0.1" layer="51"/>
 <wire x1="-3" y1="-9.5" x2="-3" y2="9.5" width="0.1" layer="51"/>
-<wire x1="-2.6" y1="0" x2="-2.6" y2="0" width="0.1" layer="21"/>
 <wire x1="-2.6" y1="0" x2="-2.5" y2="0" width="0.1" layer="21" curve="180"/>
-<wire x1="-2.5" y1="0" x2="-2.5" y2="0" width="0.1" layer="21"/>
 <wire x1="-2.5" y1="0" x2="-2.6" y2="0" width="0.1" layer="21" curve="180"/>
 </package>
 <package name="MKS4B031002A00JC00">
@@ -444,9 +440,7 @@ Source: 00004280-VT9-PT.pdf</description>
 <wire x1="9.75" y1="2.25" x2="9.75" y2="-2.25" width="0.1" layer="51"/>
 <wire x1="9.75" y1="-2.25" x2="-2.25" y2="-2.25" width="0.1" layer="51"/>
 <wire x1="-2.25" y1="-2.25" x2="-2.25" y2="2.25" width="0.1" layer="51"/>
-<wire x1="-1.8" y1="0" x2="-1.8" y2="0" width="0.1" layer="21"/>
 <wire x1="-1.8" y1="0" x2="-1.9" y2="0" width="0.1" layer="21" curve="180"/>
-<wire x1="-1.9" y1="0" x2="-1.9" y2="0" width="0.1" layer="21"/>
 <wire x1="-1.9" y1="0" x2="-1.8" y2="0" width="0.1" layer="21" curve="180"/>
 </package>
 <package name="MKP4G041005I00JSSD">
@@ -468,9 +462,7 @@ Source: 00004280-VT9-PT.pdf</description>
 <wire x1="-2" y1="5.5" x2="-2" y2="-5.5" width="0.2" layer="21"/>
 <wire x1="-2" y1="-5.5" x2="24.5" y2="-5.5" width="0.2" layer="21"/>
 <wire x1="24.5" y1="-5.5" x2="24.5" y2="5.6" width="0.2" layer="21"/>
-<wire x1="-2.6" y1="0" x2="-2.6" y2="0" width="0.1" layer="21"/>
 <wire x1="-2.6" y1="0" x2="-2.5" y2="0" width="0.1" layer="21" curve="180"/>
-<wire x1="-2.5" y1="0" x2="-2.5" y2="0" width="0.1" layer="21"/>
 <wire x1="-2.5" y1="0" x2="-2.6" y2="0" width="0.1" layer="21" curve="180"/>
 </package>
 <package name="MKP2C041001N00MN00">
@@ -492,9 +484,7 @@ Source: 00004280-VT9-PT.pdf</description>
 <wire x1="6.1" y1="5.5" x2="6.1" y2="-5.5" width="0.2" layer="21"/>
 <wire x1="6.1" y1="-5.5" x2="-1.1" y2="-5.5" width="0.2" layer="21"/>
 <wire x1="-1.1" y1="-5.5" x2="-1.1" y2="5.5" width="0.2" layer="21"/>
-<wire x1="-1.7" y1="0" x2="-1.7" y2="0" width="0.1" layer="21"/>
 <wire x1="-1.7" y1="0" x2="-1.6" y2="0" width="0.1" layer="21" curve="180"/>
-<wire x1="-1.6" y1="0" x2="-1.6" y2="0" width="0.1" layer="21"/>
 <wire x1="-1.6" y1="0" x2="-1.7" y2="0" width="0.1" layer="21" curve="180"/>
 </package>
 <package name="RESAD1540W55L620D230">
@@ -612,9 +602,7 @@ Source: 00004280-VT9-PT.pdf</description>
 <wire x1="-9.5" y1="5.2" x2="-16.5" y2="5.2" width="0.2" layer="21"/>
 <wire x1="-16.5" y1="5.2" x2="-16.5" y2="-5.2" width="0.2" layer="21"/>
 <wire x1="-16.5" y1="-5.2" x2="-9.5" y2="-5.2" width="0.2" layer="21"/>
-<wire x1="0" y1="-9.5" x2="0" y2="-9.5" width="0.1" layer="21"/>
 <wire x1="0" y1="-9.5" x2="0" y2="-9.6" width="0.1" layer="21" curve="180"/>
-<wire x1="0" y1="-9.6" x2="0" y2="-9.6" width="0.1" layer="21"/>
 <wire x1="0" y1="-9.6" x2="0" y2="-9.5" width="0.1" layer="21" curve="180"/>
 </package>
 <package name="MKP4G034705D00KSSD">
@@ -636,10 +624,19 @@ Source: 00004280-VT9-PT.pdf</description>
 <wire x1="25.5" y1="4.5" x2="25.5" y2="-4.5" width="0.1" layer="51"/>
 <wire x1="25.5" y1="-4.5" x2="-3" y2="-4.5" width="0.1" layer="51"/>
 <wire x1="-3" y1="-4.5" x2="-3" y2="4.5" width="0.1" layer="51"/>
-<wire x1="-2.6" y1="0" x2="-2.6" y2="0" width="0.1" layer="21"/>
 <wire x1="-2.6" y1="0" x2="-2.5" y2="0" width="0.1" layer="21" curve="180"/>
-<wire x1="-2.5" y1="0" x2="-2.5" y2="0" width="0.1" layer="21"/>
 <wire x1="-2.5" y1="0" x2="-2.6" y2="0" width="0.1" layer="21" curve="180"/>
+</package>
+<package name="SHORT_ALL-50" library_version="1">
+<description>Short, all layers, 50mil width</description>
+<rectangle x1="-0.254" y1="0.381" x2="0.254" y2="0.635" layer="1"/>
+<rectangle x1="-0.254" y1="-0.635" x2="0.254" y2="-0.381" layer="1"/>
+<rectangle x1="-0.254" y1="0.381" x2="0.254" y2="0.635" layer="16"/>
+<rectangle x1="-0.254" y1="-0.635" x2="0.254" y2="-0.381" layer="16"/>
+<pad name="1" x="-0.635" y="0" drill="0.7366" diameter="1.524"/>
+<pad name="2" x="0.635" y="0" drill="0.7366" diameter="1.524"/>
+<text x="-1.7145" y="-2.2225" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="0.381" y="-0.889" size="0.762" layer="51" ratio="10" rot="R90">&gt;NAME</text>
 </package>
 </packages>
 <packages3d>
@@ -827,9 +824,15 @@ Source: 00004280-VT9-PT.pdf</description>
 <pin name="TIP" x="30.48" y="-2.54" length="middle" rot="R180"/>
 <pin name="RING" x="30.48" y="0" length="middle" rot="R180"/>
 </symbol>
+<symbol name="SHORT-H" library_version="1">
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.508" layer="94"/>
+<pin name="P$1" x="-2.54" y="0" visible="off" length="point" swaplevel="1"/>
+<pin name="P$2" x="2.54" y="0" visible="off" length="point" swaplevel="1"/>
+<text x="-2.2225" y="1.27" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="DGND" prefix="SUPPLY">
+<deviceset name="DGND" prefix="SUPPLY" library_version="1">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="DGND" x="0" y="0"/>
@@ -842,7 +845,7 @@ Source: 00004280-VT9-PT.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CONN_06" prefix="J" uservalue="yes">
+<deviceset name="CONN_06" prefix="J" uservalue="yes" library_version="1">
 <description>&lt;h3&gt;Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections&lt;/h3&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -895,7 +898,7 @@ Source: 00004280-VT9-PT.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="1935190" prefix="J">
+<deviceset name="1935190" prefix="J" library_version="1">
 <description>&lt;b&gt;PCB terminal block, nominal current: 17.5 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm?, Number of potentials: 5, Number of rows: 1, Number of positions per row: 5, product range: PT 1,5/..-H, pitch: 5 mm, connection method: Screw connection with wire protector, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.phoenixcontact.com/online/portal/us/pxc/product_detail_page/!ut/p/z1/3Vdbc5pAFP4r5sG3rLsLLEJn-oDGlJjEYsQqvDDssma24RZETf31Xbyk1Wn1IeN0CnNm2D2c853L8jEc6MMp9NNwKZ7DUmRpGMu95-uB23F7PUfR8dch6aC7G9LtPWhP2B4o8Bv0oV-GFHq4WsWCFmHxA3qLOU8rRS4i-chUCTZRtc"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -923,7 +926,7 @@ Source: &lt;a href="https://www.phoenixcontact.com/online/portal/us/pxc/product_
 </device>
 </devices>
 </deviceset>
-<deviceset name="VT9" prefix="SX">
+<deviceset name="VT9" prefix="SX" library_version="1">
 <description>&lt;b&gt;VACUUM TUBE SOCKET&lt;/b&gt;&lt;p&gt;
 Source: 00004280-VT9-PT.pdf</description>
 <gates>
@@ -951,7 +954,7 @@ Source: 00004280-VT9-PT.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DCP4G053006ID2KSSD" prefix="C">
+<deviceset name="DCP4G053006ID2KSSD" prefix="C" library_version="1">
 <description>&lt;b&gt;Film Capacitors DC-LINK MKP 4 30.0 uF 400 VDC 17x34.5x31.5 PCM 27.5&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.wima.de/wp-content/uploads/media/e_WIMA_DC_Link_MKP_4.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -978,7 +981,7 @@ Source: &lt;a href="https://www.wima.de/wp-content/uploads/media/e_WIMA_DC_Link_
 </device>
 </devices>
 </deviceset>
-<deviceset name="AGND" prefix="AGND">
+<deviceset name="AGND" prefix="AGND" library_version="1">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="VR1" symbol="AGND" x="0" y="0"/>
@@ -991,7 +994,7 @@ Source: &lt;a href="https://www.wima.de/wp-content/uploads/media/e_WIMA_DC_Link_
 </device>
 </devices>
 </deviceset>
-<deviceset name="MKS4B031002A00JC00" prefix="C">
+<deviceset name="MKS4B031002A00JC00" prefix="C" library_version="1">
 <description>&lt;b&gt;Film Capacitors MKS 4 0.1 uF 50 VDC 2.5x7x10 PCM 7.5&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.wima.de/wp-content/uploads/media/e_WIMA_MKS_4.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1016,7 +1019,7 @@ Source: &lt;a href="https://www.wima.de/wp-content/uploads/media/e_WIMA_MKS_4.pd
 </device>
 </devices>
 </deviceset>
-<deviceset name="MKP4G041005I00JSSD" prefix="C">
+<deviceset name="MKP4G041005I00JSSD" prefix="C" library_version="1">
 <description>&lt;b&gt;Film Capacitors 1uF 400 Volts 5%&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.wima.de/wp-content/uploads/media/e_WIMA_MKP_4.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1043,7 +1046,7 @@ Source: &lt;a href="https://www.wima.de/wp-content/uploads/media/e_WIMA_MKP_4.pd
 </device>
 </devices>
 </deviceset>
-<deviceset name="MKP2C041001N00MN00" prefix="C">
+<deviceset name="MKP2C041001N00MN00" prefix="C" library_version="1">
 <description>&lt;b&gt;Film Capacitors MKP 2 1.0 uF 63 VDC 11x16x7.2 PCM 5&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1068,7 +1071,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LR1F150R" prefix="R">
+<deviceset name="LR1F150R" prefix="R" library_version="1">
 <description>&lt;b&gt;TE Connectivity LR1F Series Axial Metal Film Resistor 150 +/-1% 0.6W +/-50ppm/C&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributors/DKDS-21/401716.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1093,7 +1096,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </device>
 </devices>
 </deviceset>
-<deviceset name="LR1F47K" prefix="R">
+<deviceset name="LR1F47K" prefix="R" library_version="1">
 <description>&lt;b&gt;TE Connectivity LR1F Series Axial Metal Film Resistor 47k +/-1% 0.6W +/-50ppm/C&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/LR1F47K.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1118,7 +1121,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/LR1F47K.pdf"&
 </device>
 </devices>
 </deviceset>
-<deviceset name="LR1F10K" prefix="R">
+<deviceset name="LR1F10K" prefix="R" library_version="1">
 <description>&lt;b&gt;Metal film resistor, 10K 0.6W TE Connectivity LR1F Series Axial Metal Film Resistor 10k&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributors/DKDS-21/401716.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1143,7 +1146,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </device>
 </devices>
 </deviceset>
-<deviceset name="LR1F1M0" prefix="R">
+<deviceset name="LR1F1M0" prefix="R" library_version="1">
 <description>&lt;b&gt;TE Connectivity Axial Metal Film Resistor 1m +/-1% 0.6W +/-50ppm/C&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Data Sheet1773241GpdfEnglishENG_DS_1773241_G.pdf1622367-1"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1168,7 +1171,7 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 </device>
 </devices>
 </deviceset>
-<deviceset name="+240VDC">
+<deviceset name="+240VDC" library_version="1">
 <gates>
 <gate name="G$1" symbol="+240VDC" x="0" y="2.54"/>
 </gates>
@@ -1180,7 +1183,7 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 </device>
 </devices>
 </deviceset>
-<deviceset name="66.3VAC/1">
+<deviceset name="66.3VAC/1" library_version="1">
 <gates>
 <gate name="G$1" symbol="66.3VAC/1" x="0" y="2.54"/>
 </gates>
@@ -1192,7 +1195,7 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 </device>
 </devices>
 </deviceset>
-<deviceset name="66.3VAC/2">
+<deviceset name="66.3VAC/2" library_version="1">
 <gates>
 <gate name="G$1" symbol="66.3VAC/2" x="0" y="2.54"/>
 </gates>
@@ -1204,7 +1207,7 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 </device>
 </devices>
 </deviceset>
-<deviceset name="PE" prefix="PE">
+<deviceset name="PE" prefix="PE" library_version="1">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="M" symbol="PE" x="0" y="0"/>
@@ -1217,7 +1220,7 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 </device>
 </devices>
 </deviceset>
-<deviceset name="UFW1H101MPD1TD" prefix="C">
+<deviceset name="UFW1H101MPD1TD" prefix="C" library_version="1">
 <description>&lt;b&gt;Aluminum Electrolytic Capacitors - Radial Leaded 100uF 50 Volts 20%&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-ufw.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1244,7 +1247,7 @@ Source: &lt;a href="https://www.nichicon.co.jp/english/series_items/catalog_pdf/
 </device>
 </devices>
 </deviceset>
-<deviceset name="MF0207FTE52-182R" prefix="R">
+<deviceset name="MF0207FTE52-182R" prefix="R" library_version="1">
 <description>&lt;b&gt;Metal Film Resistors - Through Hole 0.6W 1% 182 ohm 50pp m&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.mouser.com/datasheet/2/447/YAGEO_MF0_datasheet_2021v1-3003020.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1271,7 +1274,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/447/YAGEO_MF0_datasheet_2
 </device>
 </devices>
 </deviceset>
-<deviceset name="SJ-63033A" prefix="J">
+<deviceset name="SJ-63033A" prefix="J" library_version="1">
 <description>&lt;b&gt;6.35 mm, Stereo, Right Angle, Through Hole Mount, 3 Conductors, 0 Internal Switches, Audio Jack Connector&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.cuidevices.com/product/resource/sj-63033a.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1299,7 +1302,7 @@ Source: &lt;a href="https://www.cuidevices.com/product/resource/sj-63033a.pdf"&g
 </device>
 </devices>
 </deviceset>
-<deviceset name="MKP4G034705D00KSSD" prefix="C">
+<deviceset name="MKP4G034705D00KSSD" prefix="C" library_version="1">
 <description>&lt;b&gt;0.47 F Film Capacitor 220V 400V Polypropylene (PP), Metallized Radial&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.wima.de/wp-content/uploads/media/e_WIMA_MKP_4.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1326,6 +1329,26 @@ Source: &lt;a href="https://www.wima.de/wp-content/uploads/media/e_WIMA_MKP_4.pd
 </device>
 </devices>
 </deviceset>
+<deviceset name="SHORT" prefix="SH" library_version="1">
+<description>Short between two nets</description>
+<gates>
+<gate name="G$1" symbol="SHORT-H" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="A5" package="SHORT_ALL-50">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="No" constant="no"/>
+<attribute name="DESCRIPTION" value="Short between two nets" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -1336,97 +1359,93 @@ Source: &lt;a href="https://www.wima.de/wp-content/uploads/media/e_WIMA_MKP_4.pd
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="R_Audio" width="0" drill="0">
-</class>
-<class number="2" name="L_Audio" width="0" drill="0">
-</class>
-<class number="3" name="Power" width="1.27" drill="1.27">
-<clearance class="3" value="0.254"/>
-</class>
 </classes>
 <parts>
-<part name="PE2" library="Dual Mono Amp Library" deviceset="PE" device=""/>
-<part name="SUPPLY5" library="Dual Mono Amp Library" deviceset="DGND" device=""/>
-<part name="SUPPLY34" library="Dual Mono Amp Library" deviceset="AGND" device=""/>
-<part name="U$1" library="Dual Mono Amp Library" deviceset="+240VDC" device=""/>
-<part name="U$5" library="Dual Mono Amp Library" deviceset="66.3VAC/1" device=""/>
-<part name="U$6" library="Dual Mono Amp Library" deviceset="66.3VAC/2" device=""/>
-<part name="J1" library="Dual Mono Amp Library" deviceset="1935190" device=""/>
-<part name="SX1" library="Dual Mono Amp Library" deviceset="VT9" device="-PT" package3d_urn="urn:adsk.eagle:package:4683/1"/>
-<part name="U$8" library="Dual Mono Amp Library" deviceset="+240VDC" device=""/>
-<part name="C16" library="Dual Mono Amp Library" deviceset="MKP2C041001N00MN00" device="" value="1uF/16V"/>
-<part name="C18" library="Dual Mono Amp Library" deviceset="MKP4G034705D00KSSD" device="" value="0.5uF/400V"/>
-<part name="C21" library="Dual Mono Amp Library" deviceset="DCP4G053006ID2KSSD" device="" value="30uF/400V"/>
-<part name="C23" library="Dual Mono Amp Library" deviceset="MKP4G041005I00JSSD" device="" value="1uF/400V"/>
-<part name="R13" library="Dual Mono Amp Library" deviceset="LR1F47K" device="" value="47kOhm"/>
-<part name="R15" library="Dual Mono Amp Library" deviceset="LR1F47K" device="" value="47kOhm"/>
-<part name="R17" library="Dual Mono Amp Library" deviceset="LR1F47K" device="" value="47kOhm"/>
-<part name="R27" library="Dual Mono Amp Library" deviceset="LR1F47K" device="" value="47kOhm"/>
-<part name="AGND3" library="Dual Mono Amp Library" deviceset="AGND" device=""/>
-<part name="U$9" library="Dual Mono Amp Library" deviceset="66.3VAC/1" device=""/>
-<part name="U$10" library="Dual Mono Amp Library" deviceset="66.3VAC/2" device=""/>
-<part name="R3" library="Dual Mono Amp Library" deviceset="LR1F1M0" device="" value="1M*"/>
-<part name="R5" library="Dual Mono Amp Library" deviceset="LR1F150R" device="" value="150*"/>
-<part name="R9" library="Dual Mono Amp Library" deviceset="LR1F150R" device="" value="150*"/>
-<part name="C2" library="Dual Mono Amp Library" deviceset="MKS4B031002A00JC00" device="" value="0.1uF, 35V"/>
-<part name="SX2" library="Dual Mono Amp Library" deviceset="VT9" device="-PT" package3d_urn="urn:adsk.eagle:package:4683/1"/>
-<part name="U$3" library="Dual Mono Amp Library" deviceset="+240VDC" device=""/>
-<part name="C1" library="Dual Mono Amp Library" deviceset="MKP2C041001N00MN00" device="" value="1uF/16V"/>
-<part name="C4" library="Dual Mono Amp Library" deviceset="MKP4G034705D00KSSD" device="" value="0.5uF/400V"/>
-<part name="C7" library="Dual Mono Amp Library" deviceset="DCP4G053006ID2KSSD" device="" value="30uF/400V"/>
-<part name="C9" library="Dual Mono Amp Library" deviceset="MKP4G041005I00JSSD" device="" value="1uF/400V"/>
-<part name="R1" library="Dual Mono Amp Library" deviceset="LR1F47K" device="" value="47kOhm"/>
-<part name="R2" library="Dual Mono Amp Library" deviceset="LR1F47K" device="" value="47kOhm"/>
-<part name="R4" library="Dual Mono Amp Library" deviceset="LR1F47K" device="" value="47kOhm"/>
-<part name="R6" library="Dual Mono Amp Library" deviceset="LR1F47K" device="" value="47kOhm"/>
-<part name="AGND1" library="Dual Mono Amp Library" deviceset="AGND" device=""/>
-<part name="U$4" library="Dual Mono Amp Library" deviceset="66.3VAC/1" device=""/>
-<part name="U$7" library="Dual Mono Amp Library" deviceset="66.3VAC/2" device=""/>
-<part name="R7" library="Dual Mono Amp Library" deviceset="LR1F1M0" device="" value="1M*"/>
-<part name="R8" library="Dual Mono Amp Library" deviceset="LR1F150R" device="" value="150*"/>
-<part name="R10" library="Dual Mono Amp Library" deviceset="LR1F150R" device="" value="150*"/>
-<part name="C10" library="Dual Mono Amp Library" deviceset="MKS4B031002A00JC00" device="" value="0.1uF, 35V"/>
-<part name="J13" library="Dual Mono Amp Library" deviceset="CONN_06" device="SILK_FEMALE_PTH" package3d_urn="urn:adsk.eagle:package:38009/2"/>
-<part name="AGND7" library="Dual Mono Amp Library" deviceset="AGND" device=""/>
-<part name="AGND8" library="Dual Mono Amp Library" deviceset="AGND" device=""/>
-<part name="C11" library="Dual Mono Amp Library" deviceset="UFW1H101MPD1TD" device="" value="100uF"/>
-<part name="C12" library="Dual Mono Amp Library" deviceset="UFW1H101MPD1TD" device="" value="100uF"/>
-<part name="C13" library="Dual Mono Amp Library" deviceset="UFW1H101MPD1TD" device="" value="100uF"/>
-<part name="C14" library="Dual Mono Amp Library" deviceset="UFW1H101MPD1TD" device="" value="100uF"/>
-<part name="R11" library="Dual Mono Amp Library" deviceset="LR1F10K" device="" value="10k"/>
-<part name="R18" library="Dual Mono Amp Library" deviceset="MF0207FTE52-182R" device="" value="182"/>
-<part name="R12" library="Dual Mono Amp Library" deviceset="MF0207FTE52-182R" device="" value="182"/>
-<part name="R14" library="Dual Mono Amp Library" deviceset="MF0207FTE52-182R" device="" value="182"/>
-<part name="R16" library="Dual Mono Amp Library" deviceset="MF0207FTE52-182R" device="" value="182"/>
-<part name="R19" library="Dual Mono Amp Library" deviceset="LR1F10K" device="" value="10k"/>
-<part name="R20" library="Dual Mono Amp Library" deviceset="LR1F10K" device="" value="10k"/>
-<part name="R21" library="Dual Mono Amp Library" deviceset="LR1F10K" device="" value="10k"/>
-<part name="AGND9" library="Dual Mono Amp Library" deviceset="AGND" device=""/>
-<part name="AGND10" library="Dual Mono Amp Library" deviceset="AGND" device=""/>
-<part name="AGND11" library="Dual Mono Amp Library" deviceset="AGND" device=""/>
-<part name="AGND12" library="Dual Mono Amp Library" deviceset="AGND" device=""/>
-<part name="J2" library="Dual Mono Amp Library" deviceset="CONN_06" device="SILK_FEMALE_PTH" package3d_urn="urn:adsk.eagle:package:38009/2"/>
-<part name="AGND5" library="Dual Mono Amp Library" deviceset="AGND" device=""/>
-<part name="AGND6" library="Dual Mono Amp Library" deviceset="AGND" device=""/>
-<part name="C15" library="Dual Mono Amp Library" deviceset="UFW1H101MPD1TD" device="" value="100uF"/>
-<part name="C24" library="Dual Mono Amp Library" deviceset="UFW1H101MPD1TD" device="" value="100uF"/>
-<part name="C25" library="Dual Mono Amp Library" deviceset="UFW1H101MPD1TD" device="" value="100uF"/>
-<part name="C26" library="Dual Mono Amp Library" deviceset="UFW1H101MPD1TD" device="" value="100uF"/>
-<part name="R22" library="Dual Mono Amp Library" deviceset="LR1F10K" device="" value="10k"/>
-<part name="R23" library="Dual Mono Amp Library" deviceset="MF0207FTE52-182R" device="" value="182"/>
-<part name="R24" library="Dual Mono Amp Library" deviceset="MF0207FTE52-182R" device="" value="182"/>
-<part name="R25" library="Dual Mono Amp Library" deviceset="MF0207FTE52-182R" device="" value="182"/>
-<part name="R26" library="Dual Mono Amp Library" deviceset="MF0207FTE52-182R" device="" value="182"/>
-<part name="R28" library="Dual Mono Amp Library" deviceset="LR1F10K" device="" value="10k"/>
-<part name="R29" library="Dual Mono Amp Library" deviceset="LR1F10K" device="" value="10k"/>
-<part name="R30" library="Dual Mono Amp Library" deviceset="LR1F10K" device="" value="10k"/>
-<part name="AGND13" library="Dual Mono Amp Library" deviceset="AGND" device=""/>
-<part name="AGND14" library="Dual Mono Amp Library" deviceset="AGND" device=""/>
-<part name="AGND15" library="Dual Mono Amp Library" deviceset="AGND" device=""/>
-<part name="AGND16" library="Dual Mono Amp Library" deviceset="AGND" device=""/>
-<part name="C5" library="Dual Mono Amp Library" deviceset="MKP2C041001N00MN00" device=""/>
-<part name="C6" library="Dual Mono Amp Library" deviceset="MKP2C041001N00MN00" device=""/>
-<part name="J3" library="Dual Mono Amp Library" deviceset="SJ-63033A" device=""/>
+<part name="PE2" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="PE" device=""/>
+<part name="SUPPLY5" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="DGND" device=""/>
+<part name="SUPPLY34" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="AGND" device=""/>
+<part name="U$1" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="+240VDC" device=""/>
+<part name="U$5" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="66.3VAC/1" device=""/>
+<part name="U$6" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="66.3VAC/2" device=""/>
+<part name="J1" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="1935190" device=""/>
+<part name="SX1" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="VT9" device="-PT" package3d_urn="urn:adsk.eagle:package:4683/1"/>
+<part name="U$8" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="+240VDC" device=""/>
+<part name="C16" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="MKP2C041001N00MN00" device="" value="1uF/16V"/>
+<part name="C18" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="MKP4G034705D00KSSD" device="" value="0.5uF/400V"/>
+<part name="C21" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="DCP4G053006ID2KSSD" device="" value="30uF/400V"/>
+<part name="C23" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="MKP4G041005I00JSSD" device="" value="1uF/400V"/>
+<part name="R13" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="LR1F47K" device="" value="47kOhm"/>
+<part name="R15" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="LR1F47K" device="" value="47kOhm"/>
+<part name="R17" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="LR1F47K" device="" value="47kOhm"/>
+<part name="R27" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="LR1F47K" device="" value="47kOhm"/>
+<part name="AGND3" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="AGND" device=""/>
+<part name="U$9" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="66.3VAC/1" device=""/>
+<part name="U$10" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="66.3VAC/2" device=""/>
+<part name="R3" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="LR1F1M0" device="" value="1M*"/>
+<part name="R5" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="LR1F150R" device="" value="150*"/>
+<part name="R9" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="LR1F150R" device="" value="150*"/>
+<part name="C2" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="MKS4B031002A00JC00" device="" value="0.1uF, 35V"/>
+<part name="SX2" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="VT9" device="-PT" package3d_urn="urn:adsk.eagle:package:4683/1"/>
+<part name="U$3" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="+240VDC" device=""/>
+<part name="C1" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="MKP2C041001N00MN00" device="" value="1uF/16V"/>
+<part name="C4" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="MKP4G034705D00KSSD" device="" value="0.5uF/400V"/>
+<part name="C7" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="DCP4G053006ID2KSSD" device="" value="30uF/400V"/>
+<part name="C9" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="MKP4G041005I00JSSD" device="" value="1uF/400V"/>
+<part name="R1" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="LR1F47K" device="" value="47kOhm"/>
+<part name="R2" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="LR1F47K" device="" value="47kOhm"/>
+<part name="R4" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="LR1F47K" device="" value="47kOhm"/>
+<part name="R6" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="LR1F47K" device="" value="47kOhm"/>
+<part name="AGND1" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="AGND" device=""/>
+<part name="U$4" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="66.3VAC/1" device=""/>
+<part name="U$7" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="66.3VAC/2" device=""/>
+<part name="R7" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="LR1F1M0" device="" value="1M*"/>
+<part name="R8" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="LR1F150R" device="" value="150*"/>
+<part name="R10" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="LR1F150R" device="" value="150*"/>
+<part name="C10" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="MKS4B031002A00JC00" device="" value="0.1uF, 35V"/>
+<part name="J13" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="CONN_06" device="SILK_FEMALE_PTH" package3d_urn="urn:adsk.eagle:package:38009/2"/>
+<part name="AGND7" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="AGND" device=""/>
+<part name="AGND8" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="AGND" device=""/>
+<part name="C11" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="UFW1H101MPD1TD" device="" value="100uF"/>
+<part name="C12" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="UFW1H101MPD1TD" device="" value="100uF"/>
+<part name="C13" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="UFW1H101MPD1TD" device="" value="100uF"/>
+<part name="C14" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="UFW1H101MPD1TD" device="" value="100uF"/>
+<part name="R11" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="LR1F10K" device="" value="10k"/>
+<part name="R18" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="MF0207FTE52-182R" device="" value="182"/>
+<part name="R12" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="MF0207FTE52-182R" device="" value="182"/>
+<part name="R14" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="MF0207FTE52-182R" device="" value="182"/>
+<part name="R16" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="MF0207FTE52-182R" device="" value="182"/>
+<part name="R19" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="LR1F10K" device="" value="10k"/>
+<part name="R20" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="LR1F10K" device="" value="10k"/>
+<part name="R21" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="LR1F10K" device="" value="10k"/>
+<part name="AGND9" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="AGND" device=""/>
+<part name="AGND10" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="AGND" device=""/>
+<part name="AGND11" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="AGND" device=""/>
+<part name="AGND12" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="AGND" device=""/>
+<part name="J2" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="CONN_06" device="SILK_FEMALE_PTH" package3d_urn="urn:adsk.eagle:package:38009/2"/>
+<part name="AGND5" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="AGND" device=""/>
+<part name="AGND6" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="AGND" device=""/>
+<part name="C15" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="UFW1H101MPD1TD" device="" value="100uF"/>
+<part name="C24" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="UFW1H101MPD1TD" device="" value="100uF"/>
+<part name="C25" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="UFW1H101MPD1TD" device="" value="100uF"/>
+<part name="C26" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="UFW1H101MPD1TD" device="" value="100uF"/>
+<part name="R22" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="LR1F10K" device="" value="10k"/>
+<part name="R23" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="MF0207FTE52-182R" device="" value="182"/>
+<part name="R24" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="MF0207FTE52-182R" device="" value="182"/>
+<part name="R25" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="MF0207FTE52-182R" device="" value="182"/>
+<part name="R26" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="MF0207FTE52-182R" device="" value="182"/>
+<part name="R28" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="LR1F10K" device="" value="10k"/>
+<part name="R29" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="LR1F10K" device="" value="10k"/>
+<part name="R30" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="LR1F10K" device="" value="10k"/>
+<part name="AGND13" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="AGND" device=""/>
+<part name="AGND14" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="AGND" device=""/>
+<part name="AGND15" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="AGND" device=""/>
+<part name="AGND16" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="AGND" device=""/>
+<part name="C5" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="MKP2C041001N00MN00" device=""/>
+<part name="C6" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="MKP2C041001N00MN00" device=""/>
+<part name="J3" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="SJ-63033A" device=""/>
+<part name="SH1" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="SHORT" device="A5"/>
+<part name="AGND2" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="AGND" device=""/>
+<part name="SUPPLY1" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="DGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1739,6 +1758,15 @@ VAC_N_OUT    |           GND         |    126VAC_OUT
 <attribute name="NAME" x="113.03" y="104.14" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="113.03" y="101.6" size="1.778" layer="96" align="center-left"/>
 </instance>
+<instance part="SH1" gate="G$1" x="104.14" y="114.3" smashed="yes">
+<attribute name="NAME" x="101.9175" y="115.57" size="1.778" layer="95"/>
+</instance>
+<instance part="AGND2" gate="VR1" x="111.76" y="114.3" smashed="yes" rot="MR270">
+<attribute name="VALUE" x="116.84" y="116.84" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="SUPPLY1" gate="G$1" x="96.52" y="114.3" smashed="yes" rot="R270">
+<attribute name="VALUE" x="91.44" y="114.3" size="1.778" layer="96" rot="R180" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1749,6 +1777,11 @@ VAC_N_OUT    |           GND         |    126VAC_OUT
 <pinref part="SUPPLY5" gate="G$1" pin="DGND"/>
 <pinref part="J1" gate="G$1" pin="4"/>
 </segment>
+<segment>
+<pinref part="SUPPLY1" gate="G$1" pin="DGND"/>
+<pinref part="SH1" gate="G$1" pin="P$1"/>
+<wire x1="101.6" y1="114.3" x2="99.06" y2="114.3" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="PE" class="0">
 <segment>
@@ -1757,7 +1790,7 @@ VAC_N_OUT    |           GND         |    126VAC_OUT
 <pinref part="J1" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="AGND" class="3">
+<net name="AGND" class="0">
 <segment>
 <pinref part="SUPPLY34" gate="VR1" pin="AGND"/>
 <pinref part="J3" gate="G$1" pin="SLEEVE"/>
@@ -1868,6 +1901,11 @@ VAC_N_OUT    |           GND         |    126VAC_OUT
 <pinref part="R29" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="20.32" x2="195.58" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="AGND16" gate="VR1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="AGND2" gate="VR1" pin="AGND"/>
+<pinref part="SH1" gate="G$1" pin="P$2"/>
+<wire x1="106.68" y1="114.3" x2="109.22" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+240VDC" class="0">
@@ -2384,16 +2422,17 @@ VAC_N_OUT    |           GND         |    126VAC_OUT
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="111,1,53.34,137.16,+240VDC,,,,,"/>
-<approved hash="111,1,53.34,134.62,+240VDC,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>
 <note version="6.3" minversion="6.2.2" severity="warning">
 Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
+</note>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library

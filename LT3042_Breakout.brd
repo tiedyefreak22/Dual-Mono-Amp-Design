@@ -195,10 +195,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="10.66" y2="0" width="0" layer="20"/>
-<wire x1="10.66" y1="0" x2="10.66" y2="10.66" width="0" layer="20"/>
-<wire x1="10.66" y1="10.66" x2="0" y2="10.66" width="0" layer="20"/>
-<wire x1="0" y1="10.66" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="10.66" y2="0" width="0" layer="20" locked="yes"/>
+<wire x1="10.66" y1="0" x2="10.66" y2="10.66" width="0" layer="20" locked="yes"/>
+<wire x1="10.66" y1="10.66" x2="0" y2="10.66" width="0" layer="20" locked="yes"/>
+<wire x1="0" y1="10.66" x2="0" y2="0" width="0" layer="20" locked="yes"/>
 </plain>
 <libraries>
 <library name="XR2A-0811-N">
@@ -460,23 +460,23 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </pass>
 </autorouter>
 <elements>
-<element name="J1" library="XR2A-0811-N" package="DIPS762W51P254L1016H390Q8N" value="XR2A-0811-N" x="1.52" y="9.14" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="XR2A-0811-N" x="1.52" y="9.14" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/xr2a-0811-n/omron?region=nac" x="1.52" y="9.14" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="IC &amp; Component Sockets Socket DIP Term 8P 7.62mm .25AuPlate" x="1.52" y="9.14" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="3.9mm" x="1.52" y="9.14" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Omron Electronics" x="1.52" y="9.14" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="XR2A-0811-N" x="1.52" y="9.14" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="653-XR2A-0811-N" x="1.52" y="9.14" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Omron-Electronics/XR2A-0811-N?qs=WOBxwZpV8jWLu7CcbwkK0Q%3D%3D" x="1.52" y="9.14" size="1.778" layer="27" display="off"/>
+<element name="J1" library="XR2A-0811-N" package="DIPS762W51P254L1016H390Q8N" value="XR2A-0811-N" x="1.52" y="9.14" locked="yes" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="XR2A-0811-N" x="1.52" y="9.14" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/xr2a-0811-n/omron?region=nac" x="1.52" y="9.14" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="IC &amp; Component Sockets Socket DIP Term 8P 7.62mm .25AuPlate" x="1.52" y="9.14" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="3.9mm" x="1.52" y="9.14" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Omron Electronics" x="1.52" y="9.14" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="XR2A-0811-N" x="1.52" y="9.14" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="653-XR2A-0811-N" x="1.52" y="9.14" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Omron-Electronics/XR2A-0811-N?qs=WOBxwZpV8jWLu7CcbwkK0Q%3D%3D" x="1.52" y="9.14" locked="yes" size="1.778" layer="27" display="off"/>
 </element>
-<element name="IC1" library="Dual Mono Amp Library" package="SOP50P490X110-11N" value="LT3042" x="5.33" y="5.33" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="LINEAR TECHNOLOGY - LT3042EMSE#PBF - LDO, ADJ, 0.2A, 0V-15V, MSOP-10" x="5.33" y="5.33" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="5.33" y="5.33" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Linear Technology" x="5.33" y="5.33" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="LT3042EMSE#PBF" x="5.33" y="5.33" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="584-LT3042EMSE#PBF" x="5.33" y="5.33" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Analog-Devices-Linear-Technology/LT3042EMSEPBF?qs=oahfZPh6IAJ3XP16d20ITw%3D%3D" x="5.33" y="5.33" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="IC1" library="Dual Mono Amp Library" package="SOP50P490X110-11N" value="LT3042" x="5.33" y="5.33" locked="yes" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="LINEAR TECHNOLOGY - LT3042EMSE#PBF - LDO, ADJ, 0.2A, 0V-15V, MSOP-10" x="5.33" y="5.33" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="5.33" y="5.33" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Linear Technology" x="5.33" y="5.33" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LT3042EMSE#PBF" x="5.33" y="5.33" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="584-LT3042EMSE#PBF" x="5.33" y="5.33" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Analog-Devices-Linear-Technology/LT3042EMSEPBF?qs=oahfZPh6IAJ3XP16d20ITw%3D%3D" x="5.33" y="5.33" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 </elements>
 <signals>
@@ -484,7 +484,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="IC1" pad="1"/>
 <contactref element="IC1" pad="2"/>
 <contactref element="J1" pad="7"/>
-<polygon width="0" layer="1" thermals="no">
+<polygon width="0" layer="1" thermals="no" locked="yes">
 <vertex x="5.6562" y="6.8295"/>
 <vertex x="5.6562" y="8.14" curve="-90"/>
 <vertex x="6.6562" y="9.14"/>
@@ -500,28 +500,28 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$2">
 <contactref element="IC1" pad="3"/>
 <contactref element="J1" pad="8"/>
-<wire x1="5.33" y1="7.542" x2="5.33" y2="8.14" width="0.3048" layer="1"/>
-<wire x1="5.33" y1="8.14" x2="6.33" y2="9.14" width="0.3048" layer="1" curve="-90"/>
-<wire x1="6.33" y1="9.14" x2="9.14" y2="9.14" width="0.3048" layer="1"/>
+<wire x1="5.33" y1="7.542" x2="5.33" y2="8.14" width="0.3048" layer="1" locked="yes"/>
+<wire x1="5.33" y1="8.14" x2="6.33" y2="9.14" width="0.3048" layer="1" curve="-90" locked="yes"/>
+<wire x1="6.33" y1="9.14" x2="9.14" y2="9.14" width="0.3048" layer="1" locked="yes"/>
 </signal>
 <signal name="N$3">
 <contactref element="IC1" pad="4"/>
 <contactref element="J1" pad="1"/>
-<wire x1="4.83" y1="7.542" x2="4.83" y2="8.14" width="0.3048" layer="1"/>
-<wire x1="4.83" y1="8.14" x2="3.83" y2="9.14" width="0.3048" layer="1" curve="90"/>
-<wire x1="3.83" y1="9.14" x2="1.52" y2="9.14" width="0.3048" layer="1"/>
+<wire x1="4.83" y1="7.542" x2="4.83" y2="8.14" width="0.3048" layer="1" locked="yes"/>
+<wire x1="4.83" y1="8.14" x2="3.83" y2="9.14" width="0.3048" layer="1" curve="90" locked="yes"/>
+<wire x1="3.83" y1="9.14" x2="1.52" y2="9.14" width="0.3048" layer="1" locked="yes"/>
 </signal>
 <signal name="N$4">
 <contactref element="IC1" pad="5"/>
 <contactref element="J1" pad="2"/>
-<wire x1="4.33" y1="7.542" x2="2.462" y2="7.542" width="0.3048" layer="1"/>
-<wire x1="2.462" y1="7.542" x2="1.52" y2="6.6" width="0.3048" layer="1" curve="90"/>
+<wire x1="4.33" y1="7.542" x2="2.462" y2="7.542" width="0.3048" layer="1" locked="yes"/>
+<wire x1="2.462" y1="7.542" x2="1.52" y2="6.6" width="0.3048" layer="1" curve="90" locked="yes"/>
 </signal>
 <signal name="N$5">
 <contactref element="IC1" pad="9"/>
 <contactref element="J1" pad="6"/>
 <contactref element="IC1" pad="10"/>
-<polygon width="0" layer="1" thermals="no">
+<polygon width="0" layer="1" thermals="no" locked="yes">
 <vertex x="5.6562" y="3.8305"/>
 <vertex x="5.6562" y="2.4055"/>
 <vertex x="7.76965" y="2.4055" curve="90"/>
@@ -546,13 +546,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="IC1" pad="P$6"/>
 <contactref element="IC1" pad="8"/>
 <contactref element="J1" pad="5"/>
-<polygon width="0" layer="1" thermals="no" rank="6">
+<polygon width="0" layer="1" thermals="no" rank="6" locked="yes">
 <vertex x="0" y="10.66"/>
 <vertex x="0" y="0"/>
 <vertex x="10.66" y="0"/>
 <vertex x="10.66" y="10.66"/>
 </polygon>
-<polygon width="0" layer="16" thermals="no">
+<polygon width="0" layer="16" thermals="no" locked="yes">
 <vertex x="0" y="10.66"/>
 <vertex x="10.66" y="10.66"/>
 <vertex x="10.66" y="0"/>
@@ -562,15 +562,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$7">
 <contactref element="IC1" pad="7"/>
 <contactref element="J1" pad="4"/>
-<wire x1="4.83" y1="3.118" x2="4.83" y2="2.52" width="0.3048" layer="1"/>
-<wire x1="4.83" y1="2.52" x2="3.83" y2="1.52" width="0.3048" layer="1" curve="-90"/>
-<wire x1="3.83" y1="1.52" x2="1.52" y2="1.52" width="0.3048" layer="1"/>
+<wire x1="4.83" y1="3.118" x2="4.83" y2="2.52" width="0.3048" layer="1" locked="yes"/>
+<wire x1="4.83" y1="2.52" x2="3.83" y2="1.52" width="0.3048" layer="1" curve="-90" locked="yes"/>
+<wire x1="3.83" y1="1.52" x2="1.52" y2="1.52" width="0.3048" layer="1" locked="yes"/>
 </signal>
 <signal name="N$8">
 <contactref element="IC1" pad="6"/>
 <contactref element="J1" pad="3"/>
-<wire x1="4.33" y1="3.118" x2="2.462" y2="3.118" width="0.3048" layer="1"/>
-<wire x1="2.462" y1="3.118" x2="1.52" y2="4.06" width="0.3048" layer="1" curve="-90"/>
+<wire x1="4.33" y1="3.118" x2="2.462" y2="3.118" width="0.3048" layer="1" locked="yes"/>
+<wire x1="2.462" y1="3.118" x2="1.52" y2="4.06" width="0.3048" layer="1" curve="-90" locked="yes"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -582,4 +582,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </mfgpreviewcolors>
 </board>
 </drawing>
+<compatibility>
+<note version="8.5" severity="warning">
+Since Version 8.5, EAGLE supports locking for holes, vias, wires and polygons. 
+The locking property on all objects of these types will not be understood in this version. 
+</note>
+</compatibility>
 </eagle>

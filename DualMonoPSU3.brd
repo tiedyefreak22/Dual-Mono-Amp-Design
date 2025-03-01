@@ -1690,27 +1690,27 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PART_NUMBER" value="863-1N4007FFG" x="56.1" y="21" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/1N4007FFG?qs=y2kkmE52mdPFE87Rxbyfgw%3D%3D" x="56.1" y="21" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="220" x="11.5" y="42.88" locked="yes" smashed="yes" rot="R270">
+<element name="R2P" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="220" x="11.5" y="42.88" locked="yes" smashed="yes" rot="R270">
 <attribute name="NAME" x="11.5" y="42.88" locked="yes" size="1.778" layer="25" ratio="10" rot="R270" align="center"/>
 <attribute name="POPULARITY" value="2" x="11.5" y="42.88" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="11.5" y="42.88" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="220" x="5.1" y="42.88" locked="yes" smashed="yes" rot="R90">
+<element name="R3P" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="220" x="5.1" y="42.88" locked="yes" smashed="yes" rot="R90">
 <attribute name="NAME" x="5.1" y="42.88" locked="yes" size="1.778" layer="25" ratio="10" rot="R90" align="center"/>
 <attribute name="POPULARITY" value="2" x="5.1" y="42.88" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="5.1" y="42.88" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="300k" x="5.1" y="76.38" locked="yes" smashed="yes" rot="R90">
+<element name="R4P" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="300k" x="5.1" y="76.38" locked="yes" smashed="yes" rot="R90">
 <attribute name="NAME" x="5.1" y="76.38" locked="yes" size="1.778" layer="25" ratio="10" rot="R90" align="center"/>
 <attribute name="POPULARITY" value="2" x="5.1" y="76.38" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="5.1" y="76.38" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="100k" x="11.5" y="76.38" locked="yes" smashed="yes" rot="R270">
+<element name="R5P" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="100k" x="11.5" y="76.38" locked="yes" smashed="yes" rot="R270">
 <attribute name="NAME" x="11.5" y="76.38" locked="yes" size="1.778" layer="25" ratio="10" rot="R270" align="center"/>
 <attribute name="POPULARITY" value="2" x="11.5" y="76.38" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="11.5" y="76.38" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C1" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="49.625" y="32.03" locked="yes" smashed="yes" rot="R180">
+<element name="C1P" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="49.625" y="32.03" locked="yes" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="" x="49.625" y="32.03" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="49.625" y="32.03" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="49.625" y="32.03" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1721,7 +1721,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="49.625" y="32.03" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="45.875" y="32.03" locked="yes" size="1.778" layer="25" ratio="10" rot="R180" align="center"/>
 </element>
-<element name="C2" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="29.875" y="32.03" locked="yes" smashed="yes" rot="R180">
+<element name="C2P" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="29.875" y="32.03" locked="yes" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="" x="29.875" y="32.03" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="29.875" y="32.03" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="29.875" y="32.03" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1732,7 +1732,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="29.875" y="32.03" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="26.125" y="32.03" locked="yes" size="1.778" layer="25" ratio="10" rot="R180" align="center"/>
 </element>
-<element name="C3" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="22.375" y="69.9" locked="yes" smashed="yes">
+<element name="C3P" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="22.375" y="69.9" locked="yes" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="22.375" y="69.9" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="22.375" y="69.9" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="22.375" y="69.9" locked="yes" size="1.778" layer="27" display="off"/>
@@ -1743,12 +1743,12 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="22.375" y="69.9" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="26.125" y="69.9" locked="yes" size="1.778" layer="25" ratio="10" align="center"/>
 </element>
-<element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="330" x="36" y="42.59" locked="yes" smashed="yes">
+<element name="R6P" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="330" x="36" y="42.59" locked="yes" smashed="yes">
 <attribute name="NAME" x="36" y="42.59" locked="yes" size="1.778" layer="25" ratio="10" align="center"/>
 <attribute name="POPULARITY" value="2" x="36" y="42.59" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="36" y="42.59" locked="yes" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C4" library="UCY2E220MPD1TD" package="CAPPRD500W60D1025H1750" value="UCY2E220MPD1TD" x="5.8" y="59.63" locked="yes" smashed="yes">
+<element name="C4P" library="UCY2E220MPD1TD" package="CAPPRD500W60D1025H1750" value="UCY2E220MPD1TD" x="5.8" y="59.63" locked="yes" smashed="yes">
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded 22uF 250V 20% AEC-Q200" x="5.8" y="59.63" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="17.5mm" x="5.8" y="59.63" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Nichicon" x="5.8" y="59.63" locked="yes" size="1.778" layer="27" display="off"/>
@@ -1783,7 +1783,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PART_NUMBER" value="651-1935161" x="62" y="37.59" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1935161?qs=W3wJikR1%252BS6eKzfFl8Rbew%3D%3D" x="62" y="37.59" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C5" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="49.625" y="69.9" locked="yes" smashed="yes" rot="R180">
+<element name="C5P" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="49.625" y="69.9" locked="yes" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="" x="49.625" y="69.9" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="49.625" y="69.9" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="49.625" y="69.9" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1794,7 +1794,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="49.625" y="69.9" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="45.875" y="69.9" locked="yes" size="1.778" layer="25" align="center"/>
 </element>
-<element name="C6" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="49.625" y="53.15" locked="yes" smashed="yes" rot="R180">
+<element name="C6P" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="49.625" y="53.15" locked="yes" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="" x="49.625" y="53.15" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="49.625" y="53.15" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="49.625" y="53.15" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1805,7 +1805,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="49.625" y="53.15" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="45.875" y="53.15" locked="yes" size="1.778" layer="25" align="center"/>
 </element>
-<element name="C7" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="22.375" y="53.15" locked="yes" smashed="yes">
+<element name="C7P" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="22.375" y="53.15" locked="yes" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="22.375" y="53.15" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="22.375" y="53.15" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="22.375" y="53.15" locked="yes" size="1.778" layer="27" display="off"/>
@@ -1816,7 +1816,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="22.375" y="53.15" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="26.125" y="53.15" locked="yes" size="1.778" layer="25" align="center"/>
 </element>
-<element name="C8" library="UCY2E220MPD1TD" package="CAPPRD500W60D1025H1750" value="UCY2E220MPD1TD" x="10.8" y="9.38" locked="yes" smashed="yes" rot="R180">
+<element name="C8P" library="UCY2E220MPD1TD" package="CAPPRD500W60D1025H1750" value="UCY2E220MPD1TD" x="10.8" y="9.38" locked="yes" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded 22uF 250V 20% AEC-Q200" x="10.8" y="9.38" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="17.5mm" x="10.8" y="9.38" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Nichicon" x="10.8" y="9.38" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1825,7 +1825,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UCY2E220MPD1TD?qs=JgOBn5pVFooNXIGMeLbPFg%3D%3D" x="10.8" y="9.38" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="8.3" y="9.38" locked="yes" size="1.778" layer="25" align="center"/>
 </element>
-<element name="C9" library="UCY2E220MPD1TD" package="CAPPRD500W60D1025H1750" value="UCY2E220MPD1TD" x="10.8" y="26.13" locked="yes" smashed="yes" rot="R180">
+<element name="C9P" library="UCY2E220MPD1TD" package="CAPPRD500W60D1025H1750" value="UCY2E220MPD1TD" x="10.8" y="26.13" locked="yes" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded 22uF 250V 20% AEC-Q200" x="10.8" y="26.13" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="17.5mm" x="10.8" y="26.13" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Nichicon" x="10.8" y="26.13" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1850,15 +1850,15 @@ design rules under a new name.</description>
 </polygon>
 <contactref element="D2" pad="2"/>
 <contactref element="D1" pad="2"/>
-<contactref element="R5" pad="1"/>
-<contactref element="C1" pad="2"/>
-<contactref element="C2" pad="2"/>
-<contactref element="C3" pad="2"/>
-<contactref element="C4" pad="2"/>
+<contactref element="R5P" pad="1"/>
+<contactref element="C1P" pad="2"/>
+<contactref element="C2P" pad="2"/>
+<contactref element="C3P" pad="2"/>
+<contactref element="C4P" pad="2"/>
 <contactref element="OUT" pad="6"/>
-<contactref element="C5" pad="2"/>
-<contactref element="C6" pad="2"/>
-<contactref element="C7" pad="2"/>
+<contactref element="C5P" pad="2"/>
+<contactref element="C6P" pad="2"/>
+<contactref element="C7P" pad="2"/>
 </signal>
 <signal name="115_VAC_BLK">
 <contactref element="D4" pad="2"/>
@@ -1875,7 +1875,7 @@ design rules under a new name.</description>
 <signal name="N$3">
 <contactref element="D4" pad="1"/>
 <contactref element="D3" pad="1"/>
-<contactref element="C1" pad="1"/>
+<contactref element="C1P" pad="1"/>
 <contactref element="J1" pad="1"/>
 <wire x1="56.1" y1="21" x2="56.1" y2="15" width="4" layer="1" locked="yes"/>
 <wire x1="49.625" y1="32.03" x2="54.36893125" y2="32.03" width="4" layer="1" locked="yes"/>
@@ -1895,8 +1895,8 @@ design rules under a new name.</description>
 <wire x1="31" y1="10.82893125" x2="31" y2="6" width="4" layer="1" locked="yes"/>
 </signal>
 <signal name="N$5">
-<contactref element="C2" pad="1"/>
-<contactref element="R6" pad="2"/>
+<contactref element="C2P" pad="1"/>
+<contactref element="R6P" pad="2"/>
 <contactref element="J1" pad="2"/>
 <wire x1="43.62" y1="42.59" x2="62" y2="42.59" width="4" layer="1" locked="yes"/>
 <wire x1="29.875" y1="32.03" x2="40.384746875" y2="42.539746875" width="4" layer="1" locked="yes"/>
@@ -1910,13 +1910,13 @@ design rules under a new name.</description>
 <vertex x="0" y="90"/>
 <vertex x="68" y="90"/>
 </polygon>
-<contactref element="R4" pad="2"/>
-<contactref element="C3" pad="1"/>
-<contactref element="R6" pad="1"/>
+<contactref element="R4P" pad="2"/>
+<contactref element="C3P" pad="1"/>
+<contactref element="R6P" pad="1"/>
 <contactref element="OUT" pad="7"/>
-<contactref element="C5" pad="1"/>
-<contactref element="C6" pad="1"/>
-<contactref element="C7" pad="1"/>
+<contactref element="C5P" pad="1"/>
+<contactref element="C6P" pad="1"/>
+<contactref element="C7P" pad="1"/>
 <wire x1="49.625" y1="53.15" x2="49.625" y2="69.9" width="4" layer="1" locked="yes"/>
 <wire x1="28.38" y1="42.59" x2="34.639746875" y2="48.849746875" width="4" layer="1" locked="yes"/>
 <wire x1="34.639746875" y1="48.849746875" x2="34.76106875" y2="48.9" width="4" layer="1" curve="-45" locked="yes"/>
@@ -1925,24 +1925,24 @@ design rules under a new name.</description>
 </signal>
 <signal name="6.3_VAC_ORG">
 <contactref element="IN" pad="2"/>
-<contactref element="C9" pad="1"/>
+<contactref element="C9P" pad="1"/>
 <wire x1="10.8" y1="26.13" x2="21" y2="26.13" width="4" layer="1" locked="yes"/>
 <wire x1="21" y1="26.13" x2="26" y2="21.13" width="4" layer="1" curve="-90" locked="yes"/>
 <wire x1="26" y1="21.13" x2="26" y2="6" width="4" layer="1" locked="yes"/>
 </signal>
 <signal name="6.3_VAC_BRN">
 <contactref element="IN" pad="1"/>
-<contactref element="C8" pad="1"/>
+<contactref element="C8P" pad="1"/>
 <wire x1="10.8" y1="9.38" x2="12.715534375" y2="7.464465625" width="4" layer="1" locked="yes"/>
 <wire x1="12.715534375" y1="7.464465625" x2="16.25106875" y2="6" width="4" layer="1" curve="45" locked="yes"/>
 <wire x1="16.25106875" y1="6" x2="21" y2="6" width="4" layer="1" locked="yes"/>
 </signal>
 <signal name="N$6">
-<contactref element="R3" pad="2"/>
-<contactref element="R2" pad="1"/>
-<contactref element="R4" pad="1"/>
-<contactref element="R5" pad="2"/>
-<contactref element="C4" pad="1"/>
+<contactref element="R3P" pad="2"/>
+<contactref element="R2P" pad="1"/>
+<contactref element="R4P" pad="1"/>
+<contactref element="R5P" pad="2"/>
+<contactref element="C4P" pad="1"/>
 <wire x1="5.1" y1="68.76" x2="5.1" y2="61.31995" width="4" layer="1" locked="yes"/>
 <wire x1="5.1" y1="61.31995" x2="5.8" y2="59.63" width="4" layer="1" curve="45" locked="yes"/>
 <wire x1="5.8" y1="59.63" x2="5.1" y2="57.94005" width="4" layer="1" curve="45" locked="yes"/>
@@ -1997,8 +1997,8 @@ design rules under a new name.</description>
 <wire x1="46" y1="81.97106875" x2="47.464465625" y2="78.435534375" width="4" layer="16" curve="45" locked="yes"/>
 </signal>
 <signal name="126_VAC_L">
-<contactref element="R2" pad="2"/>
-<contactref element="C9" pad="2"/>
+<contactref element="R2P" pad="2"/>
+<contactref element="C9P" pad="2"/>
 <contactref element="OUT" pad="4"/>
 <wire x1="31" y1="77.45" x2="36" y2="82.45" width="4" layer="16" curve="90" locked="yes"/>
 <wire x1="36" y1="82.45" x2="36" y2="84" width="4" layer="16" locked="yes"/>
@@ -2012,8 +2012,8 @@ design rules under a new name.</description>
 <wire x1="7.264465625" y1="31.024465625" x2="11.5" y2="35.26" width="4" layer="16" locked="yes"/>
 </signal>
 <signal name="126_VAC_N">
-<contactref element="R3" pad="1"/>
-<contactref element="C8" pad="2"/>
+<contactref element="R3P" pad="1"/>
+<contactref element="C8P" pad="2"/>
 <contactref element="OUT" pad="5"/>
 <wire x1="27.589465625" y1="77.389465625" x2="29.535534375" y2="79.335534375" width="4" layer="1" locked="yes"/>
 <wire x1="29.535534375" y1="79.335534375" x2="31" y2="82.87106875" width="4" layer="1" curve="45" locked="yes"/>

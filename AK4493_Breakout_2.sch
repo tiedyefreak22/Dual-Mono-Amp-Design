@@ -9,6 +9,20 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
@@ -294,28 +308,12 @@ by exp-lbrs.ulp</description>
 <smd name="48" x="-4.25" y="-2.75" dx="1" dy="0.25" layer="1"/>
 <pad name="P$1" x="0" y="0" drill="0.3048" diameter="0.6096"/>
 <pad name="P$2" x="-1.3275" y="0" drill="0.3048" diameter="0.6096"/>
-<pad name="P$3" x="-2.655" y="0" drill="0.3048" diameter="0.6096"/>
 <pad name="P$4" x="1.3275" y="0" drill="0.3048" diameter="0.6096"/>
-<pad name="P$5" x="2.655" y="0" drill="0.3048" diameter="0.6096"/>
 <pad name="P$6" x="0" y="1.3275" drill="0.3048" diameter="0.6096"/>
-<pad name="P$7" x="0" y="2.655" drill="0.3048" diameter="0.6096"/>
 <pad name="P$8" x="0" y="-1.3275" drill="0.3048" diameter="0.6096"/>
-<pad name="P$9" x="0" y="-2.655" drill="0.3048" diameter="0.6096"/>
 <pad name="P$10" x="-1.3275" y="-1.3275" drill="0.3048" diameter="0.6096"/>
-<pad name="P$11" x="-2.655" y="-1.3275" drill="0.3048" diameter="0.6096"/>
-<pad name="P$12" x="-2.655" y="-2.655" drill="0.3048" diameter="0.6096"/>
-<pad name="P$13" x="-1.3275" y="-2.655" drill="0.3048" diameter="0.6096"/>
-<pad name="P$14" x="1.3275" y="-2.655" drill="0.3048" diameter="0.6096"/>
-<pad name="P$15" x="2.655" y="-2.655" drill="0.3048" diameter="0.6096"/>
-<pad name="P$16" x="2.655" y="-1.3275" drill="0.3048" diameter="0.6096"/>
 <pad name="P$17" x="1.3275" y="-1.3275" drill="0.3048" diameter="0.6096"/>
 <pad name="P$18" x="1.3275" y="1.3275" drill="0.3048" diameter="0.6096"/>
-<pad name="P$19" x="2.655" y="1.3275" drill="0.3048" diameter="0.6096"/>
-<pad name="P$20" x="2.655" y="2.655" drill="0.3048" diameter="0.6096"/>
-<pad name="P$21" x="1.3275" y="2.655" drill="0.3048" diameter="0.6096"/>
-<pad name="P$22" x="-1.3275" y="2.655" drill="0.3048" diameter="0.6096"/>
-<pad name="P$23" x="-2.655" y="2.655" drill="0.3048" diameter="0.6096"/>
-<pad name="P$24" x="-2.655" y="1.3275" drill="0.3048" diameter="0.6096"/>
 <pad name="P$25" x="-1.3275" y="1.3275" drill="0.3048" diameter="0.6096"/>
 <text x="-5.3975" y="-2.8575" size="1.016" layer="25" rot="R90">&gt;NAME</text>
 <text x="-1.905" y="-0.3175" size="1.016" layer="27">&gt;VALUE</text>
@@ -399,35 +397,9 @@ Metric Code Size 1608</description>
 <rectangle x1="0.45" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
 <smd name="1" x="-0.875" y="0" dx="1.05" dy="1.08" layer="1"/>
 <smd name="2" x="0.875" y="0" dx="1.05" dy="1.08" layer="1"/>
-<pad name="DGND" x="0.875" y="0" drill="0.35"/>
+<pad name="3" x="0.875" y="0" drill="0.35"/>
 <text x="-0.8" y="0.65" size="1.016" layer="25">&gt;NAME</text>
 <text x="-0.8" y="-1.65" size="1.016" layer="27">&gt;VALUE</text>
-</package>
-<package name="C0805K" urn="urn:adsk.eagle:footprint:23188/1" locally_modified="yes">
-<description>&lt;b&gt;Ceramic Chip Capacitor KEMET 0805 reflow solder&lt;/b&gt;&lt;p&gt;
-Metric Code Size 2012</description>
-<wire x1="-0.925" y1="0.6" x2="0.925" y2="0.6" width="0.1016" layer="51"/>
-<wire x1="0.925" y1="-0.6" x2="-0.925" y2="-0.6" width="0.1016" layer="51"/>
-<rectangle x1="-1" y1="-0.65" x2="-0.5" y2="0.65" layer="51"/>
-<rectangle x1="0.5" y1="-0.65" x2="1" y2="0.65" layer="51"/>
-<smd name="1" x="-1" y="0" dx="1.3" dy="1.6" layer="1"/>
-<smd name="2" x="1" y="0" dx="1.3" dy="1.6" layer="1"/>
-<pad name="DGND" x="1" y="0" drill="0.35"/>
-<text x="-1" y="0.875" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1" y="-1.9" size="1.016" layer="27">&gt;VALUE</text>
-</package>
-<package name="C1206K" urn="urn:adsk.eagle:footprint:23189/1" locally_modified="yes">
-<description>&lt;b&gt;Ceramic Chip Capacitor KEMET 1206 reflow solder&lt;/b&gt;&lt;p&gt;
-Metric Code Size 3216</description>
-<wire x1="-1.525" y1="0.75" x2="1.525" y2="0.75" width="0.1016" layer="51"/>
-<wire x1="1.525" y1="-0.75" x2="-1.525" y2="-0.75" width="0.1016" layer="51"/>
-<rectangle x1="-1.6" y1="-0.8" x2="-1.1" y2="0.8" layer="51"/>
-<rectangle x1="1.1" y1="-0.8" x2="1.6" y2="0.8" layer="51"/>
-<smd name="1" x="-1.5" y="0" dx="1.5" dy="2" layer="1"/>
-<smd name="2" x="1.5" y="0" dx="1.5" dy="2" layer="1"/>
-<pad name="DGND" x="1.5" y="0" drill="0.35"/>
-<text x="-1.6" y="1.1" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.6" y="-2.1" size="1.016" layer="27">&gt;VALUE</text>
 </package>
 <package name="SJ">
 <description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
@@ -471,6 +443,32 @@ Metric Code Size 3216</description>
 <smd name="3" x="1.524" y="0" dx="1.1684" dy="1.6002" layer="1"/>
 <text x="-2.413" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-0.1001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+</package>
+<package name="C0805K" urn="urn:adsk.eagle:footprint:23188/1" locally_modified="yes">
+<description>&lt;b&gt;Ceramic Chip Capacitor KEMET 0805 reflow solder&lt;/b&gt;&lt;p&gt;
+Metric Code Size 2012</description>
+<wire x1="-0.925" y1="0.6" x2="0.925" y2="0.6" width="0.1016" layer="51"/>
+<wire x1="0.925" y1="-0.6" x2="-0.925" y2="-0.6" width="0.1016" layer="51"/>
+<rectangle x1="-1" y1="-0.65" x2="-0.5" y2="0.65" layer="51"/>
+<rectangle x1="0.5" y1="-0.65" x2="1" y2="0.65" layer="51"/>
+<smd name="1" x="-1" y="0" dx="1.3" dy="1.6" layer="1"/>
+<smd name="2" x="1" y="0" dx="1.3" dy="1.6" layer="1"/>
+<pad name="3" x="1" y="0" drill="0.35"/>
+<text x="-1" y="0.875" size="1.016" layer="25">&gt;NAME</text>
+<text x="-1" y="-1.9" size="1.016" layer="27">&gt;VALUE</text>
+</package>
+<package name="C1206K" urn="urn:adsk.eagle:footprint:23189/1" locally_modified="yes">
+<description>&lt;b&gt;Ceramic Chip Capacitor KEMET 1206 reflow solder&lt;/b&gt;&lt;p&gt;
+Metric Code Size 3216</description>
+<wire x1="-1.525" y1="0.75" x2="1.525" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="1.525" y1="-0.75" x2="-1.525" y2="-0.75" width="0.1016" layer="51"/>
+<rectangle x1="-1.6" y1="-0.8" x2="-1.1" y2="0.8" layer="51"/>
+<rectangle x1="1.1" y1="-0.8" x2="1.6" y2="0.8" layer="51"/>
+<smd name="1" x="-1.5" y="0" dx="1.5" dy="2" layer="1"/>
+<smd name="2" x="1.5" y="0" dx="1.5" dy="2" layer="1"/>
+<pad name="3" x="1.5" y="0" drill="0.35"/>
+<text x="-1.6" y="1.1" size="1.016" layer="25">&gt;NAME</text>
+<text x="-1.6" y="-2.1" size="1.016" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
@@ -625,6 +623,12 @@ Metric Code Size 3216</description>
 <text x="2.54" y="0.381" size="1.778" layer="95">&gt;NAME</text>
 <text x="2.54" y="-1.905" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="AGND">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.0922" y1="-0.508" x2="1.0922" y2="-0.508" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="AGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="DGND" prefix="SUPPLY">
@@ -655,14 +659,14 @@ Metric Code Size 3216</description>
 <connect gate="G$1" pin="AOUTRN" pad="26"/>
 <connect gate="G$1" pin="AOUTRP" pad="25"/>
 <connect gate="G$1" pin="AVDD" pad="44"/>
-<connect gate="G$1" pin="AVSS" pad="45"/>
+<connect gate="G$1" pin="AVSS" pad="45 P$1 P$2 P$4 P$6 P$8 P$10 P$17 P$18 P$25"/>
 <connect gate="G$1" pin="BICK" pad="3"/>
 <connect gate="G$1" pin="DEM0" pad="15"/>
 <connect gate="G$1" pin="DIF0" pad="10"/>
 <connect gate="G$1" pin="DIF1" pad="11"/>
 <connect gate="G$1" pin="DIF2" pad="12"/>
 <connect gate="G$1" pin="DVDD" pad="1"/>
-<connect gate="G$1" pin="DVSS" pad="47 P$1 P$2 P$3 P$4 P$5 P$6 P$7 P$8 P$9 P$10 P$11 P$12 P$13 P$14 P$15 P$16 P$17 P$18 P$19 P$20 P$21 P$22 P$23 P$24 P$25"/>
+<connect gate="G$1" pin="DVSS" pad="47"/>
 <connect gate="G$1" pin="INV" pad="14"/>
 <connect gate="G$1" pin="LDOE" pad="16"/>
 <connect gate="G$1" pin="LRCK" pad="5"/>
@@ -769,7 +773,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <device name="C0603K" package="C0603K">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2 DGND"/>
+<connect gate="G$1" pin="2" pad="2 3"/>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23680/2"/>
@@ -784,7 +788,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <device name="C0805K" package="C0805K">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2 DGND"/>
+<connect gate="G$1" pin="2" pad="2 3"/>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23681/2"/>
@@ -799,7 +803,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <device name="C1206K" package="C1206K">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2 DGND"/>
+<connect gate="G$1" pin="2" pad="2 3"/>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23682/2"/>
@@ -852,6 +856,19 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </device>
 </devices>
 </deviceset>
+<deviceset name="AGND" prefix="AGND">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="VR1" symbol="AGND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -870,9 +887,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <parts>
 <part name="IC2" library="Dual Mono Amp Library" deviceset="AK4493" device=""/>
 <part name="SUPPLY1" library="Dual Mono Amp Library" deviceset="DGND" device=""/>
-<part name="SUPPLY2" library="Dual Mono Amp Library" deviceset="DGND" device=""/>
 <part name="SUPPLY3" library="Dual Mono Amp Library" deviceset="DGND" device=""/>
-<part name="SUPPLY4" library="Dual Mono Amp Library" deviceset="DGND" device=""/>
 <part name="C2A1" library="Dual Mono Amp Library" deviceset="C-POL-MLCC" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="0.1u, Ceramic Capacitor X7R"/>
 <part name="C4A1" library="Dual Mono Amp Library" deviceset="C-POL-MLCC" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="0.1u, Ceramic Capacitor X7R"/>
 <part name="C6A1" library="Dual Mono Amp Library" deviceset="C-POL-MLCC" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="0.1u, Ceramic Capacitor X7R"/>
@@ -881,20 +896,21 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="C12A1" library="Dual Mono Amp Library" deviceset="C-POL-MLCC" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="0.1u, Ceramic Capacitor X7R"/>
 <part name="C14A1" library="Dual Mono Amp Library" deviceset="C-POL-MLCC" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="0.1u, Ceramic Capacitor X7R"/>
 <part name="C16A1" library="Dual Mono Amp Library" deviceset="C-POL-MLCC" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="0.1u, Ceramic Capacitor X7R"/>
-<part name="SUPPLY5" library="Dual Mono Amp Library" deviceset="DGND" device=""/>
-<part name="SUPPLY11" library="Dual Mono Amp Library" deviceset="DGND" device=""/>
-<part name="SUPPLY14" library="Dual Mono Amp Library" deviceset="DGND" device=""/>
 <part name="SUPPLY20" library="Dual Mono Amp Library" deviceset="DGND" device=""/>
-<part name="SUPPLY21" library="Dual Mono Amp Library" deviceset="DGND" device=""/>
-<part name="SUPPLY22" library="Dual Mono Amp Library" deviceset="DGND" device=""/>
-<part name="SUPPLY23" library="Dual Mono Amp Library" deviceset="DGND" device=""/>
-<part name="SUPPLY24" library="Dual Mono Amp Library" deviceset="DGND" device=""/>
 <part name="DIF1" library="Dual Mono Amp Library" deviceset="SJ2W" device=""/>
 <part name="SMUTE1" library="Dual Mono Amp Library" deviceset="SJ" device=""/>
 <part name="J5" library="Dual Mono Amp Library" deviceset="CONN_07" device=""/>
 <part name="J6" library="Dual Mono Amp Library" deviceset="CONN_07" device=""/>
 <part name="J7" library="Dual Mono Amp Library" deviceset="CONN_07" device=""/>
 <part name="J8" library="Dual Mono Amp Library" deviceset="CONN_07" device=""/>
+<part name="AGND1" library="Dual Mono Amp Library" deviceset="AGND" device=""/>
+<part name="AGND2" library="Dual Mono Amp Library" deviceset="AGND" device=""/>
+<part name="AGND3" library="Dual Mono Amp Library" deviceset="AGND" device=""/>
+<part name="AGND4" library="Dual Mono Amp Library" deviceset="AGND" device=""/>
+<part name="AGND5" library="Dual Mono Amp Library" deviceset="AGND" device=""/>
+<part name="AGND6" library="Dual Mono Amp Library" deviceset="AGND" device=""/>
+<part name="AGND7" library="Dual Mono Amp Library" deviceset="AGND" device=""/>
+<part name="AGND8" library="Dual Mono Amp Library" deviceset="AGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -911,14 +927,8 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <instance part="SUPPLY1" gate="G$1" x="35.56" y="40.64" smashed="yes">
 <attribute name="VALUE" x="32.893" y="37.465" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY2" gate="G$1" x="116.84" y="45.72" smashed="yes">
-<attribute name="VALUE" x="114.173" y="42.545" size="1.778" layer="96"/>
-</instance>
 <instance part="SUPPLY3" gate="G$1" x="66.04" y="152.4" smashed="yes" rot="R180">
 <attribute name="VALUE" x="68.707" y="155.575" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="SUPPLY4" gate="G$1" x="73.66" y="152.4" smashed="yes" rot="R180">
-<attribute name="VALUE" x="76.327" y="155.575" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C2A1" gate="G$1" x="58.42" y="147.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="58.039" y="148.844" size="1.778" layer="95" rot="R90"/>
@@ -952,29 +962,8 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <attribute name="NAME" x="138.176" y="80.899" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="138.176" y="85.979" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY5" gate="G$1" x="144.78" y="99.06" smashed="yes" rot="R90">
-<attribute name="VALUE" x="147.955" y="96.393" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="SUPPLY11" gate="G$1" x="144.78" y="88.9" smashed="yes" rot="R90">
-<attribute name="VALUE" x="147.955" y="86.233" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="SUPPLY14" gate="G$1" x="106.68" y="27.94" smashed="yes">
-<attribute name="VALUE" x="104.013" y="24.765" size="1.778" layer="96"/>
-</instance>
 <instance part="SUPPLY20" gate="G$1" x="83.82" y="165.1" smashed="yes">
 <attribute name="VALUE" x="81.153" y="161.925" size="1.778" layer="96"/>
-</instance>
-<instance part="SUPPLY21" gate="G$1" x="106.68" y="152.4" smashed="yes" rot="R180">
-<attribute name="VALUE" x="109.347" y="155.575" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="SUPPLY22" gate="G$1" x="160.02" y="88.9" smashed="yes" rot="R270">
-<attribute name="VALUE" x="156.845" y="91.567" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="SUPPLY23" gate="G$1" x="160.02" y="101.6" smashed="yes" rot="R270">
-<attribute name="VALUE" x="156.845" y="104.267" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="SUPPLY24" gate="G$1" x="93.98" y="17.78" smashed="yes" rot="R180">
-<attribute name="VALUE" x="96.647" y="20.955" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="DIF1" gate="G$1" x="33.02" y="66.04" smashed="yes" rot="R180">
 <attribute name="NAME" x="30.48" y="65.659" size="1.778" layer="95" rot="R180"/>
@@ -999,6 +988,30 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <instance part="J8" gate="J1" x="5.08" y="88.9" smashed="yes">
 <attribute name="VALUE" x="0" y="78.994" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="0" y="102.108" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="AGND1" gate="VR1" x="144.78" y="88.9" smashed="yes" rot="R90">
+<attribute name="VALUE" x="149.86" y="86.36" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="AGND2" gate="VR1" x="144.78" y="99.06" smashed="yes" rot="R90">
+<attribute name="VALUE" x="149.86" y="96.52" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="AGND3" gate="VR1" x="160.02" y="101.6" smashed="yes" rot="R270">
+<attribute name="VALUE" x="154.94" y="104.14" size="1.778" layer="96"/>
+</instance>
+<instance part="AGND4" gate="VR1" x="160.02" y="88.9" smashed="yes" rot="R270">
+<attribute name="VALUE" x="154.94" y="91.44" size="1.778" layer="96"/>
+</instance>
+<instance part="AGND5" gate="VR1" x="106.68" y="27.94" smashed="yes">
+<attribute name="VALUE" x="104.14" y="22.86" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="AGND6" gate="VR1" x="93.98" y="17.78" smashed="yes" rot="R180">
+<attribute name="VALUE" x="96.52" y="22.86" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="AGND7" gate="VR1" x="73.66" y="152.4" smashed="yes" rot="R180">
+<attribute name="VALUE" x="76.2" y="157.48" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="AGND8" gate="VR1" x="106.68" y="152.4" smashed="yes" rot="R180">
+<attribute name="VALUE" x="109.22" y="157.48" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -1036,27 +1049,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <junction x="30.48" y="91.44"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="NC"/>
-<pinref part="SUPPLY2" gate="G$1" pin="DGND"/>
-<wire x1="116.84" y1="48.26" x2="116.84" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="VREFLL2"/>
-<wire x1="101.6" y1="137.16" x2="101.6" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="139.7" x2="106.68" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="VREFLL"/>
-<wire x1="106.68" y1="139.7" x2="106.68" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="139.7" x2="106.68" y2="147.32" width="0.1524" layer="91"/>
-<junction x="106.68" y="139.7"/>
-<pinref part="C6A1" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="147.32" x2="106.68" y2="147.32" width="0.1524" layer="91"/>
-<junction x="106.68" y="147.32"/>
-<pinref part="C8A1" gate="G$1" pin="2"/>
-<wire x1="109.22" y1="147.32" x2="106.68" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="147.32" x2="106.68" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="SUPPLY21" gate="G$1" pin="DGND"/>
-</segment>
-<segment>
 <pinref part="IC2" gate="G$1" pin="DVSS"/>
 <wire x1="66.04" y1="137.16" x2="66.04" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="G$1" pin="DGND"/>
@@ -1066,81 +1058,9 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <junction x="66.04" y="147.32"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="AVSS"/>
-<wire x1="76.2" y1="137.16" x2="76.2" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="139.7" x2="73.66" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="139.7" x2="73.66" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="SUPPLY4" gate="G$1" pin="DGND"/>
-<wire x1="73.66" y1="147.32" x2="73.66" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="C4A1" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="147.32" x2="73.66" y2="147.32" width="0.1524" layer="91"/>
-<junction x="73.66" y="147.32"/>
-</segment>
-<segment>
-<pinref part="C14A1" gate="G$1" pin="2"/>
-<wire x1="139.7" y1="101.6" x2="139.7" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="99.06" x2="142.24" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="VSSL2"/>
-<wire x1="132.08" y1="101.6" x2="134.62" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="101.6" x2="134.62" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="VSSL"/>
-<wire x1="134.62" y1="99.06" x2="134.62" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="96.52" x2="132.08" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="99.06" x2="134.62" y2="99.06" width="0.1524" layer="91"/>
-<junction x="139.7" y="99.06"/>
-<junction x="134.62" y="99.06"/>
-<pinref part="SUPPLY5" gate="G$1" pin="DGND"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="VSSR2"/>
-<wire x1="132.08" y1="91.44" x2="134.62" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="91.44" x2="134.62" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="VSSR"/>
-<wire x1="134.62" y1="88.9" x2="134.62" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="86.36" x2="132.08" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="C16A1" gate="G$1" pin="2"/>
-<wire x1="139.7" y1="86.36" x2="139.7" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="88.9" x2="134.62" y2="88.9" width="0.1524" layer="91"/>
-<junction x="134.62" y="88.9"/>
-<wire x1="139.7" y1="88.9" x2="142.24" y2="88.9" width="0.1524" layer="91"/>
-<junction x="139.7" y="88.9"/>
-<pinref part="SUPPLY11" gate="G$1" pin="DGND"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="VREFLR"/>
-<wire x1="101.6" y1="50.8" x2="101.6" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="48.26" x2="106.68" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="VREFLR2"/>
-<wire x1="106.68" y1="48.26" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="48.26" x2="106.68" y2="33.02" width="0.1524" layer="91"/>
-<junction x="106.68" y="48.26"/>
-<wire x1="106.68" y1="33.02" x2="106.68" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="C12A1" gate="G$1" pin="2"/>
-<wire x1="109.22" y1="33.02" x2="106.68" y2="33.02" width="0.1524" layer="91"/>
-<junction x="106.68" y="33.02"/>
-<pinref part="C10A1" gate="G$1" pin="2"/>
-<wire x1="106.68" y1="33.02" x2="104.14" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="SUPPLY14" gate="G$1" pin="DGND"/>
-</segment>
-<segment>
 <pinref part="SUPPLY20" gate="G$1" pin="DGND"/>
 <wire x1="83.82" y1="167.64" x2="83.82" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="J7" gate="J1" pin="3"/>
-</segment>
-<segment>
-<pinref part="SUPPLY22" gate="G$1" pin="DGND"/>
-<wire x1="162.56" y1="88.9" x2="167.64" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="J6" gate="J1" pin="7"/>
-</segment>
-<segment>
-<pinref part="SUPPLY24" gate="G$1" pin="DGND"/>
-<wire x1="93.98" y1="15.24" x2="93.98" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="J5" gate="J1" pin="3"/>
-</segment>
-<segment>
-<pinref part="J6" gate="J1" pin="2"/>
-<pinref part="SUPPLY23" gate="G$1" pin="DGND"/>
-<wire x1="162.56" y1="101.6" x2="167.64" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$24" class="2">
@@ -1443,6 +1363,96 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <wire x1="27.94" y1="45.72" x2="66.04" y2="45.72" width="0.1524" layer="91"/>
 <junction x="66.04" y="45.72"/>
 <pinref part="J5" gate="J1" pin="5"/>
+</segment>
+</net>
+<net name="AGND" class="0">
+<segment>
+<pinref part="C14A1" gate="G$1" pin="2"/>
+<wire x1="139.7" y1="101.6" x2="139.7" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="99.06" x2="142.24" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="VSSL2"/>
+<wire x1="132.08" y1="101.6" x2="134.62" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="101.6" x2="134.62" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="VSSL"/>
+<wire x1="134.62" y1="99.06" x2="134.62" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="96.52" x2="132.08" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="99.06" x2="134.62" y2="99.06" width="0.1524" layer="91"/>
+<junction x="139.7" y="99.06"/>
+<junction x="134.62" y="99.06"/>
+<pinref part="AGND2" gate="VR1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="VSSR2"/>
+<wire x1="132.08" y1="91.44" x2="134.62" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="91.44" x2="134.62" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="VSSR"/>
+<wire x1="134.62" y1="88.9" x2="134.62" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="86.36" x2="132.08" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="C16A1" gate="G$1" pin="2"/>
+<wire x1="139.7" y1="86.36" x2="139.7" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="88.9" x2="134.62" y2="88.9" width="0.1524" layer="91"/>
+<junction x="134.62" y="88.9"/>
+<wire x1="139.7" y1="88.9" x2="142.24" y2="88.9" width="0.1524" layer="91"/>
+<junction x="139.7" y="88.9"/>
+<pinref part="AGND1" gate="VR1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="J6" gate="J1" pin="2"/>
+<wire x1="162.56" y1="101.6" x2="167.64" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="AGND3" gate="VR1" pin="AGND"/>
+</segment>
+<segment>
+<wire x1="162.56" y1="88.9" x2="167.64" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="J6" gate="J1" pin="7"/>
+<pinref part="AGND4" gate="VR1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="VREFLR"/>
+<wire x1="101.6" y1="50.8" x2="101.6" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="48.26" x2="106.68" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="VREFLR2"/>
+<wire x1="106.68" y1="48.26" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="48.26" x2="106.68" y2="33.02" width="0.1524" layer="91"/>
+<junction x="106.68" y="48.26"/>
+<wire x1="106.68" y1="33.02" x2="106.68" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="C12A1" gate="G$1" pin="2"/>
+<wire x1="109.22" y1="33.02" x2="106.68" y2="33.02" width="0.1524" layer="91"/>
+<junction x="106.68" y="33.02"/>
+<pinref part="C10A1" gate="G$1" pin="2"/>
+<wire x1="106.68" y1="33.02" x2="104.14" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="AGND5" gate="VR1" pin="AGND"/>
+</segment>
+<segment>
+<wire x1="93.98" y1="15.24" x2="93.98" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="J5" gate="J1" pin="3"/>
+<pinref part="AGND6" gate="VR1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="AVSS"/>
+<wire x1="76.2" y1="137.16" x2="76.2" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="139.7" x2="73.66" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="139.7" x2="73.66" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="147.32" x2="73.66" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="C4A1" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="147.32" x2="73.66" y2="147.32" width="0.1524" layer="91"/>
+<junction x="73.66" y="147.32"/>
+<pinref part="AGND7" gate="VR1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="VREFLL2"/>
+<wire x1="101.6" y1="137.16" x2="101.6" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="139.7" x2="106.68" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="VREFLL"/>
+<wire x1="106.68" y1="139.7" x2="106.68" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="139.7" x2="106.68" y2="147.32" width="0.1524" layer="91"/>
+<junction x="106.68" y="139.7"/>
+<pinref part="C6A1" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="147.32" x2="106.68" y2="147.32" width="0.1524" layer="91"/>
+<junction x="106.68" y="147.32"/>
+<pinref part="C8A1" gate="G$1" pin="2"/>
+<wire x1="109.22" y1="147.32" x2="106.68" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="147.32" x2="106.68" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="AGND8" gate="VR1" pin="AGND"/>
 </segment>
 </net>
 </nets>

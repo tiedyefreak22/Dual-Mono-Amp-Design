@@ -402,28 +402,12 @@ by exp-lbrs.ulp</description>
 <smd name="48" x="-4.25" y="-2.75" dx="1" dy="0.25" layer="1"/>
 <pad name="P$1" x="0" y="0" drill="0.3048" diameter="0.6096"/>
 <pad name="P$2" x="-1.3275" y="0" drill="0.3048" diameter="0.6096"/>
-<pad name="P$3" x="-2.655" y="0" drill="0.3048" diameter="0.6096"/>
 <pad name="P$4" x="1.3275" y="0" drill="0.3048" diameter="0.6096"/>
-<pad name="P$5" x="2.655" y="0" drill="0.3048" diameter="0.6096"/>
 <pad name="P$6" x="0" y="1.3275" drill="0.3048" diameter="0.6096"/>
-<pad name="P$7" x="0" y="2.655" drill="0.3048" diameter="0.6096"/>
 <pad name="P$8" x="0" y="-1.3275" drill="0.3048" diameter="0.6096"/>
-<pad name="P$9" x="0" y="-2.655" drill="0.3048" diameter="0.6096"/>
 <pad name="P$10" x="-1.3275" y="-1.3275" drill="0.3048" diameter="0.6096"/>
-<pad name="P$11" x="-2.655" y="-1.3275" drill="0.3048" diameter="0.6096"/>
-<pad name="P$12" x="-2.655" y="-2.655" drill="0.3048" diameter="0.6096"/>
-<pad name="P$13" x="-1.3275" y="-2.655" drill="0.3048" diameter="0.6096"/>
-<pad name="P$14" x="1.3275" y="-2.655" drill="0.3048" diameter="0.6096"/>
-<pad name="P$15" x="2.655" y="-2.655" drill="0.3048" diameter="0.6096"/>
-<pad name="P$16" x="2.655" y="-1.3275" drill="0.3048" diameter="0.6096"/>
 <pad name="P$17" x="1.3275" y="-1.3275" drill="0.3048" diameter="0.6096"/>
 <pad name="P$18" x="1.3275" y="1.3275" drill="0.3048" diameter="0.6096"/>
-<pad name="P$19" x="2.655" y="1.3275" drill="0.3048" diameter="0.6096"/>
-<pad name="P$20" x="2.655" y="2.655" drill="0.3048" diameter="0.6096"/>
-<pad name="P$21" x="1.3275" y="2.655" drill="0.3048" diameter="0.6096"/>
-<pad name="P$22" x="-1.3275" y="2.655" drill="0.3048" diameter="0.6096"/>
-<pad name="P$23" x="-2.655" y="2.655" drill="0.3048" diameter="0.6096"/>
-<pad name="P$24" x="-2.655" y="1.3275" drill="0.3048" diameter="0.6096"/>
 <pad name="P$25" x="-1.3275" y="1.3275" drill="0.3048" diameter="0.6096"/>
 <text x="-5.3975" y="-2.8575" size="1.016" layer="25" rot="R90">&gt;NAME</text>
 <text x="-1.905" y="-0.3175" size="1.016" layer="27">&gt;VALUE</text>
@@ -1387,7 +1371,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/EMK316BB7226M
 <connect gate="G$1" pin="AOUTRN" pad="26"/>
 <connect gate="G$1" pin="AOUTRP" pad="25"/>
 <connect gate="G$1" pin="AVDD" pad="44"/>
-<connect gate="G$1" pin="AVSS" pad="45 P$1 P$2 P$3 P$4 P$5 P$6 P$7 P$8 P$9 P$10 P$11 P$12 P$13 P$14 P$15 P$16 P$17 P$18 P$19 P$20 P$21 P$22 P$23 P$24 P$25"/>
+<connect gate="G$1" pin="AVSS" pad="45 P$1 P$2 P$4 P$6 P$8 P$10 P$17 P$18 P$25"/>
 <connect gate="G$1" pin="BICK" pad="3"/>
 <connect gate="G$1" pin="DEM0" pad="15"/>
 <connect gate="G$1" pin="DIF0" pad="10"/>

@@ -6,12 +6,12 @@
         <General CursorSize="3" ExtraPrecision="1"/>
         <Coords Type="0" TypeString="Cartesian" Coords="0" ScaleXTheta="0" ScaleXThetaString="Linear" ScaleYRadius="0" ScaleYRadiusString="Linear" UnitsX="0" UnitsXString="Number" UnitsY="0" UnitsYString="Number" UnitsTheta="0" UnitsThetaString="Degrees (DDD.DDDDD)" UnitsRadius="0" UnitsRadiusString="Number" UnitsDate="3" UnitsDateString="YYYY/MM/DD" UnitsTime="2" UnitsTimeString="HH:MM:SS"/>
         <DigitizeCurve CursorInnerRadius="5" CursorLineWidth="2" CursorSize="1" CursorStandardCross="True"/>
-        <Export PointsSelectionFunctions="0" PointsSelectionFunctionsString="InterpolateAllCurves" PointsIntervalFunctions="10" PointsIntervalUnitsFunctions="1" PointsSelectionRelations="0" PointsSelectionRelationsString="Interpolate" PointsIntervalUnitsRelations="1" PointsIntervalRelations="10" LayoutFunctions="0" LayoutFunctionsString="AllPerLine" Delimiter="0" OverrideCsvTsv="False" DelimiterString="Commas" ExtrapolateOutsideEndpoints="True" Header="1" HeaderString="Simple" XLabel="x">
+        <Export PointsSelectionFunctions="2" PointsSelectionFunctionsString="InterpolatePeriodic" PointsIntervalFunctions="1" PointsIntervalUnitsFunctions="0" PointsSelectionRelations="0" PointsSelectionRelationsString="Interpolate" PointsIntervalUnitsRelations="1" PointsIntervalRelations="10" LayoutFunctions="0" LayoutFunctionsString="AllPerLine" Delimiter="0" OverrideCsvTsv="False" DelimiterString="Commas" ExtrapolateOutsideEndpoints="False" Header="1" HeaderString="Simple" XLabel="x">
             <CurveNamesNotExported/>
         </Export>
         <AxesChecker Mode="1" Seconds="3" LineColor="6"/>
         <GridDisplay Stable="True" DisableX="0" CountX="4" StartX="0" StepX="100" StopX="300" DisableY="0" CountY="9" StartY="0" StepY="10" StopY="80" Color="0" ColorString="Black"/>
-        <GridRemoval Stable="False" DefinedGridLines="False" CloseDistance="10" CoordDisableX="0" CoordDisableXString="Count" CountX="22" StartX="10.2329" StepX="14.9747" StopX="324.701" CoordDisableY="0" CoordDisableYString="Count" CountY="27" StartY="-129.761" StepY="7.99409" StopY="78.0853"/>
+        <GridRemoval Stable="False" DefinedGridLines="False" CloseDistance="10" CoordDisableX="0" CoordDisableXString="Count" CountX="22" StartX="10.2327" StepX="14.9747" StopX="324.701" CoordDisableY="0" CoordDisableYString="Count" CountY="27" StartY="-129.761" StepY="7.99408" StopY="78.0853"/>
         <PointMatch PointSize="48" ColorAccepted="4" ColorAcceptedString="Green" ColorCandidate="7" ColorCandidateString="Yellow" ColorRejected="6" ColorRejectedString="Red"/>
         <Segments PointSeparation="25" MinLength="2" FillCorners="False" LineWidth="4" LineColor="4" LineColorString="Green"/>
         <Curve CurveName="Axes">

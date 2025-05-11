@@ -2364,109 +2364,95 @@ design rules under a new name.</description>
 </element>
 <element name="SX3" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" package="VT9-PT" package3d_urn="urn:adsk.eagle:package:4683/1" value="VT9-PT" x="21.52761875" y="60.5490125" smashed="yes" rot="R342">
 <attribute name="NAME" x="31.521828125" y="66.64919375" size="1.27" layer="25" rot="R342"/>
-<attribute name="VALUE" x="32.005740625" y="55.80910625" size="1.27" layer="27" rot="R72"/>
 </element>
 <element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k" x="19" y="-15" smashed="yes">
 <attribute name="NAME" x="15.952" y="-13.476" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="36" x="19" y="-15" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="19" y="-15" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="16.7394" y="-15.635" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k" x="19" y="-20" smashed="yes">
 <attribute name="NAME" x="15.952" y="-18.476" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="36" x="19" y="-20" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="19" y="-20" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="16.7394" y="-20.635" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="C1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="MKP4G034705D00KSSD" package3d_urn="urn:adsk.eagle:package:47621660/1" value="MKP4G034705D00KSSD" x="17" y="-36" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="" x="17" y="-36" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="17" y="-36" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="0.47 F Film Capacitor 220V 400V Polypropylene (PP), Metallized Radial" x="17" y="-36" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="16.5mm" x="17" y="-36" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="WIMA" x="17" y="-36" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MKP4G034705D00KSSD" x="17" y="-36" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="505-MKP4G034705DKSSD" x="17" y="-36" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=sJjjjplDs9uaOctv9bTMfA%3d%3d" x="17" y="-36" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="28.25" y="-36" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="28.25" y="-36" size="1.27" layer="27" align="center"/>
+<element name="C1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="MKP4G034705D00KSSD" package3d_urn="urn:adsk.eagle:package:47621660/1" value="MKP4G034705D00KSSD" x="49" y="29" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="" x="49" y="29" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="49" y="29" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="0.47 F Film Capacitor 220V 400V Polypropylene (PP), Metallized Radial" x="49" y="29" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="16.5mm" x="49" y="29" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="WIMA" x="49" y="29" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MKP4G034705D00KSSD" x="49" y="29" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="505-MKP4G034705DKSSD" x="49" y="29" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=sJjjjplDs9uaOctv9bTMfA%3d%3d" x="49" y="29" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="49" y="40.25" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
-<element name="C3" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="MKP4G034705D00KSSD" package3d_urn="urn:adsk.eagle:package:47621660/1" value="MKP4G034705D00KSSD" x="17" y="-56" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="" x="17" y="-56" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="17" y="-56" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="0.47 F Film Capacitor 220V 400V Polypropylene (PP), Metallized Radial" x="17" y="-56" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="16.5mm" x="17" y="-56" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="WIMA" x="17" y="-56" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MKP4G034705D00KSSD" x="17" y="-56" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="505-MKP4G034705DKSSD" x="17" y="-56" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=sJjjjplDs9uaOctv9bTMfA%3d%3d" x="17" y="-56" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="28.25" y="-56" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="28.25" y="-56" size="1.27" layer="27" align="center"/>
+<element name="C3" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="MKP4G034705D00KSSD" package3d_urn="urn:adsk.eagle:package:47621660/1" value="MKP4G034705D00KSSD" x="49" y="58" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="" x="49" y="58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="49" y="58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="0.47 F Film Capacitor 220V 400V Polypropylene (PP), Metallized Radial" x="49" y="58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="16.5mm" x="49" y="58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="WIMA" x="49" y="58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MKP4G034705D00KSSD" x="49" y="58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="505-MKP4G034705DKSSD" x="49" y="58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=sJjjjplDs9uaOctv9bTMfA%3d%3d" x="49" y="58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="49" y="69.25" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="9.1k" x="19" y="-74" smashed="yes">
 <attribute name="NAME" x="15.952" y="-72.476" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="36" x="19" y="-74" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="19" y="-74" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="16.7394" y="-74.635" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="9.1k" x="19" y="-79" smashed="yes">
 <attribute name="NAME" x="15.952" y="-77.476" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="36" x="19" y="-79" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="19" y="-79" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="16.7394" y="-79.635" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k" x="19" y="-84" smashed="yes">
 <attribute name="NAME" x="15.952" y="-82.476" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="36" x="19" y="-84" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="19" y="-84" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="16.7394" y="-84.635" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k" x="19" y="-89" smashed="yes">
 <attribute name="NAME" x="15.952" y="-87.476" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="36" x="19" y="-89" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="19" y="-89" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="16.7394" y="-89.635" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="330" x="19" y="-94" smashed="yes">
 <attribute name="NAME" x="15.952" y="-92.476" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="36" x="19" y="-94" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="19" y="-94" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="16.7394" y="-94.635" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="D1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1" value="" x="18" y="-98" smashed="yes">
-<attribute name="NAME" x="15.46" y="-96.73" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="15.968" y="-98.254" size="0.6096" layer="21"/>
+<element name="D1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1" value="" x="42" y="61" smashed="yes" rot="R90">
+<attribute name="NAME" x="40.73" y="58.46" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="42.254" y="58.968" size="0.6096" layer="21" rot="R90"/>
 </element>
-<element name="D2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1" value="" x="18" y="-101" smashed="yes">
-<attribute name="NAME" x="15.46" y="-99.73" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="15.968" y="-101.254" size="0.6096" layer="21"/>
+<element name="D2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1" value="" x="42" y="77" smashed="yes" rot="R270">
+<attribute name="NAME" x="43.27" y="79.54" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="41.746" y="79.032" size="0.6096" layer="21" rot="R270"/>
 </element>
-<element name="D3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1" value="" x="18" y="-104" smashed="yes">
-<attribute name="NAME" x="15.46" y="-102.73" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="15.968" y="-104.254" size="0.6096" layer="21"/>
+<element name="D3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1" value="" x="39" y="36" smashed="yes" rot="R90">
+<attribute name="NAME" x="37.73" y="33.46" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="39.254" y="33.968" size="0.6096" layer="21" rot="R90"/>
 </element>
-<element name="Z1" library="1N750" package="DIOAD1256W56L444D203" value="1N750" x="17" y="-107" smashed="yes">
-<attribute name="DESCRIPTION" value="Zener Diodes Voltage Regulator" x="17" y="-107" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="17" y="-107" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Microsemi Corporation" x="17" y="-107" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="1N750" x="17" y="-107" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="494-1N750(DO-35)" x="17" y="-107" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Microchip-Microsemi/1N750?qs=Xwz%252BGKGy4sB1rzIdx4SmVg%3D%3D" x="17" y="-107" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="17" y="-107" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="17" y="-107" size="1.27" layer="27" align="center"/>
+<element name="Z1" library="1N750" package="DIOAD1256W56L444D203" value="1N750" x="35" y="30" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Zener Diodes Voltage Regulator" x="35" y="30" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="mm" x="35" y="30" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Microsemi Corporation" x="35" y="30" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1N750" x="35" y="30" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="494-1N750(DO-35)" x="35" y="30" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Microchip-Microsemi/1N750?qs=Xwz%252BGKGy4sB1rzIdx4SmVg%3D%3D" x="35" y="30" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="35" y="33" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
-<element name="U1" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" package="SOT223" package3d_urn="urn:adsk.eagle:package:39069/2" value="V_REG_317SMD" x="9" y="-104" smashed="yes">
-<attribute name="NAME" x="8.1745" y="-99.4915" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="7.9205" y="-104.1905" size="0.4064" layer="27"/>
+<element name="U1" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" package="SOT223" package3d_urn="urn:adsk.eagle:package:39069/2" value="V_REG_317SMD" x="5" y="42" smashed="yes">
+<attribute name="NAME" x="4.1745" y="46.5085" size="0.4064" layer="25"/>
 </element>
-<element name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="48.7" x="12" y="-112" smashed="yes">
-<attribute name="NAME" x="8.952" y="-110.476" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="36" x="12" y="-112" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="12" y="-112" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="9.7394" y="-112.635" size="1.27" layer="27" ratio="10"/>
+<element name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="48.7" x="5" y="29" smashed="yes" rot="R90">
+<attribute name="NAME" x="3.476" y="25.952" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="POPULARITY" value="36" x="5" y="29" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="5" y="29" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="SX2" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" package="VT9-PT" package3d_urn="urn:adsk.eagle:package:4683/1" value="VT9-PT" x="88.47238125" y="32.3509875" smashed="yes" rot="R162">
 <attribute name="NAME" x="78.47816875" y="26.250803125" size="1.27" layer="25" rot="R162"/>
-<attribute name="VALUE" x="77.99425625" y="37.090890625" size="1.27" layer="27" rot="R252"/>
 </element>
 <element name="C21O1" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" package="DCP4G053006ID2KSSD" value="30uF/400V" x="101.65" y="10.079028125" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="" x="101.65" y="10.079028125" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2478,129 +2464,113 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PART_NUMBER" value="505-DCP4G0536ID2KSSD" x="101.65" y="10.079028125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/WIMA/DCP4G053006ID2KSSD?qs=RB4whv9F6rwxZ2Ey0tRejg%3D%3D" x="101.65" y="10.079028125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="87.9" y="10.079028125" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="VALUE" x="87.9" y="10.079028125" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="R3O1" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" package="RESAD1540W60L620D230" value="1M*" x="111" y="-63" smashed="yes">
-<attribute name="DESCRIPTION" value="TE Connectivity Axial Metal Film Resistor 1m +/-1% 0.6W +/-50ppm/C" x="76" y="-39" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="76" y="-39" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="76" y="-39" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="LR1F1M0" x="76" y="-39" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="279-LR1F1M0" x="76" y="-39" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F1M0?qs=ip69W3eHERVt%2FmQVAugcSg%3D%3D" x="76" y="-39" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="111" y="-63" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="111" y="-63" size="1.27" layer="27" align="center"/>
+<element name="R3O1" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" package="RESAD1540W60L620D230" value="1M*" x="71.475" y="46.45" smashed="yes">
+<attribute name="DESCRIPTION" value="TE Connectivity Axial Metal Film Resistor 1m +/-1% 0.6W +/-50ppm/C" x="36.475" y="70.45" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="36.475" y="70.45" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="36.475" y="70.45" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LR1F1M0" x="36.475" y="70.45" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="279-LR1F1M0" x="36.475" y="70.45" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F1M0?qs=ip69W3eHERVt%2FmQVAugcSg%3D%3D" x="36.475" y="70.45" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="79.475" y="46.45" size="1.27" layer="25" align="center"/>
 </element>
-<element name="C2O1" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" package="MKS4B031002A00JC00" value="0.1uF, 35V" x="103" y="-49" smashed="yes">
-<attribute name="DESCRIPTION" value="Film Capacitors MKS 4 0.1 uF 50 VDC 2.5x7x10 PCM 7.5" x="74" y="-43" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="7mm" x="74" y="-43" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="WIMA" x="74" y="-43" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MKS4B031002A00JC00" x="74" y="-43" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="505-MKS4B0312AJC" x="74" y="-43" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/WIMA/MKS4B031002A00JC00?qs=2G4irm%2FqADy9MV8AUfKNYA%3D%3D" x="74" y="-43" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="106.75" y="-49" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="106.75" y="-49" size="1.27" layer="27" align="center"/>
+<element name="C2O1" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" package="MKS4B031002A00JC00" value="0.1uF, 35V" x="73.44535625" y="64.85" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="Film Capacitors MKS 4 0.1 uF 50 VDC 2.5x7x10 PCM 7.5" x="79.44535625" y="93.85" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="7mm" x="79.44535625" y="93.85" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="WIMA" x="79.44535625" y="93.85" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MKS4B031002A00JC00" x="79.44535625" y="93.85" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="505-MKS4B0312AJC" x="79.44535625" y="93.85" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/WIMA/MKS4B031002A00JC00?qs=2G4irm%2FqADy9MV8AUfKNYA%3D%3D" x="79.44535625" y="93.85" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="73.44535625" y="61.1" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
 <element name="SX4" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" package="VT9-PT" package3d_urn="urn:adsk.eagle:package:4683/1" value="VT9-PT" x="88.47238125" y="60.5490125" smashed="yes" rot="R162">
 <attribute name="NAME" x="78.47816875" y="54.448828125" size="1.27" layer="25" rot="R162"/>
-<attribute name="VALUE" x="77.99425625" y="65.288915625" size="1.27" layer="27" rot="R252"/>
 </element>
 <element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k" x="119" y="-50" smashed="yes">
 <attribute name="NAME" x="115.952" y="-48.476" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="36" x="78" y="-74" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="78" y="-74" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="116.7394" y="-50.635" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k" x="78" y="-60" smashed="yes">
 <attribute name="NAME" x="74.952" y="-58.476" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="36" x="78" y="-79" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="78" y="-79" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="75.7394" y="-60.635" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="C2" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="MKP4G034705D00KSSD" package3d_urn="urn:adsk.eagle:package:47621660/1" value="MKP4G034705D00KSSD" x="75" y="-42" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="" x="75" y="-85" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="75" y="-85" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="0.47 F Film Capacitor 220V 400V Polypropylene (PP), Metallized Radial" x="75" y="-85" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="16.5mm" x="75" y="-85" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="WIMA" x="75" y="-85" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MKP4G034705D00KSSD" x="75" y="-85" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="505-MKP4G034705DKSSD" x="75" y="-85" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=sJjjjplDs9uaOctv9bTMfA%3d%3d" x="75" y="-85" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="86.25" y="-42" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="86.25" y="-42" size="1.27" layer="27" align="center"/>
+<element name="C2" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="MKP4G034705D00KSSD" package3d_urn="urn:adsk.eagle:package:47621660/1" value="MKP4G034705D00KSSD" x="59" y="29" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="" x="102" y="29" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="102" y="29" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="0.47 F Film Capacitor 220V 400V Polypropylene (PP), Metallized Radial" x="102" y="29" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="16.5mm" x="102" y="29" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="WIMA" x="102" y="29" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MKP4G034705D00KSSD" x="102" y="29" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="505-MKP4G034705DKSSD" x="102" y="29" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=sJjjjplDs9uaOctv9bTMfA%3d%3d" x="102" y="29" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="59" y="40.25" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
-<element name="C4" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="MKP4G034705D00KSSD" package3d_urn="urn:adsk.eagle:package:47621660/1" value="MKP4G034705D00KSSD" x="75" y="-52" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="" x="75" y="-95" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="75" y="-95" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="0.47 F Film Capacitor 220V 400V Polypropylene (PP), Metallized Radial" x="75" y="-95" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="16.5mm" x="75" y="-95" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="WIMA" x="75" y="-95" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MKP4G034705D00KSSD" x="75" y="-95" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="505-MKP4G034705DKSSD" x="75" y="-95" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=sJjjjplDs9uaOctv9bTMfA%3d%3d" x="75" y="-95" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="86.25" y="-52" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="86.25" y="-52" size="1.27" layer="27" align="center"/>
+<element name="C4" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="MKP4G034705D00KSSD" package3d_urn="urn:adsk.eagle:package:47621660/1" value="MKP4G034705D00KSSD" x="59" y="58" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="" x="102" y="58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="102" y="58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="0.47 F Film Capacitor 220V 400V Polypropylene (PP), Metallized Radial" x="102" y="58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="16.5mm" x="102" y="58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="WIMA" x="102" y="58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MKP4G034705D00KSSD" x="102" y="58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="505-MKP4G034705DKSSD" x="102" y="58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=sJjjjplDs9uaOctv9bTMfA%3d%3d" x="102" y="58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="59" y="69.25" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="9.1k" x="90" y="-60" smashed="yes">
 <attribute name="NAME" x="86.952" y="-58.476" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="36" x="78" y="-103" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="78" y="-103" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="87.7394" y="-60.635" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="9.1k" x="102" y="-60" smashed="yes">
 <attribute name="NAME" x="98.952" y="-58.476" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="36" x="78" y="-108" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="78" y="-108" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="99.7394" y="-60.635" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k" x="114" y="-60" smashed="yes">
 <attribute name="NAME" x="110.952" y="-58.476" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="36" x="78" y="-113" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="78" y="-113" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="111.7394" y="-60.635" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k" x="78" y="-65" smashed="yes">
 <attribute name="NAME" x="74.952" y="-63.476" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="36" x="78" y="-118" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="78" y="-118" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="75.7394" y="-65.635" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="330" x="90" y="-65" smashed="yes">
 <attribute name="NAME" x="86.952" y="-63.476" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="36" x="78" y="-123" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="78" y="-123" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="87.7394" y="-65.635" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="D4" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1" value="" x="77" y="-69" smashed="yes">
-<attribute name="NAME" x="74.46" y="-67.73" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="74.968" y="-69.254" size="0.6096" layer="21"/>
+<element name="D4" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1" value="" x="66" y="77" smashed="yes" rot="R270">
+<attribute name="NAME" x="67.27" y="79.54" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="65.746" y="79.032" size="0.6096" layer="21" rot="R270"/>
 </element>
-<element name="D5" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1" value="" x="86" y="-69" smashed="yes">
-<attribute name="NAME" x="83.46" y="-67.73" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="83.968" y="-69.254" size="0.6096" layer="21"/>
+<element name="D5" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1" value="" x="67" y="62" smashed="yes" rot="R90">
+<attribute name="NAME" x="65.73" y="59.46" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="67.254" y="59.968" size="0.6096" layer="21" rot="R90"/>
 </element>
-<element name="D6" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1" value="" x="95" y="-69" smashed="yes">
-<attribute name="NAME" x="92.46" y="-67.73" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="92.968" y="-69.254" size="0.6096" layer="21"/>
+<element name="D6" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1" value="" x="70" y="36" smashed="yes" rot="R90">
+<attribute name="NAME" x="68.73" y="33.46" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="70.254" y="33.968" size="0.6096" layer="21" rot="R90"/>
 </element>
-<element name="Z2" library="1N750" package="DIOAD1256W56L444D203" value="1N750" x="103" y="-68" smashed="yes">
-<attribute name="DESCRIPTION" value="Zener Diodes Voltage Regulator" x="76" y="-136" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="76" y="-136" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Microsemi Corporation" x="76" y="-136" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="1N750" x="76" y="-136" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="494-1N750(DO-35)" x="76" y="-136" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Microchip-Microsemi/1N750?qs=Xwz%252BGKGy4sB1rzIdx4SmVg%3D%3D" x="76" y="-136" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="103" y="-68" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="103" y="-68" size="1.27" layer="27" align="center"/>
+<element name="Z2" library="1N750" package="DIOAD1256W56L444D203" value="1N750" x="75" y="31" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Zener Diodes Voltage Regulator" x="143" y="4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="mm" x="143" y="4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Microsemi Corporation" x="143" y="4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1N750" x="143" y="4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="494-1N750(DO-35)" x="143" y="4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Microchip-Microsemi/1N750?qs=Xwz%252BGKGy4sB1rzIdx4SmVg%3D%3D" x="143" y="4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="75" y="33" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
-<element name="U2" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" package="SOT223" package3d_urn="urn:adsk.eagle:package:39069/2" value="V_REG_317SMD" x="109" y="-22" smashed="yes">
-<attribute name="NAME" x="108.1745" y="-17.4915" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="107.9205" y="-22.1905" size="0.4064" layer="27"/>
+<element name="U2" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" package="SOT223" package3d_urn="urn:adsk.eagle:package:39069/2" value="V_REG_317SMD" x="105" y="43" smashed="yes">
+<attribute name="NAME" x="104.1745" y="47.5085" size="0.4064" layer="25"/>
 </element>
-<element name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="48.7" x="102" y="-65" smashed="yes">
-<attribute name="NAME" x="98.952" y="-63.476" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="36" x="71" y="-141" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="71" y="-141" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="99.7394" y="-65.635" size="1.27" layer="27" ratio="10"/>
+<element name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="48.7" x="105" y="30" smashed="yes" rot="R90">
+<attribute name="NAME" x="103.476" y="26.952" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="POPULARITY" value="36" x="181" y="-1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="181" y="-1" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 </elements>
 <signals>
@@ -2613,7 +2583,6 @@ design rules under a new name.</description>
 <vertex x="0.1524" y="96.6476"/>
 </polygon>
 <contactref element="SH1" pad="1"/>
-<wire x1="60" y1="87.635" x2="60" y2="90.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PE" class="2">
 <contactref element="J1" pad="3"/>
@@ -2651,58 +2620,37 @@ design rules under a new name.</description>
 <contactref element="C4" pad="2"/>
 <contactref element="U2" pad="1"/>
 <contactref element="R16" pad="1"/>
-<wire x1="96.92" y1="-65" x2="84.92" y2="-65" width="0" layer="19" extent="1-1"/>
-<wire x1="97.5" y1="-52" x2="96.92" y2="-65" width="0" layer="19" extent="1-1"/>
-<wire x1="97.5" y1="-42" x2="97.5" y2="-52" width="0" layer="19" extent="1-1"/>
-<wire x1="106.6886" y1="-25.0988" x2="97.5" y2="-42" width="0" layer="19" extent="1-1"/>
-<wire x1="126.4" y1="-63" x2="96.92" y2="-65" width="0" layer="19" extent="1-1"/>
-<wire x1="6.92" y1="-112" x2="106.6886" y2="-25.0988" width="0" layer="19" extent="1-1"/>
-<wire x1="6.6886" y1="-107.0988" x2="6.92" y2="-112" width="0" layer="19" extent="1-1"/>
-<wire x1="13.92" y1="-94" x2="6.6886" y2="-107.0988" width="0" layer="19" extent="1-1"/>
-<wire x1="39.5" y1="-56" x2="13.92" y2="-94" width="0" layer="19" extent="1-1"/>
-<wire x1="39.5" y1="-36" x2="39.5" y2="-56" width="0" layer="19" extent="1-1"/>
-<wire x1="55" y1="5.7" x2="39.5" y2="-36" width="0" layer="19" extent="1-1"/>
-<wire x1="23.125" y1="46.45" x2="55" y2="5.7" width="0" layer="19" extent="1-1"/>
-<wire x1="38.3549375" y1="69.67" x2="23.125" y2="46.45" width="0" layer="19" extent="1-1"/>
-<wire x1="60" y1="86.365" x2="38.3549375" y2="69.67" width="0" layer="19" extent="1-1"/>
-<wire x1="71.6450625" y1="69.67" x2="60" y2="86.365" width="0" layer="19" extent="1-1"/>
-<wire x1="86.6275" y1="93.925" x2="60" y2="86.365" width="0" layer="19" extent="1-1"/>
-<wire x1="94.2475" y1="93.925" x2="86.6275" y2="93.925" width="0" layer="19" extent="1-1"/>
-<wire x1="103.49940625" y1="69.67" x2="94.2475" y2="93.925" width="0" layer="19" extent="1-1"/>
-<wire x1="107.969225" y1="69.67" x2="103.49940625" y2="69.67" width="0" layer="19" extent="1-1"/>
-<wire x1="107.969225" y1="65.93" x2="107.969225" y2="69.67" width="0" layer="19" extent="1-1"/>
-<wire x1="23.3725" y1="93.925" x2="38.3549375" y2="69.67" width="0" layer="19" extent="1-1"/>
-<wire x1="15.7525" y1="93.925" x2="23.3725" y2="93.925" width="0" layer="19" extent="1-1"/>
-<wire x1="6.50059375" y1="69.67" x2="15.7525" y2="93.925" width="0" layer="19" extent="1-1"/>
-<wire x1="2.030775" y1="69.67" x2="6.50059375" y2="69.67" width="0" layer="19" extent="1-1"/>
-<wire x1="2.030775" y1="65.93" x2="2.030775" y2="69.67" width="0" layer="19" extent="1-1"/>
+<wire x1="105" y1="24.92" x2="102.6886" y2="39.9012" width="0" layer="19" extent="1-1"/>
+<wire x1="2.6886" y1="38.9012" x2="5" y2="23.92" width="0" layer="19" extent="1-1"/>
+<wire x1="84.92" y1="-65" x2="55" y2="5.7" width="0" layer="19" extent="1-1"/>
+<wire x1="13.92" y1="-94" x2="84.92" y2="-65" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+240VDC" class="2">
 <contactref element="J1" pad="5"/>
 <contactref element="R5" pad="2"/>
 <contactref element="R6" pad="2"/>
-<contactref element="SX1" pad="9"/>
 <contactref element="C2O" pad="1"/>
 <contactref element="C3" pad="1"/>
 <contactref element="C1" pad="1"/>
-<contactref element="SX2" pad="9"/>
 <contactref element="C2O1" pad="1"/>
 <contactref element="C2" pad="1"/>
 <contactref element="R11" pad="2"/>
 <contactref element="R12" pad="2"/>
 <contactref element="C4" pad="1"/>
-<wire x1="75" y1="-42" x2="75" y2="-52" width="0" layer="19" extent="1-1"/>
-<wire x1="95.08" y1="-60" x2="75" y2="-52" width="0" layer="19" extent="1-1"/>
+<contactref element="SX1" pad="6"/>
+<contactref element="SX2" pad="6"/>
+<wire x1="73.44535625" y1="64.85" x2="65" y2="90.8" width="0" layer="19" extent="1-1"/>
+<wire x1="59" y1="58" x2="73.44535625" y2="64.85" width="0" layer="19" extent="1-1"/>
+<wire x1="49" y1="58" x2="59" y2="58" width="0" layer="19" extent="1-1"/>
+<wire x1="36.55464375" y1="64.85" x2="49" y2="58" width="0" layer="19" extent="1-1"/>
+<wire x1="59" y1="29" x2="59" y2="58" width="0" layer="19" extent="1-1"/>
+<wire x1="49" y1="29" x2="59" y2="29" width="0" layer="19" extent="1-1"/>
+<wire x1="96.966896875" y1="38.5227" x2="73.44535625" y2="64.85" width="0" layer="19" extent="1-1"/>
+<wire x1="13.0331" y1="26.179271875" x2="49" y2="29" width="0" layer="19" extent="1-1"/>
+<wire x1="95.08" y1="-60" x2="59" y2="29" width="0" layer="19" extent="1-1"/>
 <wire x1="107.08" y1="-60" x2="95.08" y2="-60" width="0" layer="19" extent="1-1"/>
-<wire x1="103" y1="-49" x2="107.08" y2="-60" width="0" layer="19" extent="1-1"/>
-<wire x1="24.08" y1="-79" x2="75" y2="-42" width="0" layer="19" extent="1-1"/>
-<wire x1="24.08" y1="-74" x2="24.08" y2="-79" width="0" layer="19" extent="1-1"/>
-<wire x1="17" y1="-56" x2="24.08" y2="-74" width="0" layer="19" extent="1-1"/>
-<wire x1="17" y1="-36" x2="17" y2="-56" width="0" layer="19" extent="1-1"/>
-<wire x1="30.022165625" y1="26.17946875" x2="17" y2="-36" width="0" layer="19" extent="1-1"/>
-<wire x1="36.55464375" y1="64.85" x2="30.022165625" y2="26.17946875" width="0" layer="19" extent="1-1"/>
-<wire x1="65" y1="90.8" x2="36.55464375" y2="64.85" width="0" layer="19" extent="1-1"/>
-<wire x1="79.97783125" y1="38.522503125" x2="36.55464375" y2="64.85" width="0" layer="19" extent="1-1"/>
+<wire x1="24.08" y1="-74" x2="95.08" y2="-60" width="0" layer="19" extent="1-1"/>
+<wire x1="24.08" y1="-79" x2="24.08" y2="-74" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="L_OUT" class="1">
 <contactref element="J3" pad="2"/>
@@ -2739,11 +2687,11 @@ design rules under a new name.</description>
 <signal name="N$18">
 <contactref element="C21O" pad="2"/>
 <contactref element="SX1" pad="1"/>
-<contactref element="SX1" pad="6"/>
 <contactref element="D3" pad="C"/>
-<wire x1="35.85" y1="10.079028125" x2="21.81" y2="-104" width="0" layer="19" extent="1-1"/>
-<wire x1="30.022228125" y1="38.522671875" x2="35.85" y2="10.079028125" width="0" layer="19" extent="1-1"/>
-<wire x1="13.0331" y1="26.179271875" x2="30.022228125" y2="38.522671875" width="0" layer="19" extent="1-1"/>
+<contactref element="SX1" pad="8"/>
+<wire x1="30.022228125" y1="38.522671875" x2="39" y2="39.81" width="0" layer="19" extent="1-1"/>
+<wire x1="24.772309375" y1="22.365075" x2="30.022228125" y2="38.522671875" width="0" layer="19" extent="1-1"/>
+<wire x1="35.85" y1="10.079028125" x2="24.772309375" y2="22.365075" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="R-" class="1">
 <contactref element="R14O" pad="1"/>
@@ -2768,7 +2716,7 @@ design rules under a new name.</description>
 <wire x1="97.37" y1="74.330475" x2="98.834465625" y2="70.794940625" width="0.3048" layer="1" curve="45"/>
 <wire x1="98.834465625" y1="70.794940625" x2="103.49940625" y2="66.13" width="0.3048" layer="1"/>
 <contactref element="R4" pad="2"/>
-<wire x1="103.49940625" y1="66.13" x2="83.08" y2="-60" width="0" layer="19" extent="1-1"/>
+<wire x1="83.08" y1="-60" x2="103.49940625" y2="66.13" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="L-" class="1">
 <contactref element="R25O" pad="1"/>
@@ -2779,7 +2727,7 @@ design rules under a new name.</description>
 <wire x1="81.749465625" y1="71.549465625" x2="81.749465625" y2="78.620534375" width="0.3048" layer="1" curve="90"/>
 <wire x1="81.749465625" y1="78.620534375" x2="81.47" y2="78.9" width="0.3048" layer="1"/>
 <contactref element="R3" pad="2"/>
-<wire x1="76.139346875" y1="69.67" x2="124.08" y2="-50" width="0" layer="19" extent="1-1"/>
+<wire x1="124.08" y1="-50" x2="76.139346875" y2="69.67" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="J13" pad="6"/>
@@ -2932,15 +2880,15 @@ design rules under a new name.</description>
 <contactref element="SX3" pad="2"/>
 <contactref element="R1" pad="1"/>
 <contactref element="D1" pad="A"/>
-<wire x1="13.92" y1="-15" x2="14.19" y2="-98" width="0" layer="19" extent="1-1"/>
-<wire x1="24.772296875" y1="70.535103125" x2="13.92" y2="-15" width="0" layer="19" extent="1-1"/>
+<wire x1="24.772296875" y1="70.535103125" x2="42" y2="57.19" width="0" layer="19" extent="1-1"/>
+<wire x1="13.92" y1="-15" x2="42" y2="57.19" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
 <contactref element="SX3" pad="7"/>
 <contactref element="R2" pad="1"/>
 <contactref element="D2" pad="A"/>
-<wire x1="13.92" y1="-20" x2="14.19" y2="-101" width="0" layer="19" extent="1-1"/>
-<wire x1="18.283" y1="50.56310625" x2="13.92" y2="-20" width="0" layer="19" extent="1-1"/>
+<wire x1="18.283" y1="50.56310625" x2="42" y2="80.81" width="0" layer="19" extent="1-1"/>
+<wire x1="13.92" y1="-20" x2="18.283" y2="50.56310625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$22" class="2">
 <contactref element="SX3" pad="6"/>
@@ -2948,78 +2896,78 @@ design rules under a new name.</description>
 <contactref element="D1" pad="C"/>
 <contactref element="D2" pad="C"/>
 <contactref element="U1" pad="3"/>
-<wire x1="21.81" y1="-101" x2="11.3114" y2="-107.0988" width="0" layer="19" extent="1-1"/>
-<wire x1="21.81" y1="-98" x2="21.81" y2="-101" width="0" layer="19" extent="1-1"/>
-<wire x1="13.0331" y1="54.377296875" x2="21.81" y2="-98" width="0" layer="19" extent="1-1"/>
-<wire x1="18.28295625" y1="70.535015625" x2="13.0331" y2="54.377296875" width="0" layer="19" extent="1-1"/>
+<wire x1="42" y1="64.81" x2="42" y2="73.19" width="0" layer="19" extent="1-1"/>
+<wire x1="18.28295625" y1="70.535015625" x2="42" y2="73.19" width="0" layer="19" extent="1-1"/>
+<wire x1="13.0331" y1="54.377296875" x2="18.28295625" y2="70.535015625" width="0" layer="19" extent="1-1"/>
+<wire x1="7.3114" y1="38.9012" x2="13.0331" y2="54.377296875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$35">
 <contactref element="R5" pad="1"/>
 <contactref element="SX3" pad="1"/>
-<wire x1="30.022228125" y1="66.720696875" x2="13.92" y2="-74" width="0" layer="19" extent="1-1"/>
+<wire x1="13.92" y1="-74" x2="30.022228125" y2="66.720696875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="SX1" pad="2"/>
 <contactref element="R8" pad="1"/>
 <contactref element="Z1" pad="2"/>
-<wire x1="13.92" y1="-89" x2="29.6" y2="-107" width="0" layer="19" extent="1-1"/>
 <wire x1="24.772296875" y1="42.337078125" x2="13.92" y2="-89" width="0" layer="19" extent="1-1"/>
+<wire x1="35" y1="42.6" x2="24.772296875" y2="42.337078125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$16">
 <contactref element="R8" pad="2"/>
 <contactref element="R3O" pad="1"/>
 <contactref element="C2O" pad="2"/>
-<wire x1="38.525" y1="46.45" x2="24.08" y2="-89" width="0" layer="19" extent="1-1"/>
-<wire x1="36.55464375" y1="57.35" x2="38.525" y2="46.45" width="0" layer="19" extent="1-1"/>
+<wire x1="38.525" y1="46.45" x2="36.55464375" y2="57.35" width="0" layer="19" extent="1-1"/>
+<wire x1="24.08" y1="-89" x2="38.525" y2="46.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$26">
 <contactref element="SX1" pad="3"/>
 <contactref element="R9" pad="2"/>
 <contactref element="Z1" pad="1"/>
-<wire x1="24.08" y1="-94" x2="17" y2="-107" width="0" layer="19" extent="1-1"/>
-<wire x1="18.28295625" y1="42.336990625" x2="24.08" y2="-94" width="0" layer="19" extent="1-1"/>
+<wire x1="35" y1="30" x2="24.08" y2="-94" width="0" layer="19" extent="1-1"/>
+<wire x1="18.28295625" y1="42.336990625" x2="35" y2="30" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R6" pad="1"/>
 <contactref element="SX3" pad="9"/>
 <contactref element="R7" pad="2"/>
+<wire x1="13.92" y1="-79" x2="30.022165625" y2="54.37749375" width="0" layer="19" extent="1-1"/>
 <wire x1="24.08" y1="-84" x2="13.92" y2="-79" width="0" layer="19" extent="1-1"/>
-<wire x1="30.022165625" y1="54.37749375" x2="13.92" y2="-79" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$23">
 <contactref element="R7" pad="1"/>
 <contactref element="SX1" pad="7"/>
 <contactref element="D3" pad="A"/>
-<wire x1="13.92" y1="-84" x2="14.19" y2="-104" width="0" layer="19" extent="1-1"/>
 <wire x1="18.283" y1="22.36508125" x2="13.92" y2="-84" width="0" layer="19" extent="1-1"/>
+<wire x1="39" y1="32.19" x2="18.283" y2="22.36508125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$37">
 <contactref element="U1" pad="2"/>
 <contactref element="R10" pad="2"/>
-<wire x1="17.08" y1="-112" x2="9" y2="-107.0988" width="0" layer="19" extent="1-1"/>
+<wire x1="5" y1="34.08" x2="5" y2="38.9012" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="C21O1" pad="2"/>
 <contactref element="SX2" pad="1"/>
-<contactref element="SX2" pad="6"/>
 <contactref element="D6" pad="C"/>
-<wire x1="74.15" y1="10.079028125" x2="98.81" y2="-69" width="0" layer="19" extent="1-1"/>
-<wire x1="79.97776875" y1="26.1793" x2="74.15" y2="10.079028125" width="0" layer="19" extent="1-1"/>
-<wire x1="96.966896875" y1="38.5227" x2="79.97776875" y2="26.1793" width="0" layer="19" extent="1-1"/>
+<contactref element="SX2" pad="8"/>
+<wire x1="70" y1="39.81" x2="85.2276875" y2="42.336896875" width="0" layer="19" extent="1-1"/>
+<wire x1="79.97776875" y1="26.1793" x2="70" y2="39.81" width="0" layer="19" extent="1-1"/>
+<wire x1="74.15" y1="10.079028125" x2="79.97776875" y2="26.1793" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="SX4" pad="2"/>
 <contactref element="R3" pad="1"/>
 <contactref element="D4" pad="A"/>
-<wire x1="113.92" y1="-50" x2="73.19" y2="-69" width="0" layer="19" extent="1-1"/>
-<wire x1="85.2277" y1="50.56291875" x2="113.92" y2="-50" width="0" layer="19" extent="1-1"/>
+<wire x1="85.2277" y1="50.56291875" x2="66" y2="80.81" width="0" layer="19" extent="1-1"/>
+<wire x1="113.92" y1="-50" x2="85.2277" y2="50.56291875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="SX4" pad="7"/>
 <contactref element="R4" pad="1"/>
 <contactref element="D5" pad="A"/>
-<wire x1="72.92" y1="-60" x2="82.19" y2="-69" width="0" layer="19" extent="1-1"/>
-<wire x1="91.716996875" y1="70.534915625" x2="72.92" y2="-60" width="0" layer="19" extent="1-1"/>
+<wire x1="67" y1="58.19" x2="91.716996875" y2="70.534915625" width="0" layer="19" extent="1-1"/>
+<wire x1="72.92" y1="-60" x2="67" y2="58.19" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7" class="2">
 <contactref element="SX4" pad="6"/>
@@ -3027,55 +2975,55 @@ design rules under a new name.</description>
 <contactref element="D4" pad="C"/>
 <contactref element="D5" pad="C"/>
 <contactref element="U2" pad="3"/>
-<wire x1="89.81" y1="-69" x2="80.81" y2="-69" width="0" layer="19" extent="1-1"/>
-<wire x1="111.3114" y1="-25.0988" x2="89.81" y2="-69" width="0" layer="19" extent="1-1"/>
-<wire x1="91.717040625" y1="50.56300625" x2="111.3114" y2="-25.0988" width="0" layer="19" extent="1-1"/>
-<wire x1="96.966896875" y1="66.720725" x2="91.717040625" y2="50.56300625" width="0" layer="19" extent="1-1"/>
+<wire x1="91.717040625" y1="50.56300625" x2="96.966896875" y2="66.720725" width="0" layer="19" extent="1-1"/>
+<wire x1="107.3114" y1="39.9012" x2="91.717040625" y2="50.56300625" width="0" layer="19" extent="1-1"/>
+<wire x1="67" y1="65.81" x2="91.717040625" y2="50.56300625" width="0" layer="19" extent="1-1"/>
+<wire x1="66" y1="73.19" x2="67" y2="65.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="R11" pad="1"/>
 <contactref element="SX4" pad="1"/>
-<wire x1="79.97776875" y1="54.377325" x2="84.92" y2="-60" width="0" layer="19" extent="1-1"/>
+<wire x1="84.92" y1="-60" x2="79.97776875" y2="54.377325" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="R12" pad="1"/>
 <contactref element="SX4" pad="9"/>
 <contactref element="R13" pad="2"/>
+<wire x1="96.92" y1="-60" x2="79.97783125" y2="66.720528125" width="0" layer="19" extent="1-1"/>
 <wire x1="119.08" y1="-60" x2="96.92" y2="-60" width="0" layer="19" extent="1-1"/>
-<wire x1="79.97783125" y1="66.720528125" x2="119.08" y2="-60" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$14">
 <contactref element="SX2" pad="2"/>
 <contactref element="R14" pad="1"/>
 <contactref element="Z2" pad="2"/>
-<wire x1="115.6" y1="-68" x2="72.92" y2="-65" width="0" layer="19" extent="1-1"/>
-<wire x1="85.2277" y1="22.36489375" x2="115.6" y2="-68" width="0" layer="19" extent="1-1"/>
+<wire x1="85.2277" y1="22.36489375" x2="75" y2="43.6" width="0" layer="19" extent="1-1"/>
+<wire x1="72.92" y1="-65" x2="85.2277" y2="22.36489375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$17">
 <contactref element="R14" pad="2"/>
 <contactref element="R3O1" pad="1"/>
 <contactref element="C2O1" pad="2"/>
-<wire x1="111" y1="-63" x2="83.08" y2="-65" width="0" layer="19" extent="1-1"/>
-<wire x1="110.5" y1="-49" x2="111" y2="-63" width="0" layer="19" extent="1-1"/>
+<wire x1="71.475" y1="46.45" x2="73.44535625" y2="57.35" width="0" layer="19" extent="1-1"/>
+<wire x1="83.08" y1="-65" x2="71.475" y2="46.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$27">
 <contactref element="SX2" pad="3"/>
 <contactref element="R15" pad="2"/>
 <contactref element="Z2" pad="1"/>
-<wire x1="103" y1="-68" x2="95.08" y2="-65" width="0" layer="19" extent="1-1"/>
-<wire x1="91.717040625" y1="22.36498125" x2="95.08" y2="-65" width="0" layer="19" extent="1-1"/>
+<wire x1="75" y1="31" x2="91.717040625" y2="22.36498125" width="0" layer="19" extent="1-1"/>
+<wire x1="95.08" y1="-65" x2="91.717040625" y2="22.36498125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$29">
 <contactref element="R13" pad="1"/>
 <contactref element="SX2" pad="7"/>
 <contactref element="D6" pad="A"/>
-<wire x1="108.92" y1="-60" x2="91.19" y2="-69" width="0" layer="19" extent="1-1"/>
-<wire x1="91.716996875" y1="42.336890625" x2="108.92" y2="-60" width="0" layer="19" extent="1-1"/>
+<wire x1="70" y1="32.19" x2="91.716996875" y2="42.336890625" width="0" layer="19" extent="1-1"/>
+<wire x1="108.92" y1="-60" x2="70" y2="32.19" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$38">
 <contactref element="U2" pad="2"/>
 <contactref element="R16" pad="2"/>
-<wire x1="109" y1="-25.0988" x2="107.08" y2="-65" width="0" layer="19" extent="1-1"/>
+<wire x1="105" y1="35.08" x2="105" y2="39.9012" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

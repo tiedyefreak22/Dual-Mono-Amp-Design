@@ -5638,12 +5638,44 @@ by exp-lbrs.ulp</description>
 <wire x1="-2.5" y1="0" x2="-2.5" y2="0" width="0.1" layer="21"/>
 <wire x1="-2.5" y1="0" x2="-2.6" y2="0" width="0.1" layer="21" curve="180"/>
 </package>
+<package name="DIOAD1256W56L444D203" urn="urn:adsk.eagle:footprint:48500159/1" library_version="4">
+<description>&lt;b&gt;1N750&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="0.75" diameter="1.15" shape="square"/>
+<pad name="2" x="12.6" y="0" drill="0.75" diameter="1.15"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-0.825" y1="1.365" x2="13.425" y2="1.365" width="0.05" layer="51"/>
+<wire x1="13.425" y1="1.365" x2="13.425" y2="-1.365" width="0.05" layer="51"/>
+<wire x1="13.425" y1="-1.365" x2="-0.825" y2="-1.365" width="0.05" layer="51"/>
+<wire x1="-0.825" y1="-1.365" x2="-0.825" y2="1.365" width="0.05" layer="51"/>
+<wire x1="4.08" y1="1.015" x2="8.52" y2="1.015" width="0.1" layer="51"/>
+<wire x1="8.52" y1="1.015" x2="8.52" y2="-1.015" width="0.1" layer="51"/>
+<wire x1="8.52" y1="-1.015" x2="4.08" y2="-1.015" width="0.1" layer="51"/>
+<wire x1="4.08" y1="-1.015" x2="4.08" y2="1.015" width="0.1" layer="51"/>
+<wire x1="4.08" y1="0" x2="5.095" y2="1.015" width="0.1" layer="51"/>
+<wire x1="0" y1="0" x2="4.08" y2="0" width="0.1" layer="51"/>
+<wire x1="8.52" y1="0" x2="12.6" y2="0" width="0.1" layer="51"/>
+<wire x1="4.08" y1="1.015" x2="8.52" y2="1.015" width="0.2" layer="21"/>
+<wire x1="8.52" y1="1.015" x2="8.52" y2="-1.015" width="0.2" layer="21"/>
+<wire x1="8.52" y1="-1.015" x2="4.08" y2="-1.015" width="0.2" layer="21"/>
+<wire x1="4.08" y1="-1.015" x2="4.08" y2="1.015" width="0.2" layer="21"/>
+<wire x1="4.08" y1="0" x2="5.095" y2="1.015" width="0.2" layer="21"/>
+<wire x1="0.925" y1="0" x2="4.08" y2="0" width="0.2" layer="21"/>
+<wire x1="8.52" y1="0" x2="11.675" y2="0" width="0.2" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="MKP4G034705D00KSSD" urn="urn:adsk.eagle:package:47621660/1" type="box" library_version="3">
 <description>&lt;b&gt;MKP4G034705D00KSSD-1&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="MKP4G034705D00KSSD"/>
+</packageinstances>
+</package3d>
+<package3d name="DIOAD1256W56L444D203" urn="urn:adsk.eagle:package:48500160/1" type="box" library_version="4">
+<description>&lt;b&gt;1N750&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="DIOAD1256W56L444D203"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -5657,6 +5689,21 @@ by exp-lbrs.ulp</description>
 <rectangle x1="-2.032" y1="-1.016" x2="2.032" y2="-0.508" layer="94"/>
 <pin name="1" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+<symbol name="D-ZENER" urn="urn:adsk.eagle:symbol:48500158/1" library_version="4">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.397" y1="1.27" x2="1.397" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.397" y1="-1.27" x2="0.762" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="1.397" y1="1.27" x2="1.778" y2="1.778" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<text x="-2.9464" y="2.6416" size="1.778" layer="95">&gt;NAME</text>
+<text x="-4.4704" y="-4.4958" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5685,6 +5732,34 @@ Source: &lt;a href="https://www.wima.de/wp-content/uploads/media/e_WIMA_MKP_4.pd
 <attribute name="MANUFACTURER_PART_NUMBER" value="MKP4G034705D00KSSD" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="505-MKP4G034705DKSSD" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=sJjjjplDs9uaOctv9bTMfA%3d%3d" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1N750" urn="urn:adsk.eagle:component:48500161/1" prefix="Z" library_version="4">
+<description>&lt;b&gt;Zener Diodes Voltage Regulator&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.microsemi.com/document-portal/doc_view/10928-sa5-7-datasheet"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="D-ZENER" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIOAD1256W56L444D203">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="C" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:48500160/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Zener Diodes Voltage Regulator" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Microsemi Corporation" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1N750" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="494-1N750(DO-35)" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Microchip-Microsemi/1N750?qs=Xwz%252BGKGy4sB1rzIdx4SmVg%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6044,83 +6119,6 @@ Source: &lt;a href="https://www.wima.de/wp-content/uploads/media/e_WIMA_MKP_4.pd
 </deviceset>
 </devicesets>
 </library>
-<library name="1N750">
-<description>&lt;Zener Diodes Voltage Regulator&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="DIOAD1256W56L444D203">
-<description>&lt;b&gt;1N750&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="0.75" diameter="1.15" shape="square"/>
-<pad name="2" x="12.6" y="0" drill="0.75" diameter="1.15"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-0.825" y1="1.365" x2="13.425" y2="1.365" width="0.05" layer="51"/>
-<wire x1="13.425" y1="1.365" x2="13.425" y2="-1.365" width="0.05" layer="51"/>
-<wire x1="13.425" y1="-1.365" x2="-0.825" y2="-1.365" width="0.05" layer="51"/>
-<wire x1="-0.825" y1="-1.365" x2="-0.825" y2="1.365" width="0.05" layer="51"/>
-<wire x1="4.08" y1="1.015" x2="8.52" y2="1.015" width="0.1" layer="51"/>
-<wire x1="8.52" y1="1.015" x2="8.52" y2="-1.015" width="0.1" layer="51"/>
-<wire x1="8.52" y1="-1.015" x2="4.08" y2="-1.015" width="0.1" layer="51"/>
-<wire x1="4.08" y1="-1.015" x2="4.08" y2="1.015" width="0.1" layer="51"/>
-<wire x1="4.08" y1="0" x2="5.095" y2="1.015" width="0.1" layer="51"/>
-<wire x1="0" y1="0" x2="4.08" y2="0" width="0.1" layer="51"/>
-<wire x1="8.52" y1="0" x2="12.6" y2="0" width="0.1" layer="51"/>
-<wire x1="4.08" y1="1.015" x2="8.52" y2="1.015" width="0.2" layer="21"/>
-<wire x1="8.52" y1="1.015" x2="8.52" y2="-1.015" width="0.2" layer="21"/>
-<wire x1="8.52" y1="-1.015" x2="4.08" y2="-1.015" width="0.2" layer="21"/>
-<wire x1="4.08" y1="-1.015" x2="4.08" y2="1.015" width="0.2" layer="21"/>
-<wire x1="4.08" y1="0" x2="5.095" y2="1.015" width="0.2" layer="21"/>
-<wire x1="0.925" y1="0" x2="4.08" y2="0" width="0.2" layer="21"/>
-<wire x1="8.52" y1="0" x2="11.675" y2="0" width="0.2" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="1N750">
-<wire x1="5.08" y1="2.032" x2="5.08" y2="-2.032" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.032" x2="6.096" y2="2.54" width="0.254" layer="94"/>
-<wire x1="4.064" y1="-2.54" x2="5.08" y2="-2.032" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="12.7" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
-<text x="10.16" y="8.89" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="10.16" y="6.35" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="K" x="0" y="0" visible="pad" length="short"/>
-<pin name="A" x="15.24" y="0" visible="pad" length="short" rot="R180"/>
-<polygon width="0.254" layer="94">
-<vertex x="5.08" y="0"/>
-<vertex x="10.16" y="2.54"/>
-<vertex x="10.16" y="-2.54"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="1N750" prefix="Z">
-<description>&lt;b&gt;Zener Diodes Voltage Regulator&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.microsemi.com/document-portal/doc_view/10928-sa5-7-datasheet"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="1N750" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DIOAD1256W56L444D203">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="K" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Zener Diodes Voltage Regulator" constant="no"/>
-<attribute name="HEIGHT" value="mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Microsemi Corporation" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="1N750" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="494-1N750(DO-35)" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Microchip-Microsemi/1N750?qs=Xwz%252BGKGy4sB1rzIdx4SmVg%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-IC-Power" urn="urn:adsk.eagle:library:526">
 <description>&lt;h3&gt;SparkFun Power Driver and Management ICs&lt;/h3&gt;
 In this library you'll find anything that has to do with power delivery, or making power supplies.
@@ -6391,7 +6389,6 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <part name="D1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1"/>
 <part name="D2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1"/>
 <part name="D3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1"/>
-<part name="Z1" library="1N750" deviceset="1N750" device=""/>
 <part name="U1" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="V_REG_317" device="SMD" package3d_urn="urn:adsk.eagle:package:39069/2"/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="48.7"/>
 <part name="AGND18" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="AGND" device=""/>
@@ -6420,10 +6417,11 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <part name="D4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1"/>
 <part name="D5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1"/>
 <part name="D6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1"/>
-<part name="Z2" library="1N750" deviceset="1N750" device=""/>
 <part name="U2" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="V_REG_317" device="SMD" package3d_urn="urn:adsk.eagle:package:39069/2"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="48.7"/>
 <part name="AGND19" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="AGND" device=""/>
+<part name="Z3" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N750" device="" package3d_urn="urn:adsk.eagle:package:48500160/1"/>
+<part name="Z4" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N750" device="" package3d_urn="urn:adsk.eagle:package:48500160/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -6688,10 +6686,6 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <attribute name="NAME" x="22.86" y="114.3" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="29.21" y="114.3" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="Z1" gate="G$1" x="25.4" y="132.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="16.51" y="142.24" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="19.05" y="142.24" size="1.778" layer="96" rot="R90" align="center-left"/>
-</instance>
 <instance part="U1" gate="G$1" x="60.96" y="193.04" smashed="yes">
 <attribute name="NAME" x="63.5" y="185.42" size="1.778" layer="95"/>
 <attribute name="VALUE" x="63.5" y="182.88" size="1.778" layer="96"/>
@@ -6795,10 +6789,6 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <attribute name="NAME" x="177.8" y="114.3" size="1.27" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="171.45" y="114.3" size="1.27" layer="96" rot="MR90"/>
 </instance>
-<instance part="Z2" gate="G$1" x="175.26" y="132.08" smashed="yes" rot="MR90">
-<attribute name="NAME" x="184.15" y="142.24" size="1.778" layer="95" rot="MR90" align="center-left"/>
-<attribute name="VALUE" x="181.61" y="142.24" size="1.778" layer="96" rot="MR90" align="center-left"/>
-</instance>
 <instance part="U2" gate="G$1" x="139.7" y="193.04" smashed="yes" rot="MR0">
 <attribute name="NAME" x="137.16" y="185.42" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="137.16" y="182.88" size="1.778" layer="96" rot="MR0"/>
@@ -6809,6 +6799,14 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 </instance>
 <instance part="AGND19" gate="VR1" x="134.62" y="172.72" smashed="yes">
 <attribute name="VALUE" x="137.414" y="169.418" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="Z3" gate="G$1" x="25.4" y="134.62" smashed="yes" rot="R270">
+<attribute name="NAME" x="28.0416" y="137.5664" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="20.9042" y="139.0904" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="Z4" gate="G$1" x="175.26" y="134.62" smashed="yes" rot="R270">
+<attribute name="NAME" x="177.9016" y="137.5664" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="170.7642" y="139.0904" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -7445,14 +7443,14 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <pinref part="SX1" gate="G$1" pin="2"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="132.08" x2="27.94" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="132.08" x2="27.94" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="149.86" x2="25.4" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="149.86" x2="22.86" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="149.86" x2="22.86" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="132.08" x2="27.94" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="139.7" x2="25.4" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="139.7" x2="22.86" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="139.7" x2="22.86" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="132.08" x2="15.24" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="Z1" gate="G$1" pin="A"/>
-<wire x1="25.4" y1="147.32" x2="25.4" y2="149.86" width="0.1524" layer="91"/>
-<junction x="25.4" y="149.86"/>
+<wire x1="25.4" y1="137.16" x2="25.4" y2="139.7" width="0.1524" layer="91"/>
+<junction x="25.4" y="139.7"/>
+<pinref part="Z3" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -7473,9 +7471,9 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="129.54" x2="30.48" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="129.54" x2="30.48" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="Z1" gate="G$1" pin="K"/>
 <wire x1="25.4" y1="132.08" x2="25.4" y2="129.54" width="0.1524" layer="91"/>
 <junction x="25.4" y="129.54"/>
+<pinref part="Z3" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -7602,14 +7600,14 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <pinref part="SX2" gate="G$1" pin="2"/>
 <pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="167.64" y1="132.08" x2="172.72" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="132.08" x2="172.72" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="149.86" x2="175.26" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="149.86" x2="177.8" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="149.86" x2="177.8" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="132.08" x2="172.72" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="139.7" x2="175.26" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="139.7" x2="177.8" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="139.7" x2="177.8" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="132.08" x2="185.42" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="Z2" gate="G$1" pin="A"/>
-<wire x1="175.26" y1="147.32" x2="175.26" y2="149.86" width="0.1524" layer="91"/>
-<junction x="175.26" y="149.86"/>
+<wire x1="175.26" y1="137.16" x2="175.26" y2="139.7" width="0.1524" layer="91"/>
+<junction x="175.26" y="139.7"/>
+<pinref part="Z4" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -7630,9 +7628,9 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="175.26" y1="129.54" x2="170.18" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="129.54" x2="170.18" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="Z2" gate="G$1" pin="K"/>
 <wire x1="175.26" y1="132.08" x2="175.26" y2="129.54" width="0.1524" layer="91"/>
 <junction x="175.26" y="129.54"/>
+<pinref part="Z4" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$29" class="0">

@@ -575,17 +575,6 @@ Source: 00004280-VT9-PT.pdf</description>
 <wire x1="0" y1="-9.5" x2="0" y2="-9.6" width="0.1" layer="21" curve="180"/>
 <wire x1="0" y1="-9.6" x2="0" y2="-9.5" width="0.1" layer="21" curve="180"/>
 </package>
-<package name="SHORT_ALL-50" library_version="1">
-<description>Short, all layers, 50mil width</description>
-<rectangle x1="-0.254" y1="0.381" x2="0.254" y2="0.635" layer="1"/>
-<rectangle x1="-0.254" y1="-0.635" x2="0.254" y2="-0.381" layer="1"/>
-<rectangle x1="-0.254" y1="0.381" x2="0.254" y2="0.635" layer="16"/>
-<rectangle x1="-0.254" y1="-0.635" x2="0.254" y2="-0.381" layer="16"/>
-<pad name="1" x="-0.635" y="0" drill="0.7366" diameter="1.524"/>
-<pad name="2" x="0.635" y="0" drill="0.7366" diameter="1.524"/>
-<text x="-1.7145" y="-2.2225" size="1.27" layer="25" ratio="16">&gt;NAME</text>
-<text x="0.381" y="-0.889" size="0.762" layer="51" ratio="10" rot="R90">&gt;NAME</text>
-</package>
 </packages>
 <packages3d>
 <package3d name="1X06" urn="urn:adsk.eagle:package:38009/2" type="box">
@@ -610,13 +599,6 @@ Source: 00004280-VT9-PT.pdf</description>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="DGND">
-<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<pin name="DGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-<text x="-2.667" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
 <symbol name="CONN_06">
 <description>&lt;h3&gt;6 Pin Connection&lt;/h3&gt;</description>
 <wire x1="1.27" y1="-7.62" x2="-5.08" y2="-7.62" width="0.4064" layer="94"/>
@@ -772,27 +754,8 @@ Source: 00004280-VT9-PT.pdf</description>
 <pin name="TIP" x="30.48" y="-2.54" length="middle" rot="R180"/>
 <pin name="RING" x="30.48" y="0" length="middle" rot="R180"/>
 </symbol>
-<symbol name="SHORT-H" library_version="1">
-<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.508" layer="94"/>
-<pin name="P$1" x="-2.54" y="0" visible="off" length="point" swaplevel="1"/>
-<pin name="P$2" x="2.54" y="0" visible="off" length="point" swaplevel="1"/>
-<text x="-2.2225" y="1.27" size="1.778" layer="95">&gt;NAME</text>
-</symbol>
 </symbols>
 <devicesets>
-<deviceset name="DGND" prefix="SUPPLY" library_version="1">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="DGND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="CONN_06" prefix="J" uservalue="yes" library_version="1">
 <description>&lt;h3&gt;Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections&lt;/h3&gt;
 
@@ -1143,26 +1106,6 @@ Source: &lt;a href="https://www.cuidevices.com/product/resource/sj-63033a.pdf"&g
 <attribute name="MANUFACTURER_PART_NUMBER" value="SJ-63033A" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SHORT" prefix="SH" library_version="1">
-<description>Short between two nets</description>
-<gates>
-<gate name="G$1" symbol="SHORT-H" x="0" y="0" swaplevel="1"/>
-</gates>
-<devices>
-<device name="A5" package="SHORT_ALL-50">
-<connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="BOM" value="No" constant="no"/>
-<attribute name="DESCRIPTION" value="Short between two nets" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6378,7 +6321,6 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 </classes>
 <parts>
 <part name="PE2" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="PE" device=""/>
-<part name="SUPPLY5" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="DGND" device=""/>
 <part name="SUPPLY34" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="AGND" device=""/>
 <part name="U$1" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="+240VDC" device=""/>
 <part name="U$5" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="66.3VAC/1" device=""/>
@@ -6431,9 +6373,7 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <part name="AGND15" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="AGND" device=""/>
 <part name="AGND16" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="AGND" device=""/>
 <part name="J3" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="SJ-63033A" device=""/>
-<part name="SH1" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="SHORT" device="A5"/>
 <part name="AGND2" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="AGND" device=""/>
-<part name="SUPPLY1" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="DGND" device=""/>
 <part name="SX3" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="VT9" device="-PT" package3d_urn="urn:adsk.eagle:package:4683/1"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k"/>
@@ -6493,9 +6433,6 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <instance part="PE2" gate="M" x="101.6" y="187.96" smashed="yes">
 <attribute name="VALUE" x="101.6" y="182.88" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
-<instance part="SUPPLY5" gate="G$1" x="104.14" y="187.96" smashed="yes">
-<attribute name="VALUE" x="104.14" y="182.88" size="1.778" layer="96" rot="R270" align="center-left"/>
-</instance>
 <instance part="SUPPLY34" gate="VR1" x="81.28" y="147.32" smashed="yes" rot="R270">
 <attribute name="VALUE" x="78.105" y="149.987" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -6512,25 +6449,25 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <attribute name="NAME" x="91.44" y="201.93" size="1.778" layer="95" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="91.44" y="209.55" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
-<instance part="SX1" gate="G$1" x="10.16" y="124.46" smashed="yes" rot="MR0">
-<attribute name="NAME" x="15.24" y="137.16" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="1.27" y="114.3" size="1.778" layer="96" rot="MR90"/>
+<instance part="SX1" gate="G$1" x="7.62" y="124.46" smashed="yes" rot="MR0">
+<attribute name="NAME" x="12.7" y="137.16" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="-1.27" y="114.3" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="U$8" gate="G$1" x="20.32" y="162.56" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="33.02" y="162.56" size="1.778" layer="96" rot="MR0" align="center-left"/>
+<instance part="U$8" gate="G$1" x="17.78" y="162.56" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="30.48" y="162.56" size="1.778" layer="96" rot="MR0" align="center-left"/>
 </instance>
 <instance part="C21O" gate="G$1" x="60.96" y="121.92" smashed="yes" rot="MR90">
 <attribute name="NAME" x="61.341" y="123.444" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="56.261" y="123.444" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="AGND3" gate="VR1" x="20.32" y="88.9" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="22.86" y="83.82" size="1.778" layer="96" rot="MR90"/>
+<instance part="AGND3" gate="VR1" x="17.78" y="88.9" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="20.32" y="83.82" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="U$9" gate="G$1" x="25.4" y="127" smashed="yes" rot="MR90">
-<attribute name="VALUE" x="40.64" y="127" size="1.778" layer="96" rot="MR180" align="center-left"/>
+<instance part="U$9" gate="G$1" x="22.86" y="127" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="38.1" y="127" size="1.778" layer="96" rot="MR180" align="center-left"/>
 </instance>
-<instance part="U$10" gate="G$1" x="25.4" y="124.46" smashed="yes" rot="MR90">
-<attribute name="VALUE" x="40.64" y="124.46" size="1.778" layer="96" rot="MR180" align="center-left"/>
+<instance part="U$10" gate="G$1" x="22.86" y="124.46" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="38.1" y="124.46" size="1.778" layer="96" rot="MR180" align="center-left"/>
 </instance>
 <instance part="R3O" gate="G$1" x="45.72" y="101.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="47.2186" y="105.41" size="1.778" layer="95" rot="R270"/>
@@ -6684,14 +6621,8 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <attribute name="NAME" x="113.03" y="154.94" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="113.03" y="152.4" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="SH1" gate="G$1" x="104.14" y="165.1" smashed="yes">
-<attribute name="NAME" x="101.9175" y="166.37" size="1.778" layer="95"/>
-</instance>
-<instance part="AGND2" gate="VR1" x="111.76" y="165.1" smashed="yes" rot="MR270">
-<attribute name="VALUE" x="116.84" y="167.64" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="SUPPLY1" gate="G$1" x="96.52" y="165.1" smashed="yes" rot="R270">
-<attribute name="VALUE" x="91.44" y="165.1" size="1.778" layer="96" rot="R180" align="center-left"/>
+<instance part="AGND2" gate="VR1" x="104.14" y="187.96" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="106.68" y="182.88" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="SX3" gate="G$1" x="12.7" y="190.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="17.78" y="205.74" size="1.778" layer="95" rot="MR0"/>
@@ -6705,9 +6636,9 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <attribute name="NAME" x="34.29" y="184.3786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="34.29" y="179.578" size="1.778" layer="96"/>
 </instance>
-<instance part="C1" gate="G$1" x="0" y="127" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-1.524" y="127.381" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="-1.524" y="122.301" size="1.778" layer="96" rot="MR0"/>
+<instance part="C1" gate="G$1" x="-2.54" y="127" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-4.064" y="127.381" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="-4.064" y="122.301" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="C3" gate="G$1" x="0" y="193.04" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-1.524" y="193.421" size="1.778" layer="95" rot="MR0"/>
@@ -6734,16 +6665,16 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <attribute name="VALUE" x="36.83" y="171.958" size="1.778" layer="96"/>
 </instance>
 <instance part="R7" gate="G$1" x="38.1" y="119.38" smashed="yes">
-<attribute name="NAME" x="34.29" y="120.8786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="34.29" y="116.078" size="1.778" layer="96"/>
+<attribute name="NAME" x="31.75" y="120.8786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="31.75" y="116.078" size="1.778" layer="96"/>
 </instance>
 <instance part="R8" gate="G$1" x="38.1" y="132.08" smashed="yes">
-<attribute name="NAME" x="34.29" y="133.5786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="34.29" y="128.778" size="1.778" layer="96"/>
+<attribute name="NAME" x="31.75" y="133.5786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="31.75" y="128.778" size="1.778" layer="96"/>
 </instance>
-<instance part="R9" gate="G$1" x="33.02" y="101.6" smashed="yes" rot="R90">
-<attribute name="NAME" x="31.5214" y="97.79" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="36.322" y="97.79" size="1.778" layer="96" rot="R90"/>
+<instance part="R9" gate="G$1" x="30.48" y="101.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="28.9814" y="97.79" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="33.782" y="97.79" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="D1" gate="G$1" x="27.94" y="200.66" smashed="yes" rot="R270">
 <attribute name="NAME" x="30.48" y="205.74" size="1.27" layer="95" rot="R270"/>
@@ -6753,13 +6684,13 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <attribute name="NAME" x="25.4" y="180.34" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="31.75" y="180.34" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="D3" gate="G$1" x="27.94" y="116.84" smashed="yes" rot="R90">
-<attribute name="NAME" x="25.4" y="114.3" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="31.75" y="114.3" size="1.27" layer="96" rot="R90"/>
+<instance part="D3" gate="G$1" x="25.4" y="116.84" smashed="yes" rot="R90">
+<attribute name="NAME" x="22.86" y="114.3" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="29.21" y="114.3" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="Z1" gate="G$1" x="27.94" y="132.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="19.05" y="142.24" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="21.59" y="142.24" size="1.778" layer="96" rot="R90" align="center-left"/>
+<instance part="Z1" gate="G$1" x="25.4" y="132.08" smashed="yes" rot="R90">
+<attribute name="NAME" x="16.51" y="142.24" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="19.05" y="142.24" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
 <instance part="U1" gate="G$1" x="60.96" y="193.04" smashed="yes">
 <attribute name="NAME" x="63.5" y="185.42" size="1.778" layer="95"/>
@@ -6772,25 +6703,25 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <instance part="AGND18" gate="VR1" x="66.04" y="172.72" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="63.246" y="169.418" size="1.778" layer="96"/>
 </instance>
-<instance part="SX2" gate="G$1" x="190.5" y="124.46" smashed="yes">
-<attribute name="NAME" x="185.42" y="137.16" size="1.778" layer="95"/>
-<attribute name="VALUE" x="199.39" y="114.3" size="1.778" layer="96" rot="R90"/>
+<instance part="SX2" gate="G$1" x="193.04" y="124.46" smashed="yes">
+<attribute name="NAME" x="187.96" y="137.16" size="1.778" layer="95"/>
+<attribute name="VALUE" x="201.93" y="114.3" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$3" gate="G$1" x="180.34" y="162.56" smashed="yes">
-<attribute name="VALUE" x="167.64" y="162.56" size="1.778" layer="96" align="center-left"/>
+<instance part="U$3" gate="G$1" x="182.88" y="162.56" smashed="yes">
+<attribute name="VALUE" x="170.18" y="162.56" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="C21O1" gate="G$1" x="139.7" y="121.92" smashed="yes" rot="R90">
 <attribute name="NAME" x="139.319" y="123.444" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="144.399" y="123.444" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="AGND1" gate="VR1" x="180.34" y="88.9" smashed="yes">
-<attribute name="VALUE" x="177.8" y="83.82" size="1.778" layer="96" rot="R90"/>
+<instance part="AGND1" gate="VR1" x="182.88" y="88.9" smashed="yes">
+<attribute name="VALUE" x="180.34" y="83.82" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$4" gate="G$1" x="175.26" y="127" smashed="yes" rot="R90">
-<attribute name="VALUE" x="160.02" y="127" size="1.778" layer="96" rot="R180" align="center-left"/>
+<instance part="U$4" gate="G$1" x="177.8" y="127" smashed="yes" rot="R90">
+<attribute name="VALUE" x="162.56" y="127" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
-<instance part="U$7" gate="G$1" x="175.26" y="124.46" smashed="yes" rot="R90">
-<attribute name="VALUE" x="160.02" y="124.46" size="1.778" layer="96" rot="R180" align="center-left"/>
+<instance part="U$7" gate="G$1" x="177.8" y="124.46" smashed="yes" rot="R90">
+<attribute name="VALUE" x="162.56" y="124.46" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
 <instance part="R3O1" gate="G$1" x="154.94" y="101.6" smashed="yes" rot="MR270">
 <attribute name="NAME" x="153.4414" y="105.41" size="1.778" layer="95" rot="MR270"/>
@@ -6812,9 +6743,9 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <attribute name="NAME" x="166.37" y="184.3786" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="166.37" y="179.578" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="C2" gate="G$1" x="200.66" y="127" smashed="yes">
-<attribute name="NAME" x="202.184" y="127.381" size="1.778" layer="95"/>
-<attribute name="VALUE" x="202.184" y="122.301" size="1.778" layer="96"/>
+<instance part="C2" gate="G$1" x="203.2" y="127" smashed="yes">
+<attribute name="NAME" x="204.724" y="127.381" size="1.778" layer="95"/>
+<attribute name="VALUE" x="204.724" y="122.301" size="1.778" layer="96"/>
 </instance>
 <instance part="C4" gate="G$1" x="200.66" y="193.04" smashed="yes">
 <attribute name="NAME" x="202.184" y="193.421" size="1.778" layer="95"/>
@@ -6841,16 +6772,16 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <attribute name="VALUE" x="163.83" y="171.958" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R13" gate="G$1" x="162.56" y="119.38" smashed="yes" rot="MR0">
-<attribute name="NAME" x="166.37" y="120.8786" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="166.37" y="116.078" size="1.778" layer="96" rot="MR0"/>
+<attribute name="NAME" x="168.91" y="120.8786" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="168.91" y="116.078" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R14" gate="G$1" x="162.56" y="132.08" smashed="yes" rot="MR0">
-<attribute name="NAME" x="166.37" y="133.5786" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="166.37" y="128.778" size="1.778" layer="96" rot="MR0"/>
+<attribute name="NAME" x="168.91" y="133.5786" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="168.91" y="128.778" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R15" gate="G$1" x="167.64" y="101.6" smashed="yes" rot="MR90">
-<attribute name="NAME" x="169.1386" y="97.79" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="164.338" y="97.79" size="1.778" layer="96" rot="MR90"/>
+<instance part="R15" gate="G$1" x="170.18" y="101.6" smashed="yes" rot="MR90">
+<attribute name="NAME" x="171.6786" y="97.79" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="166.878" y="97.79" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="D4" gate="G$1" x="172.72" y="200.66" smashed="yes" rot="MR270">
 <attribute name="NAME" x="170.18" y="205.74" size="1.27" layer="95" rot="MR270"/>
@@ -6860,13 +6791,13 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <attribute name="NAME" x="175.26" y="180.34" size="1.27" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="168.91" y="180.34" size="1.27" layer="96" rot="MR90"/>
 </instance>
-<instance part="D6" gate="G$1" x="172.72" y="116.84" smashed="yes" rot="MR90">
-<attribute name="NAME" x="175.26" y="114.3" size="1.27" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="168.91" y="114.3" size="1.27" layer="96" rot="MR90"/>
+<instance part="D6" gate="G$1" x="175.26" y="116.84" smashed="yes" rot="MR90">
+<attribute name="NAME" x="177.8" y="114.3" size="1.27" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="171.45" y="114.3" size="1.27" layer="96" rot="MR90"/>
 </instance>
-<instance part="Z2" gate="G$1" x="172.72" y="132.08" smashed="yes" rot="MR90">
-<attribute name="NAME" x="181.61" y="142.24" size="1.778" layer="95" rot="MR90" align="center-left"/>
-<attribute name="VALUE" x="179.07" y="142.24" size="1.778" layer="96" rot="MR90" align="center-left"/>
+<instance part="Z2" gate="G$1" x="175.26" y="132.08" smashed="yes" rot="MR90">
+<attribute name="NAME" x="184.15" y="142.24" size="1.778" layer="95" rot="MR90" align="center-left"/>
+<attribute name="VALUE" x="181.61" y="142.24" size="1.778" layer="96" rot="MR90" align="center-left"/>
 </instance>
 <instance part="U2" gate="G$1" x="139.7" y="193.04" smashed="yes" rot="MR0">
 <attribute name="NAME" x="137.16" y="185.42" size="1.778" layer="95" rot="MR0"/>
@@ -6883,18 +6814,6 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <busses>
 </busses>
 <nets>
-<net name="DGND" class="2">
-<segment>
-<wire x1="104.14" y1="193.04" x2="104.14" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="SUPPLY5" gate="G$1" pin="DGND"/>
-<pinref part="J1" gate="G$1" pin="4"/>
-</segment>
-<segment>
-<pinref part="SUPPLY1" gate="G$1" pin="DGND"/>
-<pinref part="SH1" gate="G$1" pin="P$1"/>
-<wire x1="101.6" y1="165.1" x2="99.06" y2="165.1" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="PE" class="2">
 <segment>
 <pinref part="PE2" gate="M" pin="PE"/>
@@ -6909,19 +6828,19 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <wire x1="83.82" y1="147.32" x2="86.36" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="20.32" y1="93.98" x2="0" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="93.98" x2="20.32" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="93.98" x2="-2.54" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="93.98" x2="17.78" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="AGND3" gate="VR1" pin="AGND"/>
 <pinref part="R3O" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="96.52" x2="45.72" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="93.98" x2="33.02" y2="93.98" width="0.1524" layer="91"/>
-<junction x="20.32" y="93.98"/>
+<wire x1="45.72" y1="93.98" x2="30.48" y2="93.98" width="0.1524" layer="91"/>
+<junction x="17.78" y="93.98"/>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="33.02" y1="93.98" x2="20.32" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="96.52" x2="33.02" y2="93.98" width="0.1524" layer="91"/>
-<junction x="33.02" y="93.98"/>
+<wire x1="30.48" y1="93.98" x2="17.78" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="96.52" x2="30.48" y2="93.98" width="0.1524" layer="91"/>
+<junction x="30.48" y="93.98"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="0" y1="121.92" x2="0" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="121.92" x2="-2.54" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J13" gate="J1" pin="5"/>
@@ -6988,11 +6907,6 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <pinref part="AGND16" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
-<pinref part="AGND2" gate="VR1" pin="AGND"/>
-<pinref part="SH1" gate="G$1" pin="P$2"/>
-<wire x1="106.68" y1="165.1" x2="109.22" y2="165.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="AGND4" gate="VR1" pin="AGND"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="0" y1="187.96" x2="0" y2="172.72" width="0.1524" layer="91"/>
@@ -7009,19 +6923,19 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <pinref part="AGND18" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
-<wire x1="180.34" y1="93.98" x2="200.66" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="93.98" x2="180.34" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="93.98" x2="203.2" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="93.98" x2="182.88" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="AGND1" gate="VR1" pin="AGND"/>
 <pinref part="R3O1" gate="G$1" pin="2"/>
 <wire x1="154.94" y1="96.52" x2="154.94" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="93.98" x2="167.64" y2="93.98" width="0.1524" layer="91"/>
-<junction x="180.34" y="93.98"/>
+<wire x1="154.94" y1="93.98" x2="170.18" y2="93.98" width="0.1524" layer="91"/>
+<junction x="182.88" y="93.98"/>
 <pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="167.64" y1="93.98" x2="180.34" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="96.52" x2="167.64" y2="93.98" width="0.1524" layer="91"/>
-<junction x="167.64" y="93.98"/>
+<wire x1="170.18" y1="93.98" x2="182.88" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="96.52" x2="170.18" y2="93.98" width="0.1524" layer="91"/>
+<junction x="170.18" y="93.98"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="200.66" y1="121.92" x2="200.66" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="121.92" x2="203.2" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="AGND17" gate="VR1" pin="AGND"/>
@@ -7039,6 +6953,11 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <junction x="134.62" y="177.8"/>
 <pinref part="AGND19" gate="VR1" pin="AGND"/>
 </segment>
+<segment>
+<wire x1="104.14" y1="193.04" x2="104.14" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="4"/>
+<pinref part="AGND2" gate="VR1" pin="AGND"/>
+</segment>
 </net>
 <net name="+240VDC" class="2">
 <segment>
@@ -7048,21 +6967,21 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 </segment>
 <segment>
 <pinref part="U$8" gate="G$1" pin="+240VDC"/>
-<wire x1="20.32" y1="160.02" x2="20.32" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="157.48" x2="0" y2="157.48" width="0.1524" layer="91"/>
-<junction x="20.32" y="157.48"/>
+<wire x1="17.78" y1="160.02" x2="17.78" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="157.48" x2="-2.54" y2="157.48" width="0.1524" layer="91"/>
+<junction x="17.78" y="157.48"/>
 <wire x1="48.26" y1="157.48" x2="45.72" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="157.48" x2="20.32" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="157.48" x2="17.78" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="157.48" x2="48.26" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="109.22" x2="20.32" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="109.22" x2="17.78" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="C2O" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="147.32" x2="45.72" y2="157.48" width="0.1524" layer="91"/>
 <junction x="45.72" y="157.48"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="0" y1="157.48" x2="0" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="157.48" x2="-2.54" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="SX1" gate="G$1" pin="6"/>
-<wire x1="17.78" y1="121.92" x2="20.32" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="121.92" x2="20.32" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="121.92" x2="17.78" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="121.92" x2="17.78" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="+240VDC"/>
@@ -7082,21 +7001,21 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="+240VDC"/>
-<wire x1="180.34" y1="160.02" x2="180.34" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="157.48" x2="200.66" y2="157.48" width="0.1524" layer="91"/>
-<junction x="180.34" y="157.48"/>
+<wire x1="182.88" y1="160.02" x2="182.88" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="157.48" x2="203.2" y2="157.48" width="0.1524" layer="91"/>
+<junction x="182.88" y="157.48"/>
 <wire x1="152.4" y1="157.48" x2="154.94" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="157.48" x2="180.34" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="157.48" x2="182.88" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="157.48" x2="152.4" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="109.22" x2="180.34" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="109.22" x2="182.88" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="C2O1" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="147.32" x2="154.94" y2="157.48" width="0.1524" layer="91"/>
 <junction x="154.94" y="157.48"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="200.66" y1="157.48" x2="200.66" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="109.22" x2="180.34" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="157.48" x2="203.2" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="109.22" x2="182.88" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="SX2" gate="G$1" pin="6"/>
-<wire x1="180.34" y1="121.92" x2="182.88" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="121.92" x2="185.42" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$11" gate="G$1" pin="+240VDC"/>
@@ -7131,7 +7050,7 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <segment>
 <pinref part="SX1" gate="G$1" pin="4"/>
 <pinref part="U$9" gate="G$1" pin="66.3VAC/1"/>
-<wire x1="22.86" y1="127" x2="17.78" y2="127" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="127" x2="15.24" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$5" gate="G$1" pin="66.3VAC/1"/>
@@ -7146,7 +7065,7 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <segment>
 <pinref part="SX2" gate="G$1" pin="4"/>
 <pinref part="U$4" gate="G$1" pin="66.3VAC/1"/>
-<wire x1="177.8" y1="127" x2="182.88" y2="127" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="127" x2="185.42" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SX4" gate="G$1" pin="4"/>
@@ -7158,7 +7077,7 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <segment>
 <pinref part="SX1" gate="G$1" pin="5"/>
 <pinref part="U$10" gate="G$1" pin="66.3VAC/2"/>
-<wire x1="22.86" y1="124.46" x2="17.78" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="124.46" x2="15.24" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$6" gate="G$1" pin="66.3VAC/2"/>
@@ -7173,7 +7092,7 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <segment>
 <pinref part="SX2" gate="G$1" pin="5"/>
 <pinref part="U$7" gate="G$1" pin="66.3VAC/2"/>
-<wire x1="177.8" y1="124.46" x2="182.88" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="124.46" x2="185.42" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SX4" gate="G$1" pin="5"/>
@@ -7197,20 +7116,20 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <segment>
 <pinref part="C21O" gate="G$1" pin="2"/>
 <pinref part="SX1" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="134.62" x2="22.86" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="134.62" x2="22.86" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="152.4" x2="50.8" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="134.62" x2="20.32" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="134.62" x2="20.32" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="152.4" x2="50.8" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="152.4" x2="50.8" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="121.92" x2="27.94" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="121.92" x2="25.4" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="121.92" x2="50.8" y2="121.92" width="0.1524" layer="91"/>
 <junction x="50.8" y="121.92"/>
 <pinref part="D3" gate="G$1" pin="C"/>
-<wire x1="27.94" y1="119.38" x2="27.94" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="119.38" x2="25.4" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="SX1" gate="G$1" pin="8"/>
-<wire x1="17.78" y1="116.84" x2="22.86" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="116.84" x2="22.86" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="121.92" x2="27.94" y2="121.92" width="0.1524" layer="91"/>
-<junction x="27.94" y="121.92"/>
+<wire x1="15.24" y1="116.84" x2="20.32" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="116.84" x2="20.32" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="121.92" x2="25.4" y2="121.92" width="0.1524" layer="91"/>
+<junction x="25.4" y="121.92"/>
 </segment>
 </net>
 <net name="R-" class="1">
@@ -7525,15 +7444,15 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <segment>
 <pinref part="SX1" gate="G$1" pin="2"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="33.02" y1="132.08" x2="30.48" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="132.08" x2="30.48" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="149.86" x2="27.94" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="132.08" x2="27.94" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="132.08" x2="27.94" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="149.86" x2="25.4" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="149.86" x2="25.4" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="132.08" x2="17.78" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="149.86" x2="22.86" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="149.86" x2="22.86" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="132.08" x2="15.24" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="Z1" gate="G$1" pin="A"/>
-<wire x1="27.94" y1="147.32" x2="27.94" y2="149.86" width="0.1524" layer="91"/>
-<junction x="27.94" y="149.86"/>
+<wire x1="25.4" y1="147.32" x2="25.4" y2="149.86" width="0.1524" layer="91"/>
+<junction x="25.4" y="149.86"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -7550,28 +7469,28 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <net name="N$26" class="0">
 <segment>
 <pinref part="SX1" gate="G$1" pin="3"/>
-<wire x1="17.78" y1="129.54" x2="27.94" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="129.54" x2="25.4" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="129.54" x2="33.02" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="129.54" x2="33.02" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="129.54" x2="30.48" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="129.54" x2="30.48" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="Z1" gate="G$1" pin="K"/>
-<wire x1="27.94" y1="132.08" x2="27.94" y2="129.54" width="0.1524" layer="91"/>
-<junction x="27.94" y="129.54"/>
+<wire x1="25.4" y1="132.08" x2="25.4" y2="129.54" width="0.1524" layer="91"/>
+<junction x="25.4" y="129.54"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="SX1" gate="G$1" pin="7"/>
-<wire x1="33.02" y1="119.38" x2="30.48" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="119.38" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="111.76" x2="27.94" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="119.38" x2="27.94" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="119.38" x2="27.94" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="111.76" x2="25.4" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="111.76" x2="25.4" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="119.38" x2="17.78" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="111.76" x2="22.86" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="111.76" x2="22.86" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="119.38" x2="15.24" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="A"/>
-<wire x1="27.94" y1="114.3" x2="27.94" y2="111.76" width="0.1524" layer="91"/>
-<junction x="27.94" y="111.76"/>
+<wire x1="25.4" y1="114.3" x2="25.4" y2="111.76" width="0.1524" layer="91"/>
+<junction x="25.4" y="111.76"/>
 </segment>
 </net>
 <net name="N$37" class="0">
@@ -7586,20 +7505,20 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <segment>
 <pinref part="C21O1" gate="G$1" pin="2"/>
 <pinref part="SX2" gate="G$1" pin="1"/>
-<wire x1="182.88" y1="134.62" x2="177.8" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="134.62" x2="177.8" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="152.4" x2="149.86" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="134.62" x2="180.34" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="134.62" x2="180.34" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="152.4" x2="149.86" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="152.4" x2="149.86" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="121.92" x2="172.72" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="121.92" x2="175.26" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="121.92" x2="149.86" y2="121.92" width="0.1524" layer="91"/>
 <junction x="149.86" y="121.92"/>
 <pinref part="D6" gate="G$1" pin="C"/>
-<wire x1="172.72" y1="119.38" x2="172.72" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="121.92" x2="177.8" y2="121.92" width="0.1524" layer="91"/>
-<junction x="172.72" y="121.92"/>
-<wire x1="177.8" y1="121.92" x2="177.8" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="119.38" x2="175.26" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="121.92" x2="180.34" y2="121.92" width="0.1524" layer="91"/>
+<junction x="175.26" y="121.92"/>
+<wire x1="180.34" y1="121.92" x2="180.34" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="SX2" gate="G$1" pin="8"/>
-<wire x1="177.8" y1="116.84" x2="182.88" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="116.84" x2="185.42" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -7682,15 +7601,15 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <segment>
 <pinref part="SX2" gate="G$1" pin="2"/>
 <pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="167.64" y1="132.08" x2="170.18" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="132.08" x2="170.18" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="149.86" x2="172.72" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="132.08" x2="172.72" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="132.08" x2="172.72" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="149.86" x2="175.26" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="149.86" x2="175.26" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="132.08" x2="182.88" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="149.86" x2="177.8" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="149.86" x2="177.8" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="132.08" x2="185.42" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="Z2" gate="G$1" pin="A"/>
-<wire x1="172.72" y1="147.32" x2="172.72" y2="149.86" width="0.1524" layer="91"/>
-<junction x="172.72" y="149.86"/>
+<wire x1="175.26" y1="147.32" x2="175.26" y2="149.86" width="0.1524" layer="91"/>
+<junction x="175.26" y="149.86"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -7707,28 +7626,28 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <net name="N$27" class="0">
 <segment>
 <pinref part="SX2" gate="G$1" pin="3"/>
-<wire x1="182.88" y1="129.54" x2="172.72" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="129.54" x2="175.26" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="172.72" y1="129.54" x2="167.64" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="129.54" x2="167.64" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="129.54" x2="170.18" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="129.54" x2="170.18" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="Z2" gate="G$1" pin="K"/>
-<wire x1="172.72" y1="132.08" x2="172.72" y2="129.54" width="0.1524" layer="91"/>
-<junction x="172.72" y="129.54"/>
+<wire x1="175.26" y1="132.08" x2="175.26" y2="129.54" width="0.1524" layer="91"/>
+<junction x="175.26" y="129.54"/>
 </segment>
 </net>
 <net name="N$29" class="0">
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
 <pinref part="SX2" gate="G$1" pin="7"/>
-<wire x1="167.64" y1="119.38" x2="170.18" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="119.38" x2="170.18" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="111.76" x2="172.72" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="119.38" x2="172.72" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="119.38" x2="172.72" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="111.76" x2="175.26" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="111.76" x2="175.26" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="119.38" x2="182.88" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="111.76" x2="177.8" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="111.76" x2="177.8" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="119.38" x2="185.42" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="D6" gate="G$1" pin="A"/>
-<wire x1="172.72" y1="114.3" x2="172.72" y2="111.76" width="0.1524" layer="91"/>
-<junction x="172.72" y="111.76"/>
+<wire x1="175.26" y1="114.3" x2="175.26" y2="111.76" width="0.1524" layer="91"/>
+<junction x="175.26" y="111.76"/>
 </segment>
 </net>
 <net name="N$38" class="0">
@@ -7742,6 +7661,18 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="106,1,101.6,190.5,PE,,,,,"/>
+<approved hash="106,1,101.6,193.04,PE,,,,,"/>
+<approved hash="113,1,40.4774,69.2573,J13,,,,,"/>
+<approved hash="113,1,152.237,69.2573,J2,,,,,"/>
+<approved hash="113,1,29.1846,200.66,D1,,,,,"/>
+<approved hash="113,1,26.6954,182.88,D2,,,,,"/>
+<approved hash="113,1,24.1554,116.84,D3,,,,,"/>
+<approved hash="113,1,171.475,200.66,D4,,,,,"/>
+<approved hash="113,1,173.965,182.88,D5,,,,,"/>
+<approved hash="113,1,176.505,116.84,D6,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

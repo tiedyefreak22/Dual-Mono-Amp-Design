@@ -1216,21 +1216,6 @@ type 0411, grid 15 mm</description>
 <text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
 <text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="R-US" urn="urn:adsk.eagle:symbol:48500913/1" library_version="8">
-<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
-<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
-<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.2032" layer="94"/>
-<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.2032" layer="94"/>
-<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.2032" layer="94"/>
-<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.2032" layer="94"/>
-<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.2032" layer="94"/>
-<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.2032" layer="94"/>
-<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.2032" layer="94"/>
-<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MKP4G034705D00KSSD" urn="urn:adsk.eagle:component:47621736/1" prefix="C" library_version="3">
@@ -1490,13 +1475,14 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 </device>
 </devices>
 </deviceset>
-<deviceset name="R-US_" urn="urn:adsk.eagle:component:48500914/1" prefix="R" uservalue="yes" library_version="8">
-<description>&lt;B&gt;RESISTOR&lt;/B&gt;, American symbol</description>
+<deviceset name="RN55D48R7FB14" urn="urn:adsk.eagle:component:48504242/1" prefix="R" library_version="12">
+<description>&lt;b&gt;Metal Film Resistors - Through Hole 1/8watt 48.7ohms 1% 100ppm&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.vishay.com/doc?31027"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="R-US" x="0" y="0"/>
+<gate name="G$1" symbol="R" x="5.08" y="0"/>
 </gates>
 <devices>
-<device name="0207/10" package="0207/10">
+<device name="" package="0207/10">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1506,18 +1492,16 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="36" constant="no"/>
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
+<attribute name="DESCRIPTION" value="Metal Film Resistors - Through Hole 1/8watt 48.7ohms 1% 100ppm" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RN55D48R7FB14" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-RN55D-F-48.7" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/RN55D48R7FB14?qs=sGAEpiMZZMsPqMdJzcrNwqLSjlxN7Le6H%2Fnooot2Cxw%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
-<spice>
-<pinmapping spiceprefix="R">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
 </deviceset>
 <deviceset name="PR02000209101FA100" urn="urn:adsk.eagle:component:48500959/2" prefix="R" library_version="10">
 <description>&lt;b&gt;VISHAY - PR02000209101FA100 - Through Hole Resistor, 9.1 kohm, PR02 Series, 2 W, +/- 5%, Axial Leaded, 500 V&lt;/b&gt;&lt;p&gt;
@@ -1635,7 +1619,7 @@ Source: &lt;a href="https://www.vishay.com/doc?28729"&gt; Datasheet &lt;/a&gt;</
 <part name="D2" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N4148-T50R" device="" package3d_urn="urn:adsk.eagle:package:48500905/1"/>
 <part name="D3" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N4148-T50R" device="" package3d_urn="urn:adsk.eagle:package:48500905/1"/>
 <part name="U1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="LM317MQDCYR" device="" package3d_urn="urn:adsk.eagle:package:47621665/2"/>
-<part name="R10" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="R-US_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="48.7"/>
+<part name="R10" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="RN55D48R7FB14" device="" package3d_urn="urn:adsk.eagle:package:23491/2" value="48.7"/>
 <part name="AGND18" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="AGND" device=""/>
 <part name="SX2" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="VT9" device="-PT" package3d_urn="urn:adsk.eagle:package:4683/1"/>
 <part name="U$3" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="+240VDC" device=""/>
@@ -1663,7 +1647,7 @@ Source: &lt;a href="https://www.vishay.com/doc?28729"&gt; Datasheet &lt;/a&gt;</
 <part name="D5" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N4148-T50R" device="" package3d_urn="urn:adsk.eagle:package:48500905/1"/>
 <part name="D6" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N4148-T50R" device="" package3d_urn="urn:adsk.eagle:package:48500905/1"/>
 <part name="U2" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="LM317MQDCYR" device="" package3d_urn="urn:adsk.eagle:package:47621665/2"/>
-<part name="R16" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="R-US_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="48.7"/>
+<part name="R16" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="RN55D48R7FB14" device="" package3d_urn="urn:adsk.eagle:package:23491/2" value="48.7"/>
 <part name="AGND19" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="AGND" device=""/>
 <part name="Z3" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N750" device="" package3d_urn="urn:adsk.eagle:package:48500160/1"/>
 <part name="Z4" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N750" device="" package3d_urn="urn:adsk.eagle:package:48500160/1"/>
@@ -2927,12 +2911,6 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
-</note>
-<note version="8.4" severity="warning">
-Since Version 8.4, EAGLE supports properties for SPICE simulation. 
-Probes in schematics and SPICE mapping objects found in parts and library devices
-will not be understood with this version. Update EAGLE to the latest version
-for full support of SPICE simulation. 
 </note>
 </compatibility>
 </eagle>

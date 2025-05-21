@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -28,45 +28,45 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="yes"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="yes"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="yes"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="58" name="bCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="yes"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="yes"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
@@ -79,62 +79,62 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
-<layer number="100" name="Muster" color="7" fill="1" visible="no" active="yes"/>
-<layer number="101" name="Patch_Top" color="7" fill="1" visible="no" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
-<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
-<layer number="104" name="Name" color="7" fill="1" visible="no" active="yes"/>
-<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
-<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
-<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
-<layer number="108" name="tplace-old" color="7" fill="1" visible="no" active="yes"/>
-<layer number="109" name="ref-old" color="7" fill="1" visible="no" active="yes"/>
-<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
-<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="113" name="IDFDebug" color="7" fill="1" visible="no" active="yes"/>
-<layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
-<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
-<layer number="116" name="Patch_BOT" color="7" fill="1" visible="no" active="yes"/>
-<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="no" active="yes"/>
-<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
-<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="no" active="yes"/>
-<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="no" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
-<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="no" active="yes"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
-<layer number="133" name="bottom_silk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="134" name="silk_top" color="7" fill="1" visible="no" active="yes"/>
-<layer number="135" name="silk_bottom" color="7" fill="1" visible="no" active="yes"/>
-<layer number="136" name="silktop" color="7" fill="1" visible="no" active="yes"/>
-<layer number="137" name="silkbottom" color="7" fill="1" visible="no" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Patch_Top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="tplace-old" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="ref-old" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="IDFDebug" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="134" name="silk_top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="135" name="silk_bottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="138" name="EEE" color="7" fill="1" visible="no" active="no"/>
 <layer number="139" name="_tKeepout" color="7" fill="1" visible="no" active="no"/>
 <layer number="140" name="mbKeepout" color="7" fill="1" visible="no" active="no"/>
 <layer number="141" name="ASSEMBLY_TOP" color="7" fill="1" visible="no" active="no"/>
 <layer number="142" name="mbRestrict" color="7" fill="1" visible="no" active="no"/>
 <layer number="143" name="PLACE_BOUND_TOP" color="7" fill="1" visible="no" active="no"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
-<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="no" active="yes"/>
-<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="147" name="PIN_NUMBER" color="7" fill="1" visible="no" active="no"/>
 <layer number="148" name="DrillLegend_01-20" color="7" fill="1" visible="no" active="no"/>
 <layer number="149" name="DrillLegend_02-15" color="7" fill="1" visible="no" active="no"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
-<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
-<layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
-<layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="156" name="gesam-Maß" color="7" fill="1" visible="no" active="no"/>
 <layer number="157" name="FaceMchng" color="7" fill="1" visible="no" active="no"/>
 <layer number="158" name="FaceMMeas" color="7" fill="1" visible="no" active="no"/>
@@ -149,59 +149,61 @@
 <layer number="194" name="mSymbols" color="7" fill="1" visible="no" active="no"/>
 <layer number="195" name="mNames" color="7" fill="1" visible="no" active="no"/>
 <layer number="196" name="mValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
-<layer number="200" name="200bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="201" name="201bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="202" name="202bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="203" name="203bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="204" name="204bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="205" name="205bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="207" name="207bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="208" name="208bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="217" name="217bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="218" name="218bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="219" name="219bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="220" name="220bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="221" name="221bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="222" name="222bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="223" name="223bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="224" name="224bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="231" name="231bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="yes"/>
-<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="yes"/>
-<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
-<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
-<layer number="250" name="Descript" color="7" fill="1" visible="no" active="yes"/>
-<layer number="251" name="SMDround" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="218" name="218bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="219" name="219bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="220" name="220bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="221" name="221bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="222" name="222bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="223" name="223bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="224" name="224bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="252" name="BR-BS" color="7" fill="1" visible="no" active="no"/>
 <layer number="253" name="Extra" color="7" fill="1" visible="no" active="no"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
-<layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
 <plain>
 <wire x1="0" y1="149.8" x2="178" y2="149.8" width="0" layer="20"/>
 <wire x1="178" y1="149.8" x2="178" y2="-25.0524" width="0" layer="20"/>
-<wire x1="0" y1="-25.0524" x2="0" y2="149.8" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="0" y2="149.8" width="0" layer="20"/>
 <wire x1="0" y1="149.8" x2="178" y2="149.8" width="0.2032" layer="48"/>
 <wire x1="178" y1="149.8" x2="177.8476" y2="-25.0524" width="0.2032" layer="48"/>
-<wire x1="177.8476" y1="-25.0524" x2="0" y2="-25.0524" width="0.2032" layer="48"/>
-<wire x1="0" y1="-25.0524" x2="0" y2="149.8" width="0.2032" layer="48"/>
+<wire x1="177.8476" y1="-25.0524" x2="68.1524" y2="-25.0524" width="0.2032" layer="48"/>
+<wire x1="68.1524" y1="-25.0524" x2="68.1524" y2="0" width="0.2032" layer="48"/>
+<wire x1="68.1524" y1="0" x2="0" y2="0" width="0.2032" layer="48"/>
+<wire x1="0" y1="0" x2="0" y2="149.8" width="0.2032" layer="48"/>
 <text x="159.90815625" y="80.5" size="0.6096" layer="51" align="bottom-center">LEFT</text>
 <text x="86.60815625" y="81.3" size="0.6096" layer="51" align="bottom-center">RIGHT</text>
 <wire x1="173.6304875" y1="138.872378125" x2="173.6304875" y2="128.212378125" width="0" layer="48"/>
@@ -239,7 +241,9 @@
 <text x="10.2" y="102" size="1.778" layer="26" rot="MR0" align="center-right">PE</text>
 <text x="10.2" y="92" size="1.778" layer="26" rot="MR0" align="center-right">6.3 VAC GRN</text>
 <text x="10.2" y="97" size="1.778" layer="26" rot="MR0" align="center-right">6.3 VAC BLU</text>
-<wire x1="178" y1="-25.0524" x2="0" y2="-25.0524" width="0" layer="20"/>
+<wire x1="178" y1="-25.0524" x2="68.1524" y2="-25.0524" width="0" layer="20"/>
+<wire x1="68.1524" y1="-25.0524" x2="68.1524" y2="0" width="0" layer="20"/>
+<wire x1="68.1524" y1="0" x2="0" y2="0" width="0" layer="20"/>
 <wire x1="93.490278125" y1="119.652278125" x2="108.26456875" y2="104.877990625" width="0" layer="48"/>
 <wire x1="108.26456875" y1="104.877990625" x2="93.490278125" y2="90.1037" width="0" layer="48"/>
 <wire x1="93.490278125" y1="90.1037" x2="78.715990625" y2="104.877990625" width="0" layer="48"/>
@@ -270,17 +274,17 @@
 <text x="152.814521875" y="112.592528125" size="0.4064" layer="25" rot="R180" align="center">SLOW</text>
 <text x="152.814521875" y="97.16345625" size="0.4064" layer="25" rot="SR0" align="center">AOLP</text>
 <text x="160.529059375" y="104.877990625" size="0.4064" layer="25" rot="SR90" align="center">AORP</text>
-<text x="88.1724" y="143" size="1.016" layer="25" rot="MR90" align="center-right">DGND</text>
-<text x="85.6324" y="143" size="1.016" layer="25" rot="MR90" align="center-right">ROT_LEDR</text>
-<text x="83.0924" y="143" size="1.016" layer="25" rot="MR90" align="center-right">ROT_LEDG</text>
-<text x="80.5524" y="143" size="1.016" layer="25" rot="MR90" align="center-right">ROT_LEDB</text>
-<text x="72.9324" y="143" size="1.016" layer="25" rot="MR90" align="center-right">ROT_A</text>
-<text x="75.4724" y="143" size="1.016" layer="25" rot="MR90" align="center-right">ROT_SW</text>
-<text x="78.0124" y="143" size="1.016" layer="25" rot="MR90" align="center-right">ROT_B</text>
-<text x="63.01" y="102.321" size="1.016" layer="25" rot="MR90" align="center-right">SCL</text>
-<text x="55.39" y="102.321" size="1.016" layer="25" rot="MR90" align="center-right">DGND</text>
-<text x="57.93" y="102.321" size="1.016" layer="25" rot="MR90" align="center-right">+5V</text>
-<text x="60.47" y="102.321" size="1.016" layer="25" rot="MR90" align="center-right">SDA</text>
+<text x="88.1724" y="143" size="1.27" layer="25" rot="R90" align="center-right">DGND</text>
+<text x="85.6324" y="143" size="1.27" layer="25" rot="R90" align="center-right">ROT_LEDR</text>
+<text x="83.0924" y="143" size="1.27" layer="25" rot="R90" align="center-right">ROT_LEDG</text>
+<text x="80.5524" y="143" size="1.27" layer="25" rot="R90" align="center-right">ROT_LEDB</text>
+<text x="72.9324" y="143" size="1.27" layer="25" rot="R90" align="center-right">ROT_A</text>
+<text x="75.4724" y="143" size="1.27" layer="25" rot="R90" align="center-right">ROT_SW</text>
+<text x="78.0124" y="143" size="1.27" layer="25" rot="R90" align="center-right">ROT_B</text>
+<text x="63.01" y="102.321" size="1.27" layer="25" rot="R90" align="center-right">SCL</text>
+<text x="55.39" y="102.321" size="1.27" layer="25" rot="R90" align="center-right">DGND</text>
+<text x="57.93" y="102.321" size="1.27" layer="25" rot="R90" align="center-right">+5V</text>
+<text x="60.47" y="102.321" size="1.27" layer="25" rot="R90" align="center-right">SDA</text>
 </plain>
 <libraries>
 <library name="Dual Mono Amp Library" urn="urn:adsk.eagle:library:47621477">
@@ -2556,7 +2560,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RNU1A100MDSASQ" x="136.41685625" y="110.433928125" size="1.778" layer="27" rot="R225" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="647-RNU1A100MDSASQ" x="136.41685625" y="110.433928125" size="1.778" layer="27" rot="R225" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/RNU1A100MDSASQ?qs=eL6fcoQH66Plszdei%2FxZtw%3D%3D" x="136.41685625" y="110.433928125" size="1.778" layer="27" rot="R225" display="off"/>
-<attribute name="NAME" x="137.3785" y="112.70048125" size="0.8128" layer="25" rot="R315"/>
+<attribute name="NAME" x="137.3785" y="112.70048125" size="1.27" layer="25" rot="R315"/>
 </element>
 <element name="C3B" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD200W55D500H800" package3d_urn="urn:adsk.eagle:package:47621635/1" value="80-A758BG106M1EAAE70" x="99.046215625" y="121.27565625" smashed="yes" rot="R135">
 <attribute name="ARROW_PART_NUMBER" value="" x="99.046215625" y="121.27565625" size="1.778" layer="27" rot="R135" display="off"/>
@@ -2567,7 +2571,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="A758BG106M1EAAE070" x="99.046215625" y="121.27565625" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="80-A758BG106M1EAAE70" x="99.046215625" y="121.27565625" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/A758BG106M1EAAE070?qs=M6jHmRuQorU1WkHVIs6y3Q%3D%3D" x="99.046215625" y="121.27565625" size="1.778" layer="27" rot="R135" display="off"/>
-<attribute name="NAME" x="94.659728125" y="119.6636625" size="0.8128" layer="25" rot="R315"/>
+<attribute name="NAME" x="94.659728125" y="119.6636625" size="1.27" layer="25" rot="R315"/>
 </element>
 <element name="C5A" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD200W55D500H800" package3d_urn="urn:adsk.eagle:package:47621635/1" value="80-A758BG106M1EAAE70" x="137.360559375" y="99.26575625" smashed="yes" rot="R135">
 <attribute name="ARROW_PART_NUMBER" value="" x="137.360559375" y="99.26575625" size="1.778" layer="27" rot="R135" display="off"/>
@@ -2578,7 +2582,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="A758BG106M1EAAE070" x="137.360559375" y="99.26575625" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="80-A758BG106M1EAAE70" x="137.360559375" y="99.26575625" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/A758BG106M1EAAE070?qs=M6jHmRuQorU1WkHVIs6y3Q%3D%3D" x="137.360559375" y="99.26575625" size="1.778" layer="27" rot="R135" display="off"/>
-<attribute name="NAME" x="133.05628125" y="100.473971875" size="0.8128" layer="25" rot="R135"/>
+<attribute name="NAME" x="133.05628125" y="100.473971875" size="1.27" layer="25" rot="R135"/>
 </element>
 <element name="C5B" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD200W55D500H800" package3d_urn="urn:adsk.eagle:package:47621635/1" value="80-A758BG106M1EAAE70" x="87.87804375" y="120.331953125" smashed="yes" rot="R45">
 <attribute name="ARROW_PART_NUMBER" value="" x="87.87804375" y="120.331953125" size="1.778" layer="27" rot="R45" display="off"/>
@@ -2589,7 +2593,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="A758BG106M1EAAE070" x="87.87804375" y="120.331953125" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="80-A758BG106M1EAAE70" x="87.87804375" y="120.331953125" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/A758BG106M1EAAE070?qs=M6jHmRuQorU1WkHVIs6y3Q%3D%3D" x="87.87804375" y="120.331953125" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="NAME" x="86.445603125" y="124.212878125" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="86.445603125" y="124.212878125" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="C7A" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD500W60D1025H2150" package3d_urn="urn:adsk.eagle:package:47621630/1" value="APSG160ELL222MJ20S" x="163.80160625" y="114.812978125" smashed="yes" rot="R55">
 <attribute name="DESCRIPTION" value="Aluminum Organic Polymer Capacitors 16V 2200uF 20% Tol." x="163.80160625" y="114.812978125" size="1.778" layer="27" rot="R55" display="off"/>
@@ -2598,7 +2602,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="APSG160ELL222MJ20S" x="163.80160625" y="114.812978125" size="1.778" layer="27" rot="R55" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="661-APSG160E222MJ20S" x="163.80160625" y="114.812978125" size="1.778" layer="27" rot="R55" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/United-Chemi-Con/APSG160ELL222MJ20S?qs=nxZbHzLpdvcUAIXRVD5aZg%3D%3D" x="163.80160625" y="114.812978125" size="1.778" layer="27" rot="R55" display="off"/>
-<attribute name="NAME" x="169.768453125" y="121.869153125" size="0.8128" layer="25" rot="R145"/>
+<attribute name="NAME" x="169.768453125" y="121.869153125" size="1.27" layer="25" rot="R145"/>
 </element>
 <element name="C7B" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD500W60D1025H2150" package3d_urn="urn:adsk.eagle:package:47621630/1" value="APSG160ELL222MJ20S" x="103.425265625" y="93.89090625" smashed="yes" rot="R325">
 <attribute name="DESCRIPTION" value="Aluminum Organic Polymer Capacitors 16V 2200uF 20% Tol." x="103.425265625" y="93.89090625" size="1.778" layer="27" rot="R325" display="off"/>
@@ -2607,7 +2611,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="APSG160ELL222MJ20S" x="103.425265625" y="93.89090625" size="1.778" layer="27" rot="R325" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="661-APSG160E222MJ20S" x="103.425265625" y="93.89090625" size="1.778" layer="27" rot="R325" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/United-Chemi-Con/APSG160ELL222MJ20S?qs=nxZbHzLpdvcUAIXRVD5aZg%3D%3D" x="103.425265625" y="93.89090625" size="1.778" layer="27" rot="R325" display="off"/>
-<attribute name="NAME" x="110.767503125" y="88.089484375" size="0.8128" layer="25" rot="R55"/>
+<attribute name="NAME" x="110.767503125" y="88.089484375" size="1.27" layer="25" rot="R55"/>
 </element>
 <element name="C11A" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD500W60D1025H2150" package3d_urn="urn:adsk.eagle:package:47621630/1" value="APSG160ELL222MJ20S" x="141.9195375" y="93.50090625" smashed="yes" rot="R225">
 <attribute name="DESCRIPTION" value="Aluminum Organic Polymer Capacitors 16V 2200uF 20% Tol." x="141.9195375" y="93.50090625" size="1.778" layer="27" rot="R225" display="off"/>
@@ -2616,7 +2620,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="APSG160ELL222MJ20S" x="141.9195375" y="93.50090625" size="1.778" layer="27" rot="R225" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="661-APSG160E222MJ20S" x="141.9195375" y="93.50090625" size="1.778" layer="27" rot="R225" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/United-Chemi-Con/APSG160ELL222MJ20S?qs=nxZbHzLpdvcUAIXRVD5aZg%3D%3D" x="141.9195375" y="93.50090625" size="1.778" layer="27" rot="R225" display="off"/>
-<attribute name="NAME" x="133.573146875" y="88.61066875" size="0.8128" layer="25" rot="R315"/>
+<attribute name="NAME" x="133.573146875" y="88.61066875" size="1.27" layer="25" rot="R315"/>
 </element>
 <element name="C11B" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD500W60D1025H2150" package3d_urn="urn:adsk.eagle:package:47621630/1" value="2200uF, 10V" x="82.11319375" y="115.772975" smashed="yes" rot="R135">
 <attribute name="DESCRIPTION" value="Aluminum Organic Polymer Capacitors 16V 2200uF 20% Tol." x="82.11319375" y="115.772975" size="1.778" layer="27" rot="R135" display="off"/>
@@ -2625,7 +2629,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="APSG160ELL222MJ20S" x="82.11319375" y="115.772975" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="661-APSG160E222MJ20S" x="82.11319375" y="115.772975" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/United-Chemi-Con/APSG160ELL222MJ20S?qs=nxZbHzLpdvcUAIXRVD5aZg%3D%3D" x="82.11319375" y="115.772975" size="1.778" layer="27" rot="R135" display="off"/>
-<attribute name="NAME" x="76.1340625" y="123.063128125" size="0.8128" layer="25" rot="R225"/>
+<attribute name="NAME" x="76.1340625" y="123.063128125" size="1.27" layer="25" rot="R225"/>
 </element>
 <element name="C9A" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD150W45D450H600" package3d_urn="urn:adsk.eagle:package:47621636/1" value="647-RNU1A100MDSASQ" x="149.212478125" y="89.236021875" smashed="yes" rot="R190">
 <attribute name="ARROW_PART_NUMBER" value="" x="149.212478125" y="89.236021875" size="1.778" layer="27" rot="R190" display="off"/>
@@ -2636,7 +2640,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RNU1A100MDSASQ" x="149.212478125" y="89.236021875" size="1.778" layer="27" rot="R190" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="647-RNU1A100MDSASQ" x="149.212478125" y="89.236021875" size="1.778" layer="27" rot="R190" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/RNU1A100MDSASQ?qs=eL6fcoQH66Plszdei%2FxZtw%3D%3D" x="149.212478125" y="89.236021875" size="1.778" layer="27" rot="R190" display="off"/>
-<attribute name="NAME" x="147.360184375" y="92.323178125" size="0.8128" layer="25"/>
+<attribute name="NAME" x="147.360184375" y="92.323178125" size="1.27" layer="25"/>
 </element>
 <element name="C9B" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD150W45D450H600" package3d_urn="urn:adsk.eagle:package:47621636/1" value="647-RNU1A100MDSASQ" x="77.848309375" y="108.480034375" smashed="yes" rot="R100">
 <attribute name="ARROW_PART_NUMBER" value="" x="77.848309375" y="108.480034375" size="1.778" layer="27" rot="R100" display="off"/>
@@ -2647,7 +2651,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RNU1A100MDSASQ" x="77.848309375" y="108.480034375" size="1.778" layer="27" rot="R100" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="647-RNU1A100MDSASQ" x="77.848309375" y="108.480034375" size="1.778" layer="27" rot="R100" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/RNU1A100MDSASQ?qs=eL6fcoQH66Plszdei%2FxZtw%3D%3D" x="77.848309375" y="108.480034375" size="1.778" layer="27" rot="R100" display="off"/>
-<attribute name="NAME" x="74.918028125" y="110.764909375" size="0.8128" layer="25" rot="R100"/>
+<attribute name="NAME" x="74.918028125" y="110.764909375" size="1.27" layer="25" rot="R100"/>
 </element>
 <element name="C13A" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD150W45D450H600" package3d_urn="urn:adsk.eagle:package:47621636/1" value="647-RNU1A100MDSASQ" x="168.40649375" y="108.3665375" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="168.40649375" y="108.3665375" size="1.778" layer="27" display="off"/>
@@ -2658,7 +2662,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RNU1A100MDSASQ" x="168.40649375" y="108.3665375" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="647-RNU1A100MDSASQ" x="168.40649375" y="108.3665375" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/RNU1A100MDSASQ?qs=eL6fcoQH66Plszdei%2FxZtw%3D%3D" x="168.40649375" y="108.3665375" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="172.413690625" y="109.592659375" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="172.413690625" y="109.592659375" size="1.27" layer="25" rot="R270"/>
 </element>
 <element name="C13B" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD150W45D450H600" package3d_urn="urn:adsk.eagle:package:47621636/1" value="647-RNU1A100MDSASQ" x="96.978825" y="89.28601875" smashed="yes" rot="R315">
 <attribute name="ARROW_PART_NUMBER" value="" x="96.978825" y="89.28601875" size="1.778" layer="27" rot="R315" display="off"/>
@@ -2669,7 +2673,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RNU1A100MDSASQ" x="96.978825" y="89.28601875" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="647-RNU1A100MDSASQ" x="96.978825" y="89.28601875" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/RNU1A100MDSASQ?qs=eL6fcoQH66Plszdei%2FxZtw%3D%3D" x="96.978825" y="89.28601875" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="NAME" x="96.09159375" y="91.82471875" size="0.8128" layer="25"/>
+<attribute name="NAME" x="96.09159375" y="91.82471875" size="1.27" layer="25"/>
 </element>
 <element name="C15A" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD150W45D450H600" package3d_urn="urn:adsk.eagle:package:47621636/1" value="647-RNU1A100MDSASQ" x="162.22025625" y="94.41780625" smashed="yes" rot="R45">
 <attribute name="ARROW_PART_NUMBER" value="" x="162.22025625" y="94.41780625" size="1.778" layer="27" rot="R45" display="off"/>
@@ -2680,7 +2684,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RNU1A100MDSASQ" x="162.22025625" y="94.41780625" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="647-RNU1A100MDSASQ" x="162.22025625" y="94.41780625" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/RNU1A100MDSASQ?qs=eL6fcoQH66Plszdei%2FxZtw%3D%3D" x="162.22025625" y="94.41780625" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="NAME" x="165.91040625" y="93.3429125" size="0.8128" layer="25" rot="R315"/>
+<attribute name="NAME" x="165.91040625" y="93.3429125" size="1.27" layer="25" rot="R315"/>
 </element>
 <element name="C15B" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD150W45D450H600" package3d_urn="urn:adsk.eagle:package:47621636/1" value="647-RNU1A100MDSASQ" x="79.6209625" y="98.8813875" smashed="yes" rot="R135">
 <attribute name="ARROW_PART_NUMBER" value="" x="79.6209625" y="98.8813875" size="1.778" layer="27" rot="R135" display="off"/>
@@ -2691,7 +2695,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RNU1A100MDSASQ" x="79.6209625" y="98.8813875" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="647-RNU1A100MDSASQ" x="79.6209625" y="98.8813875" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/RNU1A100MDSASQ?qs=eL6fcoQH66Plszdei%2FxZtw%3D%3D" x="79.6209625" y="98.8813875" size="1.778" layer="27" rot="R135" display="off"/>
-<attribute name="NAME" x="77.5319625" y="96.254596875" size="0.8128" layer="25" rot="R135"/>
+<attribute name="NAME" x="77.5319625" y="96.254596875" size="1.27" layer="25" rot="R135"/>
 </element>
 <element name="C17A" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD150W45D450H600" package3d_urn="urn:adsk.eagle:package:47621636/1" value="647-RNU1A100MDSASQ" x="166.683840625" y="98.881390625" smashed="yes" rot="R45">
 <attribute name="ARROW_PART_NUMBER" value="" x="166.683840625" y="98.881390625" size="1.778" layer="27" rot="R45" display="off"/>
@@ -2702,7 +2706,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RNU1A100MDSASQ" x="166.683840625" y="98.881390625" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="647-RNU1A100MDSASQ" x="166.683840625" y="98.881390625" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/RNU1A100MDSASQ?qs=eL6fcoQH66Plszdei%2FxZtw%3D%3D" x="166.683840625" y="98.881390625" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="NAME" x="170.151246875" y="97.646153125" size="0.8128" layer="25" rot="R225"/>
+<attribute name="NAME" x="170.151246875" y="97.646153125" size="1.27" layer="25" rot="R225"/>
 </element>
 <element name="C17B" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD150W45D450H600" package3d_urn="urn:adsk.eagle:package:47621636/1" value="647-RNU1A100MDSASQ" x="84.084546875" y="94.41780625" smashed="yes" rot="R135">
 <attribute name="ARROW_PART_NUMBER" value="" x="84.084546875" y="94.41780625" size="1.778" layer="27" rot="R135" display="off"/>
@@ -2713,7 +2717,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RNU1A100MDSASQ" x="84.084546875" y="94.41780625" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="647-RNU1A100MDSASQ" x="84.084546875" y="94.41780625" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/RNU1A100MDSASQ?qs=eL6fcoQH66Plszdei%2FxZtw%3D%3D" x="84.084546875" y="94.41780625" size="1.778" layer="27" rot="R135" display="off"/>
-<attribute name="NAME" x="82.70059375" y="90.81200625" size="0.8128" layer="25"/>
+<attribute name="NAME" x="82.70059375" y="90.81200625" size="1.27" layer="25"/>
 </element>
 <element name="BD1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="I2SOVERUSBV3" package3d_urn="urn:adsk.eagle:package:47621620/1" value="I2SOVERUSBV3" x="120.1374" y="149.8" smashed="yes" rot="R270">
 <attribute name="BOM" value="Yes" x="120.1374" y="149.8" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3224,6 +3228,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="1N4007FFG" x="49.00915625" y="52.03" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="863-1N4007FFG" x="49.00915625" y="52.03" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/1N4007FFG?qs=y2kkmE52mdPFE87Rxbyfgw%3D%3D" x="49.00915625" y="52.03" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="56.05915625" y="52.03" size="1.27" layer="25" align="center"/>
 </element>
 <element name="D2" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1405W86L465D235" package3d_urn="urn:adsk.eagle:package:47621663/1" value="1N4007FFG" x="49.00915625" y="59.95" smashed="yes">
 <attribute name="DESCRIPTION" value="Rectifiers 1000V 1A Standard" x="49.00915625" y="59.95" size="1.778" layer="27" display="off"/>
@@ -3232,6 +3237,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="1N4007FFG" x="49.00915625" y="59.95" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="863-1N4007FFG" x="49.00915625" y="59.95" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/1N4007FFG?qs=y2kkmE52mdPFE87Rxbyfgw%3D%3D" x="49.00915625" y="59.95" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="56.05915625" y="59.95" size="1.27" layer="25" align="center"/>
 </element>
 <element name="D3" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1405W86L465D235" package3d_urn="urn:adsk.eagle:package:47621663/1" value="1N4007FFG" x="20.412921875" y="52.91915625" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Rectifiers 1000V 1A Standard" x="20.412921875" y="52.91915625" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3240,6 +3246,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="1N4007FFG" x="20.412921875" y="52.91915625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="863-1N4007FFG" x="20.412921875" y="52.91915625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/1N4007FFG?qs=y2kkmE52mdPFE87Rxbyfgw%3D%3D" x="20.412921875" y="52.91915625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="20.412921875" y="59.96915625" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="D4" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1405W86L465D235" package3d_urn="urn:adsk.eagle:package:47621663/1" value="1N4007FFG" x="14.412921875" y="52.91915625" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Rectifiers 1000V 1A Standard" x="14.412921875" y="52.91915625" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3248,6 +3255,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="1N4007FFG" x="14.412921875" y="52.91915625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="863-1N4007FFG" x="14.412921875" y="52.91915625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/1N4007FFG?qs=y2kkmE52mdPFE87Rxbyfgw%3D%3D" x="14.412921875" y="52.91915625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="14.412921875" y="59.96915625" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="R2P" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0411/15" package3d_urn="urn:adsk.eagle:package:47621671/1" value="220" x="58.20915625" y="40.0483125" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Vishay PR02 Series Axial Metal Film Fixed Resistor 220 +/-5% 2W +/-250ppm/C" x="58.20915625" y="40.0483125" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3256,7 +3264,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="PR02000202200JA100" x="58.20915625" y="40.0483125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="594-5083NW220R0JA100" x="58.20915625" y="40.0483125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/594-5083NW220R0JA100" x="58.20915625" y="40.0483125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="58.20915625" y="40.0483125" size="1.778" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="58.20915625" y="40.0483125" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="R3P" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0411/15" package3d_urn="urn:adsk.eagle:package:47621671/1" value="220" x="64.60915625" y="40.0483125" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Vishay PR02 Series Axial Metal Film Fixed Resistor 220 +/-5% 2W +/-250ppm/C" x="64.60915625" y="40.0483125" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3265,7 +3273,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="PR02000202200JA100" x="64.60915625" y="40.0483125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="594-5083NW220R0JA100" x="64.60915625" y="40.0483125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/594-5083NW220R0JA100" x="64.60915625" y="40.0483125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="64.60915625" y="40.0483125" size="1.778" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="64.60915625" y="40.0483125" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
 <element name="R4P" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0411/15" package3d_urn="urn:adsk.eagle:package:47621671/1" value="300k" x="64.60915625" y="10.22" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Vishay PR0200 Series Axial Metal Film Fixed Resistor 300k +/-5% 2W +/-250ppm/K" x="64.60915625" y="10.22" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3274,7 +3282,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="PR02000203003JR500" x="64.60915625" y="10.22" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="594-5083NW300K0J" x="64.60915625" y="10.22" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/PR02000203003JR500?qs=LCMWAU1DZcy5bcFmrSgb2A%3D%3D" x="64.60915625" y="10.22" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="64.60915625" y="10.22" size="1.778" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="64.60915625" y="10.22" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
 <element name="R5P" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0411/15" package3d_urn="urn:adsk.eagle:package:47621671/1" value="100k" x="58.20915625" y="10.22" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Vishay PR02 Series Axial Metal Film Fixed Resistor 100k +/-5% 2W +/-250ppm/C" x="58.20915625" y="10.22" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3283,7 +3291,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="PR02000201003JA100" x="58.20915625" y="10.22" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="594-5083NW100K0JA100" x="58.20915625" y="10.22" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/PR02000201003JA100?qs=T%2FnZg7%2FCwxPef%2F94FLP9PA%3D%3D" x="58.20915625" y="10.22" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="58.20915625" y="10.22" size="1.778" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="58.20915625" y="10.22" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="C1P" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1475H4700" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u" x="10.3762" y="41.58415625" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="10.3762" y="41.58415625" size="1.778" layer="27" display="off"/>
@@ -3294,7 +3302,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="10.3762" y="41.58415625" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="10.3762" y="41.58415625" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="10.3762" y="41.58415625" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="14.1262" y="41.58415625" size="1.778" layer="25" align="center"/>
+<attribute name="NAME" x="14.1262" y="41.58415625" size="1.27" layer="25" align="center"/>
 </element>
 <element name="C2P" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1475H4700" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u" x="10.3762" y="24.83415625" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="10.3762" y="24.83415625" size="1.778" layer="27" display="off"/>
@@ -3305,7 +3313,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="10.3762" y="24.83415625" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="10.3762" y="24.83415625" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="10.3762" y="24.83415625" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="14.1262" y="24.83415625" size="1.778" layer="25" align="center"/>
+<attribute name="NAME" x="14.1262" y="24.83415625" size="1.27" layer="25" align="center"/>
 </element>
 <element name="C3P" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1475H4700" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u" x="51.3762" y="24.83415625" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="" x="51.3762" y="24.83415625" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3316,7 +3324,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="51.3762" y="24.83415625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="51.3762" y="24.83415625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="51.3762" y="24.83415625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="47.6262" y="24.83415625" size="1.778" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="47.6262" y="24.83415625" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="R6P" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0411/15" package3d_urn="urn:adsk.eagle:package:47621671/1" value="330" x="3.54324375" y="16.45915625" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Vishay PR02 Series Axial Metal Film Fixed Resistor 330 +/-5% 2W +/-250ppm/C" x="3.54324375" y="16.45915625" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3325,7 +3333,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="PR02000203300JA100" x="3.54324375" y="16.45915625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="594-5083NW330R0JA100" x="3.54324375" y="16.45915625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/PR02000203300JA100?qs=Dh5jukcGX2ziou5E5xaogg%3D%3D" x="3.54324375" y="16.45915625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="3.54324375" y="16.45915625" size="1.778" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="3.54324375" y="16.45915625" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="C4P" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD500W60D1025H1750" package3d_urn="urn:adsk.eagle:package:47621666/1" value="UCY2E220MPD1TD" x="64.60915625" y="25.13415625" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded 22uF 250V 20% AEC-Q200" x="64.60915625" y="25.13415625" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3334,7 +3342,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="UCY2E220MPD1TD" x="64.60915625" y="25.13415625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="647-UCY2E220MPD1TD" x="64.60915625" y="25.13415625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UCY2E220MPD1TD?qs=JgOBn5pVFooNXIGMeLbPFg%3D%3D" x="64.60915625" y="25.13415625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="62.10915625" y="25.13415625" size="1.778" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="62.10915625" y="25.13415625" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="IN" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="1935213" package3d_urn="urn:adsk.eagle:package:47621610/1" value="1935213" x="6" y="102" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Fixed Terminal Blocks PT 1.5/7-5.0-H" x="6" y="102" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3361,7 +3369,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="27.1262" y="24.83415625" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="27.1262" y="24.83415625" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="27.1262" y="24.83415625" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="30.8762" y="24.83415625" size="1.778" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="30.8762" y="24.83415625" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="C6P" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1475H4700" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u" x="27.1262" y="41.58415625" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="27.1262" y="41.58415625" size="1.778" layer="27" display="off"/>
@@ -3372,7 +3380,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="27.1262" y="41.58415625" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="27.1262" y="41.58415625" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="27.1262" y="41.58415625" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="30.8762" y="41.58415625" size="1.778" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="30.8762" y="41.58415625" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="C7P" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1475H4700" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u" x="51.3762" y="41.58415625" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="" x="51.3762" y="41.58415625" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3383,7 +3391,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="51.3762" y="41.58415625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="51.3762" y="41.58415625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="51.3762" y="41.58415625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="47.6262" y="41.58415625" size="1.778" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="47.6262" y="41.58415625" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="D5" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1405W86L465D235" package3d_urn="urn:adsk.eagle:package:47621663/1" value="1N4007FFG" x="31.2" y="92.29084375" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Rectifiers 1000V 1A Standard" x="-16.3" y="73.99084375" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3392,6 +3400,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="1N4007FFG" x="-16.3" y="73.99084375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="863-1N4007FFG" x="-16.3" y="73.99084375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/1N4007FFG?qs=y2kkmE52mdPFE87Rxbyfgw%3D%3D" x="-16.3" y="73.99084375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="31.2" y="99.34084375" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="D6" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1405W86L465D235" package3d_urn="urn:adsk.eagle:package:47621663/1" value="1N4007FFG" x="37.2" y="92.29084375" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Rectifiers 1000V 1A Standard" x="-13.6" y="89.09084375" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3400,6 +3409,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="1N4007FFG" x="-13.6" y="89.09084375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="863-1N4007FFG" x="-13.6" y="89.09084375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/1N4007FFG?qs=y2kkmE52mdPFE87Rxbyfgw%3D%3D" x="-13.6" y="89.09084375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="37.2" y="99.34084375" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="D7" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1405W86L465D235" package3d_urn="urn:adsk.eagle:package:47621663/1" value="1N4007FFG" x="37.2" y="72.79084375" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Rectifiers 1000V 1A Standard" x="-10.5" y="47.49084375" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3408,6 +3418,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="1N4007FFG" x="-10.5" y="47.49084375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="863-1N4007FFG" x="-10.5" y="47.49084375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/1N4007FFG?qs=y2kkmE52mdPFE87Rxbyfgw%3D%3D" x="-10.5" y="47.49084375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="37.2" y="79.84084375" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="D8" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1405W86L465D235" package3d_urn="urn:adsk.eagle:package:47621663/1" value="1N4007FFG" x="31.2" y="72.79084375" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Rectifiers 1000V 1A Standard" x="-16.5" y="66.39084375" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3416,6 +3427,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="1N4007FFG" x="-16.5" y="66.39084375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="863-1N4007FFG" x="-16.5" y="66.39084375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/1N4007FFG?qs=y2kkmE52mdPFE87Rxbyfgw%3D%3D" x="-16.5" y="66.39084375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="31.2" y="79.84084375" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="C1P1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1825H3750" package3d_urn="urn:adsk.eagle:package:47621677/1" value="68u" x="35.110390625" y="118.439609375" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="CAP ALUM 6800UF 20% 35V RADIAL" x="41.510390625" y="130.839609375" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3424,6 +3436,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="35PX6800MEFC18X35.5" x="41.510390625" y="130.839609375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="232-35PX6800MEFC18X5" x="41.510390625" y="130.839609375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Rubycon/35PX6800MEFC18X35.5?qs=T3oQrply3y%2FLQ%252BYVrZKbLg%3D%3D" x="41.510390625" y="130.839609375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="31.360390625" y="118.439609375" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="C2P1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1825H3750" package3d_urn="urn:adsk.eagle:package:47621677/1" value="68u" x="13.536796875" y="118.439609375" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="CAP ALUM 6800UF 20% 35V RADIAL" x="35.736796875" y="146.639609375" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3432,6 +3445,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="35PX6800MEFC18X35.5" x="35.736796875" y="146.639609375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="232-35PX6800MEFC18X5" x="35.736796875" y="146.639609375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Rubycon/35PX6800MEFC18X35.5?qs=T3oQrply3y%2FLQ%252BYVrZKbLg%3D%3D" x="35.736796875" y="146.639609375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="9.786796875" y="118.439609375" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="C3P1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1825H3750" package3d_urn="urn:adsk.eagle:package:47621677/1" value="68u" x="35.110390625" y="140.013203125" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="CAP ALUM 6800UF 20% 35V RADIAL" x="41.510390625" y="168.213203125" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3440,6 +3454,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="35PX6800MEFC18X35.5" x="41.510390625" y="168.213203125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="232-35PX6800MEFC18X5" x="41.510390625" y="168.213203125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Rubycon/35PX6800MEFC18X35.5?qs=T3oQrply3y%2FLQ%252BYVrZKbLg%3D%3D" x="41.510390625" y="168.213203125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="31.360390625" y="140.013203125" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="C5P1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1825H3750" package3d_urn="urn:adsk.eagle:package:47621677/1" value="68u" x="13.536796875" y="140.013203125" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="CAP ALUM 6800UF 20% 35V RADIAL" x="35.736796875" y="201.613203125" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3448,6 +3463,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="35PX6800MEFC18X35.5" x="35.736796875" y="201.613203125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="232-35PX6800MEFC18X5" x="35.736796875" y="201.613203125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Rubycon/35PX6800MEFC18X35.5?qs=T3oQrply3y%2FLQ%252BYVrZKbLg%3D%3D" x="35.736796875" y="201.613203125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="9.786796875" y="140.013203125" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="C1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="SR211C104KARTR1" package3d_urn="urn:adsk.eagle:package:47621676/1" value="SR215C103KARTR1" x="17.705" y="94.83084375" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="AVX - SR215C103KARTR1 - Multilayer Ceramic Capacitor, 10000 pF, 50 V, SkyCap SR Series, +/- 10%, Radial Leaded, X7R" x="17.705" y="94.83084375" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3456,7 +3472,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="SR215C103KARTR1" x="17.705" y="94.83084375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="581-SR215C103KARTR1" x="17.705" y="94.83084375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/SR215C103KARTR1?qs=csK3ki7pNdubJvqBAL2rtA%3D%3D" x="17.705" y="94.83084375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="15.8" y="90.00484375" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="17.705" y="94.83084375" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="C2" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="C322C104K1R5TA" package3d_urn="urn:adsk.eagle:package:47621675/1" value="C322C104M5U5TA" x="43.2" y="75.33084375" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="GoldMax 300 Comm Z5U, Ceramic, 0.1 uF, 20%, 50 VDC, 125 VDC, 85C, 10C, Z5U, GoldMax, Commercial Standard, 4 % , 1 GOhms, 5.08mm, 6.6mm, 3.18mm, Lead Spacing = 5.08mm, 7mm, 0.51mm, 500, 20" x="43.2" y="75.33084375" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3465,7 +3481,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C322C104M5U5TA" x="43.2" y="75.33084375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="80-C322C104M5U" x="43.2" y="75.33084375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C322C104M5U5TA?qs=CDCeLP2tGBsLrnt3J6Fqow%3D%3D" x="43.2" y="75.33084375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="41.295" y="70.50484375" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="43.2" y="75.33084375" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="C3" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="C322C104K1R5TA" package3d_urn="urn:adsk.eagle:package:47621675/1" value="C322C104M5U5TA" x="43.2" y="94.83084375" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="GoldMax 300 Comm Z5U, Ceramic, 0.1 uF, 20%, 50 VDC, 125 VDC, 85C, 10C, Z5U, GoldMax, Commercial Standard, 4 % , 1 GOhms, 5.08mm, 6.6mm, 3.18mm, Lead Spacing = 5.08mm, 7mm, 0.51mm, 500, 20" x="43.2" y="94.83084375" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3474,7 +3490,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C322C104M5U5TA" x="43.2" y="94.83084375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="80-C322C104M5U" x="43.2" y="94.83084375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C322C104M5U5TA?qs=CDCeLP2tGBsLrnt3J6Fqow%3D%3D" x="43.2" y="94.83084375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="41.295" y="90.00484375" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="43.2" y="94.83084375" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="C4" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="C322C104K1R5TA" package3d_urn="urn:adsk.eagle:package:47621675/1" value="C322C104M5U5TA" x="25.2" y="76.33084375" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="GoldMax 300 Comm Z5U, Ceramic, 0.1 uF, 20%, 50 VDC, 125 VDC, 85C, 10C, Z5U, GoldMax, Commercial Standard, 4 % , 1 GOhms, 5.08mm, 6.6mm, 3.18mm, Lead Spacing = 5.08mm, 7mm, 0.51mm, 500, 20" x="25.2" y="76.33084375" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3483,7 +3499,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C322C104M5U5TA" x="25.2" y="76.33084375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="80-C322C104M5U" x="25.2" y="76.33084375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C322C104M5U5TA?qs=CDCeLP2tGBsLrnt3J6Fqow%3D%3D" x="25.2" y="76.33084375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="23.295" y="71.50484375" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="25.2" y="76.33084375" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="C5" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="C322C104K1R5TA" package3d_urn="urn:adsk.eagle:package:47621675/1" value="C322C104M5U5TA" x="25.2" y="94.83084375" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="GoldMax 300 Comm Z5U, Ceramic, 0.1 uF, 20%, 50 VDC, 125 VDC, 85C, 10C, Z5U, GoldMax, Commercial Standard, 4 % , 1 GOhms, 5.08mm, 6.6mm, 3.18mm, Lead Spacing = 5.08mm, 7mm, 0.51mm, 500, 20" x="25.2" y="94.83084375" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3492,7 +3508,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C322C104M5U5TA" x="25.2" y="94.83084375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="80-C322C104M5U" x="25.2" y="94.83084375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C322C104M5U5TA?qs=CDCeLP2tGBsLrnt3J6Fqow%3D%3D" x="25.2" y="94.83084375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="23.295" y="90.00484375" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="25.2" y="94.83084375" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="U$1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="TEENSY40" package3d_urn="urn:adsk.eagle:package:47621667/1" value="TEENSY40" x="59.2" y="130.1" smashed="yes" rot="R270"/>
 <element name="C6" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPC2012X135N" package3d_urn="urn:adsk.eagle:package:47621642/1" value="0.1 uF" x="55.34" y="136.45" smashed="yes" rot="MR180">
@@ -3734,7 +3750,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C322C103KDR5TA" x="17.705" y="75.33084375" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="80-C322C103KDR" x="17.705" y="75.33084375" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C322C103KDR5TA?qs=zULuPd4qeXmo%2FZ2rvtU3CA%3D%3D" x="17.705" y="75.33084375" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="17.805" y="79.33084375" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="17.805" y="75.33084375" size="1.27" layer="25" align="center"/>
 </element>
 <element name="C9" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="C330C104KDR5TA" package3d_urn="urn:adsk.eagle:package:47621674/1" value="C330C104KDR5TA" x="28.607184375" y="65.47" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="GoldMax 300 Comm X7R HV, Ceramic, 0.1 uF, 10%, 1000 VDC, 1200 VDC, 125C, -55C, X7R, GoldMax, Commercial Standard, 2.5 % , 10 GOhms, 7.62mm, 9.14mm, 5.08mm, Lead Spacing = 5.08mm, 7mm, 0.51mm, 250, 80" x="28.607184375" y="65.47" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3743,7 +3759,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C330C104KDR5TA" x="28.607184375" y="65.47" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="80-C330C104KDR" x="28.607184375" y="65.47" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C330C104KDR5TA?qs=zEQ6BYqA5vFyuV6ad%252B2aNA%3D%3D" x="28.607184375" y="65.47" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="28.407184375" y="60.97" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="28.407184375" y="65.47" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="C10" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="C330C104KDR5TA" package3d_urn="urn:adsk.eagle:package:47621674/1" value="C330C104KDR5TA" x="39.545215625" y="65.47" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="GoldMax 300 Comm X7R HV, Ceramic, 0.1 uF, 10%, 1000 VDC, 1200 VDC, 125C, -55C, X7R, GoldMax, Commercial Standard, 2.5 % , 10 GOhms, 7.62mm, 9.14mm, 5.08mm, Lead Spacing = 5.08mm, 7mm, 0.51mm, 250, 80" x="39.545215625" y="65.47" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3752,7 +3768,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C330C104KDR5TA" x="39.545215625" y="65.47" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="80-C330C104KDR" x="39.545215625" y="65.47" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C330C104KDR5TA?qs=zEQ6BYqA5vFyuV6ad%252B2aNA%3D%3D" x="39.545215625" y="65.47" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="34.945215625" y="65.57" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="39.545215625" y="65.47" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="C11" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="C330C104KDR5TA" package3d_urn="urn:adsk.eagle:package:47621674/1" value="C330C104KDR5TA" x="39.545215625" y="54.57" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="GoldMax 300 Comm X7R HV, Ceramic, 0.1 uF, 10%, 1000 VDC, 1200 VDC, 125C, -55C, X7R, GoldMax, Commercial Standard, 2.5 % , 10 GOhms, 7.62mm, 9.14mm, 5.08mm, Lead Spacing = 5.08mm, 7mm, 0.51mm, 250, 80" x="39.545215625" y="54.57" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3761,7 +3777,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C330C104KDR5TA" x="39.545215625" y="54.57" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="80-C330C104KDR" x="39.545215625" y="54.57" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C330C104KDR5TA?qs=zEQ6BYqA5vFyuV6ad%252B2aNA%3D%3D" x="39.545215625" y="54.57" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="44.545215625" y="54.57" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="39.545215625" y="54.57" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
 <element name="C12" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="C330C104KDR5TA" package3d_urn="urn:adsk.eagle:package:47621674/1" value="C330C104KDR5TA" x="28.607184375" y="54.57" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="GoldMax 300 Comm X7R HV, Ceramic, 0.1 uF, 10%, 1000 VDC, 1200 VDC, 125C, -55C, X7R, GoldMax, Commercial Standard, 2.5 % , 10 GOhms, 7.62mm, 9.14mm, 5.08mm, Lead Spacing = 5.08mm, 7mm, 0.51mm, 250, 80" x="28.607184375" y="54.57" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3770,7 +3786,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C330C104KDR5TA" x="28.607184375" y="54.57" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="80-C330C104KDR" x="28.607184375" y="54.57" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C330C104KDR5TA?qs=zEQ6BYqA5vFyuV6ad%252B2aNA%3D%3D" x="28.607184375" y="54.57" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="28.607184375" y="49.77" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="28.607184375" y="54.57" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="C8P" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1475H4700" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u" x="10.3762" y="8.08415625" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="10.3762" y="8.08415625" size="1.778" layer="27" display="off"/>
@@ -3781,7 +3797,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="10.3762" y="8.08415625" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="10.3762" y="8.08415625" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="10.3762" y="8.08415625" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="14.1762" y="8.18415625" size="1.778" layer="25" align="center"/>
+<attribute name="NAME" x="14.1762" y="8.18415625" size="1.27" layer="25" align="center"/>
 </element>
 <element name="C9P" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1475H4700" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u" x="27.1262" y="8.08415625" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="27.1262" y="8.08415625" size="1.778" layer="27" display="off"/>
@@ -3792,7 +3808,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="27.1262" y="8.08415625" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="27.1262" y="8.08415625" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="27.1262" y="8.08415625" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="30.8762" y="8.08415625" size="1.778" layer="25" align="center"/>
+<attribute name="NAME" x="30.8762" y="8.08415625" size="1.27" layer="25" align="center"/>
 </element>
 <element name="C10P" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1475H4700" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u" x="51.3762" y="8.08415625" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="" x="51.3762" y="8.08415625" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3803,7 +3819,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="51.3762" y="8.08415625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="51.3762" y="8.08415625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="51.3762" y="8.08415625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="47.6262" y="8.08415625" size="1.778" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="47.6262" y="8.08415625" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="J5" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="SHDR7W64P0X254_1X7_2033X508X11" package3d_urn="urn:adsk.eagle:package:47621678/1" value="70543-0041" x="72.9324" y="146.379" smashed="yes">
 <attribute name="DESCRIPTION" value="Headers &amp; Wire Housings STRT SHRD HDR 7P single row" x="72.9324" y="146.379" size="1.778" layer="27" display="off"/>
@@ -3828,7 +3844,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="MKS4B031002A00JC00" x="40.4274" y="99.2376" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="505-MKS4B0312AJC" x="110.2774" y="33.1976" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/WIMA/MKS4B031002A00JC00?qs=2G4irm%2FqADy9MV8AUfKNYA%3D%3D" x="110.2774" y="33.1976" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="107.4124" y="33.6626" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="106.5274" y="33.1976" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="C21O2" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" package="DCP4G053006ID2KSSD" value="30uF/400V" x="71.8024" y="-14.973371875" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="71.8024" y="-14.973371875" size="1.778" layer="27" display="off"/>
@@ -3848,9 +3864,11 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LR1F1M0" x="87.6277875" y="22.15050625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="279-LR1F1M0" x="87.6277875" y="22.15050625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F1M0?qs=ip69W3eHERVt%2FmQVAugcSg%3D%3D" x="87.6277875" y="22.15050625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="81.2627875" y="31.28050625" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="87.6277875" y="22.15050625" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="SX5" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" package="VT9-PT" package3d_urn="urn:adsk.eagle:package:4683/1" value="VT9-PT" x="89.68001875" y="7.2985875" smashed="yes" rot="R342"/>
+<element name="SX5" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" package="VT9-PT" package3d_urn="urn:adsk.eagle:package:4683/1" value="VT9-PT" x="89.68001875" y="7.2985875" smashed="yes" rot="R342">
+<attribute name="NAME" x="95.774228125" y="7.2985875" size="1.27" layer="25" align="center"/>
+</element>
 <element name="C11O1" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" package="CAPPRD350W60D825H1300" value="100uF" x="72.7774" y="74.8726" smashed="yes" rot="R270">
 <attribute name="ARROW_PART_NUMBER" value="UFW1H101MPD1TD" x="72.7774" y="74.8726" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/ufw1h101mpd1td/nichicon" x="72.7774" y="74.8726" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3860,7 +3878,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="UFW1H101MPD1TD" x="72.7774" y="74.8726" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="647-UFW1H101MPD1TD" x="72.7774" y="74.8726" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UFW1H101MPD1TD?qs=WJSLByB5Mu30jPPJ2KiG3A%3D%3D" x="72.7774" y="74.8726" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="74.7274" y="74.3226" size="1.016" layer="25" rot="R270"/>
+<attribute name="NAME" x="72.7774" y="73.1226" size="1.27" layer="25" align="center"/>
 </element>
 <element name="C12O1" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" package="CAPPRD350W60D825H1300" value="100uF" x="102.3" y="74.8726" smashed="yes" rot="R270">
 <attribute name="ARROW_PART_NUMBER" value="UFW1H101MPD1TD" x="102.3" y="74.8726" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3871,7 +3889,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="UFW1H101MPD1TD" x="102.3" y="74.8726" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="647-UFW1H101MPD1TD" x="102.3" y="74.8726" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UFW1H101MPD1TD?qs=WJSLByB5Mu30jPPJ2KiG3A%3D%3D" x="102.3" y="74.8726" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="104.25" y="74.5226" size="1.016" layer="25" rot="R270"/>
+<attribute name="NAME" x="102.3" y="73.1226" size="1.27" layer="25" align="center"/>
 </element>
 <element name="C13O1" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" package="CAPPRD350W60D825H1300" value="100uF" x="82.235734375" y="68.7276" smashed="yes" rot="R270">
 <attribute name="ARROW_PART_NUMBER" value="UFW1H101MPD1TD" x="82.235734375" y="68.7276" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3882,7 +3900,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="UFW1H101MPD1TD" x="82.235734375" y="68.7276" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="647-UFW1H101MPD1TD" x="82.235734375" y="68.7276" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UFW1H101MPD1TD?qs=WJSLByB5Mu30jPPJ2KiG3A%3D%3D" x="82.235734375" y="68.7276" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="84.085734375" y="68.2776" size="1.016" layer="25" rot="R270"/>
+<attribute name="NAME" x="82.235734375" y="66.9776" size="1.27" layer="25" align="center"/>
 </element>
 <element name="C14O1" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" package="CAPPRD350W60D825H1300" value="100uF" x="92.8416625" y="68.7276" smashed="yes" rot="R270">
 <attribute name="ARROW_PART_NUMBER" value="UFW1H101MPD1TD" x="92.8416625" y="68.7276" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3893,7 +3911,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="UFW1H101MPD1TD" x="92.8416625" y="68.7276" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="647-UFW1H101MPD1TD" x="92.8416625" y="68.7276" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UFW1H101MPD1TD?qs=WJSLByB5Mu30jPPJ2KiG3A%3D%3D" x="92.8416625" y="68.7276" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="94.5916625" y="68.2776" size="1.016" layer="25" rot="R270"/>
+<attribute name="NAME" x="92.8416625" y="66.9776" size="1.27" layer="25" align="center"/>
 </element>
 <element name="R11O1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="10k" x="74.65299375" y="60.1476" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Metal film resistor, 10K 0.6W TE Connectivity LR1F Series Axial Metal Film Resistor 10k" x="74.65299375" y="60.1476" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3902,7 +3920,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LR1F10K" x="74.65299375" y="60.1476" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="279-LR1F10K" x="74.65299375" y="60.1476" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F10K?qs=ip69W3eHERWDLLWs2Qv0Lg%3D%3D" x="74.65299375" y="60.1476" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="76.38799375" y="53.8826" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="74.65299375" y="60.1476" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
 <element name="R18O1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="182" x="88.333025" y="55.59551875" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="88.333025" y="55.59551875" size="1.778" layer="27" display="off"/>
@@ -3913,7 +3931,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="MF0207FTE52-182R" x="88.333025" y="55.59551875" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="603-MF0207FTE52-182R" x="88.333025" y="55.59551875" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/YAGEO/MF0207FTE52-182R?qs=KUIzHt%2Fe91leK267FaM40g%3D%3D" x="88.333025" y="55.59551875" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="94.498025" y="57.13051875" size="1.27" layer="25"/>
+<attribute name="NAME" x="88.333025" y="55.59551875" size="1.27" layer="25" align="center"/>
 </element>
 <element name="R12O1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="182" x="74.65299375" y="45.73075625" smashed="yes" rot="R270">
 <attribute name="ARROW_PART_NUMBER" value="" x="74.65299375" y="45.73075625" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3924,7 +3942,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="MF0207FTE52-182R" x="74.65299375" y="45.73075625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="603-MF0207FTE52-182R" x="74.65299375" y="45.73075625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/YAGEO/MF0207FTE52-182R?qs=KUIzHt%2Fe91leK267FaM40g%3D%3D" x="74.65299375" y="45.73075625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="76.38799375" y="39.36575625" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="74.65299375" y="45.73075625" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
 <element name="R14O1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="182" x="88.333025" y="59.8476" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="" x="88.333025" y="59.8476" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3935,7 +3953,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="MF0207FTE52-182R" x="88.333025" y="59.8476" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="603-MF0207FTE52-182R" x="88.333025" y="59.8476" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/YAGEO/MF0207FTE52-182R?qs=KUIzHt%2Fe91leK267FaM40g%3D%3D" x="88.333025" y="59.8476" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="81.368025" y="63.1126" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="88.333025" y="59.8476" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="R16O1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="182" x="102.013053125" y="60.1476" smashed="yes" rot="R90">
 <attribute name="ARROW_PART_NUMBER" value="" x="102.013053125" y="60.1476" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3946,7 +3964,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="MF0207FTE52-182R" x="102.013053125" y="60.1476" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="603-MF0207FTE52-182R" x="102.013053125" y="60.1476" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/YAGEO/MF0207FTE52-182R?qs=KUIzHt%2Fe91leK267FaM40g%3D%3D" x="102.013053125" y="60.1476" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="100.178053125" y="66.5126" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="102.013053125" y="60.1476" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="R19O1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="10k" x="70.183175" y="45.73075625" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Metal film resistor, 10K 0.6W TE Connectivity LR1F Series Axial Metal Film Resistor 10k" x="70.183175" y="45.73075625" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3955,7 +3973,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LR1F10K" x="70.183175" y="45.73075625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="279-LR1F10K" x="70.183175" y="45.73075625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F10K?qs=ip69W3eHERWDLLWs2Qv0Lg%3D%3D" x="70.183175" y="45.73075625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="71.718175" y="39.86575625" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="70.183175" y="45.73075625" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
 <element name="R20O1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="10k" x="106.5073375" y="60.1476" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Metal film resistor, 10K 0.6W TE Connectivity LR1F Series Axial Metal Film Resistor 10k" x="106.5073375" y="60.1476" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3964,7 +3982,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LR1F10K" x="106.5073375" y="60.1476" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="279-LR1F10K" x="106.5073375" y="60.1476" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F10K?qs=ip69W3eHERWDLLWs2Qv0Lg%3D%3D" x="106.5073375" y="60.1476" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="103.6423375" y="54.3826" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="106.5073375" y="60.1476" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
 <element name="R21O1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="10k" x="70.183175" y="60.1476" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Metal film resistor, 10K 0.6W TE Connectivity LR1F Series Axial Metal Film Resistor 10k" x="70.183175" y="60.1476" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3973,7 +3991,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LR1F10K" x="70.183175" y="60.1476" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="279-LR1F10K" x="70.183175" y="60.1476" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F10K?qs=ip69W3eHERWDLLWs2Qv0Lg%3D%3D" x="70.183175" y="60.1476" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="73.048175" y="66.1126" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="70.183175" y="60.1476" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="C15O1" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" package="CAPPRD350W60D825H1300" value="100uF" x="173.5274" y="74.8726" smashed="yes" rot="R270">
 <attribute name="ARROW_PART_NUMBER" value="UFW1H101MPD1TD" x="173.5274" y="74.8726" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3984,7 +4002,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="UFW1H101MPD1TD" x="173.5274" y="74.8726" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="647-UFW1H101MPD1TD" x="173.5274" y="74.8726" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UFW1H101MPD1TD?qs=WJSLByB5Mu30jPPJ2KiG3A%3D%3D" x="173.5274" y="74.8726" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="175.4774" y="74.2226" size="1.016" layer="25" rot="R270"/>
+<attribute name="NAME" x="173.5274" y="73.1226" size="1.27" layer="25" align="center"/>
 </element>
 <element name="C24O1" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" package="CAPPRD350W60D825H1300" value="100uF" x="143.6524" y="74.8726" smashed="yes" rot="R270">
 <attribute name="ARROW_PART_NUMBER" value="UFW1H101MPD1TD" x="143.6524" y="74.8726" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3995,7 +4013,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="UFW1H101MPD1TD" x="143.6524" y="74.8726" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="647-UFW1H101MPD1TD" x="143.6524" y="74.8726" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UFW1H101MPD1TD?qs=WJSLByB5Mu30jPPJ2KiG3A%3D%3D" x="143.6524" y="74.8726" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="145.3024" y="74.3226" size="1.016" layer="25" rot="R270"/>
+<attribute name="NAME" x="143.6524" y="73.1226" size="1.27" layer="25" align="center"/>
 </element>
 <element name="C25O1" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" package="CAPPRD350W60D825H1300" value="100uF" x="164.069065625" y="68.7276" smashed="yes" rot="R270">
 <attribute name="ARROW_PART_NUMBER" value="UFW1H101MPD1TD" x="164.069065625" y="68.7276" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4006,7 +4024,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="UFW1H101MPD1TD" x="164.069065625" y="68.7276" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="647-UFW1H101MPD1TD" x="164.069065625" y="68.7276" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UFW1H101MPD1TD?qs=WJSLByB5Mu30jPPJ2KiG3A%3D%3D" x="164.069065625" y="68.7276" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="166.219065625" y="68.1776" size="1.016" layer="25" rot="R270"/>
+<attribute name="NAME" x="164.069065625" y="66.9776" size="1.27" layer="25" align="center"/>
 </element>
 <element name="C26O1" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" package="CAPPRD350W60D825H1300" value="100uF" x="153.110734375" y="68.7276" smashed="yes" rot="R270">
 <attribute name="ARROW_PART_NUMBER" value="UFW1H101MPD1TD" x="153.110734375" y="68.7276" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4017,7 +4035,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="UFW1H101MPD1TD" x="153.110734375" y="68.7276" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="647-UFW1H101MPD1TD" x="153.110734375" y="68.7276" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UFW1H101MPD1TD?qs=WJSLByB5Mu30jPPJ2KiG3A%3D%3D" x="153.110734375" y="68.7276" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="154.960734375" y="68.1776" size="1.016" layer="25" rot="R270"/>
+<attribute name="NAME" x="153.110734375" y="66.9776" size="1.27" layer="25" align="center"/>
 </element>
 <element name="R22O1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="10k" x="171.65180625" y="60.1476" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Metal film resistor, 10K 0.6W TE Connectivity LR1F Series Axial Metal Film Resistor 10k" x="171.65180625" y="60.1476" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4026,7 +4044,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LR1F10K" x="171.65180625" y="60.1476" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="279-LR1F10K" x="171.65180625" y="60.1476" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F10K?qs=ip69W3eHERWDLLWs2Qv0Lg%3D%3D" x="171.65180625" y="60.1476" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="168.58680625" y="54.1826" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="171.65180625" y="60.1476" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
 <element name="R23O1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="182" x="157.971775" y="55.59551875" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="" x="157.971775" y="55.59551875" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4037,7 +4055,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="MF0207FTE52-182R" x="157.971775" y="55.59551875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="603-MF0207FTE52-182R" x="157.971775" y="55.59551875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/YAGEO/MF0207FTE52-182R?qs=KUIzHt%2Fe91leK267FaM40g%3D%3D" x="157.971775" y="55.59551875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="151.606775" y="58.36051875" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="157.971775" y="55.59551875" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="R24O1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="182" x="171.65180625" y="45.73075625" smashed="yes" rot="R270">
 <attribute name="ARROW_PART_NUMBER" value="" x="171.65180625" y="45.73075625" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4048,7 +4066,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="MF0207FTE52-182R" x="171.65180625" y="45.73075625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="603-MF0207FTE52-182R" x="171.65180625" y="45.73075625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/YAGEO/MF0207FTE52-182R?qs=KUIzHt%2Fe91leK267FaM40g%3D%3D" x="171.65180625" y="45.73075625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="168.68680625" y="37.56575625" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="171.65180625" y="45.73075625" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
 <element name="R25O1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="182" x="157.971775" y="59.8476" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="157.971775" y="59.8476" size="1.778" layer="27" display="off"/>
@@ -4059,7 +4077,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="MF0207FTE52-182R" x="157.971775" y="59.8476" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="603-MF0207FTE52-182R" x="157.971775" y="59.8476" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/YAGEO/MF0207FTE52-182R?qs=KUIzHt%2Fe91leK267FaM40g%3D%3D" x="157.971775" y="59.8476" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="164.536775" y="61.6826" size="1.27" layer="25"/>
+<attribute name="NAME" x="157.971775" y="59.8476" size="1.27" layer="25" align="center"/>
 </element>
 <element name="R26O1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="182" x="144.291746875" y="60.1476" smashed="yes" rot="R90">
 <attribute name="ARROW_PART_NUMBER" value="" x="144.291746875" y="60.1476" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4070,7 +4088,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="MF0207FTE52-182R" x="144.291746875" y="60.1476" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="603-MF0207FTE52-182R" x="144.291746875" y="60.1476" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/YAGEO/MF0207FTE52-182R?qs=KUIzHt%2Fe91leK267FaM40g%3D%3D" x="144.291746875" y="60.1476" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="147.256746875" y="66.1126" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="144.291746875" y="60.1476" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="R28O1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="10k" x="176.121625" y="45.73075625" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Metal film resistor, 10K 0.6W TE Connectivity LR1F Series Axial Metal Film Resistor 10k" x="176.121625" y="45.73075625" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4079,7 +4097,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LR1F10K" x="176.121625" y="45.73075625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="279-LR1F10K" x="176.121625" y="45.73075625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F10K?qs=ip69W3eHERWDLLWs2Qv0Lg%3D%3D" x="176.121625" y="45.73075625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="173.256625" y="39.16575625" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="176.121625" y="45.73075625" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
 <element name="R29O1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="10k" x="139.7974625" y="60.1476" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Metal film resistor, 10K 0.6W TE Connectivity LR1F Series Axial Metal Film Resistor 10k" x="139.7974625" y="60.1476" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4088,7 +4106,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LR1F10K" x="139.7974625" y="60.1476" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="279-LR1F10K" x="139.7974625" y="60.1476" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F10K?qs=ip69W3eHERWDLLWs2Qv0Lg%3D%3D" x="139.7974625" y="60.1476" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="141.3324625" y="54.2826" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="139.7974625" y="60.1476" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
 <element name="R30O1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="10k" x="176.121625" y="60.1476" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Metal film resistor, 10K 0.6W TE Connectivity LR1F Series Axial Metal Film Resistor 10k" x="176.121625" y="60.1476" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4097,7 +4115,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LR1F10K" x="176.121625" y="60.1476" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="279-LR1F10K" x="176.121625" y="60.1476" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F10K?qs=ip69W3eHERWDLLWs2Qv0Lg%3D%3D" x="176.121625" y="60.1476" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="174.486625" y="66.0126" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="176.121625" y="60.1476" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="J26" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" package="SJ63033A" value="SJ-63033A" x="123.1524" y="-19.3524" smashed="yes" rot="R90">
 <attribute name="ARROW_PART_NUMBER" value="" x="123.1524" y="-19.3524" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4108,10 +4126,9 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="SJ-63033A" x="123.1524" y="-19.3524" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="123.1524" y="-19.3524" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="123.1524" y="-19.3524" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="123.1524" y="-18.1024" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="SX6" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" package="VT9-PT" package3d_urn="urn:adsk.eagle:package:4683/1" value="VT9-PT" x="89.68001875" y="41.4966125" smashed="yes" rot="R342">
-<attribute name="NAME" x="99.674228125" y="47.59679375" size="1.27" layer="25" rot="R342"/>
+<attribute name="NAME" x="95.774228125" y="41.4966125" size="1.27" layer="25" align="center"/>
 </element>
 <element name="R19" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k" x="105.0073375" y="45.73075625" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Body Features: Lead Type Axial-Leaded | Configuration Features: Number of Resistors 1 | Dimensions: Passive Component Dimensions 6.2 x 2.3 MM | Electrical Characteristics: Passive Component Tolerance 1 PCT | Resistance Value 1K OHM | Operating Voltage 350 V | Power Rating .6 WATT | Resistance Class 1k  1M | Packaging Features: Packaging Method Ammo Packed | Product Type Features: Element Type Thin Film | Resistor Type General Purpose Resistor | Termination Features: Termination Area Base Material Cop" x="105.0073375" y="45.73075625" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4120,7 +4137,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LR1F1K0" x="105.0073375" y="45.73075625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="279-LR1F1K0" x="105.0073375" y="45.73075625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F1K0?qs=ip69W3eHERVhMxNSZkerTg%3D%3D" x="105.0073375" y="45.73075625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="103.48333125" y="42.682753125" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="105.0073375" y="45.73075625" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="R21" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k" x="75.263175" y="26.644790625" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="Body Features: Lead Type Axial-Leaded | Configuration Features: Number of Resistors 1 | Dimensions: Passive Component Dimensions 6.2 x 2.3 MM | Electrical Characteristics: Passive Component Tolerance 1 PCT | Resistance Value 1K OHM | Operating Voltage 350 V | Power Rating .6 WATT | Resistance Class 1k  1M | Packaging Features: Packaging Method Ammo Packed | Product Type Features: Element Type Thin Film | Resistor Type General Purpose Resistor | Termination Features: Termination Area Base Material Cop" x="75.263175" y="26.644790625" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4129,7 +4146,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LR1F1K0" x="75.263175" y="26.644790625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="279-LR1F1K0" x="75.263175" y="26.644790625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F1K0?qs=ip69W3eHERVhMxNSZkerTg%3D%3D" x="75.263175" y="26.644790625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="78.311175" y="25.120790625" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="75.263175" y="26.644790625" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="C17" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="MKP4G034705D00KSSD" package3d_urn="urn:adsk.eagle:package:47621660/1" value="MKP4G034705D00KSSD" x="118.1524" y="6.1976" smashed="yes" rot="R90">
 <attribute name="ARROW_PART_NUMBER" value="" x="118.1524" y="6.1976" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4160,7 +4177,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="PR02000209101FA100" x="102.5324" y="22.15050625" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="594-PR02000209101FA1" x="102.5324" y="22.15050625" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-BC-Components/PR02000209101FA100?qs=sGAEpiMZZMtlubZbdhIBILAdz%2F2y2rDs5x9O1ZBVKlg%3D" x="102.5324" y="22.15050625" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="99.4844" y="23.67450625" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="102.5324" y="22.15050625" size="1.27" layer="25" align="center"/>
 </element>
 <element name="R23" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="9.1k" x="102.5324" y="26.644790625" smashed="yes">
 <attribute name="DESCRIPTION" value="VISHAY - PR02000209101FA100 - Through Hole Resistor, 9.1 kohm, PR02 Series, 2 W, +/- 5%, Axial Leaded, 500 V" x="102.5324" y="26.644790625" size="1.778" layer="27" display="off"/>
@@ -4169,7 +4186,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="PR02000209101FA100" x="102.5324" y="26.644790625" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="594-PR02000209101FA1" x="102.5324" y="26.644790625" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-BC-Components/PR02000209101FA100?qs=sGAEpiMZZMtlubZbdhIBILAdz%2F2y2rDs5x9O1ZBVKlg%3D" x="102.5324" y="26.644790625" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="99.4844" y="28.168790625" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="102.5324" y="26.644790625" size="1.27" layer="25" align="center"/>
 </element>
 <element name="R24" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k" x="87.6277875" y="26.644790625" smashed="yes">
 <attribute name="DESCRIPTION" value="Body Features: Lead Type Axial-Leaded | Configuration Features: Number of Resistors 1 | Dimensions: Passive Component Dimensions 6.2 x 2.3 MM | Electrical Characteristics: Passive Component Tolerance 1 PCT | Resistance Value 1K OHM | Operating Voltage 350 V | Power Rating .6 WATT | Resistance Class 1k  1M | Packaging Features: Packaging Method Ammo Packed | Product Type Features: Element Type Thin Film | Resistor Type General Purpose Resistor | Termination Features: Termination Area Base Material Cop" x="87.6277875" y="26.644790625" size="1.778" layer="27" display="off"/>
@@ -4178,7 +4195,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LR1F1K0" x="87.6277875" y="26.644790625" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="279-LR1F1K0" x="87.6277875" y="26.644790625" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F1K0?qs=ip69W3eHERVhMxNSZkerTg%3D%3D" x="87.6277875" y="26.644790625" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="84.5797875" y="28.168790625" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="87.6277875" y="26.644790625" size="1.27" layer="25" align="center"/>
 </element>
 <element name="R25" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k" x="105.0073375" y="12.9476" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Body Features: Lead Type Axial-Leaded | Configuration Features: Number of Resistors 1 | Dimensions: Passive Component Dimensions 6.2 x 2.3 MM | Electrical Characteristics: Passive Component Tolerance 1 PCT | Resistance Value 1K OHM | Operating Voltage 350 V | Power Rating .6 WATT | Resistance Class 1k  1M | Packaging Features: Packaging Method Ammo Packed | Product Type Features: Element Type Thin Film | Resistor Type General Purpose Resistor | Termination Features: Termination Area Base Material Cop" x="105.0073375" y="12.9476" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4187,7 +4204,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LR1F1K0" x="105.0073375" y="12.9476" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="279-LR1F1K0" x="105.0073375" y="12.9476" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F1K0?qs=ip69W3eHERVhMxNSZkerTg%3D%3D" x="105.0073375" y="12.9476" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="103.4833375" y="9.8996" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="105.0073375" y="12.9476" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="R26" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="330" x="110.1524" y="-4.3970125" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Body Features: Lead Type Axial-Leaded | Configuration Features: Number of Resistors 1 | Dimensions: Passive Component Dimensions 6.2 x 2.3 MM | Electrical Characteristics: Resistance Value 330 OHM | Power Rating .6 WATT | Passive Component Tolerance 1 PCT | Operating Voltage 350 V | Resistance Class Up to 1k | Packaging Features: Packaging Method Ammo Packed | Product Type Features: Resistor Type General Purpose Resistor | Element Type Thin Film | Termination Features: Number of Terminations 2 | Terminati" x="110.1524" y="-4.3970125" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4196,7 +4213,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LR1F330R" x="110.1524" y="-4.3970125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="279-LR1F330R" x="110.1524" y="-4.3970125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F330R?qs=ip69W3eHERU18wOSJKTVaQ%3D%3D" x="110.1524" y="-4.3970125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="108.6284" y="-7.4450125" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="110.1524" y="-4.3970125" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="D16" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1068W53L380D172" package3d_urn="urn:adsk.eagle:package:48500905/1" value="1N4148-T50R" x="110.9774" y="48.3976" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Diodes - General Purpose, Power, Switching Hi Conductance Fast" x="110.9774" y="48.3976" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4205,8 +4222,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="1N4148-T50R" x="110.9774" y="48.3976" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="512-1N4148T50R" x="110.9774" y="48.3976" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N4148-T50R?qs=0lQeLiL1qyZS6rosZp7Ehg%3D%3D" x="110.9774" y="48.3976" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="112.2474" y="50.9376" size="0.4064" layer="25" rot="R270"/>
-<attribute name="VALUE" x="110.7234" y="50.4296" size="0.6096" layer="21" rot="R270"/>
+<attribute name="NAME" x="110.9774" y="43.0476" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
 <element name="D17" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1068W53L380D172" package3d_urn="urn:adsk.eagle:package:48500905/1" value="1N4148-T50R" x="110.9774" y="52.2476" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Diodes - General Purpose, Power, Switching Hi Conductance Fast" x="110.9774" y="52.2476" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4215,8 +4231,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="1N4148-T50R" x="110.9774" y="52.2476" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="512-1N4148T50R" x="110.9774" y="52.2476" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N4148-T50R?qs=0lQeLiL1qyZS6rosZp7Ehg%3D%3D" x="110.9774" y="52.2476" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="109.7074" y="49.7076" size="0.4064" layer="25" rot="R90"/>
-<attribute name="VALUE" x="111.2314" y="50.2156" size="0.6096" layer="21" rot="R90"/>
+<attribute name="NAME" x="110.9774" y="57.5976" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="D18" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1068W53L380D172" package3d_urn="urn:adsk.eagle:package:48500905/1" value="1N4148-T50R" x="106.5073375" y="-10.0170125" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Diodes - General Purpose, Power, Switching Hi Conductance Fast" x="106.5073375" y="-10.0170125" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4225,8 +4240,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="1N4148-T50R" x="106.5073375" y="-10.0170125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="512-1N4148T50R" x="106.5073375" y="-10.0170125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N4148-T50R?qs=0lQeLiL1qyZS6rosZp7Ehg%3D%3D" x="106.5073375" y="-10.0170125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="105.2373375" y="-12.55701875" size="0.4064" layer="25" rot="R90"/>
-<attribute name="VALUE" x="106.761334375" y="-12.04901875" size="0.6096" layer="21" rot="R90"/>
+<attribute name="NAME" x="106.5073375" y="-4.6670125" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="U4" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="SOT230P700X180-4N" package3d_urn="urn:adsk.eagle:package:47621665/2" value="LM317MQDCYR" x="73.5274" y="16.9476" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Standard Regulator 1.25V to 37V 0.5A Texas Instruments LM317MQDCYR, Single Linear Voltage Regulator, 500mA Adjustable 1.25  37 V, 4-Pin SOT-223" x="73.5274" y="16.9476" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4235,7 +4249,6 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LM317MQDCYR" x="73.5274" y="16.9476" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="595-LM317MQDCYR" x="73.5274" y="16.9476" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM317MQDCYR?qs=VBduBm9rCJSAPGr9YDjocQ%3D%3D" x="73.5274" y="16.9476" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="69.0189" y="16.1221" size="0.4064" layer="25" rot="R90"/>
 </element>
 <element name="R27" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="48.7" x="73.5274" y="3.9476" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Metal Film Resistors - Through Hole 1/8watt 48.7ohms 1% 100ppm" x="73.5274" y="3.9476" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4244,10 +4257,10 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RN55D48R7FB14" x="73.5274" y="3.9476" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="71-RN55D-F-48.7" x="73.5274" y="3.9476" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/RN55D48R7FB14?qs=sGAEpiMZZMsPqMdJzcrNwqLSjlxN7Le6H%2Fnooot2Cxw%3D" x="73.5274" y="3.9476" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="72.0034" y="0.8996" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="73.5274" y="3.9476" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="SX7" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" package="VT9-PT" package3d_urn="urn:adsk.eagle:package:4683/1" value="VT9-PT" x="156.62478125" y="7.2985875" smashed="yes" rot="R162">
-<attribute name="NAME" x="146.63056875" y="1.198403125" size="1.27" layer="25" rot="R162"/>
+<attribute name="NAME" x="150.530571875" y="7.2985875" size="1.27" layer="25" align="center"/>
 </element>
 <element name="C21O3" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" package="DCP4G053006ID2KSSD" value="30uF/400V" x="174.5024" y="-14.973371875" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="" x="174.5024" y="-14.973371875" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4267,7 +4280,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LR1F1M0" x="123.6770125" y="46.15050625" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="279-LR1F1M0" x="123.6770125" y="46.15050625" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F1M0?qs=ip69W3eHERVt%2FmQVAugcSg%3D%3D" x="123.6770125" y="46.15050625" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="166.6770125" y="22.15050625" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="158.6770125" y="22.15050625" size="1.27" layer="25" align="center"/>
 </element>
 <element name="C2O3" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" package="MKS4B031002A00JC00" value="0.1uF, 35V" x="136.0274" y="33.1976" smashed="yes">
 <attribute name="DESCRIPTION" value="Film Capacitors MKS 4 0.1 uF 50 VDC 2.5x7x10 PCM 7.5" x="107.0274" y="39.1976" size="1.778" layer="27" display="off"/>
@@ -4279,7 +4292,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="139.7774" y="33.1976" size="1.27" layer="25" align="center"/>
 </element>
 <element name="SX8" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" package="VT9-PT" package3d_urn="urn:adsk.eagle:package:4683/1" value="VT9-PT" x="156.62478125" y="41.4966125" smashed="yes" rot="R162">
-<attribute name="NAME" x="146.63056875" y="35.396428125" size="1.27" layer="25" rot="R162"/>
+<attribute name="NAME" x="150.530571875" y="41.4966125" size="1.27" layer="25" align="center"/>
 </element>
 <element name="R28" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k" x="141.2974625" y="45.73075625" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Body Features: Lead Type Axial-Leaded | Configuration Features: Number of Resistors 1 | Dimensions: Passive Component Dimensions 6.2 x 2.3 MM | Electrical Characteristics: Passive Component Tolerance 1 PCT | Resistance Value 1K OHM | Operating Voltage 350 V | Power Rating .6 WATT | Resistance Class 1k  1M | Packaging Features: Packaging Method Ammo Packed | Product Type Features: Element Type Thin Film | Resistor Type General Purpose Resistor | Termination Features: Termination Area Base Material Cop" x="141.2974625" y="45.73075625" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4288,7 +4301,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LR1F1K0" x="141.2974625" y="45.73075625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="279-LR1F1K0" x="141.2974625" y="45.73075625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F1K0?qs=ip69W3eHERVhMxNSZkerTg%3D%3D" x="141.2974625" y="45.73075625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="139.773459375" y="42.682753125" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="141.2974625" y="45.73075625" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="R29" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k" x="171.041625" y="26.644790625" smashed="yes">
 <attribute name="DESCRIPTION" value="Body Features: Lead Type Axial-Leaded | Configuration Features: Number of Resistors 1 | Dimensions: Passive Component Dimensions 6.2 x 2.3 MM | Electrical Characteristics: Passive Component Tolerance 1 PCT | Resistance Value 1K OHM | Operating Voltage 350 V | Power Rating .6 WATT | Resistance Class 1k  1M | Packaging Features: Packaging Method Ammo Packed | Product Type Features: Element Type Thin Film | Resistor Type General Purpose Resistor | Termination Features: Termination Area Base Material Cop" x="171.041625" y="26.644790625" size="1.778" layer="27" display="off"/>
@@ -4297,7 +4310,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LR1F1K0" x="171.041625" y="26.644790625" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="279-LR1F1K0" x="171.041625" y="26.644790625" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F1K0?qs=ip69W3eHERVhMxNSZkerTg%3D%3D" x="171.041625" y="26.644790625" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="167.993625" y="28.168790625" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="171.041625" y="26.644790625" size="1.27" layer="25" align="center"/>
 </element>
 <element name="C19" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="MKP4G034705D00KSSD" package3d_urn="urn:adsk.eagle:package:47621660/1" value="MKP4G034705D00KSSD" x="128.1524" y="6.1976" smashed="yes" rot="R90">
 <attribute name="ARROW_PART_NUMBER" value="" x="171.1524" y="6.1976" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4328,7 +4341,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="PR02000209101FA100" x="143.7724" y="22.15050625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="594-PR02000209101FA1" x="143.7724" y="22.15050625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-BC-Components/PR02000209101FA100?qs=sGAEpiMZZMtlubZbdhIBILAdz%2F2y2rDs5x9O1ZBVKlg%3D" x="143.7724" y="22.15050625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="146.8204" y="20.62650625" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="143.7724" y="22.15050625" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="R31" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="9.1k" x="143.7724" y="26.644790625" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="VISHAY - PR02000209101FA100 - Through Hole Resistor, 9.1 kohm, PR02 Series, 2 W, +/- 5%, Axial Leaded, 500 V" x="143.7724" y="26.644790625" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4337,7 +4350,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="PR02000209101FA100" x="143.7724" y="26.644790625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="594-PR02000209101FA1" x="143.7724" y="26.644790625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-BC-Components/PR02000209101FA100?qs=sGAEpiMZZMtlubZbdhIBILAdz%2F2y2rDs5x9O1ZBVKlg%3D" x="143.7724" y="26.644790625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="146.8204" y="25.120790625" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="143.7724" y="26.644790625" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="R32" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k" x="158.6770125" y="26.644790625" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="Body Features: Lead Type Axial-Leaded | Configuration Features: Number of Resistors 1 | Dimensions: Passive Component Dimensions 6.2 x 2.3 MM | Electrical Characteristics: Passive Component Tolerance 1 PCT | Resistance Value 1K OHM | Operating Voltage 350 V | Power Rating .6 WATT | Resistance Class 1k  1M | Packaging Features: Packaging Method Ammo Packed | Product Type Features: Element Type Thin Film | Resistor Type General Purpose Resistor | Termination Features: Termination Area Base Material Cop" x="158.6770125" y="26.644790625" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4346,7 +4359,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LR1F1K0" x="158.6770125" y="26.644790625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="279-LR1F1K0" x="158.6770125" y="26.644790625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F1K0?qs=ip69W3eHERVhMxNSZkerTg%3D%3D" x="158.6770125" y="26.644790625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="161.7250125" y="25.120790625" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="158.6770125" y="26.644790625" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="R33" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k" x="141.2974625" y="12.9476" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Body Features: Lead Type Axial-Leaded | Configuration Features: Number of Resistors 1 | Dimensions: Passive Component Dimensions 6.2 x 2.3 MM | Electrical Characteristics: Passive Component Tolerance 1 PCT | Resistance Value 1K OHM | Operating Voltage 350 V | Power Rating .6 WATT | Resistance Class 1k  1M | Packaging Features: Packaging Method Ammo Packed | Product Type Features: Element Type Thin Film | Resistor Type General Purpose Resistor | Termination Features: Termination Area Base Material Cop" x="141.2974625" y="12.9476" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4355,7 +4368,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LR1F1K0" x="141.2974625" y="12.9476" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="279-LR1F1K0" x="141.2974625" y="12.9476" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F1K0?qs=ip69W3eHERVhMxNSZkerTg%3D%3D" x="141.2974625" y="12.9476" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="139.7734625" y="9.8996" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="141.2974625" y="12.9476" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="R34" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="330" x="136.1524" y="-4.3970125" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Body Features: Lead Type Axial-Leaded | Configuration Features: Number of Resistors 1 | Dimensions: Passive Component Dimensions 6.2 x 2.3 MM | Electrical Characteristics: Resistance Value 330 OHM | Power Rating .6 WATT | Passive Component Tolerance 1 PCT | Operating Voltage 350 V | Resistance Class Up to 1k | Packaging Features: Packaging Method Ammo Packed | Product Type Features: Resistor Type General Purpose Resistor | Element Type Thin Film | Termination Features: Number of Terminations 2 | Terminati" x="136.1524" y="-4.3970125" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4364,7 +4377,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LR1F330R" x="136.1524" y="-4.3970125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="279-LR1F330R" x="136.1524" y="-4.3970125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/LR1F330R?qs=ip69W3eHERU18wOSJKTVaQ%3D%3D" x="136.1524" y="-4.3970125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="134.6284" y="-7.4450125" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="136.1524" y="-4.3970125" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="D19" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1068W53L380D172" package3d_urn="urn:adsk.eagle:package:48500905/1" value="1N4148-T50R" x="135.3274" y="48.3976" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Diodes - General Purpose, Power, Switching Hi Conductance Fast" x="135.3274" y="48.3976" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4373,8 +4386,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="1N4148-T50R" x="135.3274" y="48.3976" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="512-1N4148T50R" x="135.3274" y="48.3976" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N4148-T50R?qs=0lQeLiL1qyZS6rosZp7Ehg%3D%3D" x="135.3274" y="48.3976" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="136.5974" y="50.9376" size="0.4064" layer="25" rot="R270"/>
-<attribute name="VALUE" x="135.0734" y="50.4296" size="0.6096" layer="21" rot="R270"/>
+<attribute name="NAME" x="135.3274" y="43.0476" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
 <element name="D20" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1068W53L380D172" package3d_urn="urn:adsk.eagle:package:48500905/1" value="1N4148-T50R" x="135.3274" y="52.2476" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Diodes - General Purpose, Power, Switching Hi Conductance Fast" x="135.3274" y="52.2476" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4383,8 +4395,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="1N4148-T50R" x="135.3274" y="52.2476" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="512-1N4148T50R" x="135.3274" y="52.2476" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N4148-T50R?qs=0lQeLiL1qyZS6rosZp7Ehg%3D%3D" x="135.3274" y="52.2476" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="134.0574" y="49.7076" size="0.4064" layer="25" rot="R90"/>
-<attribute name="VALUE" x="135.5814" y="50.2156" size="0.6096" layer="21" rot="R90"/>
+<attribute name="NAME" x="135.3274" y="57.5976" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="D21" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1068W53L380D172" package3d_urn="urn:adsk.eagle:package:48500905/1" value="1N4148-T50R" x="139.7974625" y="-10.0170125" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Diodes - General Purpose, Power, Switching Hi Conductance Fast" x="139.7974625" y="-10.0170125" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4393,8 +4404,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="1N4148-T50R" x="139.7974625" y="-10.0170125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="512-1N4148T50R" x="139.7974625" y="-10.0170125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N4148-T50R?qs=0lQeLiL1qyZS6rosZp7Ehg%3D%3D" x="139.7974625" y="-10.0170125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="138.5274625" y="-12.5570125" size="0.4064" layer="25" rot="R90"/>
-<attribute name="VALUE" x="140.0514625" y="-12.0490125" size="0.6096" layer="21" rot="R90"/>
+<attribute name="NAME" x="139.7974625" y="-4.6670125" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="U5" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="SOT230P700X180-4N" package3d_urn="urn:adsk.eagle:package:47621665/2" value="LM317MQDCYR" x="172.7774" y="16.9476" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Standard Regulator 1.25V to 37V 0.5A Texas Instruments LM317MQDCYR, Single Linear Voltage Regulator, 500mA Adjustable 1.25  37 V, 4-Pin SOT-223" x="172.7774" y="16.9476" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4403,7 +4413,6 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LM317MQDCYR" x="172.7774" y="16.9476" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="595-LM317MQDCYR" x="172.7774" y="16.9476" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM317MQDCYR?qs=VBduBm9rCJSAPGr9YDjocQ%3D%3D" x="172.7774" y="16.9476" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="168.2689" y="16.1221" size="0.4064" layer="25" rot="R90"/>
 </element>
 <element name="R35" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="48.7" x="172.7774" y="3.9476" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Metal Film Resistors - Through Hole 1/8watt 48.7ohms 1% 100ppm" x="172.7774" y="3.9476" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4412,7 +4421,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RN55D48R7FB14" x="172.7774" y="3.9476" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="71-RN55D-F-48.7" x="172.7774" y="3.9476" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/RN55D48R7FB14?qs=sGAEpiMZZMsPqMdJzcrNwqLSjlxN7Le6H%2Fnooot2Cxw%3D" x="172.7774" y="3.9476" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="171.2534" y="0.8996" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="172.7774" y="3.9476" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="Z1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1256W56L444D203" package3d_urn="urn:adsk.eagle:package:48500160/1" value="1N750" x="110.1524" y="5.4276" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Zener Diodes Voltage Regulator" x="110.1524" y="5.4276" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4421,7 +4430,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="1N750" x="110.1524" y="5.4276" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="494-1N750(DO-35)" x="110.1524" y="5.4276" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Microchip-Microsemi/1N750?qs=Xwz%252BGKGy4sB1rzIdx4SmVg%3D%3D" x="110.1524" y="5.4276" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="110.1524" y="3.4276" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="110.1524" y="11.7276" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="Z2" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1256W56L444D203" package3d_urn="urn:adsk.eagle:package:48500160/1" value="1N750" x="136.1524" y="5.4276" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Zener Diodes Voltage Regulator" x="136.1524" y="5.4276" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4430,7 +4439,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="1N750" x="136.1524" y="5.4276" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="494-1N750(DO-35)" x="136.1524" y="5.4276" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Microchip-Microsemi/1N750?qs=Xwz%252BGKGy4sB1rzIdx4SmVg%3D%3D" x="136.1524" y="5.4276" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="136.1524" y="3.4276" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="136.1524" y="11.7276" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 </elements>
 <signals>
@@ -5365,13 +5374,13 @@ design rules under a new name.</description>
 <wire x1="104.8780875" y1="130.963475" x2="104.8780875" y2="133.845459375" width="1.2725" layer="16"/>
 <via x="71.8924" y="122.48" extent="1-16" drill="0.35"/>
 <via x="71.8924" y="125.02" extent="1-16" drill="0.35"/>
-<via x="78.9524" y="125.7" extent="1-16" drill="0.35"/>
-<via x="80.88573125" y="125.7" extent="1-16" drill="0.35"/>
-<via x="82.8190625" y="125.7" extent="1-16" drill="0.35"/>
-<wire x1="82.8190625" y1="125.7" x2="80.88573125" y2="125.7" width="1.2725" layer="16"/>
-<wire x1="80.88573125" y1="125.7" x2="78.9524" y2="125.7" width="1.2725" layer="16"/>
-<wire x1="78.9524" y1="125.7" x2="80.88573125" y2="125.7" width="1.2725" layer="1"/>
-<wire x1="80.88573125" y1="125.7" x2="82.8190625" y2="125.7" width="1.2725" layer="1"/>
+<via x="78.9524" y="125.7" extent="1-16" drill="0.35" locked="yes"/>
+<via x="80.88573125" y="125.7" extent="1-16" drill="0.35" locked="yes"/>
+<via x="82.8190625" y="125.7" extent="1-16" drill="0.35" locked="yes"/>
+<wire x1="82.8190625" y1="125.7" x2="80.88573125" y2="125.7" width="1.2725" layer="16" locked="yes"/>
+<wire x1="80.88573125" y1="125.7" x2="78.9524" y2="125.7" width="1.2725" layer="16" locked="yes"/>
+<wire x1="78.9524" y1="125.7" x2="80.88573125" y2="125.7" width="1.2725" layer="1" locked="yes"/>
+<wire x1="80.88573125" y1="125.7" x2="82.8190625" y2="125.7" width="1.2725" layer="1" locked="yes"/>
 <wire x1="106.342553125" y1="123.709846875" x2="113.3524" y2="116.7" width="1.2725" layer="1"/>
 <wire x1="115.9524" y1="116.7" x2="113.3524" y2="116.7" width="1.2725" layer="1"/>
 <wire x1="127.3524" y1="124.83106875" x2="128.816865625" y2="121.295534375" width="1.2725" layer="1" curve="45"/>
@@ -5382,7 +5391,7 @@ design rules under a new name.</description>
 <wire x1="104.8780875" y1="133.845459375" x2="104.8780875" y2="127.24538125" width="1.2725" layer="1"/>
 <wire x1="104.8780875" y1="127.24538125" x2="106.342553125" y2="123.709846875" width="1.2725" layer="1" curve="45"/>
 <wire x1="71.8924" y1="125.02" x2="72.5724" y2="125.7" width="1.2725" layer="1" curve="-90"/>
-<wire x1="72.5724" y1="125.7" x2="78.9524" y2="125.7" width="1.2725" layer="1"/>
+<wire x1="72.5724" y1="125.7" x2="78.9524" y2="125.7" width="1.2725" layer="1" locked="yes"/>
 <wire x1="151.9190625" y1="119.6" x2="152.781334375" y2="119.6" width="1.2725" layer="16"/>
 <wire x1="152.781334375" y1="119.6" x2="156.316865625" y2="118.135534375" width="1.2725" layer="16" curve="-44.999975"/>
 <via x="148.0524" y="119.6" extent="1-16" drill="0.35"/>
@@ -5437,7 +5446,7 @@ design rules under a new name.</description>
 <wire x1="71.8924" y1="122.48" x2="71.8924" y2="125.02" width="1.2725" layer="1"/>
 <wire x1="71.8924" y1="125.02" x2="71.8924" y2="122.48" width="1.2725" layer="16"/>
 <wire x1="71.8924" y1="122.48" x2="71.8924" y2="119.94" width="1.2725" layer="16"/>
-<wire x1="82.8190625" y1="125.7" x2="84.5651625" y2="125.7" width="1.2725" layer="16"/>
+<wire x1="82.8190625" y1="125.7" x2="84.5651625" y2="125.7" width="1.2725" layer="16" locked="yes"/>
 <wire x1="84.5651625" y1="125.7" x2="85.979378125" y2="126.2857875" width="1.2725" layer="16" curve="45.000063"/>
 <wire x1="85.979378125" y1="126.2857875" x2="86.246375" y2="126.552784375" width="1.2725" layer="16"/>
 <wire x1="115.9524" y1="116.7" x2="118.9524" y2="119.7" width="1.2725" layer="1" curve="90"/>
@@ -6894,7 +6903,7 @@ design rules under a new name.</description>
 <contactref element="R30O1" pad="1"/>
 <contactref element="R28O1" pad="1"/>
 <contactref element="R29O1" pad="2"/>
-<polygon width="0.254" layer="16" orphans="yes" thermals="no">
+<polygon width="0.1524" layer="16" orphans="yes" thermals="no">
 <vertex x="68.7619" y="-25.0524"/>
 <vertex x="177.3905" y="-25.0524" curve="90"/>
 <vertex x="178" y="-24.4429"/>
@@ -6988,21 +6997,26 @@ design rules under a new name.</description>
 <wire x1="70.1" y1="75.3" x2="70.1" y2="70.164465625" width="2.54" layer="16"/>
 <wire x1="70.1" y1="70.164465625" x2="69.064465625" y2="67.664465625" width="2.54" layer="16" curve="-45"/>
 <wire x1="70.1" y1="75.3" x2="74.1" y2="79.3" width="2.54" layer="16" curve="-90"/>
-<wire x1="74.1" y1="79.3" x2="118.1524" y2="79.3" width="2.54" layer="16"/>
 <wire x1="69.064465625" y1="67.664465625" x2="67.6" y2="64.12893125" width="2.54" layer="16" curve="45"/>
 <wire x1="67.6" y1="64.12893125" x2="67.6" y2="49.79178125" width="2.54" layer="16"/>
 <wire x1="67.6" y1="49.79178125" x2="67.89289375" y2="49.084675" width="2.54" layer="16" curve="45"/>
 <wire x1="67.89289375" y1="49.084675" x2="68.10710625" y2="48.8704625" width="2.54" layer="16"/>
 <wire x1="68.4" y1="46.58415625" x2="63.4" y2="41.58415625" width="2.54" layer="16" curve="-90"/>
 <wire x1="63.4" y1="41.58415625" x2="51.3762" y2="41.58415625" width="2.54" layer="16"/>
-<wire x1="118.1524" y1="79.3" x2="123.1524" y2="74.3" width="2.54" layer="16" curve="-90"/>
-<wire x1="123.1524" y1="74.3" x2="123.1524" y2="72.8" width="2.54" layer="16"/>
-<via x="123.1524" y="72.8" extent="1-16" drill="0.35"/>
-<wire x1="123.1524" y1="37.6976" x2="123.1524" y2="72.8" width="2.54" layer="1"/>
+<wire x1="123.1524" y1="74.73333125" x2="123.1524" y2="72.8" width="2.54" layer="16" locked="yes"/>
+<via x="123.1524" y="72.8" extent="1-16" drill="0.35" locked="yes"/>
+<wire x1="123.1524" y1="37.6976" x2="123.1524" y2="72.8" width="2.54" layer="1" locked="yes"/>
 <wire x1="81.1855" y1="-2.0524" x2="81.1855" y2="1.126871875" width="2.54" layer="1"/>
 <wire x1="158.089234375" y1="6.4402375" x2="165.119296875" y2="13.4703" width="2.54" layer="1"/>
 <wire x1="68.10710625" y1="48.8704625" x2="68.4" y2="48.16335625" width="2.54" layer="16" curve="-45"/>
 <wire x1="68.4" y1="48.16335625" x2="68.4" y2="46.58415625" width="2.54" layer="16"/>
+<via x="123.1524" y="74.73333125" extent="1-16" drill="0.35" locked="yes"/>
+<via x="123.1524" y="76.6666625" extent="1-16" drill="0.35" locked="yes"/>
+<wire x1="123.1524" y1="74.73333125" x2="123.1524" y2="76.6666625" width="2.54" layer="16" locked="yes"/>
+<wire x1="74.1" y1="79.3" x2="120.5190625" y2="79.3" width="2.54" layer="16" locked="yes"/>
+<wire x1="120.5190625" y1="79.3" x2="123.1524" y2="76.6666625" width="2.54" layer="16" curve="-90" locked="yes"/>
+<wire x1="123.1524" y1="74.73333125" x2="123.1524" y2="72.8" width="2.54" layer="1" locked="yes"/>
+<wire x1="123.1524" y1="76.6666625" x2="123.1524" y2="74.73333125" width="2.54" layer="1" locked="yes"/>
 </signal>
 <signal name="66.3VAC/1">
 <contactref element="R2P" pad="2"/>
@@ -8552,6 +8566,10 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="8.5" severity="warning">
+Since Version 8.5, EAGLE supports locking for holes, vias, wires and polygons. 
+The locking property on all objects of these types will not be understood in this version. 
 </note>
 </compatibility>
 </eagle>

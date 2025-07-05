@@ -1776,6 +1776,8 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <part name="TP2" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="TP" device="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1"/>
 <part name="VR1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="PVG5A101C03R00" device="" package3d_urn="urn:adsk.eagle:package:49125174/1"/>
 <part name="VR2" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="PVG5A101C03R00" device="" package3d_urn="urn:adsk.eagle:package:49125174/1"/>
+<part name="TP3" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="TP" device="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1"/>
+<part name="TP4" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="TP" device="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -2178,6 +2180,14 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <attribute name="NAME" x="78.74" y="184.15" size="1.778" layer="95" rot="MR90" align="center-left"/>
 <attribute name="VALUE" x="76.2" y="184.15" size="1.778" layer="96" rot="MR90" align="center-left"/>
 </instance>
+<instance part="TP3" gate="G$1" x="50.8" y="114.3" smashed="yes" rot="R180">
+<attribute name="NAME" x="52.07" y="113.03" size="1.778" layer="95" rot="R180"/>
+<attribute name="TP_SIGNAL_NAME" x="49.53" y="115.57" size="1.778" layer="97" rot="R180"/>
+</instance>
+<instance part="TP4" gate="G$1" x="149.86" y="114.3" smashed="yes" rot="R180">
+<attribute name="NAME" x="151.13" y="113.03" size="1.778" layer="95" rot="R180"/>
+<attribute name="TP_SIGNAL_NAME" x="148.59" y="115.57" size="1.778" layer="97" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2482,6 +2492,8 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <wire x1="20.32" y1="116.84" x2="20.32" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="121.92" x2="25.4" y2="121.92" width="0.1524" layer="91"/>
 <junction x="25.4" y="121.92"/>
+<pinref part="TP3" gate="G$1" pin="TP"/>
+<wire x1="50.8" y1="116.84" x2="50.8" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="R-" class="1">
@@ -2878,6 +2890,8 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <wire x1="180.34" y1="121.92" x2="180.34" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="SX2" gate="G$1" pin="8"/>
 <wire x1="180.34" y1="116.84" x2="185.42" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="TP4" gate="G$1" pin="TP"/>
+<wire x1="149.86" y1="116.84" x2="149.86" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">

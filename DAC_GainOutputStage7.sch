@@ -1570,8 +1570,8 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PR02000209101FA100" urn="urn:adsk.eagle:component:48500959/2" prefix="R" library_version="10">
-<description>&lt;b&gt;VISHAY - PR02000209101FA100 - Through Hole Resistor, 9.1 kohm, PR02 Series, 2 W, +/- 5%, Axial Leaded, 500 V&lt;/b&gt;&lt;p&gt;
+<deviceset name="PR02000201802FA100" urn="urn:adsk.eagle:component:49534046/2" prefix="R" uservalue="yes" library_version="24">
+<description>&lt;b&gt;VISHAY - PR02000201802FA100 - Through Hole Resistor, 18 kohm, PR02 Series, 2 W, +/- 1%, Axial Leaded, 500 V&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.vishay.com/doc?28729"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="R" x="5.08" y="0"/>
@@ -1587,19 +1587,47 @@ Source: &lt;a href="https://www.vishay.com/doc?28729"&gt; Datasheet &lt;/a&gt;</
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="VISHAY - PR02000209101FA100 - Through Hole Resistor, 9.1 kohm, PR02 Series, 2 W, +/- 5%, Axial Leaded, 500 V" constant="no"/>
+<attribute name="DESCRIPTION" value="VISHAY - PR02000201802FA100 - Through Hole Resistor, 18 kohm, PR02 Series, 2 W, +/- 1%, Axial Leaded, 500 V" constant="no"/>
 <attribute name="HEIGHT" value="mm" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="Vishay" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PR02000209101FA100" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="594-PR02000209101FA1" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-BC-Components/PR02000209101FA100?qs=sGAEpiMZZMtlubZbdhIBILAdz%2F2y2rDs5x9O1ZBVKlg%3D" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PR02000201802FA100" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="594-PR02000201802FA1" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-BC-Components/PR02000201802FA100?qs=%252B7BPNfeNhvUFI7nE%2FF2GgA%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="RN55D48R7FB14" urn="urn:adsk.eagle:component:48504242/1" prefix="R" library_version="16">
-<description>&lt;b&gt;Metal Film Resistors - Through Hole 1/8watt 48.7ohms 1% 100ppm&lt;/b&gt;&lt;p&gt;
+<deviceset name="PR02000203001FA100" urn="urn:adsk.eagle:component:49534319/1" prefix="R" uservalue="yes" library_version="24">
+<description>&lt;b&gt;VISHAY - PR02000203001FA100 - Through Hole Resistor, 3 kohm, PR02 Series, 2 W, +/- 1%, Axial Leaded, 500 V&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.vishay.com/doc?28729"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="R" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="0411/15">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23568/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="VISHAY - PR02000203001FA100 - Through Hole Resistor, 3 kohm, PR02 Series, 2 W, +/- 1%, Axial Leaded, 500 V" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PR02000203001FA100" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="594-PR02000203001FA1" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/594-PR02000203001FA1" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RN55D76R8FB14" urn="urn:adsk.eagle:component:49534318/1" prefix="R" uservalue="yes" library_version="24">
+<description>&lt;b&gt;Metal Film Resistors - Through Hole 1/8watt 76.8ohms 1% 100ppm&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.vishay.com/doc?31027"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="R" x="5.08" y="0"/>
@@ -1615,12 +1643,12 @@ Source: &lt;a href="https://www.vishay.com/doc?31027"&gt; Datasheet &lt;/a&gt;</
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Metal Film Resistors - Through Hole 1/8watt 48.7ohms 1% 100ppm" constant="no"/>
+<attribute name="DESCRIPTION" value="Metal Film Resistors - Through Hole 1/8watt 76.8ohms 1% 100ppm" constant="no"/>
 <attribute name="HEIGHT" value="mm" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="Vishay" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RN55D48R7FB14" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="71-RN55D-F-48.7" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/RN55D48R7FB14?qs=sGAEpiMZZMsPqMdJzcrNwqLSjlxN7Le6H%2Fnooot2Cxw%3D" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RN55D76R8FB14" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-RN55D76R8F" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/RN55D76R8FB14?qs=UdQloaOSO0zimTRlWxAwmg%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1649,6 +1677,34 @@ Source: &lt;a href="https://assets.nexperia.com/documents/data-sheet/BZX79.pdf"&
 <attribute name="MANUFACTURER_PART_NUMBER" value="BZX79-C16,113" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPF215K000FKE14" urn="urn:adsk.eagle:component:49534320/1" prefix="R" uservalue="yes" library_version="24">
+<description>&lt;b&gt;VISHAY - CPF215K000FKE14 - Through Hole Resistor, 15 kohm, CPF Series, 2 W, +/- 1%, Axial Leaded, 500 V&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.vishay.com/doc?31021"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="R" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="0411/15">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23568/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="VISHAY - CPF215K000FKE14 - Through Hole Resistor, 15 kohm, CPF Series, 2 W, +/- 1%, Axial Leaded, 500 V" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CPF215K000FKE14" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-CPF2-F-15K-E3" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/71-CPF2-F-15K-E3" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1733,8 +1789,8 @@ Source: &lt;a href="https://assets.nexperia.com/documents/data-sheet/BZX79.pdf"&
 <part name="U$12" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="66.3VAC/1" device=""/>
 <part name="U$13" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="66.3VAC/2" device=""/>
 <part name="AGND4" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="AGND" device=""/>
-<part name="R5" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="PR02000209101FA100" device="" package3d_urn="urn:adsk.eagle:package:23568/2" value="9.1k"/>
-<part name="R6" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="PR02000209101FA100" device="" package3d_urn="urn:adsk.eagle:package:23568/2" value="9.1k"/>
+<part name="R5" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="PR02000201802FA100" device="" package3d_urn="urn:adsk.eagle:package:23568/2" value="18k"/>
+<part name="R6" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="PR02000203001FA100" device="" package3d_urn="urn:adsk.eagle:package:23568/2" value="3k"/>
 <part name="R7" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="LR1F1K0" device="" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k"/>
 <part name="R8" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="LR1F1K0" device="" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k"/>
 <part name="R9" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="MF0207FTE52-698R" device="" package3d_urn="urn:adsk.eagle:package:23491/2" value="698"/>
@@ -1760,8 +1816,8 @@ Source: &lt;a href="https://assets.nexperia.com/documents/data-sheet/BZX79.pdf"&
 <part name="U$14" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="66.3VAC/1" device=""/>
 <part name="U$15" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="66.3VAC/2" device=""/>
 <part name="AGND17" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="AGND" device=""/>
-<part name="R11" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="PR02000209101FA100" device="" package3d_urn="urn:adsk.eagle:package:23568/2" value="9.1k"/>
-<part name="R12" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="PR02000209101FA100" device="" package3d_urn="urn:adsk.eagle:package:23568/2" value="9.1k"/>
+<part name="R11" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="PR02000201802FA100" device="" package3d_urn="urn:adsk.eagle:package:23568/2" value="18k"/>
+<part name="R12" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="PR02000203001FA100" device="" package3d_urn="urn:adsk.eagle:package:23568/2" value="3k"/>
 <part name="R13" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="LR1F1K0" device="" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k"/>
 <part name="R14" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="LR1F1K0" device="" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k"/>
 <part name="R15" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="MF0207FTE52-698R" device="" package3d_urn="urn:adsk.eagle:package:23491/2" value="698"/>
@@ -1774,14 +1830,16 @@ Source: &lt;a href="https://assets.nexperia.com/documents/data-sheet/BZX79.pdf"&
 <part name="Z4" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N750" device="" package3d_urn="urn:adsk.eagle:package:48500160/1"/>
 <part name="R17" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="MFR200FRF52-1K" device="" package3d_urn="urn:adsk.eagle:package:23577/1" value="1k"/>
 <part name="R18" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="MFR200FRF52-1K" device="" package3d_urn="urn:adsk.eagle:package:23577/1" value="1k"/>
-<part name="R10" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="RN55D48R7FB14" device="" package3d_urn="urn:adsk.eagle:package:23491/2"/>
-<part name="R16" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="RN55D48R7FB14" device="" package3d_urn="urn:adsk.eagle:package:23491/2"/>
+<part name="R10" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="RN55D76R8FB14" device="" package3d_urn="urn:adsk.eagle:package:23491/2" value="76.8"/>
+<part name="R16" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="RN55D76R8FB14" device="" package3d_urn="urn:adsk.eagle:package:23491/2" value="76.8"/>
 <part name="R20O1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="LR1F10K" device="" package3d_urn="urn:adsk.eagle:package:23491/2" value="10k"/>
 <part name="R20O2" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="LR1F10K" device="" package3d_urn="urn:adsk.eagle:package:23491/2" value="10k"/>
 <part name="Z1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="BZX79-C16,113" device="" package3d_urn="urn:adsk.eagle:package:49478898/1"/>
 <part name="Z2" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="BZX79-C16,113" device="" package3d_urn="urn:adsk.eagle:package:49478898/1"/>
 <part name="Z5" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="BZX79-C16,113" device="" package3d_urn="urn:adsk.eagle:package:49478898/1"/>
 <part name="Z6" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="BZX79-C16,113" device="" package3d_urn="urn:adsk.eagle:package:49478898/1"/>
+<part name="R19" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="CPF215K000FKE14" device="" package3d_urn="urn:adsk.eagle:package:23568/2" value="15k"/>
+<part name="R20" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="CPF215K000FKE14" device="" package3d_urn="urn:adsk.eagle:package:23568/2" value="15k"/>
 </parts>
 <sheets>
 <sheet>
@@ -2018,9 +2076,9 @@ Source: &lt;a href="https://assets.nexperia.com/documents/data-sheet/BZX79.pdf"&
 <attribute name="NAME" x="36.83" y="209.7786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="36.83" y="204.978" size="1.778" layer="96"/>
 </instance>
-<instance part="R6" gate="G$1" x="40.64" y="175.26" smashed="yes">
-<attribute name="NAME" x="36.83" y="176.7586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="36.83" y="171.958" size="1.778" layer="96"/>
+<instance part="R6" gate="G$1" x="30.48" y="175.26" smashed="yes">
+<attribute name="NAME" x="26.67" y="176.7586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="26.67" y="171.958" size="1.778" layer="96"/>
 </instance>
 <instance part="R7" gate="G$1" x="38.1" y="119.38" smashed="yes">
 <attribute name="NAME" x="31.75" y="120.8786" size="1.778" layer="95"/>
@@ -2117,9 +2175,9 @@ Source: &lt;a href="https://assets.nexperia.com/documents/data-sheet/BZX79.pdf"&
 <attribute name="NAME" x="163.83" y="209.7786" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="163.83" y="204.978" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R12" gate="G$1" x="160.02" y="175.26" smashed="yes" rot="MR0">
-<attribute name="NAME" x="163.83" y="176.7586" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="163.83" y="171.958" size="1.778" layer="96" rot="MR0"/>
+<instance part="R12" gate="G$1" x="170.18" y="175.26" smashed="yes" rot="MR0">
+<attribute name="NAME" x="173.99" y="176.7586" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="173.99" y="171.958" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R13" gate="G$1" x="162.56" y="119.38" smashed="yes" rot="MR0">
 <attribute name="NAME" x="168.91" y="120.8786" size="1.778" layer="95" rot="MR0"/>
@@ -2199,6 +2257,14 @@ Source: &lt;a href="https://assets.nexperia.com/documents/data-sheet/BZX79.pdf"&
 <instance part="Z6" gate="G$1" x="132.08" y="104.14" smashed="yes" rot="R270">
 <attribute name="NAME" x="134.7216" y="107.0864" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="127.5842" y="108.6104" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R19" gate="G$1" x="43.18" y="175.26" smashed="yes">
+<attribute name="NAME" x="39.37" y="176.7586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="39.37" y="171.958" size="1.778" layer="96"/>
+</instance>
+<instance part="R20" gate="G$1" x="157.48" y="175.26" smashed="yes">
+<attribute name="NAME" x="153.67" y="176.7586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="153.67" y="171.958" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -2390,12 +2456,12 @@ Source: &lt;a href="https://assets.nexperia.com/documents/data-sheet/BZX79.pdf"&
 <wire x1="50.8" y1="208.28" x2="50.8" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="210.82" x2="20.32" y2="210.82" width="0.1524" layer="91"/>
 <junction x="20.32" y="210.82"/>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="175.26" x2="50.8" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="175.26" x2="50.8" y2="208.28" width="0.1524" layer="91"/>
 <junction x="50.8" y="208.28"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="0" y1="195.58" x2="0" y2="210.82" width="0.1524" layer="91"/>
+<pinref part="R19" gate="G$1" pin="2"/>
+<wire x1="48.26" y1="175.26" x2="50.8" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="1"/>
@@ -2416,12 +2482,12 @@ Source: &lt;a href="https://assets.nexperia.com/documents/data-sheet/BZX79.pdf"&
 <wire x1="149.86" y1="208.28" x2="149.86" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="210.82" x2="180.34" y2="210.82" width="0.1524" layer="91"/>
 <junction x="180.34" y="210.82"/>
-<pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="154.94" y1="175.26" x2="149.86" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="175.26" x2="149.86" y2="208.28" width="0.1524" layer="91"/>
 <junction x="149.86" y="208.28"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="195.58" x2="200.66" y2="210.82" width="0.1524" layer="91"/>
+<pinref part="R20" gate="G$1" pin="1"/>
+<wire x1="149.86" y1="175.26" x2="152.4" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="L_OUT" class="1">
@@ -2833,17 +2899,14 @@ Source: &lt;a href="https://assets.nexperia.com/documents/data-sheet/BZX79.pdf"&
 <net name="N$1" class="0">
 <segment>
 <wire x1="53.34" y1="167.64" x2="53.34" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="SX3" gate="G$1" pin="9"/>
-<wire x1="35.56" y1="175.26" x2="30.48" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="175.26" x2="22.86" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="175.26" x2="22.86" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="180.34" x2="20.32" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="167.64" x2="30.48" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="167.64" x2="30.48" y2="175.26" width="0.1524" layer="91"/>
-<junction x="30.48" y="175.26"/>
+<wire x1="53.34" y1="167.64" x2="38.1" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="119.38" x2="53.34" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R19" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="175.26" x2="38.1" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="167.64" x2="38.1" y2="175.26" width="0.1524" layer="91"/>
+<junction x="38.1" y="175.26"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -2987,22 +3050,6 @@ Source: &lt;a href="https://assets.nexperia.com/documents/data-sheet/BZX79.pdf"&
 <wire x1="177.8" y1="200.66" x2="180.34" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="0">
-<segment>
-<wire x1="147.32" y1="167.64" x2="147.32" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="1"/>
-<pinref part="SX4" gate="G$1" pin="9"/>
-<wire x1="165.1" y1="175.26" x2="170.18" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="175.26" x2="177.8" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="175.26" x2="177.8" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="180.34" x2="180.34" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="167.64" x2="170.18" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="167.64" x2="170.18" y2="175.26" width="0.1524" layer="91"/>
-<junction x="170.18" y="175.26"/>
-<pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="157.48" y1="119.38" x2="147.32" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="SX2" gate="G$1" pin="2"/>
@@ -3106,6 +3153,37 @@ Source: &lt;a href="https://assets.nexperia.com/documents/data-sheet/BZX79.pdf"&
 <pinref part="Z5" gate="G$1" pin="A"/>
 <pinref part="Z6" gate="G$1" pin="A"/>
 <wire x1="132.08" y1="109.22" x2="132.08" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$43" class="0">
+<segment>
+<pinref part="SX3" gate="G$1" pin="9"/>
+<wire x1="22.86" y1="180.34" x2="20.32" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="25.4" y1="175.26" x2="22.86" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="175.26" x2="22.86" y2="180.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$44" class="0">
+<segment>
+<pinref part="SX4" gate="G$1" pin="9"/>
+<wire x1="177.8" y1="180.34" x2="180.34" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="175.26" x2="177.8" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="175.26" x2="177.8" y2="175.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="R20" gate="G$1" pin="2"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="162.56" y1="175.26" x2="165.1" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="167.64" x2="147.32" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="167.64" x2="162.56" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="157.48" y1="119.38" x2="147.32" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="175.26" x2="162.56" y2="167.64" width="0.1524" layer="91"/>
+<junction x="162.56" y="175.26"/>
 </segment>
 </net>
 </nets>

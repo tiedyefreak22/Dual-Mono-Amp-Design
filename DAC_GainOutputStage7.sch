@@ -1511,8 +1511,8 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 </device>
 </devices>
 </deviceset>
-<deviceset name="MF0207FTE52-698R" urn="urn:adsk.eagle:component:49478903/4" prefix="R" uservalue="yes" library_version="21">
-<description>&lt;b&gt;Metal Film Resistors - Through Hole 698ohm 1% 0.6W Metal Film Resistor&lt;/b&gt;&lt;p&gt;
+<deviceset name="MBB02070C2490FRP00" urn="urn:adsk.eagle:component:49875442/1" prefix="R" uservalue="yes" library_version="27">
+<description>&lt;b&gt;Metal Film Resistors - Through Hole 249ohm 1% 0.6W Metal Film Resistor&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="R" x="5.08" y="0"/>
@@ -1528,10 +1528,10 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Metal Film Resistors - Through Hole 698ohm 1% 0.6W Metal Film Resistor" constant="no"/>
+<attribute name="DESCRIPTION" value="Metal Film Resistors - Through Hole 249ohm 1% 0.6W Metal Film Resistor" constant="no"/>
 <attribute name="HEIGHT" value="mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="YAGEO" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MF0207FTE52-698R" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="VISHAY" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MBB02070C2490FRP00" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
 </technology>
@@ -1539,8 +1539,8 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MFR200FRF52-1K" urn="urn:adsk.eagle:component:49478902/5" prefix="R" uservalue="yes" library_version="21">
-<description>&lt;b&gt;Metal Film Resistors - Through Hole 1K OHM 2W 1%&lt;/b&gt;&lt;p&gt;
+<deviceset name="RWR80S4020FRB12" urn="urn:adsk.eagle:component:49875443/1" prefix="R" uservalue="yes" library_version="27">
+<description>&lt;b&gt;Metal Film Resistors - Through Hole 402 OHM 2W 1%&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="R" x="5.08" y="0"/>
@@ -1556,10 +1556,10 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Metal Film Resistors - Through Hole 1K OHM 2W 1%" constant="no"/>
+<attribute name="DESCRIPTION" value="Metal Film Resistors - Through Hole 402 OHM 2W 1%" constant="no"/>
 <attribute name="HEIGHT" value="mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="YAGEO" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MFR200FRF52-1K" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="VISHAY" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RWR80S4020FRB12" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
 </technology>
@@ -1733,7 +1733,7 @@ Source: &lt;a href="https://www.vishay.com/doc?31021"&gt; Datasheet &lt;/a&gt;</
 <part name="R5" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="CPF215K000FKE14" device="" package3d_urn="urn:adsk.eagle:package:23568/2" value="15k"/>
 <part name="R7" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="LR1F1K0" device="" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k"/>
 <part name="R8" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="LR1F1K0" device="" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k"/>
-<part name="R9" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="MF0207FTE52-698R" device="" package3d_urn="urn:adsk.eagle:package:23491/2" value="698"/>
+<part name="R9" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="MBB02070C2490FRP00" device="" package3d_urn="urn:adsk.eagle:package:23491/2" value="249"/>
 <part name="D1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N4148-T50R" device="" package3d_urn="urn:adsk.eagle:package:48500905/1"/>
 <part name="D2" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N4148-T50R" device="" package3d_urn="urn:adsk.eagle:package:48500905/1"/>
 <part name="D3" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N4148-T50R" device="" package3d_urn="urn:adsk.eagle:package:48500905/1"/>
@@ -1759,7 +1759,7 @@ Source: &lt;a href="https://www.vishay.com/doc?31021"&gt; Datasheet &lt;/a&gt;</
 <part name="R11" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="CPF215K000FKE14" device="" package3d_urn="urn:adsk.eagle:package:23568/2" value="15k"/>
 <part name="R13" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="LR1F1K0" device="" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k"/>
 <part name="R14" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="LR1F1K0" device="" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k"/>
-<part name="R15" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="MF0207FTE52-698R" device="" package3d_urn="urn:adsk.eagle:package:23491/2" value="698"/>
+<part name="R15" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="MBB02070C2490FRP00" device="" package3d_urn="urn:adsk.eagle:package:23491/2" value="249"/>
 <part name="D4" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N4148-T50R" device="" package3d_urn="urn:adsk.eagle:package:48500905/1"/>
 <part name="D5" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N4148-T50R" device="" package3d_urn="urn:adsk.eagle:package:48500905/1"/>
 <part name="D6" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N4148-T50R" device="" package3d_urn="urn:adsk.eagle:package:48500905/1"/>
@@ -1767,8 +1767,8 @@ Source: &lt;a href="https://www.vishay.com/doc?31021"&gt; Datasheet &lt;/a&gt;</
 <part name="AGND19" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="AGND" device=""/>
 <part name="Z3" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N750" device="" package3d_urn="urn:adsk.eagle:package:48500160/1"/>
 <part name="Z4" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N750" device="" package3d_urn="urn:adsk.eagle:package:48500160/1"/>
-<part name="R17" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="MFR200FRF52-1K" device="" package3d_urn="urn:adsk.eagle:package:23577/1" value="1k"/>
-<part name="R18" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="MFR200FRF52-1K" device="" package3d_urn="urn:adsk.eagle:package:23577/1" value="1k"/>
+<part name="R17" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="RWR80S4020FRB12" device="" package3d_urn="urn:adsk.eagle:package:23577/1" value="402"/>
+<part name="R18" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="RWR80S4020FRB12" device="" package3d_urn="urn:adsk.eagle:package:23577/1" value="402"/>
 <part name="R10" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="YR1B76R8CC" device="" package3d_urn="urn:adsk.eagle:package:23491/2" value="76.8"/>
 <part name="R16" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="YR1B76R8CC" device="" package3d_urn="urn:adsk.eagle:package:23491/2" value="76.8"/>
 <part name="R20O1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="LR1F10K" device="" package3d_urn="urn:adsk.eagle:package:23491/2" value="10k"/>

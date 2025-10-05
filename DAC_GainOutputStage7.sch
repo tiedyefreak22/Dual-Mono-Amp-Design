@@ -1368,7 +1368,7 @@ Source: &lt;a href="https://www.onsemi.com/pub/Collateral/1N914-D.PDF"&gt; Datas
 </device>
 </devices>
 </deviceset>
-<deviceset name="LM317MTG" urn="urn:adsk.eagle:component:49539781/1" prefix="IC" library_version="25">
+<deviceset name="LM317MTG" urn="urn:adsk.eagle:component:49539781/2" prefix="IC" library_version="28">
 <description>&lt;b&gt;Internal Short Circuit Current Limiting; Internal Thermal Overload Protection; Output Current in Excess of 500 mA; Output Transistor Safe-Area Compensation; Output Adjustable between 1.2 V and 37 V; Floating Operation for High Voltage Applications; Eliminates Stocking Many Fixed Voltages; Pb-Free Packages are Available; NCV Prefix for Automotive and Other Applications Requiring Site Control Changes&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.onsemi.com/pub/Collateral/LM317M-D.PDF"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1386,7 +1386,7 @@ Source: &lt;a href="https://www.onsemi.com/pub/Collateral/LM317M-D.PDF"&gt; Data
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Internal Short Circuit Current Limiting; Internal Thermal Overload Protection; Output Current in Excess of 500 mA; Output Transistor Safe-Area Compensation; Output Adjustable between 1.2 V and 37 V; Floating Operation for High Voltage Applications; Eliminates Stocking Many Fixed Voltages; Pb-Free Packages are Available; NCV Prefix for Automotive and Other Applications Requiring Site Control Changes" constant="no"/>
+<attribute name="DESCRIPTION" value="Internal Short Circuit Current Limiting, Internal Thermal Overload Protection, Output Current in Excess of 500 mA, Output Transistor Safe-Area Compensation, Output Adjustable between 1.2 V and 37 V, Floating Operation for High Voltage Applications, Pb-Free Packages are Available" constant="no"/>
 <attribute name="HEIGHT" value="4.82mm" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="onsemi" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LM317MTG" constant="no"/>

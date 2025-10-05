@@ -1416,7 +1416,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="6.00059375" y="2.380775" locked="yes" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="U1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="TO254P482X997X2018-3P" package3d_urn="urn:adsk.eagle:package:49539779/1" value="LM317MTG" x="12.9353875" y="48.95290625" locked="yes" smashed="yes">
-<attribute name="DESCRIPTION" value="Internal Short Circuit Current Limiting; Internal Thermal Overload Protection; Output Current in Excess of 500 mA; Output Transistor Safe-Area Compensation; Output Adjustable between 1.2 V and 37 V; Floating Operation for High Voltage Applications; Eliminates Stocking Many Fixed Voltages; Pb-Free Packages are Available; NCV Prefix for Automotive and Other Applications Requiring Site Control Changes" x="12.9353875" y="48.95290625" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Internal Short Circuit Current Limiting, Internal Thermal Overload Protection, Output Current in Excess of 500 mA, Output Transistor Safe-Area Compensation, Output Adjustable between 1.2 V and 37 V, Floating Operation for High Voltage Applications, Pb-Free Packages are Available" x="12.9353875" y="48.95290625" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="4.82mm" x="12.9353875" y="48.95290625" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="onsemi" x="12.9353875" y="48.95290625" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LM317MTG" x="12.9353875" y="48.95290625" locked="yes" size="1.778" layer="27" display="off"/>
@@ -1562,7 +1562,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="103.99940625" y="2.380775" locked="yes" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="U2" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="TO254P482X997X2018-3P" package3d_urn="urn:adsk.eagle:package:49539779/1" value="LM317MTG" x="91.9846125" y="48.95290625" locked="yes" smashed="yes">
-<attribute name="DESCRIPTION" value="Internal Short Circuit Current Limiting; Internal Thermal Overload Protection; Output Current in Excess of 500 mA; Output Transistor Safe-Area Compensation; Output Adjustable between 1.2 V and 37 V; Floating Operation for High Voltage Applications; Eliminates Stocking Many Fixed Voltages; Pb-Free Packages are Available; NCV Prefix for Automotive and Other Applications Requiring Site Control Changes" x="91.9846125" y="48.95290625" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Internal Short Circuit Current Limiting, Internal Thermal Overload Protection, Output Current in Excess of 500 mA, Output Transistor Safe-Area Compensation, Output Adjustable between 1.2 V and 37 V, Floating Operation for High Voltage Applications, Pb-Free Packages are Available" x="91.9846125" y="48.95290625" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="4.82mm" x="91.9846125" y="48.95290625" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="onsemi" x="91.9846125" y="48.95290625" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LM317MTG" x="91.9846125" y="48.95290625" locked="yes" size="1.778" layer="27" display="off"/>

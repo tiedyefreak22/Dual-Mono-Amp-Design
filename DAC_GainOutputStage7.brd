@@ -1648,7 +1648,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="BZX79-C16,113" x="13.5453875" y="-2.969225" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="13.5453875" y="-2.969225" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="13.5453875" y="-2.969225" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="17.5453875" y="-2.969225" locked="yes" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="19.3953875" y="-2.969225" locked="yes" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="13.5453875" y="-2.969225" locked="yes" size="1.27" layer="27" align="center"/>
 </element>
 <element name="Z2" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1165W56L425D185" package3d_urn="urn:adsk.eagle:package:49478898/1" value="" x="40.15" y="-2.969225" locked="yes" smashed="yes" rot="R180">
@@ -1658,7 +1658,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="BZX79-C16,113" x="40.15" y="-2.969225" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="40.15" y="-2.969225" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="40.15" y="-2.969225" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="36.15" y="-2.969225" locked="yes" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="34.3" y="-2.969225" locked="yes" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="40.15" y="-2.969225" locked="yes" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="Z5" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1165W56L425D185" package3d_urn="urn:adsk.eagle:package:49478898/1" value="" x="69.85" y="-2.969225" locked="yes" smashed="yes">
@@ -1668,7 +1668,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="BZX79-C16,113" x="69.85" y="-2.969225" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="69.85" y="-2.969225" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="69.85" y="-2.969225" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="72.85" y="-2.969225" locked="yes" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="75.7" y="-2.969225" locked="yes" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="69.85" y="-2.969225" locked="yes" size="1.27" layer="27" align="center"/>
 </element>
 <element name="Z6" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1165W56L425D185" package3d_urn="urn:adsk.eagle:package:49478898/1" value="" x="96.4546125" y="-2.969225" locked="yes" smashed="yes" rot="R180">
@@ -1678,7 +1678,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="BZX79-C16,113" x="96.4546125" y="-2.969225" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="96.4546125" y="-2.969225" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="96.4546125" y="-2.969225" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="94.4546125" y="-2.969225" locked="yes" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="90.6046125" y="-2.969225" locked="yes" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="96.4546125" y="-2.969225" locked="yes" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="R19" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="15k" x="31.38" y="55.697190625" locked="yes" smashed="yes">
@@ -1892,10 +1892,10 @@ design rules under a new name.</description>
 <wire x1="68.764946875" y1="29.389921875" x2="71.512046875" y2="32.137021875" width="2.54" layer="16" locked="yes"/>
 <wire x1="75.04758125" y1="33.6014875" x2="71.512046875" y2="32.137021875" width="2.54" layer="16" curve="45" locked="yes"/>
 <wire x1="75.04758125" y1="33.6014875" x2="98.321903125" y2="33.6014875" width="2.54" layer="16" locked="yes"/>
-<wire x1="55" y1="86.92893125" x2="55" y2="71.048578125" width="2.54" layer="16" locked="yes"/>
-<wire x1="55" y1="71.048578125" x2="55" y2="60.5" width="2.54" layer="16" locked="yes"/>
+<wire x1="55" y1="86.92893125" x2="55" y2="71.048578125" width="5.08" layer="16" locked="yes"/>
+<wire x1="55" y1="71.048578125" x2="55" y2="60.5" width="5.08" layer="16" locked="yes"/>
 <wire x1="64.595096875" y1="29.799971875" x2="55" y2="29.799971875" width="2.54" layer="16" locked="yes"/>
-<wire x1="55" y1="29.8" x2="55" y2="60.5" width="2.54" layer="16" locked="yes"/>
+<wire x1="55" y1="29.8" x2="55" y2="60.5" width="5.08" layer="16" locked="yes"/>
 <wire x1="45.4049" y1="29.8" x2="55" y2="29.8" width="2.54" layer="16" locked="yes"/>
 <wire x1="55" y1="29.8" x2="55" y2="29.799971875" width="2.54" layer="16" locked="yes"/>
 </signal>

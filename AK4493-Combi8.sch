@@ -1011,6 +1011,17 @@ type 0411, grid 15 mm</description>
 <wire x1="-3.2" y1="0" x2="-3.2" y2="0" width="0.2" layer="21"/>
 <wire x1="-3.2" y1="0" x2="-3.1" y2="0" width="0.2" layer="21" curve="180"/>
 </package>
+<package name="SHORT_ALL-50" urn="urn:adsk.eagle:footprint:47621551/1" library_version="33">
+<description>Short, all layers, 50mil width</description>
+<rectangle x1="-0.254" y1="0.381" x2="0.254" y2="0.635" layer="1"/>
+<rectangle x1="-0.254" y1="-0.635" x2="0.254" y2="-0.381" layer="1"/>
+<rectangle x1="-0.254" y1="0.381" x2="0.254" y2="0.635" layer="16"/>
+<rectangle x1="-0.254" y1="-0.635" x2="0.254" y2="-0.381" layer="16"/>
+<pad name="1" x="-0.635" y="0" drill="0.7366" diameter="1.524"/>
+<pad name="2" x="0.635" y="0" drill="0.7366" diameter="1.524"/>
+<text x="-1.7145" y="-2.2225" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="0.381" y="-0.889" size="0.762" layer="51" ratio="10" rot="R90">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="MKP4G034705D00KSSD" urn="urn:adsk.eagle:package:47621660/1" type="box" library_version="3">
@@ -1074,6 +1085,12 @@ type 0411, grid 15 mm</description>
 <description>&lt;b&gt;1935239-1&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="1935239"/>
+</packageinstances>
+</package3d>
+<package3d name="SHORT_ALL-50" urn="urn:adsk.eagle:package:47621621/1" type="box" library_version="33">
+<description>Short, all layers, 50mil width</description>
+<packageinstances>
+<packageinstance name="SHORT_ALL-50"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1223,6 +1240,12 @@ type 0411, grid 15 mm</description>
 <wire x1="0" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
 <pin name="DGND/2" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 <text x="-2.667" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="SHORT-H" urn="urn:adsk.eagle:symbol:47621498/1" library_version="33">
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.508" layer="94"/>
+<pin name="P$1" x="-2.54" y="0" visible="off" length="point" swaplevel="1"/>
+<pin name="P$2" x="2.54" y="0" visible="off" length="point" swaplevel="1"/>
+<text x="-2.2225" y="1.27" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1778,6 +1801,29 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <device name="">
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SHORT" urn="urn:adsk.eagle:component:47621700/1" prefix="SH" library_version="33">
+<description>Short between two nets</description>
+<gates>
+<gate name="G$1" symbol="SHORT-H" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="A5" package="SHORT_ALL-50">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47621621/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="No" constant="no"/>
+<attribute name="DESCRIPTION" value="Short between two nets" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -6688,6 +6734,12 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/977/e_HXW-1600623.pdf"&gt
 <part name="U$19" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="66.3VAC/BRN/1" device=""/>
 <part name="U$20" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="66.3VAC/ORG/1" device=""/>
 <part name="J1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1935239" device="" package3d_urn="urn:adsk.eagle:package:50748024/1"/>
+<part name="SH1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="SHORT" device="A5" package3d_urn="urn:adsk.eagle:package:47621621/1"/>
+<part name="SH2" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="SHORT" device="A5" package3d_urn="urn:adsk.eagle:package:47621621/1"/>
+<part name="SUPPLY5" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="DGND/1" device=""/>
+<part name="AGND2" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="AGND/1" device=""/>
+<part name="AGND20" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="AGND/2" device=""/>
+<part name="SUPPLY6" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="DGND/2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7264,6 +7316,24 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/977/e_HXW-1600623.pdf"&gt
 <instance part="J1" gate="G$1" x="-172.72" y="203.2" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-165.1" y="219.71" size="1.778" layer="95" rot="MR90" align="center-left"/>
 <attribute name="VALUE" x="-167.64" y="219.71" size="1.778" layer="96" rot="MR90" align="center-left"/>
+</instance>
+<instance part="SH1" gate="G$1" x="-157.48" y="73.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="-158.75" y="71.4375" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="SH2" gate="G$1" x="157.48" y="73.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="156.21" y="71.4375" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="SUPPLY5" gate="G$1" x="-157.48" y="66.04" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="-154.813" y="62.865" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="AGND2" gate="G$1" x="-157.48" y="81.28" smashed="yes" rot="MR180">
+<attribute name="VALUE" x="-165.1" y="86.36" size="1.778" layer="96" rot="MR270"/>
+</instance>
+<instance part="AGND20" gate="G$1" x="157.48" y="81.28" smashed="yes" rot="R180">
+<attribute name="VALUE" x="160.02" y="86.36" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SUPPLY6" gate="G$1" x="157.48" y="66.04" smashed="yes">
+<attribute name="VALUE" x="154.813" y="62.865" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -8229,6 +8299,11 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/977/e_HXW-1600623.pdf"&gt
 <pinref part="J13" gate="J1" pin="5"/>
 <wire x1="-58.42" y1="78.74" x2="-58.42" y2="66.04" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SH1" gate="G$1" pin="P$2"/>
+<pinref part="AGND2" gate="G$1" pin="AGND/1"/>
+<wire x1="-157.48" y1="78.74" x2="-157.48" y2="76.2" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="AGND/2" class="0">
 <segment>
@@ -8302,6 +8377,11 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/977/e_HXW-1600623.pdf"&gt
 <wire x1="35.56" y1="170.18" x2="35.56" y2="172.72" width="0.1524" layer="91"/>
 <junction x="35.56" y="172.72"/>
 </segment>
+<segment>
+<pinref part="SH2" gate="G$1" pin="P$2"/>
+<pinref part="AGND20" gate="G$1" pin="AGND/2"/>
+<wire x1="157.48" y1="78.74" x2="157.48" y2="76.2" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="DGND/2" class="0">
 <segment>
@@ -8347,6 +8427,11 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/977/e_HXW-1600623.pdf"&gt
 <pinref part="C7P" gate="G$1" pin="-"/>
 <wire x1="193.04" y1="60.96" x2="182.88" y2="60.96" width="0.1524" layer="91"/>
 <junction x="182.88" y="60.96"/>
+</segment>
+<segment>
+<pinref part="SH2" gate="G$1" pin="P$1"/>
+<pinref part="SUPPLY6" gate="G$1" pin="DGND/2"/>
+<wire x1="157.48" y1="68.58" x2="157.48" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="66.3VAC/BRN/1" class="0">
@@ -8505,6 +8590,11 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/977/e_HXW-1600623.pdf"&gt
 <pinref part="SUPPLY4" gate="G$1" pin="DGND/1"/>
 <wire x1="-132.08" y1="152.4" x2="-134.62" y2="152.4" width="0.1524" layer="91"/>
 <junction x="-134.62" y="152.4"/>
+</segment>
+<segment>
+<pinref part="SH1" gate="G$1" pin="P$1"/>
+<pinref part="SUPPLY5" gate="G$1" pin="DGND/1"/>
+<wire x1="-157.48" y1="68.58" x2="-157.48" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="6.3_VAC_GRN/1" class="0">

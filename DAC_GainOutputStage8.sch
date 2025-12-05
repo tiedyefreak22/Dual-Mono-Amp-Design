@@ -413,28 +413,6 @@ Source: 00004280-VT9-PT.pdf</description>
 <text x="11.43" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 <text x="4.445" y="6.35" size="1.016" layer="21" font="vector" rot="SR324">1</text>
 </package>
-<package name="DCP4G053006ID2KSSD">
-<description>&lt;b&gt;DCP4G053006ID2KSSD-1&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="1" diameter="1.5" shape="square"/>
-<pad name="2" x="27.5" y="0" drill="1" diameter="1.5"/>
-<text x="13.75" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="13.75" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2" y1="-8.5" x2="29.5" y2="-8.5" width="0.1" layer="51"/>
-<wire x1="29.5" y1="-8.5" x2="29.5" y2="8.5" width="0.1" layer="51"/>
-<wire x1="29.5" y1="8.5" x2="-2" y2="8.5" width="0.1" layer="51"/>
-<wire x1="-2" y1="8.5" x2="-2" y2="-8.5" width="0.1" layer="51"/>
-<wire x1="-2" y1="8.5" x2="29.5" y2="8.5" width="0.2" layer="21"/>
-<wire x1="29.5" y1="8.5" x2="29.5" y2="-8.5" width="0.2" layer="21"/>
-<wire x1="29.5" y1="-8.5" x2="-2" y2="-8.5" width="0.2" layer="21"/>
-<wire x1="-2" y1="-8.5" x2="-2" y2="8.5" width="0.2" layer="21"/>
-<wire x1="-3" y1="9.5" x2="30.5" y2="9.5" width="0.1" layer="51"/>
-<wire x1="30.5" y1="9.5" x2="30.5" y2="-9.5" width="0.1" layer="51"/>
-<wire x1="30.5" y1="-9.5" x2="-3" y2="-9.5" width="0.1" layer="51"/>
-<wire x1="-3" y1="-9.5" x2="-3" y2="9.5" width="0.1" layer="51"/>
-<wire x1="-2.6" y1="0" x2="-2.5" y2="0" width="0.1" layer="21" curve="180"/>
-<wire x1="-2.5" y1="0" x2="-2.6" y2="0" width="0.1" layer="21" curve="180"/>
-</package>
 <package name="MKS4B031002A00JC00">
 <description>&lt;b&gt;MKS4B031002A00JC00-2&lt;/b&gt;&lt;br&gt;
 </description>
@@ -774,33 +752,6 @@ Source: 00004280-VT9-PT.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="DCP4G053006ID2KSSD" prefix="C" library_version="1">
-<description>&lt;b&gt;Film Capacitors DC-LINK MKP 4 30.0 uF 400 VDC 17x34.5x31.5 PCM 27.5&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.wima.de/wp-content/uploads/media/e_WIMA_DC_Link_MKP_4.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="C-EU" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DCP4G053006ID2KSSD">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="ARROW_PART_NUMBER" value="" constant="no"/>
-<attribute name="ARROW_PRICE-STOCK" value="" constant="no"/>
-<attribute name="DESCRIPTION" value="Film Capacitors DC-LINK MKP 4 30.0 uF 400 VDC 17x34.5x31.5 PCM 27.5" constant="no"/>
-<attribute name="HEIGHT" value="34.5mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="WIMA" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="DCP4G053006ID2KSSD" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="505-DCP4G0536ID2KSSD" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/WIMA/DCP4G053006ID2KSSD?qs=RB4whv9F6rwxZ2Ey0tRejg%3D%3D" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -1160,6 +1111,34 @@ type 0411, grid 15 mm</description>
 <wire x1="0.925" y1="0" x2="3.725" y2="0" width="0.2" layer="21"/>
 <wire x1="7.975" y1="0" x2="10.775" y2="0" width="0.2" layer="21"/>
 </package>
+<package name="DCP4G056007GD4KSSD" urn="urn:adsk.eagle:footprint:50745977/1" library_version="29">
+<description>&lt;b&gt;DCP4G056007GD4KSSD-4&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1.2" diameter="1.8"/>
+<pad name="2" x="37.5" y="0" drill="1.2" diameter="1.8"/>
+<pad name="3" x="37.5" y="12.5" drill="1.2" diameter="1.8"/>
+<pad name="4" x="0" y="12.5" drill="1.2" diameter="1.8"/>
+<text x="18.75" y="6.25" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="18.75" y="6.25" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2" y1="-3.75" x2="39.5" y2="-3.75" width="0.2" layer="51"/>
+<wire x1="39.5" y1="-3.75" x2="39.5" y2="16.25" width="0.2" layer="51"/>
+<wire x1="39.5" y1="16.25" x2="-2" y2="16.25" width="0.2" layer="51"/>
+<wire x1="-2" y1="16.25" x2="-2" y2="-3.75" width="0.2" layer="51"/>
+<wire x1="-2" y1="16.25" x2="39.5" y2="16.25" width="0.1" layer="21"/>
+<wire x1="39.5" y1="16.25" x2="39.5" y2="-3.75" width="0.1" layer="21"/>
+<wire x1="39.5" y1="-3.75" x2="-2" y2="-3.75" width="0.1" layer="21"/>
+<wire x1="-2" y1="-3.75" x2="-2" y2="16.25" width="0.1" layer="21"/>
+<wire x1="-3" y1="17.25" x2="40.5" y2="17.25" width="0.1" layer="51"/>
+<wire x1="40.5" y1="17.25" x2="40.5" y2="-4.75" width="0.1" layer="51"/>
+<wire x1="40.5" y1="-4.75" x2="-3" y2="-4.75" width="0.1" layer="51"/>
+<wire x1="-3" y1="-4.75" x2="-3" y2="17.25" width="0.1" layer="51"/>
+<wire x1="-2.7" y1="0" x2="-2.7" y2="0" width="0.2" layer="21"/>
+<wire x1="-2.7" y1="0" x2="-2.6" y2="0" width="0.2" layer="21" curve="180"/>
+<wire x1="-2.6" y1="0" x2="-2.6" y2="0" width="0.2" layer="21"/>
+<wire x1="-2.6" y1="0" x2="-2.7" y2="0" width="0.2" layer="21" curve="180"/>
+<wire x1="-2.7" y1="0" x2="-2.7" y2="0" width="0.2" layer="21"/>
+<wire x1="-2.7" y1="0" x2="-2.6" y2="0" width="0.2" layer="21" curve="180"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="MKP4G034705D00KSSD" urn="urn:adsk.eagle:package:47621660/1" type="box" library_version="3">
@@ -1211,6 +1190,12 @@ type 0411, grid 15 mm</description>
 <description>&lt;b&gt;DO-35&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="DIOAD1165W56L425D185"/>
+</packageinstances>
+</package3d>
+<package3d name="DCP4G056007GD4KSSD" urn="urn:adsk.eagle:package:50745978/1" type="box" library_version="29">
+<description>&lt;b&gt;DCP4G056007GD4KSSD-4&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="DCP4G056007GD4KSSD"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1651,70 +1636,21 @@ Source: &lt;a href="https://www.vishay.com/doc?31021"&gt; Datasheet &lt;/a&gt;</
 </device>
 </devices>
 </deviceset>
-</devicesets>
-</library>
-<library name="DCP4G056007GD4KSSD">
-<description>&lt;Metallized Polypropylene Capacitor&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="DCP4G056007GD4KSSD">
-<description>&lt;b&gt;DCP4G056007GD4KSSD-4&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="1.2" diameter="1.8"/>
-<pad name="2" x="37.5" y="0" drill="1.2" diameter="1.8"/>
-<pad name="3" x="37.5" y="12.5" drill="1.2" diameter="1.8"/>
-<pad name="4" x="0" y="12.5" drill="1.2" diameter="1.8"/>
-<text x="18.75" y="6.25" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="18.75" y="6.25" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2" y1="-3.75" x2="39.5" y2="-3.75" width="0.2" layer="51"/>
-<wire x1="39.5" y1="-3.75" x2="39.5" y2="16.25" width="0.2" layer="51"/>
-<wire x1="39.5" y1="16.25" x2="-2" y2="16.25" width="0.2" layer="51"/>
-<wire x1="-2" y1="16.25" x2="-2" y2="-3.75" width="0.2" layer="51"/>
-<wire x1="-2" y1="16.25" x2="39.5" y2="16.25" width="0.1" layer="21"/>
-<wire x1="39.5" y1="16.25" x2="39.5" y2="-3.75" width="0.1" layer="21"/>
-<wire x1="39.5" y1="-3.75" x2="-2" y2="-3.75" width="0.1" layer="21"/>
-<wire x1="-2" y1="-3.75" x2="-2" y2="16.25" width="0.1" layer="21"/>
-<wire x1="-3" y1="17.25" x2="40.5" y2="17.25" width="0.1" layer="51"/>
-<wire x1="40.5" y1="17.25" x2="40.5" y2="-4.75" width="0.1" layer="51"/>
-<wire x1="40.5" y1="-4.75" x2="-3" y2="-4.75" width="0.1" layer="51"/>
-<wire x1="-3" y1="-4.75" x2="-3" y2="17.25" width="0.1" layer="51"/>
-<wire x1="-2.7" y1="0" x2="-2.7" y2="0" width="0.2" layer="21"/>
-<wire x1="-2.7" y1="0" x2="-2.6" y2="0" width="0.2" layer="21" curve="180"/>
-<wire x1="-2.6" y1="0" x2="-2.6" y2="0" width="0.2" layer="21"/>
-<wire x1="-2.6" y1="0" x2="-2.7" y2="0" width="0.2" layer="21" curve="180"/>
-<wire x1="-2.7" y1="0" x2="-2.7" y2="0" width="0.2" layer="21"/>
-<wire x1="-2.7" y1="0" x2="-2.6" y2="0" width="0.2" layer="21" curve="180"/>
-</package>
-</packages>
-<symbols>
-<symbol name="DCP4G056007GD4KSSD">
-<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-5.08" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="-2.54" length="middle"/>
-<pin name="2" x="20.32" y="-2.54" length="middle" rot="R180"/>
-<pin name="3" x="20.32" y="0" length="middle" rot="R180"/>
-<pin name="4" x="0" y="0" length="middle"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="DCP4G056007GD4KSSD" prefix="C">
+<deviceset name="DCP4G056007GD4KSSD" urn="urn:adsk.eagle:component:50745979/1" prefix="C" library_version="29">
 <description>&lt;b&gt;Metallized Polypropylene Capacitor&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.mouser.in/datasheet/2/440/e_WIMA_DC_Link_MKP_4-1139924.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="DCP4G056007GD4KSSD" x="0" y="0"/>
+<gate name="G$1" symbol="C-EU" x="0" y="-2.54"/>
 </gates>
 <devices>
 <device name="" package="DCP4G056007GD4KSSD">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="1" pad="1 4"/>
+<connect gate="G$1" pin="2" pad="2 3"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:50745978/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Metallized Polypropylene Capacitor" constant="no"/>
@@ -1752,7 +1688,7 @@ Source: &lt;a href="https://www.mouser.in/datasheet/2/440/e_WIMA_DC_Link_MKP_4-1
 <part name="J1" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="1935190" device=""/>
 <part name="SX1" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="VT9" device="-PT" package3d_urn="urn:adsk.eagle:package:4683/1"/>
 <part name="U$8" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="+240VDC" device=""/>
-<part name="C21O" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="DCP4G053006ID2KSSD" device="" value="30uF/400V"/>
+<part name="C21O" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="DCP4G056007GD4KSSD" device="" package3d_urn="urn:adsk.eagle:package:50745978/1" value="30uF/400V"/>
 <part name="AGND3" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="AGND" device=""/>
 <part name="U$9" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="66.3VAC/1" device=""/>
 <part name="U$10" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="66.3VAC/2" device=""/>
@@ -1818,7 +1754,7 @@ Source: &lt;a href="https://www.mouser.in/datasheet/2/440/e_WIMA_DC_Link_MKP_4-1
 <part name="AGND18" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="AGND" device=""/>
 <part name="SX2" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="VT9" device="-PT" package3d_urn="urn:adsk.eagle:package:4683/1"/>
 <part name="U$3" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="+240VDC" device=""/>
-<part name="C21O1" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="DCP4G053006ID2KSSD" device="" value="30uF/400V"/>
+<part name="C21O1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="DCP4G056007GD4KSSD" device="" package3d_urn="urn:adsk.eagle:package:50745978/1" value="30uF/400V"/>
 <part name="AGND1" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="AGND" device=""/>
 <part name="U$4" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="66.3VAC/1" device=""/>
 <part name="U$7" library="Dual Mono Amp Library" library_urn="urn:adsk.wipprod:fs.file:vf.VjdQUjkvQKmMNRW9J90YWw" deviceset="66.3VAC/2" device=""/>
@@ -1856,8 +1792,6 @@ Source: &lt;a href="https://www.mouser.in/datasheet/2/440/e_WIMA_DC_Link_MKP_4-1
 <part name="Z6" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="BZX79-C16,113" device="" package3d_urn="urn:adsk.eagle:package:49478898/1"/>
 <part name="R19" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="CPF215K000FKE14" device="" package3d_urn="urn:adsk.eagle:package:23568/2" value="15k"/>
 <part name="R20" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="CPF215K000FKE14" device="" package3d_urn="urn:adsk.eagle:package:23568/2" value="15k"/>
-<part name="C5" library="DCP4G056007GD4KSSD" deviceset="DCP4G056007GD4KSSD" device=""/>
-<part name="C6" library="DCP4G056007GD4KSSD" deviceset="DCP4G056007GD4KSSD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2275,14 +2209,6 @@ Source: &lt;a href="https://www.mouser.in/datasheet/2/440/e_WIMA_DC_Link_MKP_4-1
 <instance part="R20" gate="G$1" x="162.56" y="175.26" smashed="yes">
 <attribute name="NAME" x="158.75" y="176.7586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="158.75" y="171.958" size="1.778" layer="96"/>
-</instance>
-<instance part="C5" gate="G$1" x="60.96" y="81.28" smashed="yes">
-<attribute name="NAME" x="77.47" y="88.9" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="77.47" y="86.36" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="C6" gate="G$1" x="111.76" y="81.28" smashed="yes">
-<attribute name="NAME" x="128.27" y="88.9" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="128.27" y="86.36" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>

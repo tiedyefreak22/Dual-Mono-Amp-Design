@@ -196,9 +196,9 @@
 <board>
 <plain>
 <wire x1="118.68856875" y1="0" x2="118.68856875" y2="68.735" width="0" layer="20"/>
-<wire x1="118.68856875" y1="68.735" x2="97.42356875" y2="90" width="0" layer="20"/>
-<wire x1="97.42356875" y1="90" x2="97.42356875" y2="160.6" width="0" layer="20"/>
-<wire x1="97.42356875" y1="160.6" x2="56" y2="160.6" width="0" layer="20"/>
+<wire x1="118.68856875" y1="68.735" x2="89.13856875" y2="98.285" width="0" layer="20"/>
+<wire x1="89.13856875" y1="98.285" x2="89.13856875" y2="160.6" width="0" layer="20"/>
+<wire x1="89.13856875" y1="160.6" x2="56" y2="160.6" width="0" layer="20"/>
 <wire x1="56" y1="160.6" x2="56" y2="118.3" width="0" layer="20"/>
 <wire x1="56" y1="118.3" x2="-56" y2="118.3" width="0" layer="20"/>
 <text x="74.68856875" y="1.3" size="1.778" layer="26" rot="MR90" align="center-left">6.3 VAC BRN</text>
@@ -210,9 +210,9 @@
 <text x="104.68856875" y="1.3" size="1.778" layer="26" rot="MR90" align="center-left">6.3 VAC BLU</text>
 <wire x1="118.68856875" y1="0" x2="-118.68856875" y2="0" width="0" layer="20"/>
 <wire x1="-118.68856875" y1="0" x2="-118.68856875" y2="68.735" width="0" layer="20"/>
-<wire x1="-118.68856875" y1="68.735" x2="-97.42356875" y2="90" width="0" layer="20"/>
-<wire x1="-97.42356875" y1="90" x2="-97.42356875" y2="160.6" width="0" layer="20"/>
-<wire x1="-97.42356875" y1="160.6" x2="-56" y2="160.6" width="0" layer="20"/>
+<wire x1="-118.68856875" y1="68.735" x2="-89.13856875" y2="98.285" width="0" layer="20"/>
+<wire x1="-89.13856875" y1="98.285" x2="-89.13856875" y2="160.6" width="0" layer="20"/>
+<wire x1="-89.13856875" y1="160.6" x2="-56" y2="160.6" width="0" layer="20"/>
 <wire x1="-56" y1="160.6" x2="-56" y2="118.3" width="0" layer="20"/>
 </plain>
 <libraries>
@@ -3149,22 +3149,22 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/1N4007FFG?qs=y2kkmE52mdPFE87Rxbyfgw%3D%3D" x="100.31356875" y="10.2" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R2P" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="220" x="67.18856875" y="23.415" smashed="yes" rot="R270">
-<attribute name="NAME" x="67.18856875" y="23.415" size="1.778" layer="25" ratio="10" rot="R270" align="center"/>
+<attribute name="NAME" x="67.18856875" y="23.415" size="1.27" layer="25" rot="R270" align="center"/>
 <attribute name="POPULARITY" value="2" x="67.18856875" y="23.415" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="67.18856875" y="23.415" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R3P" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="220" x="60.444284375" y="23.415" smashed="yes" rot="R90">
-<attribute name="NAME" x="60.444284375" y="23.415" size="1.778" layer="25" ratio="10" rot="R90" align="center"/>
+<attribute name="NAME" x="60.444284375" y="23.415" size="1.27" layer="25" rot="R90" align="center"/>
 <attribute name="POPULARITY" value="2" x="60.444284375" y="23.415" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="60.444284375" y="23.415" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R4P" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="300k" x="60.444284375" y="56.915" smashed="yes" rot="R90">
-<attribute name="NAME" x="60.444284375" y="56.915" size="1.778" layer="25" ratio="10" rot="R90" align="center"/>
+<attribute name="NAME" x="60.444284375" y="56.915" size="1.27" layer="25" rot="R90" align="center"/>
 <attribute name="POPULARITY" value="2" x="60.444284375" y="56.915" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="60.444284375" y="56.915" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R5P" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="100k" x="67.18856875" y="56.915" smashed="yes" rot="R270">
-<attribute name="NAME" x="67.18856875" y="56.915" size="1.778" layer="25" ratio="10" rot="R270" align="center"/>
+<attribute name="NAME" x="67.18856875" y="56.915" size="1.27" layer="25" rot="R270" align="center"/>
 <attribute name="POPULARITY" value="2" x="67.18856875" y="56.915" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="67.18856875" y="56.915" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -3177,7 +3177,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="100.31356875" y="21.23" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="100.31356875" y="21.23" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="100.31356875" y="21.23" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="96.56356875" y="21.23" size="1.778" layer="25" ratio="10" rot="R180" align="center"/>
+<attribute name="NAME" x="96.56356875" y="21.23" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="C2P" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="83.56356875" y="21.23" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="" x="83.56356875" y="21.23" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3188,7 +3188,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="83.56356875" y="21.23" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="83.56356875" y="21.23" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="83.56356875" y="21.23" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="79.81356875" y="21.23" size="1.778" layer="25" ratio="10" rot="R180" align="center"/>
+<attribute name="NAME" x="79.81356875" y="21.23" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="C3P" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="76.06356875" y="59.1" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="76.06356875" y="59.1" size="1.778" layer="27" display="off"/>
@@ -3199,10 +3199,10 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="76.06356875" y="59.1" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="76.06356875" y="59.1" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="76.06356875" y="59.1" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="79.81356875" y="59.1" size="1.778" layer="25" ratio="10" align="center"/>
+<attribute name="NAME" x="79.81356875" y="59.1" size="1.27" layer="25" align="center"/>
 </element>
 <element name="R6P" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="330" x="88.18856875" y="31.79" smashed="yes">
-<attribute name="NAME" x="88.18856875" y="31.79" size="1.778" layer="25" ratio="10" align="center"/>
+<attribute name="NAME" x="88.18856875" y="31.79" size="1.27" layer="25" align="center"/>
 <attribute name="POPULARITY" value="2" x="88.18856875" y="31.79" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="88.18856875" y="31.79" size="1.778" layer="27" display="off"/>
 </element>
@@ -3213,7 +3213,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="UCY2E220MPD1TD" x="61.316425" y="40.165" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="647-UCY2E220MPD1TD" x="61.316425" y="40.165" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UCY2E220MPD1TD?qs=JgOBn5pVFooNXIGMeLbPFg%3D%3D" x="61.316425" y="40.165" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="63.816425" y="40.165" size="1.778" layer="25" align="center"/>
+<attribute name="NAME" x="63.816425" y="40.165" size="1.27" layer="25" align="center"/>
 </element>
 <element name="C5P" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="100.31356875" y="59.1" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="" x="100.31356875" y="59.1" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3224,7 +3224,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="100.31356875" y="59.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="100.31356875" y="59.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="100.31356875" y="59.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="96.56356875" y="59.1" size="1.778" layer="25" align="center"/>
+<attribute name="NAME" x="96.56356875" y="59.1" size="1.27" layer="25" align="center"/>
 </element>
 <element name="C6P" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="100.31356875" y="42.35" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="" x="100.31356875" y="42.35" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3235,7 +3235,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="100.31356875" y="42.35" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="100.31356875" y="42.35" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="100.31356875" y="42.35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="96.56356875" y="42.35" size="1.778" layer="25" align="center"/>
+<attribute name="NAME" x="96.56356875" y="42.35" size="1.27" layer="25" align="center"/>
 </element>
 <element name="C7P" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="76.06356875" y="42.35" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="76.06356875" y="42.35" size="1.778" layer="27" display="off"/>
@@ -3246,13 +3246,12 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="76.06356875" y="42.35" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="76.06356875" y="42.35" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="76.06356875" y="42.35" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="79.81356875" y="42.35" size="1.778" layer="25" align="center"/>
+<attribute name="NAME" x="79.81356875" y="42.35" size="1.27" layer="25" align="center"/>
 </element>
-<element name="SH2" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="SHORT_ALL-50" package3d_urn="urn:adsk.eagle:package:47621621/1" value="SHORTA5" x="-53" y="-98" smashed="yes">
-<attribute name="BOM" value="No" x="-53" y="-98" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Short between two nets" x="-53" y="-98" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-54.7145" y="-100.2225" size="1.27" layer="25" ratio="16"/>
-<attribute name="NAME" x="-52.619" y="-98.889" size="0.762" layer="51" ratio="10" rot="R90"/>
+<element name="SH2" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="SHORT_ALL-50" package3d_urn="urn:adsk.eagle:package:47621621/1" value="SHORTA5" x="59" y="3" smashed="yes" rot="R180">
+<attribute name="BOM" value="No" x="59" y="3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="Short between two nets" x="59" y="3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="58.619" y="3.889" size="0.762" layer="51" ratio="10" rot="R270"/>
 </element>
 <element name="R6B" library="Dual Mono Amp Library" package="RESC2012X60N" value="1k" x="18.891975" y="182.717928125" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" value="BOURNS - CHP0805-FX-1001ELF - SMD Chip Resistor, 0805 [2012 Metric], 1 kohm, CHP Series, 200 V, Thick Film, 500 mW" x="18.891975" y="182.717928125" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3535,112 +3534,112 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/EMK212ABJ475KG-T?qs=Va%252BXcMGJzEtDqSLhA2RQmA%3D%3D" x="-70" y="-112" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-43" y="-109" size="1.27" layer="25" align="center"/>
 </element>
-<element name="D11" library="1N4007FFG" package="DIOAD1405W86L465D235" value="1N4007FFG" x="77.31356875" y="72.935" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="Rectifiers 1000V 1A Standard" x="79.31356875" y="3.935" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="mm" x="79.31356875" y="3.935" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="onsemi" x="79.31356875" y="3.935" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="1N4007FFG" x="79.31356875" y="3.935" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="863-1N4007FFG" x="79.31356875" y="3.935" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/1N4007FFG?qs=y2kkmE52mdPFE87Rxbyfgw%3D%3D" x="79.31356875" y="3.935" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="70.26356875" y="72.935" size="1.27" layer="25" rot="R180" align="center"/>
+<element name="D11" library="1N4007FFG" package="DIOAD1405W86L465D235" value="1N4007FFG" x="74.544284375" y="72.935" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Rectifiers 1000V 1A Standard" x="76.544284375" y="3.935" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="mm" x="76.544284375" y="3.935" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="onsemi" x="76.544284375" y="3.935" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1N4007FFG" x="76.544284375" y="3.935" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="863-1N4007FFG" x="76.544284375" y="3.935" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/1N4007FFG?qs=y2kkmE52mdPFE87Rxbyfgw%3D%3D" x="76.544284375" y="3.935" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="67.494284375" y="72.935" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="D12" library="1N4007FFG" package="DIOAD1405W86L465D235" value="1N4007FFG" x="77.31356875" y="78.935" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="Rectifiers 1000V 1A Standard" x="101.31356875" y="13.935" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="mm" x="101.31356875" y="13.935" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="onsemi" x="101.31356875" y="13.935" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="1N4007FFG" x="101.31356875" y="13.935" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="863-1N4007FFG" x="101.31356875" y="13.935" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/1N4007FFG?qs=y2kkmE52mdPFE87Rxbyfgw%3D%3D" x="101.31356875" y="13.935" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="70.26356875" y="78.935" size="1.27" layer="25" rot="R180" align="center"/>
+<element name="D12" library="1N4007FFG" package="DIOAD1405W86L465D235" value="1N4007FFG" x="74.544284375" y="78.935" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Rectifiers 1000V 1A Standard" x="98.544284375" y="13.935" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="mm" x="98.544284375" y="13.935" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="onsemi" x="98.544284375" y="13.935" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1N4007FFG" x="98.544284375" y="13.935" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="863-1N4007FFG" x="98.544284375" y="13.935" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/1N4007FFG?qs=y2kkmE52mdPFE87Rxbyfgw%3D%3D" x="98.544284375" y="13.935" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="67.494284375" y="78.935" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="D13" library="1N4007FFG" package="DIOAD1405W86L465D235" value="1N4007FFG" x="100.31356875" y="78.935" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="Rectifiers 1000V 1A Standard" x="104.31356875" y="13.935" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="mm" x="104.31356875" y="13.935" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="onsemi" x="104.31356875" y="13.935" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="1N4007FFG" x="104.31356875" y="13.935" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="863-1N4007FFG" x="104.31356875" y="13.935" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/1N4007FFG?qs=y2kkmE52mdPFE87Rxbyfgw%3D%3D" x="104.31356875" y="13.935" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="93.26356875" y="78.935" size="1.27" layer="25" rot="R180" align="center"/>
+<element name="D13" library="1N4007FFG" package="DIOAD1405W86L465D235" value="1N4007FFG" x="97.544284375" y="78.935" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Rectifiers 1000V 1A Standard" x="101.544284375" y="13.935" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="mm" x="101.544284375" y="13.935" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="onsemi" x="101.544284375" y="13.935" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1N4007FFG" x="101.544284375" y="13.935" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="863-1N4007FFG" x="101.544284375" y="13.935" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/1N4007FFG?qs=y2kkmE52mdPFE87Rxbyfgw%3D%3D" x="101.544284375" y="13.935" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="90.494284375" y="78.935" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="D14" library="1N4007FFG" package="DIOAD1405W86L465D235" value="1N4007FFG" x="100.31356875" y="72.935" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="Rectifiers 1000V 1A Standard" x="126.31356875" y="11.935" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="mm" x="126.31356875" y="11.935" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="onsemi" x="126.31356875" y="11.935" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="1N4007FFG" x="126.31356875" y="11.935" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="863-1N4007FFG" x="126.31356875" y="11.935" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/1N4007FFG?qs=y2kkmE52mdPFE87Rxbyfgw%3D%3D" x="126.31356875" y="11.935" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="93.26356875" y="72.935" size="1.27" layer="25" rot="R180" align="center"/>
+<element name="D14" library="1N4007FFG" package="DIOAD1405W86L465D235" value="1N4007FFG" x="97.544284375" y="72.935" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Rectifiers 1000V 1A Standard" x="123.544284375" y="11.935" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="mm" x="123.544284375" y="11.935" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="onsemi" x="123.544284375" y="11.935" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1N4007FFG" x="123.544284375" y="11.935" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="863-1N4007FFG" x="123.544284375" y="11.935" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/1N4007FFG?qs=y2kkmE52mdPFE87Rxbyfgw%3D%3D" x="123.544284375" y="11.935" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="90.494284375" y="72.935" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="C1P1" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="-51" y="-121" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="" x="-56" y="-165" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="-56" y="-165" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="-56" y="-165" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="47mm" x="-56" y="-165" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Rubycon" x="-56" y="-165" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="-56" y="-165" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="-56" y="-165" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="-56" y="-165" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-51" y="-121" size="1.27" layer="25" align="center"/>
+<element name="C1P1" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="67.944284375" y="89.965" smashed="yes" rot="R180">
+<attribute name="ARROW_PART_NUMBER" value="" x="72.944284375" y="133.965" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="72.944284375" y="133.965" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="72.944284375" y="133.965" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="47mm" x="72.944284375" y="133.965" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Rubycon" x="72.944284375" y="133.965" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="72.944284375" y="133.965" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="72.944284375" y="133.965" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="72.944284375" y="133.965" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="64.194284375" y="89.965" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="C2P1" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="-35" y="-121" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="" x="-56" y="-181" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="-56" y="-181" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="-56" y="-181" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="47mm" x="-56" y="-181" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Rubycon" x="-56" y="-181" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="-56" y="-181" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="-56" y="-181" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="-56" y="-181" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-35" y="-121" size="1.27" layer="25" align="center"/>
+<element name="C2P1" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="84.694284375" y="89.965" smashed="yes" rot="R180">
+<attribute name="ARROW_PART_NUMBER" value="" x="105.694284375" y="149.965" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="105.694284375" y="149.965" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="105.694284375" y="149.965" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="47mm" x="105.694284375" y="149.965" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Rubycon" x="105.694284375" y="149.965" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="105.694284375" y="149.965" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="105.694284375" y="149.965" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="105.694284375" y="149.965" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="80.944284375" y="89.965" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="C3P1" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="-19" y="-121" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="" x="-56" y="-197" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="-56" y="-197" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="-56" y="-197" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="47mm" x="-56" y="-197" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Rubycon" x="-56" y="-197" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="-56" y="-197" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="-56" y="-197" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="-56" y="-197" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-19" y="-121" size="1.27" layer="25" align="center"/>
+<element name="C3P1" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="60.444284375" y="127.835" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="23.444284375" y="51.835" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="23.444284375" y="51.835" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="23.444284375" y="51.835" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="47mm" x="23.444284375" y="51.835" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Rubycon" x="23.444284375" y="51.835" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="23.444284375" y="51.835" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="23.444284375" y="51.835" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="23.444284375" y="51.835" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="64.194284375" y="127.835" size="1.27" layer="25" align="center"/>
 </element>
-<element name="R6P1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="330" x="-30" y="-180" smashed="yes">
-<attribute name="NAME" x="-35.08" y="-177.587" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="2" x="-51" y="-210" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="-51" y="-210" size="1.778" layer="27" display="off"/>
+<element name="R6P1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="330" x="72.569284375" y="100.525" smashed="yes">
+<attribute name="NAME" x="72.569284375" y="100.525" size="1.27" layer="25" align="center"/>
+<attribute name="POPULARITY" value="2" x="51.569284375" y="70.525" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="51.569284375" y="70.525" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C5P1" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="-51" y="-137" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="" x="-60" y="-232" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="-60" y="-232" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="-60" y="-232" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="47mm" x="-60" y="-232" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Rubycon" x="-60" y="-232" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="-60" y="-232" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="-60" y="-232" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="-60" y="-232" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-51" y="-137" size="1.27" layer="25" align="center"/>
+<element name="C5P1" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="84.694284375" y="127.835" smashed="yes" rot="R180">
+<attribute name="ARROW_PART_NUMBER" value="" x="93.694284375" y="222.835" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="93.694284375" y="222.835" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="93.694284375" y="222.835" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="47mm" x="93.694284375" y="222.835" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Rubycon" x="93.694284375" y="222.835" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="93.694284375" y="222.835" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="93.694284375" y="222.835" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="93.694284375" y="222.835" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="80.944284375" y="127.835" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="C6P1" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="-35" y="-137" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="" x="-60" y="-248" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="-60" y="-248" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="-60" y="-248" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="47mm" x="-60" y="-248" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Rubycon" x="-60" y="-248" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="-60" y="-248" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="-60" y="-248" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="-60" y="-248" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-35" y="-137" size="1.27" layer="25" align="center"/>
+<element name="C6P1" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="84.694284375" y="111.085" smashed="yes" rot="R180">
+<attribute name="ARROW_PART_NUMBER" value="" x="109.694284375" y="222.085" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="109.694284375" y="222.085" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="109.694284375" y="222.085" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="47mm" x="109.694284375" y="222.085" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Rubycon" x="109.694284375" y="222.085" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="109.694284375" y="222.085" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="109.694284375" y="222.085" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="109.694284375" y="222.085" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="80.944284375" y="111.085" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="C7P1" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="-19" y="-137" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="" x="-60" y="-264" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="-60" y="-264" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="-60" y="-264" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="47mm" x="-60" y="-264" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Rubycon" x="-60" y="-264" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="-60" y="-264" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="-60" y="-264" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="-60" y="-264" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-19" y="-137" size="1.27" layer="25" align="center"/>
+<element name="C7P1" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="60.444284375" y="111.085" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="19.444284375" y="-15.915" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="19.444284375" y="-15.915" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="19.444284375" y="-15.915" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="47mm" x="19.444284375" y="-15.915" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Rubycon" x="19.444284375" y="-15.915" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="19.444284375" y="-15.915" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="19.444284375" y="-15.915" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="19.444284375" y="-15.915" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="64.194284375" y="111.085" size="1.27" layer="25" align="center"/>
 </element>
 <element name="IC3" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="SOT230P700X180-4N" package3d_urn="urn:adsk.eagle:package:47621665/2" value="LM317MQDCYR" x="-51" y="-194" smashed="yes">
 <attribute name="DESCRIPTION" value="Standard Regulator 1.25V to 37V 0.5A Texas Instruments LM317MQDCYR, Single Linear Voltage Regulator, 500mA Adjustable 1.25  37 V, 4-Pin SOT-223" x="-51" y="-194" size="1.778" layer="27" display="off"/>
@@ -4284,13 +4283,16 @@ design rules under a new name.</description>
 <contactref element="D10" pad="2"/>
 <contactref element="D7" pad="1"/>
 <wire x1="77.31356875" y1="10.2" x2="86.21356875" y2="10.2" width="4" layer="1"/>
-<wire x1="100.22893125" y1="14.1" x2="94.255703125" y2="14.1" width="4" layer="16"/>
+<wire x1="100.22893125" y1="14.1" x2="96.326771875" y2="14.1" width="4" layer="16"/>
+<wire x1="96.326771875" y1="14.1" x2="92.7912375" y2="12.635534375" width="4" layer="16" curve="45"/>
+<wire x1="92.7912375" y1="12.635534375" x2="91.82016875" y2="11.664465625" width="4" layer="16"/>
+<wire x1="91.82016875" y1="11.664465625" x2="88.284634375" y2="10.2" width="4" layer="16" curve="-45"/>
+<wire x1="88.284634375" y1="10.2" x2="86.21356875" y2="10.2" width="4" layer="16"/>
 <wire x1="112.68856875" y1="9.2" x2="109.27106875" y2="9.2" width="4" layer="16"/>
 <wire x1="109.27106875" y1="9.2" x2="105.735534375" y2="10.664465625" width="4" layer="16" curve="-45"/>
 <wire x1="105.735534375" y1="10.664465625" x2="103.764465625" y2="12.635534375" width="4" layer="16"/>
 <wire x1="100.22893125" y1="14.1" x2="103.764465625" y2="12.635534375" width="4" layer="16" curve="-45"/>
 <contactref element="J6" pad="2"/>
-<wire x1="86.21356875" y1="10.2" x2="94.255703125" y2="14.1" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$43">
 <contactref element="D10" pad="1"/>
@@ -4375,11 +4377,10 @@ design rules under a new name.</description>
 </signal>
 <signal name="66.3VAC/BRN/2">
 <contactref element="R3P" pad="1"/>
-<wire x1="101.68856875" y1="51.05393125" x2="106.68856875" y2="46.05393125" width="4" layer="1" curve="-90"/>
-<wire x1="106.68856875" y1="46.05393125" x2="106.68856875" y2="40.07106875" width="4" layer="1"/>
-<wire x1="106.68856875" y1="40.07106875" x2="108.153034375" y2="36.535534375" width="4" layer="1" curve="45"/>
-<wire x1="108.153034375" y1="36.535534375" x2="109.024103125" y2="35.664465625" width="4" layer="1"/>
-<wire x1="109.024103125" y1="35.664465625" x2="112.5596375" y2="34.2" width="4" layer="1" curve="45"/>
+<wire x1="60.444284375" y1="15.795" x2="72.161603125" y2="27.51231875" width="4" layer="1"/>
+<wire x1="72.161603125" y1="27.51231875" x2="73.62606875" y2="31.047853125" width="4" layer="1" curve="45"/>
+<wire x1="73.62606875" y1="31.047853125" x2="73.62606875" y2="32.05393125" width="4" layer="1"/>
+<wire x1="78.62606875" y1="37.05393125" x2="73.62606875" y2="32.05393125" width="4" layer="1" curve="90"/>
 <contactref element="SX2" pad="4"/>
 <contactref element="SX4" pad="4"/>
 <wire x1="51.484315625" y1="67.444615625" x2="50.01985" y2="70.98015" width="2.54" layer="16" curve="45"/>
@@ -4394,18 +4395,16 @@ design rules under a new name.</description>
 <wire x1="46.278678125" y1="50.421321875" x2="46.821321875" y2="49.878678125" width="2.54" layer="16"/>
 <wire x1="46.821321875" y1="49.878678125" x2="47.7" y2="47.757359375" width="2.54" layer="16" curve="-44.99994"/>
 <wire x1="47.7" y1="47.757359375" x2="47.7" y2="45.429859375" width="2.54" layer="16"/>
-<wire x1="101.68856875" y1="51.05393125" x2="76.62606875" y2="51.05393125" width="4" layer="1"/>
-<wire x1="71.62606875" y1="46.05393125" x2="76.62606875" y2="51.05393125" width="4" layer="1" curve="-90"/>
 <contactref element="J6" pad="7"/>
-<wire x1="60.444284375" y1="15.795" x2="70.161603125" y2="25.51231875" width="4" layer="1"/>
-<wire x1="70.161603125" y1="25.51231875" x2="71.62606875" y2="29.047853125" width="4" layer="1" curve="45"/>
-<wire x1="71.62606875" y1="29.047853125" x2="71.62606875" y2="46.05393125" width="4" layer="1"/>
 <wire x1="41.316725" y1="40.429859375" x2="58.97981875" y2="22.766765625" width="2.54" layer="16"/>
 <wire x1="58.97981875" y1="22.766765625" x2="60.444284375" y2="19.23123125" width="2.54" layer="16" curve="-45"/>
 <wire x1="60.444284375" y1="19.23123125" x2="60.444284375" y2="15.795" width="2.54" layer="16"/>
 <wire x1="50.01985" y1="70.98015" x2="44.400315625" y2="76.599684375" width="2.54" layer="16"/>
 <wire x1="44.400315625" y1="76.599684375" x2="41.316725" y2="77.87695" width="2.54" layer="16" curve="45"/>
-<wire x1="112.5596375" y1="34.2" x2="112.68856875" y2="34.2" width="0" layer="19" extent="1-1"/>
+<wire x1="112.68856875" y1="34.2" x2="109.46458125" y2="35.53541875" width="4" layer="1" curve="-44.999972"/>
+<wire x1="109.46458125" y1="35.53541875" x2="109.410534375" y2="35.589465625" width="4" layer="1"/>
+<wire x1="109.410534375" y1="35.589465625" x2="105.875" y2="37.05393125" width="4" layer="1" curve="45"/>
+<wire x1="105.875" y1="37.05393125" x2="78.62606875" y2="37.05393125" width="4" layer="1"/>
 </signal>
 <signal name="N$45">
 <contactref element="R3P" pad="2"/>
@@ -4426,7 +4425,6 @@ design rules under a new name.</description>
 <contactref element="C5P" pad="1"/>
 <contactref element="C6P" pad="1"/>
 <contactref element="C7P" pad="1"/>
-<wire x1="100.31356875" y1="42.35" x2="100.31356875" y2="59.1" width="4" layer="16"/>
 <contactref element="R4P" pad="2"/>
 <polygon width="0.254" layer="16" isolate="0.5" thermals="no">
 <vertex x="118.68856875" y="0"/>
@@ -4468,24 +4466,47 @@ design rules under a new name.</description>
 <wire x1="33.92893125" y1="102.5" x2="37.464465625" y2="101.035534375" width="2.54" layer="16" curve="-45"/>
 <wire x1="37.464465625" y1="101.035534375" x2="44.189125" y2="94.310875" width="2.54" layer="16"/>
 <wire x1="44.189125" y1="94.310875" x2="45.560534375" y2="91" width="2.54" layer="16" curve="-45"/>
-<wire x1="60.444284375" y1="64.535" x2="60.444284375" y2="81" width="2.54" layer="16"/>
-<wire x1="60.444284375" y1="81" x2="55.444284375" y2="86" width="2.54" layer="16" curve="90"/>
+<wire x1="50.560534375" y1="86" x2="52.143" y2="86" width="2.54" layer="16"/>
+<wire x1="52.143" y1="86" x2="57.143" y2="81" width="2.54" layer="16" curve="-90"/>
+<wire x1="57.143" y1="81" x2="57.143" y2="67.535" width="2.54" layer="16"/>
+<wire x1="57.143" y1="67.535" x2="60.444284375" y2="64.535" width="2.54" layer="16"/>
 <wire x1="45.560534375" y1="91" x2="50.560534375" y2="86" width="2.54" layer="16" curve="90"/>
-<wire x1="50.560534375" y1="86" x2="55.444284375" y2="86" width="2.54" layer="16"/>
+<wire x1="60.444284375" y1="64.535" x2="64.41481875" y2="60.564465625" width="4" layer="1"/>
+<wire x1="64.41481875" y1="60.564465625" x2="67.950353125" y2="59.1" width="4" layer="1" curve="45"/>
+<wire x1="67.950353125" y1="59.1" x2="76.06356875" y2="59.1" width="4" layer="1"/>
 </signal>
 <signal name="6.3_VAC_BLU/2">
 <contactref element="D14" pad="2"/>
 <contactref element="D11" pad="1"/>
 <contactref element="J6" pad="8"/>
-<wire x1="77.31356875" y1="72.935" x2="86.21356875" y2="72.935" width="0" layer="19" extent="1-1"/>
-<wire x1="112.68856875" y1="39.2" x2="86.21356875" y2="72.935" width="0" layer="19" extent="1-1"/>
+<wire x1="112.68856875" y1="39.2" x2="111.07106875" y2="39.2" width="4" layer="16"/>
+<wire x1="111.07106875" y1="39.2" x2="107.535534375" y2="40.664465625" width="4" layer="16" curve="-45"/>
+<wire x1="107.535534375" y1="40.664465625" x2="102.53133125" y2="45.66866875" width="4" layer="16"/>
+<wire x1="102.53133125" y1="45.66866875" x2="98.995796875" y2="47.133134375" width="4" layer="16" curve="45"/>
+<wire x1="98.995796875" y1="47.133134375" x2="81.937934375" y2="47.133134375" width="4" layer="16"/>
+<wire x1="81.937934375" y1="47.133134375" x2="78.4024" y2="48.5976" width="4" layer="16" curve="-45"/>
+<wire x1="78.4024" y1="48.5976" x2="73.464465625" y2="53.535534375" width="4" layer="16"/>
+<wire x1="73.464465625" y1="53.535534375" x2="72" y2="57.07106875" width="4" layer="16" curve="-45"/>
+<wire x1="74.544284375" y1="72.935" x2="73.464465625" y2="71.85518125" width="4" layer="16"/>
+<wire x1="73.464465625" y1="71.85518125" x2="72" y2="68.319646875" width="4" layer="16" curve="45"/>
+<wire x1="72" y1="68.319646875" x2="72" y2="57.07106875" width="4" layer="16"/>
+<wire x1="83.444284375" y1="72.935" x2="74.544284375" y2="72.935" width="4" layer="16"/>
 </signal>
 <signal name="6.3_VAC_GRN/2">
 <contactref element="D13" pad="2"/>
 <contactref element="D12" pad="1"/>
 <contactref element="J6" pad="9"/>
-<wire x1="77.31356875" y1="78.935" x2="86.21356875" y2="78.935" width="0" layer="19" extent="1-1"/>
-<wire x1="112.68856875" y1="44.2" x2="86.21356875" y2="78.935" width="0" layer="19" extent="1-1"/>
+<wire x1="74.544284375" y1="78.935" x2="83.444284375" y2="78.935" width="4" layer="16"/>
+<wire x1="112.68856875" y1="44.2" x2="110.9814625" y2="44.90710625" width="4" layer="16" curve="-45"/>
+<wire x1="106.353034375" y1="61" x2="106.353034375" y2="51.606603125" width="4" layer="16"/>
+<wire x1="106.353034375" y1="51.606603125" x2="107.8175" y2="48.07106875" width="4" layer="16" curve="45"/>
+<wire x1="107.8175" y1="48.07106875" x2="110.9814625" y2="44.90710625" width="4" layer="16"/>
+<wire x1="83.444284375" y1="78.935" x2="85.18856875" y2="78.935" width="4" layer="16"/>
+<wire x1="85.18856875" y1="78.935" x2="90.18856875" y2="73.935" width="4" layer="16" curve="-90"/>
+<wire x1="90.18856875" y1="73.935" x2="90.18856875" y2="71" width="4" layer="16"/>
+<wire x1="90.18856875" y1="71" x2="95.18856875" y2="66" width="4" layer="16" curve="90"/>
+<wire x1="95.18856875" y1="66" x2="101.353034375" y2="66" width="4" layer="16"/>
+<wire x1="101.353034375" y1="66" x2="106.353034375" y2="61" width="4" layer="16" curve="-90"/>
 </signal>
 <signal name="+240VDC/1">
 <contactref element="C1" pad="1"/>
@@ -4702,11 +4723,16 @@ design rules under a new name.</description>
 <contactref element="C5P1" pad="1"/>
 <contactref element="C6P1" pad="1"/>
 <contactref element="C7P1" pad="1"/>
-<wire x1="-35" y1="-137" x2="-37.62" y2="-180" width="0" layer="19" extent="1-1"/>
-<wire x1="-51" y1="-137" x2="-35" y2="-137" width="0" layer="19" extent="1-1"/>
-<wire x1="-19" y1="-137" x2="-35" y2="-137" width="0" layer="19" extent="1-1"/>
-<wire x1="-19" y1="-121" x2="-19" y2="-137" width="0" layer="19" extent="1-1"/>
-<wire x1="17.301975" y1="137.934146875" x2="-19" y2="-121" width="0" layer="19" extent="16-16"/>
+<wire x1="60.444284375" y1="111.085" x2="60.444284375" y2="107.10106875" width="4" layer="1"/>
+<wire x1="60.444284375" y1="107.10106875" x2="61.90875" y2="103.565534375" width="4" layer="1" curve="45"/>
+<wire x1="61.90875" y1="103.565534375" x2="64.949284375" y2="100.525" width="4" layer="1"/>
+<wire x1="60.444284375" y1="127.835" x2="60.444284375" y2="111.085" width="4" layer="1"/>
+<wire x1="64.949284375" y1="100.525" x2="70.563215625" y2="100.525" width="4" layer="1"/>
+<wire x1="70.563215625" y1="100.525" x2="74.09875" y2="101.989465625" width="4" layer="1" curve="45"/>
+<wire x1="74.09875" y1="101.989465625" x2="82.133625" y2="110.024340625" width="4" layer="1"/>
+<wire x1="82.133625" y1="110.024340625" x2="84.694284375" y2="111.085" width="4" layer="1" curve="-45"/>
+<wire x1="84.694284375" y1="127.835" x2="84.694284375" y2="111.085" width="4" layer="1"/>
+<wire x1="19.841975" y1="140.81613125" x2="60.444284375" y2="127.835" width="0" layer="19" extent="1-1"/>
 <wire x1="17.301975" y1="169.334146875" x2="14.37048125" y2="146.53613125" width="0" layer="19" extent="16-16"/>
 <wire x1="-4.698025" y1="192.334146875" x2="14.37048125" y2="177.93613125" width="0" layer="19" extent="16-16"/>
 </signal>
@@ -4812,11 +4838,11 @@ design rules under a new name.</description>
 </polygon>
 <contactref element="R5P" pad="1"/>
 <contactref element="C4P" pad="2"/>
-<wire x1="5.08" y1="31.68018125" x2="-52.365" y2="-98" width="0" layer="19" extent="1-1"/>
-<wire x1="14.85" y1="30.424209375" x2="5.08" y2="31.68018125" width="0" layer="19" extent="1-1"/>
-<wire x1="41.4546125" y1="25.454390625" x2="14.85" y2="30.424209375" width="0" layer="19" extent="1-1"/>
-<wire x1="12.139346875" y1="95.62" x2="5" y2="100.75" width="0" layer="19" extent="1-1"/>
-<wire x1="5" y1="68" x2="12.139346875" y2="95.62" width="0" layer="19" extent="1-1"/>
+<wire x1="92.81356875" y1="59.1" x2="83.56356875" y2="59.1" width="4" layer="16"/>
+<wire x1="12.139346875" y1="95.62" x2="5" y2="68" width="0" layer="19" extent="1-1"/>
+<wire x1="5" y1="100.75" x2="12.139346875" y2="95.62" width="0" layer="19" extent="1-1"/>
+<wire x1="14.85" y1="30.424209375" x2="41.4546125" y2="25.454390625" width="0" layer="19" extent="1-1"/>
+<wire x1="5.08" y1="31.68018125" x2="14.85" y2="30.424209375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DGND/2">
 <polygon width="0" layer="1" thermals="no">
@@ -5105,8 +5131,8 @@ design rules under a new name.</description>
 <polygon width="0.254" layer="1" isolate="0.5" orphans="yes" thermals="no" rank="4">
 <vertex x="56" y="68.735"/>
 <vertex x="56" y="160.6"/>
-<vertex x="97.42356875" y="160.6"/>
-<vertex x="97.42356875" y="90"/>
+<vertex x="89.13856875" y="160.6"/>
+<vertex x="89.13856875" y="98.285"/>
 <vertex x="118.68856875" y="68.735"/>
 </polygon>
 <wire x1="7.89935" y1="205.90819375" x2="7.89935" y2="206.90354375" width="0" layer="19" extent="1-1"/>
@@ -5306,20 +5332,14 @@ design rules under a new name.</description>
 <wire x1="19.41280625" y1="136.0449" x2="18.41745625" y2="136.0449" width="0" layer="19" extent="1-1"/>
 <wire x1="20.40815625" y1="136.0449" x2="19.41280625" y2="136.0449" width="0" layer="19" extent="1-1"/>
 <wire x1="18.881975" y1="137.934146875" x2="18.41745625" y2="136.0449" width="0" layer="19" extent="16-16"/>
-<wire x1="63.21356875" y1="78.935" x2="24.38955625" y2="136.0449" width="0" layer="19" extent="1-1"/>
-<wire x1="-53.635" y1="-98" x2="63.21356875" y2="72.935" width="0" layer="19" extent="1-1"/>
-<wire x1="-50.25" y1="-103" x2="-53.635" y2="-98" width="0" layer="19" extent="1-1"/>
-<wire x1="-49" y1="-103" x2="-50.25" y2="-103" width="0" layer="19" extent="1-1"/>
-<wire x1="-47.75" y1="-103" x2="-49" y2="-103" width="0" layer="19" extent="1-1"/>
-<wire x1="-42.18" y1="-106" x2="-47.75" y2="-103" width="0" layer="19" extent="1-1"/>
+<wire x1="67.944284375" y1="127.835" x2="27.4963625" y2="139.15170625" width="0" layer="19" extent="1-1"/>
+<wire x1="59.635" y1="3" x2="60.444284375" y2="72.935" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.18" y1="-106" x2="59.635" y2="3" width="0" layer="19" extent="1-1"/>
 <wire x1="-42.18" y1="-109" x2="-42.18" y2="-106" width="0" layer="19" extent="1-1"/>
 <wire x1="-42.21" y1="-112" x2="-42.18" y2="-109" width="0" layer="19" extent="1-1"/>
-<wire x1="-43.5" y1="-121" x2="-42.21" y2="-112" width="0" layer="19" extent="1-1"/>
-<wire x1="-43.5" y1="-137" x2="-43.5" y2="-121" width="0" layer="19" extent="1-1"/>
-<wire x1="-27.5" y1="-137" x2="-43.5" y2="-137" width="0" layer="19" extent="1-1"/>
-<wire x1="-27.5" y1="-121" x2="-43.5" y2="-121" width="0" layer="19" extent="1-1"/>
-<wire x1="-11.5" y1="-137" x2="-27.5" y2="-137" width="0" layer="19" extent="1-1"/>
-<wire x1="-11.5" y1="-121" x2="-27.5" y2="-121" width="0" layer="19" extent="1-1"/>
+<wire x1="-47.75" y1="-103" x2="-42.18" y2="-106" width="0" layer="19" extent="1-1"/>
+<wire x1="-49" y1="-103" x2="-47.75" y2="-103" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.25" y1="-103" x2="-49" y2="-103" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="LDO7" pad="3"/>
@@ -5360,16 +5380,30 @@ design rules under a new name.</description>
 <contactref element="D13" pad="1"/>
 <contactref element="C1P1" pad="1"/>
 <contactref element="J6" pad="10"/>
-<wire x1="100.31356875" y1="72.935" x2="100.31356875" y2="78.935" width="0" layer="19" extent="1-1"/>
-<wire x1="112.68856875" y1="49.2" x2="100.31356875" y2="72.935" width="0" layer="19" extent="1-1"/>
-<wire x1="-51" y1="-121" x2="112.68856875" y2="49.2" width="0" layer="19" extent="1-1"/>
+<wire x1="97.544284375" y1="78.935" x2="97.544284375" y2="72.935" width="4" layer="16"/>
+<wire x1="83.18856875" y1="83.965" x2="76.015353125" y2="83.965" width="4" layer="1"/>
+<wire x1="76.015353125" y1="83.965" x2="72.47981875" y2="85.429465625" width="4" layer="1" curve="-45"/>
+<wire x1="72.47981875" y1="85.429465625" x2="67.944284375" y2="89.965" width="4" layer="1"/>
+<wire x1="112.68856875" y1="49.2" x2="93.18856875" y2="49.2" width="4" layer="1"/>
+<wire x1="93.18856875" y1="49.2" x2="88.18856875" y2="54.2" width="4" layer="1" curve="-90"/>
+<wire x1="88.18856875" y1="54.2" x2="88.18856875" y2="72.935" width="4" layer="1"/>
+<wire x1="88.18856875" y1="73" x2="88.18856875" y2="78.965" width="4" layer="1"/>
+<wire x1="88.18856875" y1="78.965" x2="83.18856875" y2="83.965" width="4" layer="1" curve="90"/>
+<wire x1="97.544284375" y1="72.935" x2="88.18856875" y2="72.935" width="4" layer="1"/>
+<wire x1="88.18856875" y1="72.935" x2="88.18856875" y2="73" width="4" layer="1"/>
 </signal>
 <signal name="N$58">
 <contactref element="C2P1" pad="1"/>
 <contactref element="R6P1" pad="2"/>
 <contactref element="J6" pad="11"/>
-<wire x1="-35" y1="-121" x2="-22.38" y2="-180" width="0" layer="19" extent="1-1"/>
-<wire x1="112.68856875" y1="54.2" x2="-35" y2="-121" width="0" layer="19" extent="1-1"/>
+<wire x1="80.189284375" y1="100.525" x2="83.22981875" y2="97.484465625" width="4" layer="1"/>
+<wire x1="83.22981875" y1="97.484465625" x2="84.694284375" y2="93.94893125" width="4" layer="1" curve="-45"/>
+<wire x1="84.694284375" y1="93.94893125" x2="84.694284375" y2="89.965" width="4" layer="1"/>
+<wire x1="84.694284375" y1="89.965" x2="91.66393125" y2="89.965" width="4" layer="1"/>
+<wire x1="91.66393125" y1="89.965" x2="95.199465625" y2="88.500534375" width="4" layer="1" curve="-45"/>
+<wire x1="95.199465625" y1="88.500534375" x2="111.224103125" y2="72.475896875" width="4" layer="1"/>
+<wire x1="111.224103125" y1="72.475896875" x2="112.68856875" y2="68.9403625" width="4" layer="1" curve="-45"/>
+<wire x1="112.68856875" y1="68.9403625" x2="112.68856875" y2="54.2" width="4" layer="1"/>
 </signal>
 <signal name="PE">
 <contactref element="J6" pad="1"/>
@@ -5384,8 +5418,8 @@ design rules under a new name.</description>
 <polygon width="0.254" layer="1" isolate="0.5" orphans="yes" thermals="no" rank="4">
 <vertex x="-56" y="68.735"/>
 <vertex x="-56" y="160.6"/>
-<vertex x="-97.42356875" y="160.6"/>
-<vertex x="-97.42356875" y="90"/>
+<vertex x="-89.13856875" y="160.6"/>
+<vertex x="-89.13856875" y="98.285"/>
 <vertex x="-118.68856875" y="68.735"/>
 </polygon>
 </signal>

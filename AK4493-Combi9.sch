@@ -7783,7 +7783,6 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <part name="C28A1" library="Dual Mono Amp Library" deviceset="EMF212B7104KGHT" device="" value="0.1u, Ceramic Capacitor X7R"/>
 <part name="C27A1" library="Dual Mono Amp Library" deviceset="EMK212ABJ475KG-T" device="" value="4.7u, Ceramic Capacitor X7R"/>
 <part name="IC4" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="LM317MQDCYR" device="" package3d_urn="urn:adsk.eagle:package:47621665/2"/>
-<part name="+3V6" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="+3V3/2" device=""/>
 <part name="J9" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1935200" device="" package3d_urn="urn:adsk.eagle:package:50913441/1"/>
 <part name="SUPPLY33" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="+5V/R/1" device=""/>
 <part name="SUPPLY35" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="+5V/R/2" device=""/>
@@ -7806,6 +7805,7 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <part name="SUPPLY19" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="+5V/R/3" device=""/>
 <part name="+3V8" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="+3V3/1" device=""/>
 <part name="+3V9" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="+1V8/1" device=""/>
+<part name="+3V11" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="+3V3/1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8535,11 +8535,11 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <instance part="SUPPLY14" gate="G$1" x="327.66" y="170.18" smashed="yes" rot="R180">
 <attribute name="VALUE" x="328.295" y="166.37" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="SUPPLY15" gate="G$1" x="332.74" y="170.18" smashed="yes" rot="R180">
-<attribute name="VALUE" x="333.375" y="166.37" size="1.778" layer="96" rot="R270"/>
+<instance part="SUPPLY15" gate="G$1" x="335.28" y="170.18" smashed="yes" rot="R180">
+<attribute name="VALUE" x="335.915" y="166.37" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="+3V4" gate="G$1" x="335.28" y="170.18" smashed="yes" rot="R180">
-<attribute name="VALUE" x="335.28" y="167.64" size="1.778" layer="96" rot="R270"/>
+<instance part="+3V4" gate="G$1" x="332.74" y="170.18" smashed="yes" rot="R180">
+<attribute name="VALUE" x="332.74" y="167.64" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="+3V5" gate="G$1" x="337.82" y="170.18" smashed="yes" rot="R180">
 <attribute name="VALUE" x="337.82" y="167.64" size="1.778" layer="96" rot="R270"/>
@@ -8827,9 +8827,6 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <attribute name="NAME" x="-533.4" y="170.18" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="-533.4" y="167.64" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="+3V6" gate="G$1" x="-462.28" y="165.1" smashed="yes" rot="MR270">
-<attribute name="VALUE" x="-457.2" y="167.64" size="1.778" layer="96" rot="MR0"/>
-</instance>
 <instance part="J9" gate="G$1" x="-337.82" y="175.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="-345.44" y="191.77" size="1.778" layer="95" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="-342.9" y="191.77" size="1.778" layer="96" rot="R90" align="center-left"/>
@@ -8896,6 +8893,9 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 </instance>
 <instance part="+3V9" gate="G$1" x="-337.82" y="170.18" smashed="yes" rot="R180">
 <attribute name="VALUE" x="-335.28" y="175.26" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="+3V11" gate="G$1" x="-462.28" y="165.1" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-457.2" y="162.56" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -10632,21 +10632,9 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <pinref part="+3V2" gate="G$1" pin="+3V3/2"/>
 </segment>
 <segment>
-<pinref part="J7" gate="G$1" pin="2"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3/2"/>
-<wire x1="335.28" y1="172.72" x2="335.28" y2="175.26" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="LDO1" gate="G$1" pin="EN"/>
-<wire x1="-454.66" y1="170.18" x2="-457.2" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="-457.2" y1="170.18" x2="-457.2" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="LDO1" gate="G$1" pin="VIN"/>
-<wire x1="-457.2" y1="165.1" x2="-454.66" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="-457.2" y1="165.1" x2="-459.74" y2="165.1" width="0.1524" layer="91"/>
-<junction x="-457.2" y="165.1"/>
-<pinref part="C26A1" gate="G$1" pin="1"/>
-<wire x1="-457.2" y1="162.56" x2="-457.2" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="+3V6" gate="G$1" pin="+3V3/2"/>
+<pinref part="J7" gate="G$1" pin="3"/>
+<wire x1="332.74" y1="172.72" x2="332.74" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V/L/2" class="0">
@@ -10745,9 +10733,9 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <pinref part="SUPPLY16" gate="G$1" pin="+5V/L/3"/>
 </segment>
 <segment>
-<pinref part="J7" gate="G$1" pin="3"/>
 <pinref part="SUPPLY15" gate="G$1" pin="+5V/L/3"/>
-<wire x1="332.74" y1="175.26" x2="332.74" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="J7" gate="G$1" pin="2"/>
+<wire x1="335.28" y1="172.72" x2="335.28" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$63" class="0">
@@ -11444,6 +11432,18 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <pinref part="J9" gate="G$1" pin="2"/>
 <wire x1="-335.28" y1="172.72" x2="-335.28" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="+3V8" gate="G$1" pin="+3V3/1"/>
+</segment>
+<segment>
+<pinref part="LDO1" gate="G$1" pin="EN"/>
+<wire x1="-454.66" y1="170.18" x2="-457.2" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="-457.2" y1="170.18" x2="-457.2" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="LDO1" gate="G$1" pin="VIN"/>
+<wire x1="-457.2" y1="165.1" x2="-454.66" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="-457.2" y1="165.1" x2="-459.74" y2="165.1" width="0.1524" layer="91"/>
+<junction x="-457.2" y="165.1"/>
+<pinref part="C26A1" gate="G$1" pin="1"/>
+<wire x1="-457.2" y1="162.56" x2="-457.2" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="+3V11" gate="G$1" pin="+3V3/1"/>
 </segment>
 </net>
 <net name="+5V/R/2" class="0">

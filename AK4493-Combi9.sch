@@ -8296,20 +8296,20 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <instance part="SUPPLY1" gate="G$1" x="325.12" y="170.18" smashed="yes">
 <attribute name="VALUE" x="324.485" y="167.767" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="SUPPLY9" gate="G$1" x="335.28" y="170.18" smashed="yes" rot="R180">
-<attribute name="VALUE" x="335.915" y="166.37" size="1.778" layer="96" rot="R270"/>
+<instance part="SUPPLY9" gate="G$1" x="330.2" y="170.18" smashed="yes" rot="R180">
+<attribute name="VALUE" x="330.835" y="166.37" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="SUPPLY14" gate="G$1" x="332.74" y="170.18" smashed="yes" rot="R180">
+<instance part="SUPPLY14" gate="G$1" x="327.66" y="170.18" smashed="yes" rot="R180">
+<attribute name="VALUE" x="328.295" y="166.37" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SUPPLY15" gate="G$1" x="332.74" y="170.18" smashed="yes" rot="R180">
 <attribute name="VALUE" x="333.375" y="166.37" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="SUPPLY15" gate="G$1" x="337.82" y="170.18" smashed="yes" rot="R180">
-<attribute name="VALUE" x="338.455" y="166.37" size="1.778" layer="96" rot="R270"/>
+<instance part="+3V4" gate="G$1" x="335.28" y="170.18" smashed="yes" rot="R180">
+<attribute name="VALUE" x="335.28" y="167.64" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="+3V4" gate="G$1" x="330.2" y="167.64" smashed="yes" rot="R180">
-<attribute name="VALUE" x="330.2" y="165.1" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="+3V5" gate="G$1" x="327.66" y="167.64" smashed="yes" rot="R180">
-<attribute name="VALUE" x="327.66" y="165.1" size="1.778" layer="96" rot="R270"/>
+<instance part="+3V5" gate="G$1" x="337.82" y="170.18" smashed="yes" rot="R180">
+<attribute name="VALUE" x="337.82" y="167.64" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="J7" gate="G$1" x="337.82" y="175.26" smashed="yes" rot="MR90">
 <attribute name="NAME" x="345.44" y="191.77" size="1.778" layer="95" rot="MR90" align="center-left"/>
@@ -9872,9 +9872,9 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <pinref part="+3V1" gate="G$1" pin="+1V8/2"/>
 </segment>
 <segment>
-<pinref part="J7" gate="G$1" pin="5"/>
+<pinref part="J7" gate="G$1" pin="1"/>
 <pinref part="+3V5" gate="G$1" pin="+1V8/2"/>
-<wire x1="327.66" y1="170.18" x2="327.66" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="172.72" x2="337.82" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$57" class="0">
@@ -9949,9 +9949,9 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <pinref part="+3V2" gate="G$1" pin="+3V3/2"/>
 </segment>
 <segment>
-<pinref part="J7" gate="G$1" pin="4"/>
+<pinref part="J7" gate="G$1" pin="2"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3/2"/>
-<wire x1="330.2" y1="170.18" x2="330.2" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="172.72" x2="335.28" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V/L/2" class="0">
@@ -9979,9 +9979,9 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <pinref part="SUPPLY11" gate="G$1" pin="+5V/L/2"/>
 </segment>
 <segment>
-<pinref part="J7" gate="G$1" pin="3"/>
+<pinref part="J7" gate="G$1" pin="5"/>
 <pinref part="SUPPLY14" gate="G$1" pin="+5V/L/2"/>
-<wire x1="332.74" y1="172.72" x2="332.74" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="175.26" x2="327.66" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V/L/1" class="0">
@@ -10009,9 +10009,9 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <pinref part="SUPPLY8" gate="G$1" pin="+5V/L/1"/>
 </segment>
 <segment>
-<pinref part="J7" gate="G$1" pin="2"/>
+<pinref part="J7" gate="G$1" pin="4"/>
 <pinref part="SUPPLY9" gate="G$1" pin="+5V/L/1"/>
-<wire x1="335.28" y1="172.72" x2="335.28" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="175.26" x2="330.2" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V/L/3" class="0">
@@ -10019,11 +10019,6 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <pinref part="IC3" gate="G$1" pin="OUT"/>
 <pinref part="SUPPLY13" gate="G$1" pin="+5V/L/3"/>
 <wire x1="548.64" y1="177.8" x2="538.48" y2="177.8" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J7" gate="G$1" pin="1"/>
-<pinref part="SUPPLY15" gate="G$1" pin="+5V/L/3"/>
-<wire x1="337.82" y1="172.72" x2="337.82" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C21A" gate="G$1" pin="1"/>
@@ -10053,6 +10048,11 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <wire x1="508" y1="38.1" x2="508" y2="45.72" width="0.1524" layer="91"/>
 <junction x="508" y="45.72"/>
 <pinref part="SUPPLY16" gate="G$1" pin="+5V/L/3"/>
+</segment>
+<segment>
+<pinref part="J7" gate="G$1" pin="3"/>
+<pinref part="SUPPLY15" gate="G$1" pin="+5V/L/3"/>
+<wire x1="332.74" y1="175.26" x2="332.74" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

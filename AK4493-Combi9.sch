@@ -7496,6 +7496,175 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 </deviceset>
 </devicesets>
 </library>
+<library name="1935255">
+<description>&lt;Phoenix Contact PT 1.5/11-5.0-H PCB Terminal Block, 11 Way/Pole, Screw Terminals, 26  14 AWG Through Hole,&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="1935255">
+<description>&lt;b&gt;1935255-5&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1.3" diameter="1.95" shape="square"/>
+<pad name="2" x="5" y="0" drill="1.3" diameter="1.95"/>
+<pad name="3" x="10" y="0" drill="1.3" diameter="1.95"/>
+<pad name="4" x="15" y="0" drill="1.3" diameter="1.95"/>
+<pad name="5" x="20" y="0" drill="1.3" diameter="1.95"/>
+<pad name="6" x="25" y="0" drill="1.3" diameter="1.95"/>
+<pad name="7" x="30" y="0" drill="1.3" diameter="1.95"/>
+<pad name="8" x="35" y="0" drill="1.3" diameter="1.95"/>
+<pad name="9" x="40" y="0" drill="1.3" diameter="1.95"/>
+<pad name="10" x="45" y="0" drill="1.3" diameter="1.95"/>
+<pad name="11" x="50" y="0" drill="1.3" diameter="1.95"/>
+<text x="25" y="-0.5" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="25" y="-0.5" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.5" y1="4" x2="52.5" y2="4" width="0.2" layer="51"/>
+<wire x1="52.5" y1="4" x2="52.5" y2="-5" width="0.2" layer="51"/>
+<wire x1="52.5" y1="-5" x2="-2.5" y2="-5" width="0.2" layer="51"/>
+<wire x1="-2.5" y1="-5" x2="-2.5" y2="4" width="0.2" layer="51"/>
+<wire x1="-2.5" y1="4" x2="52.5" y2="4" width="0.1" layer="21"/>
+<wire x1="52.5" y1="4" x2="52.5" y2="-5" width="0.1" layer="21"/>
+<wire x1="52.5" y1="-5" x2="-2.5" y2="-5" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="-5" x2="-2.5" y2="4" width="0.1" layer="21"/>
+<wire x1="-3.5" y1="5" x2="53.5" y2="5" width="0.1" layer="51"/>
+<wire x1="53.5" y1="5" x2="53.5" y2="-6" width="0.1" layer="51"/>
+<wire x1="53.5" y1="-6" x2="-3.5" y2="-6" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-6" x2="-3.5" y2="5" width="0.1" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="1935255">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-27.94" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-27.94" x2="5.08" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-27.94" width="0.254" layer="94"/>
+<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle"/>
+<pin name="2" x="0" y="-2.54" length="middle"/>
+<pin name="3" x="0" y="-5.08" length="middle"/>
+<pin name="4" x="0" y="-7.62" length="middle"/>
+<pin name="5" x="0" y="-10.16" length="middle"/>
+<pin name="6" x="0" y="-12.7" length="middle"/>
+<pin name="7" x="0" y="-15.24" length="middle"/>
+<pin name="8" x="0" y="-17.78" length="middle"/>
+<pin name="9" x="0" y="-20.32" length="middle"/>
+<pin name="10" x="0" y="-22.86" length="middle"/>
+<pin name="11" x="0" y="-25.4" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1935255" prefix="J">
+<description>&lt;b&gt;Phoenix Contact PT 1.5/11-5.0-H PCB Terminal Block, 11 Way/Pole, Screw Terminals, 26  14 AWG Through Hole,&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-2/sf-00057468.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="1935255" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1935255">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Phoenix Contact PT 1.5/11-5.0-H PCB Terminal Block, 11 Way/Pole, Screw Terminals, 26  14 AWG Through Hole," constant="no"/>
+<attribute name="HEIGHT" value="11.55mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Phoenix Contact" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1935255" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="651-1935255" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1935255?qs=wd%252Bw3mUqFrm1E513uD0TOQ%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="1935200">
+<description>&lt;Fixed Terminal Blocks PT 1.5/6-5.0-H&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="1935200">
+<description>&lt;b&gt;1935200-2&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1.3" diameter="1.95" shape="square"/>
+<pad name="2" x="5" y="0" drill="1.3" diameter="1.95"/>
+<pad name="3" x="10" y="0" drill="1.3" diameter="1.95"/>
+<pad name="4" x="15" y="0" drill="1.3" diameter="1.95"/>
+<pad name="5" x="20" y="0" drill="1.3" diameter="1.95"/>
+<pad name="6" x="25" y="0" drill="1.3" diameter="1.95"/>
+<text x="12.5" y="-0.5" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="12.5" y="-0.5" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.5" y1="-5" x2="27.5" y2="-5" width="0.2" layer="51"/>
+<wire x1="27.5" y1="-5" x2="27.5" y2="4" width="0.2" layer="51"/>
+<wire x1="27.5" y1="4" x2="-2.5" y2="4" width="0.2" layer="51"/>
+<wire x1="-2.5" y1="4" x2="-2.5" y2="-5" width="0.2" layer="51"/>
+<wire x1="-2.5" y1="4" x2="27.5" y2="4" width="0.1" layer="21"/>
+<wire x1="27.5" y1="4" x2="27.5" y2="-5" width="0.1" layer="21"/>
+<wire x1="27.5" y1="-5" x2="-2.5" y2="-5" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="-5" x2="-2.5" y2="4" width="0.1" layer="21"/>
+<wire x1="-3.5" y1="5" x2="28.5" y2="5" width="0.1" layer="51"/>
+<wire x1="28.5" y1="5" x2="28.5" y2="-6" width="0.1" layer="51"/>
+<wire x1="28.5" y1="-6" x2="-3.5" y2="-6" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-6" x2="-3.5" y2="5" width="0.1" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="1935200">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-15.24" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle"/>
+<pin name="2" x="0" y="-2.54" length="middle"/>
+<pin name="3" x="0" y="-5.08" length="middle"/>
+<pin name="4" x="0" y="-7.62" length="middle"/>
+<pin name="5" x="0" y="-10.16" length="middle"/>
+<pin name="6" x="0" y="-12.7" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1935200" prefix="J">
+<description>&lt;b&gt;Fixed Terminal Blocks PT 1.5/6-5.0-H&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-2/sf-00057463.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="1935200" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1935200">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Fixed Terminal Blocks PT 1.5/6-5.0-H" constant="no"/>
+<attribute name="HEIGHT" value="11.55mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Phoenix Contact" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1935200" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="651-1935200" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1935200?qs=8BCRtFWWXOTOyOTMiNRITA%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7767,7 +7936,6 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <part name="C5P3" library="500HXW68MEFR14.5X45" deviceset="500HXW68MEFR14.5X45" device="" value="68u"/>
 <part name="C6P3" library="500HXW68MEFR14.5X45" deviceset="500HXW68MEFR14.5X45" device="" value="68u"/>
 <part name="C7P3" library="500HXW68MEFR14.5X45" deviceset="500HXW68MEFR14.5X45" device="" value="68u"/>
-<part name="J4" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1935255" device="" package3d_urn="urn:adsk.eagle:package:50907200/1"/>
 <part name="AGND25" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="AGND/1" device=""/>
 <part name="AGND26" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="AGND/1" device=""/>
 <part name="AGND27" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="AGND/1" device=""/>
@@ -7783,7 +7951,6 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <part name="C28A1" library="Dual Mono Amp Library" deviceset="EMF212B7104KGHT" device="" value="0.1u, Ceramic Capacitor X7R"/>
 <part name="C27A1" library="Dual Mono Amp Library" deviceset="EMK212ABJ475KG-T" device="" value="4.7u, Ceramic Capacitor X7R"/>
 <part name="IC4" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="LM317MQDCYR" device="" package3d_urn="urn:adsk.eagle:package:47621665/2"/>
-<part name="J9" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1935200" device="" package3d_urn="urn:adsk.eagle:package:50913441/1"/>
 <part name="SUPPLY33" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="+5V/R/1" device=""/>
 <part name="SUPPLY35" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="+5V/R/2" device=""/>
 <part name="SUPPLY36" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="+5V/R/3" device=""/>
@@ -7806,6 +7973,8 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <part name="+3V8" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="+3V3/1" device=""/>
 <part name="+3V9" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="+1V8/1" device=""/>
 <part name="+3V11" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="+3V3/1" device=""/>
+<part name="J4" library="1935255" deviceset="1935255" device=""/>
+<part name="J9" library="1935200" deviceset="1935200" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8773,10 +8942,6 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <attribute name="NAME" x="-252.984" y="60.325" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="-252.984" y="65.151" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="J4" gate="G$1" x="-172.72" y="203.2" smashed="yes" rot="MR90">
-<attribute name="NAME" x="-165.1" y="219.71" size="1.778" layer="95" rot="MR90" align="center-left"/>
-<attribute name="VALUE" x="-167.64" y="219.71" size="1.778" layer="96" rot="MR90" align="center-left"/>
-</instance>
 <instance part="AGND25" gate="G$1" x="-157.48" y="81.28" smashed="yes" rot="R180">
 <attribute name="VALUE" x="-154.94" y="86.36" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -8826,10 +8991,6 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <instance part="IC4" gate="G$1" x="-530.86" y="177.8" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-533.4" y="170.18" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="-533.4" y="167.64" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="J9" gate="G$1" x="-337.82" y="175.26" smashed="yes" rot="R90">
-<attribute name="NAME" x="-345.44" y="191.77" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="-342.9" y="191.77" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
 <instance part="SUPPLY33" gate="G$1" x="-421.64" y="129.54" smashed="yes">
 <attribute name="VALUE" x="-425.45" y="132.715" size="1.778" layer="96"/>
@@ -8896,6 +9057,14 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 </instance>
 <instance part="+3V11" gate="G$1" x="-462.28" y="165.1" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-457.2" y="162.56" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="J4" gate="G$1" x="-198.12" y="203.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="-205.74" y="219.71" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="-203.2" y="219.71" size="1.778" layer="96" rot="R90" align="center-left"/>
+</instance>
+<instance part="J9" gate="G$1" x="-325.12" y="175.26" smashed="yes" rot="MR90">
+<attribute name="NAME" x="-317.5" y="191.77" size="1.778" layer="95" rot="MR90" align="center-left"/>
+<attribute name="VALUE" x="-320.04" y="191.77" size="1.778" layer="96" rot="MR90" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -10131,8 +10300,8 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <wire x1="-172.72" y1="127" x2="-172.72" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="-124.46" y1="160.02" x2="-124.46" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="-187.96" y1="203.2" x2="-187.96" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="7"/>
 <pinref part="U$17" gate="G$1" pin="66.3VAC/BRN/1"/>
+<pinref part="J4" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="66.3VAC/ORG/1" class="0">
@@ -10154,8 +10323,8 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <junction x="-175.26" y="160.02"/>
 <wire x1="-175.26" y1="160.02" x2="-175.26" y2="127" width="0.1524" layer="91"/>
 <wire x1="-185.42" y1="203.2" x2="-185.42" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="6"/>
 <pinref part="U$18" gate="G$1" pin="66.3VAC/ORG/1"/>
+<pinref part="J4" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="PE" class="0">
@@ -10167,7 +10336,7 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <segment>
 <pinref part="PE2" gate="M" pin="PE"/>
 <wire x1="-172.72" y1="200.66" x2="-172.72" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="1"/>
+<pinref part="J4" gate="G$1" pin="11"/>
 </segment>
 </net>
 <net name="N$46" class="0">
@@ -10917,7 +11086,7 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <wire x1="-215.9" y1="127" x2="-215.9" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="-215.9" y1="193.04" x2="-180.34" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="-180.34" y1="193.04" x2="-180.34" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="4"/>
+<pinref part="J4" gate="G$1" pin="8"/>
 </segment>
 </net>
 <net name="N$60" class="0">
@@ -10932,7 +11101,7 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <wire x1="-218.44" y1="124.46" x2="-218.44" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="-218.44" y1="195.58" x2="-182.88" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="-182.88" y1="195.58" x2="-182.88" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="5"/>
+<pinref part="J4" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="N$61" class="0">
@@ -10969,7 +11138,7 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <wire x1="-264.16" y1="127" x2="-264.16" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="-264.16" y1="198.12" x2="-195.58" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="-195.58" y1="198.12" x2="-195.58" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="10"/>
+<pinref part="J4" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$67" class="0">
@@ -10984,7 +11153,7 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <wire x1="-266.7" y1="124.46" x2="-266.7" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="-266.7" y1="200.66" x2="-198.12" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="-198.12" y1="200.66" x2="-198.12" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="11"/>
+<pinref part="J4" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="6.3_VAC_GRN/1" class="0">
@@ -11000,7 +11169,7 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <wire x1="-256.54" y1="147.32" x2="-256.54" y2="142.24" width="0.1524" layer="91"/>
 <junction x="-256.54" y="147.32"/>
 <wire x1="-228.6" y1="142.24" x2="-256.54" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="9"/>
+<pinref part="J4" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="6.3_VAC_BLU/1" class="0">
@@ -11014,7 +11183,7 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <junction x="-236.22" y="167.64"/>
 <wire x1="-236.22" y1="172.72" x2="-236.22" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="-190.5" y1="172.72" x2="-236.22" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="8"/>
+<pinref part="J4" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="115_VAC_RED/1" class="0">
@@ -11028,7 +11197,7 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <wire x1="-208.28" y1="142.24" x2="-177.8" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="-177.8" y1="203.2" x2="-177.8" y2="142.24" width="0.1524" layer="91"/>
 <label x="-177.8" y="190.5" size="1.27" layer="95" rot="MR0" xref="yes"/>
-<pinref part="J4" gate="G$1" pin="3"/>
+<pinref part="J4" gate="G$1" pin="9"/>
 </segment>
 </net>
 <net name="115_VAC_BLK/1" class="0">
@@ -11041,7 +11210,7 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <wire x1="-175.26" y1="167.64" x2="-187.96" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="-175.26" y1="203.2" x2="-175.26" y2="167.64" width="0.1524" layer="91"/>
 <label x="-175.26" y="187.96" size="1.27" layer="95" rot="MR0" xref="yes"/>
-<pinref part="J4" gate="G$1" pin="2"/>
+<pinref part="J4" gate="G$1" pin="10"/>
 </segment>
 </net>
 <net name="VCC/1" class="0">
@@ -11338,8 +11507,8 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 </segment>
 <segment>
 <wire x1="-325.12" y1="175.26" x2="-325.12" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="J9" gate="G$1" pin="6"/>
 <pinref part="SUPPLY20" gate="G$1" pin="DGND/1"/>
+<pinref part="J9" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="+5V/R/3" class="0">
@@ -11349,9 +11518,9 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <pinref part="SUPPLY36" gate="G$1" pin="+5V/R/3"/>
 </segment>
 <segment>
-<pinref part="J9" gate="G$1" pin="3"/>
 <wire x1="-332.74" y1="175.26" x2="-332.74" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="SUPPLY19" gate="G$1" pin="+5V/R/3"/>
+<pinref part="J9" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="+1V8/1" class="0">
@@ -11369,9 +11538,9 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <pinref part="+3V10" gate="G$1" pin="+1V8/1"/>
 </segment>
 <segment>
-<pinref part="J9" gate="G$1" pin="1"/>
 <wire x1="-337.82" y1="172.72" x2="-337.82" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="+3V9" gate="G$1" pin="+1V8/1"/>
+<pinref part="J9" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="+5V/R/1" class="0">
@@ -11399,9 +11568,9 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <pinref part="SUPPLY33" gate="G$1" pin="+5V/R/1"/>
 </segment>
 <segment>
-<pinref part="J9" gate="G$1" pin="4"/>
 <wire x1="-330.2" y1="175.26" x2="-330.2" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="SUPPLY18" gate="G$1" pin="+5V/R/1"/>
+<pinref part="J9" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="+3V3/1" class="0">
@@ -11429,9 +11598,9 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <pinref part="+3V7" gate="G$1" pin="+3V3/1"/>
 </segment>
 <segment>
-<pinref part="J9" gate="G$1" pin="2"/>
 <wire x1="-335.28" y1="172.72" x2="-335.28" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="+3V8" gate="G$1" pin="+3V3/1"/>
+<pinref part="J9" gate="G$1" pin="5"/>
 </segment>
 <segment>
 <pinref part="LDO1" gate="G$1" pin="EN"/>
@@ -11471,9 +11640,9 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 <pinref part="SUPPLY35" gate="G$1" pin="+5V/R/2"/>
 </segment>
 <segment>
-<pinref part="J9" gate="G$1" pin="5"/>
 <wire x1="-327.66" y1="175.26" x2="-327.66" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="SUPPLY17" gate="G$1" pin="+5V/R/2"/>
+<pinref part="J9" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>

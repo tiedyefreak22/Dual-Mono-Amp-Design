@@ -9046,11 +9046,11 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <instance part="SUPPLY18" gate="G$1" x="-330.2" y="170.18" smashed="yes" rot="R180">
 <attribute name="VALUE" x="-326.39" y="167.005" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY19" gate="G$1" x="-332.74" y="170.18" smashed="yes" rot="R180">
-<attribute name="VALUE" x="-328.93" y="167.005" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY19" gate="G$1" x="-335.28" y="170.18" smashed="yes" rot="R180">
+<attribute name="VALUE" x="-331.47" y="167.005" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="+3V8" gate="G$1" x="-335.28" y="170.18" smashed="yes" rot="R180">
-<attribute name="VALUE" x="-332.74" y="175.26" size="1.778" layer="96" rot="R270"/>
+<instance part="+3V8" gate="G$1" x="-332.74" y="170.18" smashed="yes" rot="R180">
+<attribute name="VALUE" x="-330.2" y="175.26" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="+3V9" gate="G$1" x="-337.82" y="170.18" smashed="yes" rot="R180">
 <attribute name="VALUE" x="-335.28" y="175.26" size="1.778" layer="96" rot="R270"/>
@@ -11518,9 +11518,9 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <pinref part="SUPPLY36" gate="G$1" pin="+5V/R/3"/>
 </segment>
 <segment>
-<wire x1="-332.74" y1="175.26" x2="-332.74" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="SUPPLY19" gate="G$1" pin="+5V/R/3"/>
-<pinref part="J9" gate="G$1" pin="4"/>
+<pinref part="J9" gate="G$1" pin="5"/>
+<wire x1="-335.28" y1="172.72" x2="-335.28" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+1V8/1" class="0">
@@ -11598,11 +11598,6 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <pinref part="+3V7" gate="G$1" pin="+3V3/1"/>
 </segment>
 <segment>
-<wire x1="-335.28" y1="172.72" x2="-335.28" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="+3V8" gate="G$1" pin="+3V3/1"/>
-<pinref part="J9" gate="G$1" pin="5"/>
-</segment>
-<segment>
 <pinref part="LDO1" gate="G$1" pin="EN"/>
 <wire x1="-454.66" y1="170.18" x2="-457.2" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="-457.2" y1="170.18" x2="-457.2" y2="165.1" width="0.1524" layer="91"/>
@@ -11613,6 +11608,11 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <pinref part="C26A1" gate="G$1" pin="1"/>
 <wire x1="-457.2" y1="162.56" x2="-457.2" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="+3V11" gate="G$1" pin="+3V3/1"/>
+</segment>
+<segment>
+<pinref part="+3V8" gate="G$1" pin="+3V3/1"/>
+<pinref part="J9" gate="G$1" pin="4"/>
+<wire x1="-332.74" y1="172.72" x2="-332.74" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V/R/2" class="0">

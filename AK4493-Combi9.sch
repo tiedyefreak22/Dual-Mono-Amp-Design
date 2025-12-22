@@ -989,30 +989,6 @@ type 0411, grid 15 mm</description>
 <text x="-1.7145" y="-2.2225" size="1.27" layer="25" ratio="16">&gt;NAME</text>
 <text x="0.381" y="-0.889" size="0.762" layer="51" ratio="10" rot="R90">&gt;NAME</text>
 </package>
-<package name="SOT230P700X180-4N" urn="urn:adsk.eagle:footprint:48500910/1" library_version="33">
-<description>&lt;b&gt;DCY (R-PDSO-G4&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-3.15" y="2.3" dx="1.75" dy="0.95" layer="1"/>
-<smd name="2" x="-3.15" y="0" dx="1.75" dy="0.95" layer="1"/>
-<smd name="3" x="-3.15" y="-2.3" dx="1.75" dy="0.95" layer="1"/>
-<smd name="4" x="3.15" y="0" dx="3.2" dy="1.75" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-4.275" y1="3.6" x2="4.275" y2="3.6" width="0.05" layer="51"/>
-<wire x1="4.275" y1="3.6" x2="4.275" y2="-3.6" width="0.05" layer="51"/>
-<wire x1="4.275" y1="-3.6" x2="-4.275" y2="-3.6" width="0.05" layer="51"/>
-<wire x1="-4.275" y1="-3.6" x2="-4.275" y2="3.6" width="0.05" layer="51"/>
-<wire x1="-1.75" y1="3.25" x2="1.75" y2="3.25" width="0.1" layer="51"/>
-<wire x1="1.75" y1="3.25" x2="1.75" y2="-3.25" width="0.1" layer="51"/>
-<wire x1="1.75" y1="-3.25" x2="-1.75" y2="-3.25" width="0.1" layer="51"/>
-<wire x1="-1.75" y1="-3.25" x2="-1.75" y2="3.25" width="0.1" layer="51"/>
-<wire x1="-1.75" y1="0.95" x2="0.55" y2="3.25" width="0.1" layer="51"/>
-<wire x1="-1.75" y1="3.25" x2="1.75" y2="3.25" width="0.2" layer="21"/>
-<wire x1="1.75" y1="3.25" x2="1.75" y2="-3.25" width="0.2" layer="21"/>
-<wire x1="1.75" y1="-3.25" x2="-1.75" y2="-3.25" width="0.2" layer="21"/>
-<wire x1="-1.75" y1="-3.25" x2="-1.75" y2="3.25" width="0.2" layer="21"/>
-<wire x1="-4.025" y1="3.125" x2="-2.275" y2="3.125" width="0.2" layer="21"/>
-</package>
 <package name="1935255" urn="urn:adsk.eagle:footprint:50907199/1" library_version="34">
 <description>&lt;b&gt;1935255-5&lt;/b&gt;&lt;br&gt;
 </description>
@@ -1065,6 +1041,49 @@ type 0411, grid 15 mm</description>
 <wire x1="28.5" y1="5" x2="28.5" y2="-6" width="0.1" layer="51"/>
 <wire x1="28.5" y1="-6" x2="-3.5" y2="-6" width="0.1" layer="51"/>
 <wire x1="-3.5" y1="-6" x2="-3.5" y2="5" width="0.1" layer="51"/>
+</package>
+<package name="SOT230P700X180-4N" urn="urn:adsk.eagle:footprint:50982350/1" library_version="38">
+<description>&lt;b&gt;sot 223&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-3.15" y="2.3" dx="1.75" dy="0.95" layer="1"/>
+<smd name="2" x="-3.15" y="0" dx="1.75" dy="0.95" layer="1"/>
+<smd name="3" x="-3.15" y="-2.3" dx="1.75" dy="0.95" layer="1"/>
+<smd name="4" x="3.15" y="0" dx="3.2" dy="1.75" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-4.275" y1="3.6" x2="4.275" y2="3.6" width="0.05" layer="51"/>
+<wire x1="4.275" y1="3.6" x2="4.275" y2="-3.6" width="0.05" layer="51"/>
+<wire x1="4.275" y1="-3.6" x2="-4.275" y2="-3.6" width="0.05" layer="51"/>
+<wire x1="-4.275" y1="-3.6" x2="-4.275" y2="3.6" width="0.05" layer="51"/>
+<wire x1="-1.75" y1="3.25" x2="1.75" y2="3.25" width="0.1" layer="51"/>
+<wire x1="1.75" y1="3.25" x2="1.75" y2="-3.25" width="0.1" layer="51"/>
+<wire x1="1.75" y1="-3.25" x2="-1.75" y2="-3.25" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="-3.25" x2="-1.75" y2="3.25" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="0.95" x2="0.55" y2="3.25" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="3.25" x2="1.75" y2="3.25" width="0.2" layer="21"/>
+<wire x1="1.75" y1="3.25" x2="1.75" y2="-3.25" width="0.2" layer="21"/>
+<wire x1="1.75" y1="-3.25" x2="-1.75" y2="-3.25" width="0.2" layer="21"/>
+<wire x1="-1.75" y1="-3.25" x2="-1.75" y2="3.25" width="0.2" layer="21"/>
+<wire x1="-4.025" y1="3.125" x2="-2.275" y2="3.125" width="0.2" layer="21"/>
+</package>
+<package name="CAPPM168X90N" urn="urn:adsk.eagle:footprint:50982351/1" library_version="38">
+<description>&lt;b&gt;0603_M_25&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.7" y="0" dx="1.3" dy="0.6" layer="1"/>
+<smd name="2" x="0.7" y="0" dx="1.3" dy="0.6" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.6" y1="0.725" x2="1.6" y2="0.725" width="0.05" layer="51"/>
+<wire x1="1.6" y1="0.725" x2="1.6" y2="-0.725" width="0.05" layer="51"/>
+<wire x1="1.6" y1="-0.725" x2="-1.6" y2="-0.725" width="0.05" layer="51"/>
+<wire x1="-1.6" y1="-0.725" x2="-1.6" y2="0.725" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="0.425" x2="0.8" y2="0.425" width="0.1" layer="51"/>
+<wire x1="0.8" y1="0.425" x2="0.8" y2="-0.425" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-0.425" x2="-0.8" y2="-0.425" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-0.425" x2="-0.8" y2="0.425" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="0.125" x2="-0.5" y2="0.425" width="0.1" layer="51"/>
+<wire x1="0.8" y1="0.425" x2="-1.35" y2="0.425" width="0.2" layer="21"/>
+<wire x1="-0.8" y1="-0.425" x2="0.8" y2="-0.425" width="0.2" layer="21"/>
 </package>
 </packages>
 <packages3d>
@@ -1131,12 +1150,6 @@ type 0411, grid 15 mm</description>
 <packageinstance name="SHORT_ALL-50"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT230P700X180-4N" urn="urn:adsk.eagle:package:47621665/2" type="box" library_version="33">
-<description>&lt;b&gt;DCY (R-PDSO-G4&lt;/b&gt;&lt;br&gt;</description>
-<packageinstances>
-<packageinstance name="SOT230P700X180-4N"/>
-</packageinstances>
-</package3d>
 <package3d name="1935255" urn="urn:adsk.eagle:package:50907200/1" type="box" library_version="34">
 <description>&lt;b&gt;1935255-5&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
@@ -1147,6 +1160,18 @@ type 0411, grid 15 mm</description>
 <description>&lt;b&gt;1935200-2&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="1935200"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT230P700X180-4N" urn="urn:adsk.eagle:package:47621665/3" type="box" library_version="38">
+<description>&lt;b&gt;sot 223&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="SOT230P700X180-4N"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPPM168X90N" urn="urn:adsk.eagle:package:50982352/1" type="box" library_version="38">
+<description>&lt;b&gt;0603_M_25&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="CAPPM168X90N"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1398,6 +1423,40 @@ type 0411, grid 15 mm</description>
 <wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
 <pin name="+3V3/1" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+</symbol>
+<symbol name="LM1117" urn="urn:adsk.eagle:symbol:50982347/1" library_version="38">
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
+<text x="2.54" y="-7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.032" y="-4.318" size="1.524" layer="95">GND</text>
+<text x="-4.445" y="-0.635" size="1.524" layer="95">IN</text>
+<text x="0.635" y="-0.635" size="1.524" layer="95">OUT</text>
+<pin name="IN" x="-7.62" y="0" visible="off" length="short" direction="in"/>
+<pin name="GND" x="0" y="-7.62" visible="off" length="short" direction="in" rot="R90"/>
+<pin name="OUT" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="TCM1A106M8R" urn="urn:adsk.eagle:symbol:50982348/1" library_version="38">
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.842" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.842" y1="-2.54" x2="5.842" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.842" y2="2.54" width="0.254" layer="94"/>
+<wire x1="4.572" y1="1.27" x2="3.556" y2="1.27" width="0.254" layer="94"/>
+<wire x1="4.064" y1="1.778" x2="4.064" y2="0.762" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
+<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="+" x="0" y="0" visible="pad" length="short"/>
+<pin name="-" x="12.7" y="0" visible="pad" length="short" rot="R180"/>
+<polygon width="0.254" layer="94">
+<vertex x="7.62" y="2.54"/>
+<vertex x="7.62" y="-2.54"/>
+<vertex x="6.858" y="-2.54"/>
+<vertex x="6.858" y="2.54"/>
+</polygon>
 </symbol>
 </symbols>
 <devicesets>
@@ -1945,35 +2004,6 @@ Source: &lt;a href="https://www.mouser.in/datasheet/2/440/e_WIMA_DC_Link_MKP_4-1
 </device>
 </devices>
 </deviceset>
-<deviceset name="LM317MQDCYR" urn="urn:adsk.eagle:component:48500911/2" prefix="IC" library_version="33">
-<description>&lt;b&gt;Standard Regulator 1.25V to 37V 0.5A Texas Instruments LM317MQDCYR, Single Linear Voltage Regulator, 500mA Adjustable 1.25  37 V, 4-Pin SOT-223&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/LM317MQDCYR.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="78XX" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT230P700X180-4N">
-<connects>
-<connect gate="G$1" pin="ADJ" pad="1"/>
-<connect gate="G$1" pin="IN" pad="3"/>
-<connect gate="G$1" pin="OUT" pad="2 4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:47621665/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Standard Regulator 1.25V to 37V 0.5A Texas Instruments LM317MQDCYR, Single Linear Voltage Regulator, 500mA Adjustable 1.25  37 V, 4-Pin SOT-223" constant="no"/>
-<attribute name="HEIGHT" value="1.8mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Texas Instruments" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="LM317MQDCYR" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="595-LM317MQDCYR" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM317MQDCYR?qs=VBduBm9rCJSAPGr9YDjocQ%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="1935255" urn="urn:adsk.eagle:component:50907201/1" prefix="J" library_version="34">
 <description>&lt;b&gt;Phoenix Contact PT 1.5/11-5.0-H PCB Terminal Block, 11 Way/Pole, Screw Terminals, 26  14 AWG Through Hole,&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-2/sf-00057468.pdf"&gt; Datasheet &lt;/a&gt;</description>
@@ -2195,6 +2225,63 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <device name="">
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM1117MPX-5.0_NOPB" urn="urn:adsk.eagle:component:50982354/1" prefix="IC" library_version="38">
+<description>&lt;b&gt;Space saving 800-mA low-dropout linear regulator with internal current limit&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.ti.com/lit/gpn/lm1117"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="LM1117" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT230P700X180-4N">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2 4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47621665/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Space saving 800-mA low-dropout linear regulator with internal current limit" constant="no"/>
+<attribute name="HEIGHT" value="1.8mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LM1117MPX-5.0/NOPB" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="926-LM1117MPX5.0NOPB" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM1117MPX-5.0-NOPB?qs=X1J7HmVL2ZE1O12Qsl7F9g%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TCM1A106M8R" urn="urn:adsk.eagle:component:50982353/1" prefix="C" library_version="38">
+<description>&lt;b&gt;Tantalum Capacitors - Solid SMD 10 VDC 10 uF 0603 20 % ESR=9 mOhms&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://datasheets.kyocera-avx.com/tc-series.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TCM1A106M8R" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPPM168X90N">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:50982352/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Tantalum Capacitors - Solid SMD 10 VDC 10 uF 0603 20 % ESR=9 mOhms" constant="no"/>
+<attribute name="HEIGHT" value="0.9mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Kyocera AVX" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TCM1A106M8R" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="755-TCM1A106M8R" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/TCM1A106M8R?qs=Z4wLSx0Y7o51yvfoDMdJcQ%3D%3D" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -7860,7 +7947,6 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <part name="C7P1" library="500HXW68MEFR14.5X45" deviceset="500HXW68MEFR14.5X45" device="" value="68u"/>
 <part name="SUPPLY3" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="DGND/2" device=""/>
 <part name="P+2" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="VCC/2" device=""/>
-<part name="IC3" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="LM317MQDCYR" device="" package3d_urn="urn:adsk.eagle:package:47621665/2"/>
 <part name="SUPPLY4" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="DGND/2" device=""/>
 <part name="SUPPLY5" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="DGND/2" device=""/>
 <part name="SUPPLY7" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="DGND/2" device=""/>
@@ -7950,7 +8036,6 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <part name="C26A1" library="Dual Mono Amp Library" deviceset="EMK212ABJ475KG-T" device="" value="4.7u, Ceramic Capacitor X7R"/>
 <part name="C28A1" library="Dual Mono Amp Library" deviceset="EMF212B7104KGHT" device="" value="0.1u, Ceramic Capacitor X7R"/>
 <part name="C27A1" library="Dual Mono Amp Library" deviceset="EMK212ABJ475KG-T" device="" value="4.7u, Ceramic Capacitor X7R"/>
-<part name="IC4" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="LM317MQDCYR" device="" package3d_urn="urn:adsk.eagle:package:47621665/2"/>
 <part name="SUPPLY33" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="+5V/R/1" device=""/>
 <part name="SUPPLY35" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="+5V/R/2" device=""/>
 <part name="SUPPLY36" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="+5V/R/3" device=""/>
@@ -7975,6 +8060,14 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <part name="+3V11" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="+3V3/1" device=""/>
 <part name="J4" library="1935255" deviceset="1935255" device=""/>
 <part name="J9" library="1935200" deviceset="1935200" device=""/>
+<part name="SUPPLY23" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="DGND/1" device=""/>
+<part name="SUPPLY25" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="DGND/2" device=""/>
+<part name="IC3" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="LM1117MPX-5.0_NOPB" device="" package3d_urn="urn:adsk.eagle:package:47621665/3"/>
+<part name="IC4" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="LM1117MPX-5.0_NOPB" device="" package3d_urn="urn:adsk.eagle:package:47621665/3"/>
+<part name="C5" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="TCM1A106M8R" device="" package3d_urn="urn:adsk.eagle:package:50982352/1"/>
+<part name="C6" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="TCM1A106M8R" device="" package3d_urn="urn:adsk.eagle:package:50982352/1"/>
+<part name="C7" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="TCM1A106M8R" device="" package3d_urn="urn:adsk.eagle:package:50982352/1"/>
+<part name="C8" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="TCM1A106M8R" device="" package3d_urn="urn:adsk.eagle:package:50982352/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -8657,10 +8750,6 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <instance part="P+2" gate="G$1" x="261.62" y="50.8" smashed="yes" rot="R180">
 <attribute name="VALUE" x="261.62" y="48.006" size="1.778" layer="96" font="vector" rot="R180" align="bottom-center"/>
 </instance>
-<instance part="IC3" gate="G$1" x="530.86" y="177.8" smashed="yes">
-<attribute name="NAME" x="533.4" y="170.18" size="1.778" layer="95"/>
-<attribute name="VALUE" x="533.4" y="167.64" size="1.778" layer="96"/>
-</instance>
 <instance part="SUPPLY4" gate="G$1" x="416.56" y="147.32" smashed="yes">
 <attribute name="VALUE" x="413.893" y="144.145" size="1.778" layer="96"/>
 </instance>
@@ -8686,11 +8775,11 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <instance part="SUPPLY11" gate="G$1" x="322.58" y="129.54" smashed="yes">
 <attribute name="VALUE" x="318.77" y="132.715" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY13" gate="G$1" x="551.18" y="177.8" smashed="yes" rot="R270">
-<attribute name="VALUE" x="554.355" y="181.61" size="1.778" layer="96" rot="R270"/>
+<instance part="SUPPLY13" gate="G$1" x="548.64" y="177.8" smashed="yes" rot="R270">
+<attribute name="VALUE" x="551.815" y="181.61" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="P+3" gate="G$1" x="513.08" y="177.8" smashed="yes" rot="R90">
-<attribute name="VALUE" x="510.286" y="177.8" size="1.778" layer="96" font="vector" rot="R90" align="bottom-center"/>
+<instance part="P+3" gate="G$1" x="515.62" y="177.8" smashed="yes" rot="R90">
+<attribute name="VALUE" x="512.826" y="177.8" size="1.778" layer="96" font="vector" rot="R90" align="bottom-center"/>
 </instance>
 <instance part="+3V1" gate="G$1" x="401.32" y="165.1" smashed="yes" rot="R90">
 <attribute name="VALUE" x="406.4" y="162.56" size="1.778" layer="96" rot="R180"/>
@@ -8988,18 +9077,14 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <attribute name="NAME" x="-418.084" y="160.401" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="-418.084" y="155.321" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="IC4" gate="G$1" x="-530.86" y="177.8" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-533.4" y="170.18" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="-533.4" y="167.64" size="1.778" layer="96" rot="MR0"/>
-</instance>
 <instance part="SUPPLY33" gate="G$1" x="-421.64" y="129.54" smashed="yes">
 <attribute name="VALUE" x="-425.45" y="132.715" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY35" gate="G$1" x="-322.58" y="129.54" smashed="yes">
 <attribute name="VALUE" x="-326.39" y="132.715" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY36" gate="G$1" x="-551.18" y="177.8" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-554.355" y="173.99" size="1.778" layer="96" rot="R90"/>
+<instance part="SUPPLY36" gate="G$1" x="-548.64" y="177.8" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-551.815" y="173.99" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="+3V10" gate="G$1" x="-401.32" y="165.1" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-406.4" y="167.64" size="1.778" layer="96"/>
@@ -9016,8 +9101,8 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <instance part="P+12" gate="G$1" x="-508" y="35.56" smashed="yes" rot="R180">
 <attribute name="VALUE" x="-508" y="32.766" size="1.778" layer="96" font="vector" rot="R180" align="bottom-center"/>
 </instance>
-<instance part="P+13" gate="G$1" x="-513.08" y="177.8" smashed="yes" rot="R270">
-<attribute name="VALUE" x="-510.286" y="177.8" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
+<instance part="P+13" gate="G$1" x="-515.62" y="177.8" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-512.826" y="177.8" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY20" gate="G$1" x="-325.12" y="170.18" smashed="yes">
 <attribute name="VALUE" x="-327.787" y="167.005" size="1.778" layer="96"/>
@@ -9065,6 +9150,36 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <instance part="J9" gate="G$1" x="-325.12" y="175.26" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-317.5" y="191.77" size="1.778" layer="95" rot="MR90" align="center-left"/>
 <attribute name="VALUE" x="-320.04" y="191.77" size="1.778" layer="96" rot="MR90" align="center-left"/>
+</instance>
+<instance part="SUPPLY23" gate="G$1" x="-530.86" y="154.94" smashed="yes">
+<attribute name="VALUE" x="-533.527" y="151.765" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY25" gate="G$1" x="530.86" y="154.94" smashed="yes">
+<attribute name="VALUE" x="528.193" y="151.765" size="1.778" layer="96"/>
+</instance>
+<instance part="IC3" gate="G$1" x="530.86" y="177.8" smashed="yes">
+<attribute name="NAME" x="533.4" y="170.18" size="1.778" layer="95"/>
+<attribute name="VALUE" x="533.4" y="167.64" size="1.778" layer="96"/>
+</instance>
+<instance part="IC4" gate="G$1" x="-530.86" y="177.8" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-533.4" y="170.18" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="-533.4" y="167.64" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="C5" gate="G$1" x="-543.56" y="175.26" smashed="yes" rot="R270">
+<attribute name="NAME" x="-537.21" y="166.37" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="-539.75" y="166.37" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="C6" gate="G$1" x="-518.16" y="175.26" smashed="yes" rot="R270">
+<attribute name="NAME" x="-511.81" y="166.37" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="-514.35" y="166.37" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="C7" gate="G$1" x="518.16" y="175.26" smashed="yes" rot="R270">
+<attribute name="NAME" x="524.51" y="166.37" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="521.97" y="166.37" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="C8" gate="G$1" x="543.56" y="175.26" smashed="yes" rot="R270">
+<attribute name="NAME" x="549.91" y="166.37" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="547.37" y="166.37" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -10278,6 +10393,19 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <wire x1="325.12" y1="175.26" x2="325.12" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="J7" gate="G$1" pin="6"/>
 </segment>
+<segment>
+<pinref part="SUPPLY25" gate="G$1" pin="DGND/2"/>
+<wire x1="530.86" y1="157.48" x2="530.86" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="GND"/>
+<pinref part="C7" gate="G$1" pin="-"/>
+<wire x1="530.86" y1="160.02" x2="530.86" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="162.56" x2="518.16" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="160.02" x2="530.86" y2="160.02" width="0.1524" layer="91"/>
+<junction x="530.86" y="160.02"/>
+<wire x1="530.86" y1="160.02" x2="543.56" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="-"/>
+<wire x1="543.56" y1="160.02" x2="543.56" y2="162.56" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="66.3VAC/BRN/1" class="0">
 <segment>
@@ -10549,9 +10677,13 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <pinref part="P+2" gate="G$1" pin="VCC/2"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="IN"/>
 <pinref part="P+3" gate="G$1" pin="VCC/2"/>
-<wire x1="513.08" y1="177.8" x2="523.24" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="515.62" y1="177.8" x2="518.16" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="IN"/>
+<pinref part="C7" gate="G$1" pin="+"/>
+<wire x1="518.16" y1="177.8" x2="523.24" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="175.26" x2="518.16" y2="177.8" width="0.1524" layer="91"/>
+<junction x="518.16" y="177.8"/>
 </segment>
 </net>
 <net name="N$51" class="0">
@@ -10868,9 +11000,13 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </net>
 <net name="+5V/L/3" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUT"/>
 <pinref part="SUPPLY13" gate="G$1" pin="+5V/L/3"/>
-<wire x1="548.64" y1="177.8" x2="538.48" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="546.1" y1="177.8" x2="543.56" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="OUT"/>
+<pinref part="C8" gate="G$1" pin="+"/>
+<wire x1="543.56" y1="177.8" x2="538.48" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="543.56" y1="175.26" x2="543.56" y2="177.8" width="0.1524" layer="91"/>
+<junction x="543.56" y="177.8"/>
 </segment>
 <segment>
 <pinref part="C21A" gate="G$1" pin="1"/>
@@ -11236,9 +11372,13 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <pinref part="P+7" gate="G$1" pin="VCC/1"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="IN"/>
-<wire x1="-513.08" y1="177.8" x2="-523.24" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="-515.62" y1="177.8" x2="-518.16" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="P+13" gate="G$1" pin="VCC/1"/>
+<pinref part="IC4" gate="G$1" pin="IN"/>
+<pinref part="C6" gate="G$1" pin="+"/>
+<wire x1="-518.16" y1="177.8" x2="-523.24" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="-518.16" y1="175.26" x2="-518.16" y2="177.8" width="0.1524" layer="91"/>
+<junction x="-518.16" y="177.8"/>
 </segment>
 <segment>
 <pinref part="C21B2" gate="G$1" pin="1"/>
@@ -11510,12 +11650,29 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <pinref part="SUPPLY20" gate="G$1" pin="DGND/1"/>
 <pinref part="J9" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="SUPPLY23" gate="G$1" pin="DGND/1"/>
+<wire x1="-530.86" y1="157.48" x2="-530.86" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="IC4" gate="G$1" pin="GND"/>
+<pinref part="C6" gate="G$1" pin="-"/>
+<wire x1="-530.86" y1="160.02" x2="-530.86" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="-518.16" y1="162.56" x2="-518.16" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="-518.16" y1="160.02" x2="-530.86" y2="160.02" width="0.1524" layer="91"/>
+<junction x="-530.86" y="160.02"/>
+<pinref part="C5" gate="G$1" pin="-"/>
+<wire x1="-543.56" y1="162.56" x2="-543.56" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="-543.56" y1="160.02" x2="-530.86" y2="160.02" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+5V/R/3" class="0">
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUT"/>
-<wire x1="-548.64" y1="177.8" x2="-538.48" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="-546.1" y1="177.8" x2="-543.56" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="SUPPLY36" gate="G$1" pin="+5V/R/3"/>
+<pinref part="IC4" gate="G$1" pin="OUT"/>
+<pinref part="C5" gate="G$1" pin="+"/>
+<wire x1="-543.56" y1="177.8" x2="-538.48" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="-543.56" y1="175.26" x2="-543.56" y2="177.8" width="0.1524" layer="91"/>
+<junction x="-543.56" y="177.8"/>
 </segment>
 <segment>
 <pinref part="SUPPLY19" gate="G$1" pin="+5V/R/3"/>

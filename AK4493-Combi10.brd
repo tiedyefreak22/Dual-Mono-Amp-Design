@@ -829,6 +829,43 @@ type 0411, grid 15 mm</description>
 <wire x1="0.8" y1="0.425" x2="-1.35" y2="0.425" width="0.2" layer="21"/>
 <wire x1="-0.8" y1="-0.425" x2="0.8" y2="-0.425" width="0.2" layer="21"/>
 </package>
+<package name="CAPPRD750W80D1475H4700" urn="urn:adsk.eagle:footprint:47621590/1" library_version="38">
+<description>&lt;b&gt;14.5X45&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1" diameter="1.5" shape="square"/>
+<pad name="2" x="7.5" y="0" drill="1" diameter="1.5"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<circle x="3.75" y="0" radius="7.875" width="0.05" layer="21"/>
+<circle x="3.75" y="0" radius="7.375" width="0.2" layer="25"/>
+<circle x="3.75" y="0" radius="7.375" width="0.1" layer="51"/>
+</package>
+<package name="DIOAD1405W86L465D235" urn="urn:adsk.eagle:footprint:47621589/1" library_version="38">
+<description>&lt;b&gt;CASE 5910&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1.05" diameter="1.575" shape="square"/>
+<pad name="2" x="14.1" y="0" drill="1.05" diameter="1.575"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.038" y1="1.525" x2="15.137" y2="1.525" width="0.05" layer="51"/>
+<wire x1="15.137" y1="1.525" x2="15.137" y2="-1.525" width="0.05" layer="51"/>
+<wire x1="15.137" y1="-1.525" x2="-1.038" y2="-1.525" width="0.05" layer="51"/>
+<wire x1="-1.038" y1="-1.525" x2="-1.038" y2="1.525" width="0.05" layer="51"/>
+<wire x1="4.725" y1="1.175" x2="9.375" y2="1.175" width="0.1" layer="51"/>
+<wire x1="9.375" y1="1.175" x2="9.375" y2="-1.175" width="0.1" layer="51"/>
+<wire x1="9.375" y1="-1.175" x2="4.725" y2="-1.175" width="0.1" layer="51"/>
+<wire x1="4.725" y1="-1.175" x2="4.725" y2="1.175" width="0.1" layer="51"/>
+<wire x1="4.725" y1="0" x2="5.9" y2="1.175" width="0.1" layer="51"/>
+<wire x1="0" y1="0" x2="4.725" y2="0" width="0.1" layer="51"/>
+<wire x1="9.375" y1="0" x2="14.1" y2="0" width="0.1" layer="51"/>
+<wire x1="4.725" y1="1.175" x2="9.375" y2="1.175" width="0.2" layer="21"/>
+<wire x1="9.375" y1="1.175" x2="9.375" y2="-1.175" width="0.2" layer="21"/>
+<wire x1="9.375" y1="-1.175" x2="4.725" y2="-1.175" width="0.2" layer="21"/>
+<wire x1="4.725" y1="-1.175" x2="4.725" y2="1.175" width="0.2" layer="21"/>
+<wire x1="4.725" y1="0" x2="5.9" y2="1.175" width="0.2" layer="21"/>
+<wire x1="1.138" y1="0" x2="4.725" y2="0" width="0.2" layer="21"/>
+<wire x1="9.375" y1="0" x2="12.962" y2="0" width="0.2" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="MKP4G034705D00KSSD" urn="urn:adsk.eagle:package:47621660/1" type="box" library_version="3">
@@ -912,39 +949,19 @@ type 0411, grid 15 mm</description>
 <packageinstance name="CAPPM168X90N"/>
 </packageinstances>
 </package3d>
+<package3d name="CAPPRD750W80D1475H4700" urn="urn:adsk.eagle:package:47621664/1" type="box" library_version="38">
+<description>&lt;b&gt;14.5X45&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="CAPPRD750W80D1475H4700"/>
+</packageinstances>
+</package3d>
+<package3d name="DIOAD1405W86L465D235" urn="urn:adsk.eagle:package:47621663/1" type="box" library_version="38">
+<description>&lt;b&gt;CASE 5910&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="DIOAD1405W86L465D235"/>
+</packageinstances>
+</package3d>
 </packages3d>
-</library>
-<library name="1N4007FFG">
-<description>&lt;Rectifiers 1000V 1A Standard&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="DIOAD1405W86L465D235">
-<description>&lt;b&gt;CASE 5910&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="1.05" diameter="1.575" shape="square"/>
-<pad name="2" x="14.1" y="0" drill="1.05" diameter="1.575"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.038" y1="1.525" x2="15.137" y2="1.525" width="0.05" layer="51"/>
-<wire x1="15.137" y1="1.525" x2="15.137" y2="-1.525" width="0.05" layer="51"/>
-<wire x1="15.137" y1="-1.525" x2="-1.038" y2="-1.525" width="0.05" layer="51"/>
-<wire x1="-1.038" y1="-1.525" x2="-1.038" y2="1.525" width="0.05" layer="51"/>
-<wire x1="4.725" y1="1.175" x2="9.375" y2="1.175" width="0.1" layer="51"/>
-<wire x1="9.375" y1="1.175" x2="9.375" y2="-1.175" width="0.1" layer="51"/>
-<wire x1="9.375" y1="-1.175" x2="4.725" y2="-1.175" width="0.1" layer="51"/>
-<wire x1="4.725" y1="-1.175" x2="4.725" y2="1.175" width="0.1" layer="51"/>
-<wire x1="4.725" y1="0" x2="5.9" y2="1.175" width="0.1" layer="51"/>
-<wire x1="0" y1="0" x2="4.725" y2="0" width="0.1" layer="51"/>
-<wire x1="9.375" y1="0" x2="14.1" y2="0" width="0.1" layer="51"/>
-<wire x1="4.725" y1="1.175" x2="9.375" y2="1.175" width="0.2" layer="21"/>
-<wire x1="9.375" y1="1.175" x2="9.375" y2="-1.175" width="0.2" layer="21"/>
-<wire x1="9.375" y1="-1.175" x2="4.725" y2="-1.175" width="0.2" layer="21"/>
-<wire x1="4.725" y1="-1.175" x2="4.725" y2="1.175" width="0.2" layer="21"/>
-<wire x1="4.725" y1="0" x2="5.9" y2="1.175" width="0.2" layer="21"/>
-<wire x1="1.138" y1="0" x2="4.725" y2="0" width="0.2" layer="21"/>
-<wire x1="9.375" y1="0" x2="12.962" y2="0" width="0.2" layer="21"/>
-</package>
-</packages>
 </library>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
@@ -2051,23 +2068,6 @@ type 0411, grid 15 mm</description>
 </package>
 </packages>
 </library>
-<library name="500HXW68MEFR14.5X45">
-<description>&lt;Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="CAPPRD750W80D1475H4700">
-<description>&lt;b&gt;14.5X45&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="1" diameter="1.5" shape="square"/>
-<pad name="2" x="7.5" y="0" drill="1" diameter="1.5"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<circle x="3.75" y="0" radius="7.875" width="0.05" layer="21"/>
-<circle x="3.75" y="0" radius="7.375" width="0.2" layer="25"/>
-<circle x="3.75" y="0" radius="7.375" width="0.1" layer="51"/>
-</package>
-</packages>
-</library>
 <library name="Dual Mono Amp Library">
 <description>Generated from &lt;b&gt;AK4493-v1.64_21.sch&lt;/b&gt;&lt;p&gt;
 by exp-lbrs.ulp</description>
@@ -2261,71 +2261,6 @@ by exp-lbrs.ulp</description>
 <wire x1="-1.27" y1="-8.89" x2="8.89" y2="-8.89" width="0.2" layer="21"/>
 <wire x1="8.89" y1="1.27" x2="-1.27" y2="1.27" width="0.2" layer="21"/>
 <wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.2" layer="21"/>
-</package>
-</packages>
-</library>
-<library name="1935255">
-<description>&lt;Phoenix Contact PT 1.5/11-5.0-H PCB Terminal Block, 11 Way/Pole, Screw Terminals, 26  14 AWG Through Hole,&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="1935255">
-<description>&lt;b&gt;1935255-5&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="1.3" diameter="1.95" shape="square"/>
-<pad name="2" x="5" y="0" drill="1.3" diameter="1.95"/>
-<pad name="3" x="10" y="0" drill="1.3" diameter="1.95"/>
-<pad name="4" x="15" y="0" drill="1.3" diameter="1.95"/>
-<pad name="5" x="20" y="0" drill="1.3" diameter="1.95"/>
-<pad name="6" x="25" y="0" drill="1.3" diameter="1.95"/>
-<pad name="7" x="30" y="0" drill="1.3" diameter="1.95"/>
-<pad name="8" x="35" y="0" drill="1.3" diameter="1.95"/>
-<pad name="9" x="40" y="0" drill="1.3" diameter="1.95"/>
-<pad name="10" x="45" y="0" drill="1.3" diameter="1.95"/>
-<pad name="11" x="50" y="0" drill="1.3" diameter="1.95"/>
-<text x="25" y="-0.5" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="25" y="-0.5" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.5" y1="4" x2="52.5" y2="4" width="0.2" layer="51"/>
-<wire x1="52.5" y1="4" x2="52.5" y2="-5" width="0.2" layer="51"/>
-<wire x1="52.5" y1="-5" x2="-2.5" y2="-5" width="0.2" layer="51"/>
-<wire x1="-2.5" y1="-5" x2="-2.5" y2="4" width="0.2" layer="51"/>
-<wire x1="-2.5" y1="4" x2="52.5" y2="4" width="0.1" layer="21"/>
-<wire x1="52.5" y1="4" x2="52.5" y2="-5" width="0.1" layer="21"/>
-<wire x1="52.5" y1="-5" x2="-2.5" y2="-5" width="0.1" layer="21"/>
-<wire x1="-2.5" y1="-5" x2="-2.5" y2="4" width="0.1" layer="21"/>
-<wire x1="-3.5" y1="5" x2="53.5" y2="5" width="0.1" layer="51"/>
-<wire x1="53.5" y1="5" x2="53.5" y2="-6" width="0.1" layer="51"/>
-<wire x1="53.5" y1="-6" x2="-3.5" y2="-6" width="0.1" layer="51"/>
-<wire x1="-3.5" y1="-6" x2="-3.5" y2="5" width="0.1" layer="51"/>
-</package>
-</packages>
-</library>
-<library name="1935200">
-<description>&lt;Fixed Terminal Blocks PT 1.5/6-5.0-H&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="1935200">
-<description>&lt;b&gt;1935200-2&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="1.3" diameter="1.95" shape="square"/>
-<pad name="2" x="5" y="0" drill="1.3" diameter="1.95"/>
-<pad name="3" x="10" y="0" drill="1.3" diameter="1.95"/>
-<pad name="4" x="15" y="0" drill="1.3" diameter="1.95"/>
-<pad name="5" x="20" y="0" drill="1.3" diameter="1.95"/>
-<pad name="6" x="25" y="0" drill="1.3" diameter="1.95"/>
-<text x="12.5" y="-0.5" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="12.5" y="-0.5" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.5" y1="-5" x2="27.5" y2="-5" width="0.2" layer="51"/>
-<wire x1="27.5" y1="-5" x2="27.5" y2="4" width="0.2" layer="51"/>
-<wire x1="27.5" y1="4" x2="-2.5" y2="4" width="0.2" layer="51"/>
-<wire x1="-2.5" y1="4" x2="-2.5" y2="-5" width="0.2" layer="51"/>
-<wire x1="-2.5" y1="4" x2="27.5" y2="4" width="0.1" layer="21"/>
-<wire x1="27.5" y1="4" x2="27.5" y2="-5" width="0.1" layer="21"/>
-<wire x1="27.5" y1="-5" x2="-2.5" y2="-5" width="0.1" layer="21"/>
-<wire x1="-2.5" y1="-5" x2="-2.5" y2="4" width="0.1" layer="21"/>
-<wire x1="-3.5" y1="5" x2="28.5" y2="5" width="0.1" layer="51"/>
-<wire x1="28.5" y1="5" x2="28.5" y2="-6" width="0.1" layer="51"/>
-<wire x1="28.5" y1="-6" x2="-3.5" y2="-6" width="0.1" layer="51"/>
-<wire x1="-3.5" y1="-6" x2="-3.5" y2="5" width="0.1" layer="51"/>
 </package>
 </packages>
 </library>
@@ -3212,7 +3147,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/71-CPF2-F-15K-E3" x="23.62" y="68.697190625" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="23.62" y="68.697190625" locked="yes" size="1.27" layer="25" align="center"/>
 </element>
-<element name="D7" library="1N4007FFG" package="DIOAD1405W86L465D235" value="1N4007FFG" x="77.31356875" y="10.2" locked="yes" smashed="yes" rot="R180">
+<element name="D7" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1405W86L465D235" package3d_urn="urn:adsk.eagle:package:47621663/1" value="1N4007FFG" x="77.31356875" y="10.2" locked="yes" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="Rectifiers 1000V 1A Standard" x="77.31356875" y="10.2" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="mm" x="77.31356875" y="10.2" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="onsemi" x="77.31356875" y="10.2" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3221,7 +3156,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/1N4007FFG?qs=y2kkmE52mdPFE87Rxbyfgw%3D%3D" x="77.31356875" y="10.2" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="70.26356875" y="10.2" locked="yes" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="D8" library="1N4007FFG" package="DIOAD1405W86L465D235" value="1N4007FFG" x="77.31356875" y="4.2" locked="yes" smashed="yes" rot="R180">
+<element name="D8" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1405W86L465D235" package3d_urn="urn:adsk.eagle:package:47621663/1" value="1N4007FFG" x="77.31356875" y="4.2" locked="yes" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="Rectifiers 1000V 1A Standard" x="77.31356875" y="4.2" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="mm" x="77.31356875" y="4.2" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="onsemi" x="77.31356875" y="4.2" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3230,7 +3165,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/1N4007FFG?qs=y2kkmE52mdPFE87Rxbyfgw%3D%3D" x="77.31356875" y="4.2" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="70.26356875" y="4.2" locked="yes" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="D9" library="1N4007FFG" package="DIOAD1405W86L465D235" value="1N4007FFG" x="100.31356875" y="4.2" locked="yes" smashed="yes" rot="R180">
+<element name="D9" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1405W86L465D235" package3d_urn="urn:adsk.eagle:package:47621663/1" value="1N4007FFG" x="100.31356875" y="4.2" locked="yes" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="Rectifiers 1000V 1A Standard" x="100.31356875" y="4.2" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="mm" x="100.31356875" y="4.2" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="onsemi" x="100.31356875" y="4.2" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3239,7 +3174,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/1N4007FFG?qs=y2kkmE52mdPFE87Rxbyfgw%3D%3D" x="100.31356875" y="4.2" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="93.26356875" y="4.2" locked="yes" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="D10" library="1N4007FFG" package="DIOAD1405W86L465D235" value="1N4007FFG" x="100.31356875" y="10.2" locked="yes" smashed="yes" rot="R180">
+<element name="D10" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1405W86L465D235" package3d_urn="urn:adsk.eagle:package:47621663/1" value="1N4007FFG" x="100.31356875" y="10.2" locked="yes" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="Rectifiers 1000V 1A Standard" x="100.31356875" y="10.2" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="mm" x="100.31356875" y="10.2" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="onsemi" x="100.31356875" y="10.2" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3268,37 +3203,37 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="2" x="67.18856875" y="56.915" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="67.18856875" y="56.915" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C1P" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="100.31356875" y="21.23" locked="yes" smashed="yes" rot="R180">
+<element name="C1P" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1475H4700" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u" x="100.31356875" y="21.23" locked="yes" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="" x="100.31356875" y="21.23" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="100.31356875" y="21.23" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="100.31356875" y="21.23" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="47mm" x="100.31356875" y="21.23" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Rubycon" x="100.31356875" y="21.23" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="100.31356875" y="21.23" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="100.31356875" y="21.23" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="100.31356875" y="21.23" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="100.31356875" y="21.23" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="100.31356875" y="21.23" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="96.56356875" y="21.23" locked="yes" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="C2P" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="83.56356875" y="21.23" locked="yes" smashed="yes" rot="R180">
+<element name="C2P" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1475H4700" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u" x="83.56356875" y="21.23" locked="yes" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="" x="83.56356875" y="21.23" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="83.56356875" y="21.23" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="83.56356875" y="21.23" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="47mm" x="83.56356875" y="21.23" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Rubycon" x="83.56356875" y="21.23" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="83.56356875" y="21.23" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="83.56356875" y="21.23" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="83.56356875" y="21.23" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="83.56356875" y="21.23" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="83.56356875" y="21.23" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="79.81356875" y="21.23" locked="yes" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="C3P" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="76.06356875" y="59.1" locked="yes" smashed="yes">
+<element name="C3P" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1475H4700" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u" x="76.06356875" y="59.1" locked="yes" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="76.06356875" y="59.1" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="76.06356875" y="59.1" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="76.06356875" y="59.1" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="47mm" x="76.06356875" y="59.1" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Rubycon" x="76.06356875" y="59.1" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="76.06356875" y="59.1" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="76.06356875" y="59.1" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="76.06356875" y="59.1" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="76.06356875" y="59.1" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="76.06356875" y="59.1" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="79.81356875" y="59.1" locked="yes" size="1.27" layer="25" align="center"/>
 </element>
 <element name="R6P" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="330" x="88.18856875" y="31.79" locked="yes" smashed="yes">
@@ -3315,37 +3250,37 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UCY2E220MPD1TD?qs=JgOBn5pVFooNXIGMeLbPFg%3D%3D" x="61.316425" y="40.165" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="63.816425" y="40.165" locked="yes" size="1.27" layer="25" align="center"/>
 </element>
-<element name="C5P" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="100.31356875" y="59.1" locked="yes" smashed="yes" rot="R180">
+<element name="C5P" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1475H4700" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u" x="100.31356875" y="59.1" locked="yes" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="" x="100.31356875" y="59.1" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="100.31356875" y="59.1" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="100.31356875" y="59.1" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="47mm" x="100.31356875" y="59.1" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Rubycon" x="100.31356875" y="59.1" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="100.31356875" y="59.1" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="100.31356875" y="59.1" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="100.31356875" y="59.1" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="100.31356875" y="59.1" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="100.31356875" y="59.1" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="96.56356875" y="59.1" locked="yes" size="1.27" layer="25" align="center"/>
 </element>
-<element name="C6P" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="100.31356875" y="42.35" locked="yes" smashed="yes" rot="R180">
+<element name="C6P" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1475H4700" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u" x="100.31356875" y="42.35" locked="yes" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="" x="100.31356875" y="42.35" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="100.31356875" y="42.35" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="100.31356875" y="42.35" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="47mm" x="100.31356875" y="42.35" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Rubycon" x="100.31356875" y="42.35" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="100.31356875" y="42.35" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="100.31356875" y="42.35" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="100.31356875" y="42.35" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="100.31356875" y="42.35" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="100.31356875" y="42.35" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="96.56356875" y="42.35" locked="yes" size="1.27" layer="25" align="center"/>
 </element>
-<element name="C7P" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="76.06356875" y="42.35" locked="yes" smashed="yes">
+<element name="C7P" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1475H4700" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u" x="76.06356875" y="42.35" locked="yes" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="76.06356875" y="42.35" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="76.06356875" y="42.35" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="76.06356875" y="42.35" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="47mm" x="76.06356875" y="42.35" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Rubycon" x="76.06356875" y="42.35" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="76.06356875" y="42.35" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="76.06356875" y="42.35" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="76.06356875" y="42.35" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="76.06356875" y="42.35" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="76.06356875" y="42.35" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="79.81356875" y="42.35" locked="yes" size="1.27" layer="25" align="center"/>
 </element>
 <element name="R6B" library="Dual Mono Amp Library" package="RESC2012X60N" value="1k" x="108.741878125" y="98.684075" locked="yes" smashed="yes" rot="MR90">
@@ -3600,7 +3535,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LP5907MFX-1.8/NOPB" x="77.62613125" y="162.02065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="595-LP5907MFX-1.8NPB" x="77.62613125" y="162.02065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LP5907MFX-1.8-NOPB?qs=biyDIajrTn5jh5ArkSZeqw%3D%3D" x="77.62613125" y="162.02065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="78.62613125" y="165.02065" locked="yes" size="1.27" layer="26" rot="MR90" align="center"/>
+<attribute name="NAME" x="80.62613125" y="165.02065" locked="yes" size="1.27" layer="26" rot="MR90" align="center"/>
 </element>
 <element name="C26A" library="Dual Mono Amp Library" package="CAPC2013X140N" value="4.7u, Ceramic Capacitor X7R" x="72" y="161" locked="yes" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" value="Taiyo Yuden 4.7uF Multilayer Ceramic Capacitor MLCC 16V dc +/-10% X5R Dielectric 0805 SMD, Max. Temp. +85C" x="72" y="172" locked="yes" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -3609,7 +3544,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="EMK212ABJ475KG-T" x="72" y="172" locked="yes" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="963-EMK212ABJ475KG-T" x="72" y="172" locked="yes" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/EMK212ABJ475KG-T?qs=Va%252BXcMGJzEtDqSLhA2RQmA%3D%3D" x="72" y="172" locked="yes" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="72" y="161" locked="yes" size="1.27" layer="26" rot="MR270" align="center"/>
+<attribute name="NAME" x="74" y="161" locked="yes" size="1.27" layer="26" rot="MR270" align="center"/>
 </element>
 <element name="C28A" library="Dual Mono Amp Library" package="CAPC2012X135N" value="0.1u, Ceramic Capacitor X7R" x="72" y="167.09065" locked="yes" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 16VDC 0.1uF 10% X7R AEC-Q200" x="75" y="148.09065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -3618,7 +3553,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="EMF212B7104KGHT" x="75" y="148.09065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="963-EMF212B7104KGHT" x="75" y="148.09065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/EMF212B7104KGHT?qs=%252B6g0mu59x7JRGtoE3odDgw%3D%3D" x="75" y="148.09065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="72" y="167.09065" locked="yes" size="1.27" layer="26" rot="MR90" align="center"/>
+<attribute name="NAME" x="74" y="167.09065" locked="yes" size="1.27" layer="26" rot="MR90" align="center"/>
 </element>
 <element name="C27A" library="Dual Mono Amp Library" package="CAPC2013X140N" value="4.7u, Ceramic Capacitor X7R" x="68" y="167.09065" locked="yes" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Taiyo Yuden 4.7uF Multilayer Ceramic Capacitor MLCC 16V dc +/-10% X5R Dielectric 0805 SMD, Max. Temp. +85C" x="65" y="140.09065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -3627,9 +3562,9 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="EMK212ABJ475KG-T" x="65" y="140.09065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="963-EMK212ABJ475KG-T" x="65" y="140.09065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/EMK212ABJ475KG-T?qs=Va%252BXcMGJzEtDqSLhA2RQmA%3D%3D" x="65" y="140.09065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="68" y="167.09065" locked="yes" size="1.27" layer="26" rot="MR90" align="center"/>
+<attribute name="NAME" x="70" y="167.09065" locked="yes" size="1.27" layer="26" rot="MR90" align="center"/>
 </element>
-<element name="D11" library="1N4007FFG" package="DIOAD1405W86L465D235" value="1N4007FFG" x="74.544284375" y="72.935" locked="yes" smashed="yes" rot="R180">
+<element name="D11" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1405W86L465D235" package3d_urn="urn:adsk.eagle:package:47621663/1" value="1N4007FFG" x="74.544284375" y="72.935" locked="yes" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="Rectifiers 1000V 1A Standard" x="76.544284375" y="3.935" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="mm" x="76.544284375" y="3.935" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="onsemi" x="76.544284375" y="3.935" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3638,7 +3573,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/1N4007FFG?qs=y2kkmE52mdPFE87Rxbyfgw%3D%3D" x="76.544284375" y="3.935" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="67.494284375" y="72.935" locked="yes" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="D12" library="1N4007FFG" package="DIOAD1405W86L465D235" value="1N4007FFG" x="74.544284375" y="78.935" locked="yes" smashed="yes" rot="R180">
+<element name="D12" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1405W86L465D235" package3d_urn="urn:adsk.eagle:package:47621663/1" value="1N4007FFG" x="74.544284375" y="78.935" locked="yes" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="Rectifiers 1000V 1A Standard" x="98.544284375" y="13.935" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="mm" x="98.544284375" y="13.935" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="onsemi" x="98.544284375" y="13.935" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3647,7 +3582,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/1N4007FFG?qs=y2kkmE52mdPFE87Rxbyfgw%3D%3D" x="98.544284375" y="13.935" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="67.494284375" y="78.935" locked="yes" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="D13" library="1N4007FFG" package="DIOAD1405W86L465D235" value="1N4007FFG" x="97.544284375" y="78.935" locked="yes" smashed="yes" rot="R180">
+<element name="D13" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1405W86L465D235" package3d_urn="urn:adsk.eagle:package:47621663/1" value="1N4007FFG" x="97.544284375" y="78.935" locked="yes" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="Rectifiers 1000V 1A Standard" x="101.544284375" y="13.935" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="mm" x="101.544284375" y="13.935" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="onsemi" x="101.544284375" y="13.935" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3656,7 +3591,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/1N4007FFG?qs=y2kkmE52mdPFE87Rxbyfgw%3D%3D" x="101.544284375" y="13.935" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="90.494284375" y="78.935" locked="yes" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="D14" library="1N4007FFG" package="DIOAD1405W86L465D235" value="1N4007FFG" x="97.544284375" y="72.935" locked="yes" smashed="yes" rot="R180">
+<element name="D14" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1405W86L465D235" package3d_urn="urn:adsk.eagle:package:47621663/1" value="1N4007FFG" x="97.544284375" y="72.935" locked="yes" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="Rectifiers 1000V 1A Standard" x="123.544284375" y="11.935" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="mm" x="123.544284375" y="11.935" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="onsemi" x="123.544284375" y="11.935" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3665,37 +3600,37 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/1N4007FFG?qs=y2kkmE52mdPFE87Rxbyfgw%3D%3D" x="123.544284375" y="11.935" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="90.494284375" y="72.935" locked="yes" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="C1P1" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="67.944284375" y="89.965" locked="yes" smashed="yes" rot="R180">
+<element name="C1P1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1475H4700" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u" x="67.944284375" y="89.965" locked="yes" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="" x="72.944284375" y="133.965" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="72.944284375" y="133.965" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="72.944284375" y="133.965" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="47mm" x="72.944284375" y="133.965" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Rubycon" x="72.944284375" y="133.965" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="72.944284375" y="133.965" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="72.944284375" y="133.965" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="72.944284375" y="133.965" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="72.944284375" y="133.965" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="72.944284375" y="133.965" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="64.194284375" y="89.965" locked="yes" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="C2P1" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="84.694284375" y="89.965" locked="yes" smashed="yes" rot="R180">
+<element name="C2P1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1475H4700" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u" x="84.694284375" y="89.965" locked="yes" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="" x="105.694284375" y="149.965" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="105.694284375" y="149.965" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="105.694284375" y="149.965" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="47mm" x="105.694284375" y="149.965" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Rubycon" x="105.694284375" y="149.965" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="105.694284375" y="149.965" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="105.694284375" y="149.965" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="105.694284375" y="149.965" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="105.694284375" y="149.965" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="105.694284375" y="149.965" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="80.944284375" y="89.965" locked="yes" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="C3P1" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="60.444284375" y="127.835" locked="yes" smashed="yes">
+<element name="C3P1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1475H4700" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u" x="60.444284375" y="127.835" locked="yes" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="23.444284375" y="51.835" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="23.444284375" y="51.835" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="23.444284375" y="51.835" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="47mm" x="23.444284375" y="51.835" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Rubycon" x="23.444284375" y="51.835" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="23.444284375" y="51.835" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="23.444284375" y="51.835" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="23.444284375" y="51.835" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="23.444284375" y="51.835" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="23.444284375" y="51.835" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="64.194284375" y="127.835" locked="yes" size="1.27" layer="25" align="center"/>
 </element>
 <element name="R6P1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="330" x="72.569284375" y="100.525" locked="yes" smashed="yes">
@@ -3703,37 +3638,37 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="2" x="51.569284375" y="70.525" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="51.569284375" y="70.525" locked="yes" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C5P1" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="84.694284375" y="127.835" locked="yes" smashed="yes" rot="R180">
+<element name="C5P1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1475H4700" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u" x="84.694284375" y="127.835" locked="yes" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="" x="93.694284375" y="222.835" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="93.694284375" y="222.835" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="93.694284375" y="222.835" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="47mm" x="93.694284375" y="222.835" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Rubycon" x="93.694284375" y="222.835" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="93.694284375" y="222.835" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="93.694284375" y="222.835" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="93.694284375" y="222.835" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="93.694284375" y="222.835" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="93.694284375" y="222.835" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="80.944284375" y="127.835" locked="yes" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="C6P1" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="84.694284375" y="111.085" locked="yes" smashed="yes" rot="R180">
+<element name="C6P1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1475H4700" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u" x="84.694284375" y="111.085" locked="yes" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="" x="109.694284375" y="222.085" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="109.694284375" y="222.085" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="109.694284375" y="222.085" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="47mm" x="109.694284375" y="222.085" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Rubycon" x="109.694284375" y="222.085" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="109.694284375" y="222.085" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="109.694284375" y="222.085" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="109.694284375" y="222.085" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="109.694284375" y="222.085" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="109.694284375" y="222.085" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="80.944284375" y="111.085" locked="yes" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="C7P1" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="60.444284375" y="111.085" locked="yes" smashed="yes">
+<element name="C7P1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1475H4700" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u" x="60.444284375" y="111.085" locked="yes" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="19.444284375" y="-15.915" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="19.444284375" y="-15.915" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="19.444284375" y="-15.915" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="47mm" x="19.444284375" y="-15.915" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Rubycon" x="19.444284375" y="-15.915" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="19.444284375" y="-15.915" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="19.444284375" y="-15.915" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="19.444284375" y="-15.915" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="19.444284375" y="-15.915" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="19.444284375" y="-15.915" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="64.194284375" y="111.085" locked="yes" size="1.27" layer="25" align="center"/>
 </element>
 <element name="J6" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="1935255" package3d_urn="urn:adsk.eagle:package:50907200/1" value="1935255" x="112.68856875" y="4.2" locked="yes" smashed="yes" rot="R90">
@@ -3996,7 +3931,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PART_NUMBER" value="584-LT3042EMSE#PBF" x="-77.62613125" y="146.78206875" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Analog-Devices-Linear-Technology/LT3042EMSEPBF?qs=oahfZPh6IAJ3XP16d20ITw%3D%3D" x="-77.62613125" y="146.78206875" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="D15" library="1N4007FFG" package="DIOAD1405W86L465D235" value="1N4007FFG" x="-77.31356875" y="10.2" locked="yes" smashed="yes">
+<element name="D15" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1405W86L465D235" package3d_urn="urn:adsk.eagle:package:47621663/1" value="1N4007FFG" x="-77.31356875" y="10.2" locked="yes" smashed="yes">
 <attribute name="DESCRIPTION" value="Rectifiers 1000V 1A Standard" x="-117.31356875" y="88.2" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="mm" x="-117.31356875" y="88.2" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="onsemi" x="-117.31356875" y="88.2" locked="yes" size="1.778" layer="27" display="off"/>
@@ -4005,7 +3940,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/1N4007FFG?qs=y2kkmE52mdPFE87Rxbyfgw%3D%3D" x="-117.31356875" y="88.2" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-70.26356875" y="10.2" locked="yes" size="1.27" layer="25" align="center"/>
 </element>
-<element name="D16" library="1N4007FFG" package="DIOAD1405W86L465D235" value="1N4007FFG" x="-77.31356875" y="4.2" locked="yes" smashed="yes">
+<element name="D16" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1405W86L465D235" package3d_urn="urn:adsk.eagle:package:47621663/1" value="1N4007FFG" x="-77.31356875" y="4.2" locked="yes" smashed="yes">
 <attribute name="DESCRIPTION" value="Rectifiers 1000V 1A Standard" x="-79.31356875" y="85.2" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="mm" x="-79.31356875" y="85.2" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="onsemi" x="-79.31356875" y="85.2" locked="yes" size="1.778" layer="27" display="off"/>
@@ -4014,7 +3949,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/1N4007FFG?qs=y2kkmE52mdPFE87Rxbyfgw%3D%3D" x="-79.31356875" y="85.2" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-70.26356875" y="4.2" locked="yes" size="1.27" layer="25" align="center"/>
 </element>
-<element name="D17" library="1N4007FFG" package="DIOAD1405W86L465D235" value="1N4007FFG" x="-100.31356875" y="4.2" locked="yes" smashed="yes">
+<element name="D17" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1405W86L465D235" package3d_urn="urn:adsk.eagle:package:47621663/1" value="1N4007FFG" x="-100.31356875" y="4.2" locked="yes" smashed="yes">
 <attribute name="DESCRIPTION" value="Rectifiers 1000V 1A Standard" x="-124.31356875" y="81.2" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="mm" x="-124.31356875" y="81.2" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="onsemi" x="-124.31356875" y="81.2" locked="yes" size="1.778" layer="27" display="off"/>
@@ -4023,7 +3958,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/1N4007FFG?qs=y2kkmE52mdPFE87Rxbyfgw%3D%3D" x="-124.31356875" y="81.2" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-93.26356875" y="4.2" locked="yes" size="1.27" layer="25" align="center"/>
 </element>
-<element name="D18" library="1N4007FFG" package="DIOAD1405W86L465D235" value="1N4007FFG" x="-100.31356875" y="10.2" locked="yes" smashed="yes">
+<element name="D18" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1405W86L465D235" package3d_urn="urn:adsk.eagle:package:47621663/1" value="1N4007FFG" x="-100.31356875" y="10.2" locked="yes" smashed="yes">
 <attribute name="DESCRIPTION" value="Rectifiers 1000V 1A Standard" x="-146.31356875" y="83.2" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="mm" x="-146.31356875" y="83.2" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="onsemi" x="-146.31356875" y="83.2" locked="yes" size="1.778" layer="27" display="off"/>
@@ -4052,37 +3987,37 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="2" x="-32.18856875" y="110.915" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-32.18856875" y="110.915" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C1P2" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="-100.31356875" y="21.23" locked="yes" smashed="yes">
+<element name="C1P2" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1475H4700" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u" x="-100.31356875" y="21.23" locked="yes" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="-104.31356875" y="-22.77" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="-104.31356875" y="-22.77" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="-104.31356875" y="-22.77" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="47mm" x="-104.31356875" y="-22.77" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Rubycon" x="-104.31356875" y="-22.77" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="-104.31356875" y="-22.77" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="-104.31356875" y="-22.77" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="-104.31356875" y="-22.77" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="-104.31356875" y="-22.77" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="-104.31356875" y="-22.77" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-96.56356875" y="21.23" locked="yes" size="1.27" layer="25" align="center"/>
 </element>
-<element name="C2P2" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="-83.56356875" y="21.23" locked="yes" smashed="yes">
+<element name="C2P2" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1475H4700" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u" x="-83.56356875" y="21.23" locked="yes" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="-119.56356875" y="-38.77" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="-119.56356875" y="-38.77" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="-119.56356875" y="-38.77" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="47mm" x="-119.56356875" y="-38.77" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Rubycon" x="-119.56356875" y="-38.77" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="-119.56356875" y="-38.77" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="-119.56356875" y="-38.77" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="-119.56356875" y="-38.77" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="-119.56356875" y="-38.77" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="-119.56356875" y="-38.77" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-79.81356875" y="21.23" locked="yes" size="1.27" layer="25" align="center"/>
 </element>
-<element name="C3P2" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="-76.06356875" y="59.1" locked="yes" smashed="yes" rot="R180">
+<element name="C3P2" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1475H4700" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u" x="-76.06356875" y="59.1" locked="yes" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="" x="-72.06356875" y="119.1" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="-72.06356875" y="119.1" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="-72.06356875" y="119.1" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="47mm" x="-72.06356875" y="119.1" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Rubycon" x="-72.06356875" y="119.1" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="-72.06356875" y="119.1" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="-72.06356875" y="119.1" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="-72.06356875" y="119.1" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="-72.06356875" y="119.1" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="-72.06356875" y="119.1" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-79.81356875" y="59.1" locked="yes" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="R6P2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="330" x="-88.18856875" y="31.79" locked="yes" smashed="yes" rot="R180">
@@ -4099,40 +4034,40 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UCY2E220MPD1TD?qs=JgOBn5pVFooNXIGMeLbPFg%3D%3D" x="-53.316425" y="91.165" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-64.091425" y="40.165" locked="yes" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="C5P2" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="-100.31356875" y="59.1" locked="yes" smashed="yes">
+<element name="C5P2" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1475H4700" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u" x="-100.31356875" y="59.1" locked="yes" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="-140.31356875" y="-35.9" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="-140.31356875" y="-35.9" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="-140.31356875" y="-35.9" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="47mm" x="-140.31356875" y="-35.9" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Rubycon" x="-140.31356875" y="-35.9" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="-140.31356875" y="-35.9" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="-140.31356875" y="-35.9" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="-140.31356875" y="-35.9" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="-140.31356875" y="-35.9" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="-140.31356875" y="-35.9" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-96.56356875" y="59.1" locked="yes" size="1.27" layer="25" align="center"/>
 </element>
-<element name="C6P2" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="-100.31356875" y="42.35" locked="yes" smashed="yes">
+<element name="C6P2" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1475H4700" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u" x="-100.31356875" y="42.35" locked="yes" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="-108.31356875" y="-52.65" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="-108.31356875" y="-52.65" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="-108.31356875" y="-52.65" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="47mm" x="-108.31356875" y="-52.65" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Rubycon" x="-108.31356875" y="-52.65" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="-108.31356875" y="-52.65" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="-108.31356875" y="-52.65" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="-108.31356875" y="-52.65" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="-108.31356875" y="-52.65" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="-108.31356875" y="-52.65" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-96.56356875" y="42.35" locked="yes" size="1.27" layer="25" align="center"/>
 </element>
-<element name="C7P2" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="-76.06356875" y="42.35" locked="yes" smashed="yes" rot="R180">
+<element name="C7P2" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1475H4700" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u" x="-76.06356875" y="42.35" locked="yes" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="" x="-36.06356875" y="153.35" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="-36.06356875" y="153.35" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="-36.06356875" y="153.35" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="47mm" x="-36.06356875" y="153.35" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Rubycon" x="-36.06356875" y="153.35" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="-36.06356875" y="153.35" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="-36.06356875" y="153.35" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="-36.06356875" y="153.35" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="-36.06356875" y="153.35" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="-36.06356875" y="153.35" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-79.81356875" y="42.35" locked="yes" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="D19" library="1N4007FFG" package="DIOAD1405W86L465D235" value="1N4007FFG" x="-74.544284375" y="72.935" locked="yes" smashed="yes">
+<element name="D19" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1405W86L465D235" package3d_urn="urn:adsk.eagle:package:47621663/1" value="1N4007FFG" x="-74.544284375" y="72.935" locked="yes" smashed="yes">
 <attribute name="DESCRIPTION" value="Rectifiers 1000V 1A Standard" x="-83.544284375" y="-3.065" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="mm" x="-83.544284375" y="-3.065" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="onsemi" x="-83.544284375" y="-3.065" locked="yes" size="1.778" layer="27" display="off"/>
@@ -4141,7 +4076,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/1N4007FFG?qs=y2kkmE52mdPFE87Rxbyfgw%3D%3D" x="-83.544284375" y="-3.065" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-67.494284375" y="72.935" locked="yes" size="1.27" layer="25" align="center"/>
 </element>
-<element name="D20" library="1N4007FFG" package="DIOAD1405W86L465D235" value="1N4007FFG" x="-74.544284375" y="78.935" locked="yes" smashed="yes">
+<element name="D20" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1405W86L465D235" package3d_urn="urn:adsk.eagle:package:47621663/1" value="1N4007FFG" x="-74.544284375" y="78.935" locked="yes" smashed="yes">
 <attribute name="DESCRIPTION" value="Rectifiers 1000V 1A Standard" x="-105.544284375" y="-1.065" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="mm" x="-105.544284375" y="-1.065" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="onsemi" x="-105.544284375" y="-1.065" locked="yes" size="1.778" layer="27" display="off"/>
@@ -4150,7 +4085,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/1N4007FFG?qs=y2kkmE52mdPFE87Rxbyfgw%3D%3D" x="-105.544284375" y="-1.065" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-67.494284375" y="78.935" locked="yes" size="1.27" layer="25" align="center"/>
 </element>
-<element name="D21" library="1N4007FFG" package="DIOAD1405W86L465D235" value="1N4007FFG" x="-97.544284375" y="78.935" locked="yes" smashed="yes">
+<element name="D21" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1405W86L465D235" package3d_urn="urn:adsk.eagle:package:47621663/1" value="1N4007FFG" x="-97.544284375" y="78.935" locked="yes" smashed="yes">
 <attribute name="DESCRIPTION" value="Rectifiers 1000V 1A Standard" x="-150.544284375" y="-5.065" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="mm" x="-150.544284375" y="-5.065" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="onsemi" x="-150.544284375" y="-5.065" locked="yes" size="1.778" layer="27" display="off"/>
@@ -4159,7 +4094,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/1N4007FFG?qs=y2kkmE52mdPFE87Rxbyfgw%3D%3D" x="-150.544284375" y="-5.065" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-90.494284375" y="78.935" locked="yes" size="1.27" layer="25" align="center"/>
 </element>
-<element name="D22" library="1N4007FFG" package="DIOAD1405W86L465D235" value="1N4007FFG" x="-97.544284375" y="72.935" locked="yes" smashed="yes">
+<element name="D22" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="DIOAD1405W86L465D235" package3d_urn="urn:adsk.eagle:package:47621663/1" value="1N4007FFG" x="-97.544284375" y="72.935" locked="yes" smashed="yes">
 <attribute name="DESCRIPTION" value="Rectifiers 1000V 1A Standard" x="-109.544284375" y="-11.065" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="mm" x="-109.544284375" y="-11.065" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="onsemi" x="-109.544284375" y="-11.065" locked="yes" size="1.778" layer="27" display="off"/>
@@ -4168,37 +4103,37 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/1N4007FFG?qs=y2kkmE52mdPFE87Rxbyfgw%3D%3D" x="-109.544284375" y="-11.065" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-90.494284375" y="72.935" locked="yes" size="1.27" layer="25" align="center"/>
 </element>
-<element name="C1P3" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="-67.944284375" y="89.965" locked="yes" smashed="yes">
+<element name="C1P3" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1475H4700" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u" x="-67.944284375" y="89.965" locked="yes" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="-95.944284375" y="-91.035" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="-95.944284375" y="-91.035" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="-95.944284375" y="-91.035" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="47mm" x="-95.944284375" y="-91.035" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Rubycon" x="-95.944284375" y="-91.035" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="-95.944284375" y="-91.035" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="-95.944284375" y="-91.035" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="-95.944284375" y="-91.035" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="-95.944284375" y="-91.035" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="-95.944284375" y="-91.035" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-64.194284375" y="89.965" locked="yes" size="1.27" layer="25" align="center"/>
 </element>
-<element name="C2P3" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="-84.694284375" y="89.965" locked="yes" smashed="yes">
+<element name="C2P3" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1475H4700" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u" x="-84.694284375" y="89.965" locked="yes" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="-144.694284375" y="-107.035" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="-144.694284375" y="-107.035" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="-144.694284375" y="-107.035" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="47mm" x="-144.694284375" y="-107.035" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Rubycon" x="-144.694284375" y="-107.035" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="-144.694284375" y="-107.035" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="-144.694284375" y="-107.035" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="-144.694284375" y="-107.035" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="-144.694284375" y="-107.035" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="-144.694284375" y="-107.035" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-80.944284375" y="89.965" locked="yes" size="1.27" layer="25" align="center"/>
 </element>
-<element name="C3P3" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="-60.444284375" y="127.835" locked="yes" smashed="yes" rot="R180">
+<element name="C3P3" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1475H4700" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u" x="-60.444284375" y="127.835" locked="yes" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="" x="-32.444284375" y="324.835" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="-32.444284375" y="324.835" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="-32.444284375" y="324.835" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="47mm" x="-32.444284375" y="324.835" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Rubycon" x="-32.444284375" y="324.835" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="-32.444284375" y="324.835" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="-32.444284375" y="324.835" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="-32.444284375" y="324.835" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="-32.444284375" y="324.835" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="-32.444284375" y="324.835" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-64.194284375" y="127.835" locked="yes" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="R6P3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="330" x="-72.569284375" y="100.525" locked="yes" smashed="yes" rot="R180">
@@ -4206,49 +4141,49 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="2" x="-44.569284375" y="251.525" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-44.569284375" y="251.525" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C5P3" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="-84.694284375" y="127.835" locked="yes" smashed="yes">
+<element name="C5P3" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1475H4700" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u" x="-84.694284375" y="127.835" locked="yes" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="-144.694284375" y="-93.165" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="-144.694284375" y="-93.165" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="-144.694284375" y="-93.165" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="47mm" x="-144.694284375" y="-93.165" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Rubycon" x="-144.694284375" y="-93.165" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="-144.694284375" y="-93.165" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="-144.694284375" y="-93.165" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="-144.694284375" y="-93.165" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="-144.694284375" y="-93.165" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="-144.694284375" y="-93.165" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-80.944284375" y="127.835" locked="yes" size="1.27" layer="25" align="center"/>
 </element>
-<element name="C6P3" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="-84.694284375" y="111.085" locked="yes" smashed="yes">
+<element name="C6P3" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1475H4700" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u" x="-84.694284375" y="111.085" locked="yes" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="-112.694284375" y="-109.915" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="-112.694284375" y="-109.915" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="-112.694284375" y="-109.915" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="47mm" x="-112.694284375" y="-109.915" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Rubycon" x="-112.694284375" y="-109.915" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="-112.694284375" y="-109.915" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="-112.694284375" y="-109.915" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="-112.694284375" y="-109.915" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="-112.694284375" y="-109.915" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="-112.694284375" y="-109.915" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-80.944284375" y="111.085" locked="yes" size="1.27" layer="25" align="center"/>
 </element>
-<element name="C7P3" library="500HXW68MEFR14.5X45" package="CAPPRD750W80D1475H4700" value="68u" x="-60.444284375" y="111.085" locked="yes" smashed="yes" rot="R180">
+<element name="C7P3" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPRD750W80D1475H4700" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u" x="-60.444284375" y="111.085" locked="yes" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="" x="-0.444284375" y="348.085" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="-0.444284375" y="348.085" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" x="-0.444284375" y="348.085" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="47mm" x="-0.444284375" y="348.085" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Rubycon" x="-0.444284375" y="348.085" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" x="-0.444284375" y="348.085" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="-0.444284375" y="348.085" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="-0.444284375" y="348.085" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" x="-0.444284375" y="348.085" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" x="-0.444284375" y="348.085" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-64.194284375" y="111.085" locked="yes" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="LDO1" library="Dual Mono Amp Library" package="SOT95P280X145-5N" value="LP5907-1.8V" x="-77.62613125" y="165.02065" locked="yes" smashed="yes" rot="MR90">
-<attribute name="ARROW_PART_NUMBER" value="LP5907MFX-1.8/NOPB" x="-66.62613125" y="149.02065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/lp5907mfx-1.8nopb/texas-instruments?region=nac" x="-66.62613125" y="149.02065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DESCRIPTION" value="250-mA ultra-low-noise low-IQ low-dropout (LDO) linear regulator" x="-66.62613125" y="149.02065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="HEIGHT" value="1.45mm" x="-66.62613125" y="149.02065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-66.62613125" y="149.02065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="LP5907MFX-1.8/NOPB" x="-66.62613125" y="149.02065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="595-LP5907MFX-1.8NPB" x="-66.62613125" y="149.02065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LP5907MFX-1.8-NOPB?qs=biyDIajrTn5jh5ArkSZeqw%3D%3D" x="-66.62613125" y="149.02065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="-76.62613125" y="165.02065" locked="yes" size="1.27" layer="26" rot="MR90" align="center"/>
+<element name="LDO1" library="Dual Mono Amp Library" package="SOT95P280X145-5N" value="LP5907-1.8V" x="-79.52613125" y="165.02065" locked="yes" smashed="yes" rot="MR90">
+<attribute name="ARROW_PART_NUMBER" value="LP5907MFX-1.8/NOPB" x="-68.52613125" y="149.02065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/lp5907mfx-1.8nopb/texas-instruments?region=nac" x="-68.52613125" y="149.02065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DESCRIPTION" value="250-mA ultra-low-noise low-IQ low-dropout (LDO) linear regulator" x="-68.52613125" y="149.02065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="HEIGHT" value="1.45mm" x="-68.52613125" y="149.02065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-68.52613125" y="149.02065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LP5907MFX-1.8/NOPB" x="-68.52613125" y="149.02065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-LP5907MFX-1.8NPB" x="-68.52613125" y="149.02065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LP5907MFX-1.8-NOPB?qs=biyDIajrTn5jh5ArkSZeqw%3D%3D" x="-68.52613125" y="149.02065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="-82.52613125" y="165.02065" locked="yes" size="1.27" layer="26" rot="MR90" align="center"/>
 </element>
 <element name="C26A1" library="Dual Mono Amp Library" package="CAPC2013X140N" value="4.7u, Ceramic Capacitor X7R" x="-72" y="161" locked="yes" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" value="Taiyo Yuden 4.7uF Multilayer Ceramic Capacitor MLCC 16V dc +/-10% X5R Dielectric 0805 SMD, Max. Temp. +85C" x="-87" y="171" locked="yes" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -4257,7 +4192,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="EMK212ABJ475KG-T" x="-87" y="171" locked="yes" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="963-EMK212ABJ475KG-T" x="-87" y="171" locked="yes" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/EMK212ABJ475KG-T?qs=Va%252BXcMGJzEtDqSLhA2RQmA%3D%3D" x="-87" y="171" locked="yes" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="-72" y="161" locked="yes" size="1.27" layer="26" rot="MR270" align="center"/>
+<attribute name="NAME" x="-74" y="161" locked="yes" size="1.27" layer="26" rot="MR270" align="center"/>
 </element>
 <element name="C28A1" library="Dual Mono Amp Library" package="CAPC2012X135N" value="0.1u, Ceramic Capacitor X7R" x="-68" y="167.09065" locked="yes" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 16VDC 0.1uF 10% X7R AEC-Q200" x="-50" y="149.09065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -4266,7 +4201,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="EMF212B7104KGHT" x="-50" y="149.09065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="963-EMF212B7104KGHT" x="-50" y="149.09065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/EMF212B7104KGHT?qs=%252B6g0mu59x7JRGtoE3odDgw%3D%3D" x="-50" y="149.09065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="-68" y="167.09065" locked="yes" size="1.27" layer="26" rot="MR90" align="center"/>
+<attribute name="NAME" x="-70" y="167.09065" locked="yes" size="1.27" layer="26" rot="MR90" align="center"/>
 </element>
 <element name="C27A1" library="Dual Mono Amp Library" package="CAPC2013X140N" value="4.7u, Ceramic Capacitor X7R" x="-72" y="167.09065" locked="yes" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Taiyo Yuden 4.7uF Multilayer Ceramic Capacitor MLCC 16V dc +/-10% X5R Dielectric 0805 SMD, Max. Temp. +85C" x="-60" y="141.09065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -4275,9 +4210,9 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="EMK212ABJ475KG-T" x="-60" y="141.09065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="963-EMK212ABJ475KG-T" x="-60" y="141.09065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/EMK212ABJ475KG-T?qs=Va%252BXcMGJzEtDqSLhA2RQmA%3D%3D" x="-60" y="141.09065" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="-72" y="167.09065" locked="yes" size="1.27" layer="26" rot="MR90" align="center"/>
+<attribute name="NAME" x="-74" y="167.09065" locked="yes" size="1.27" layer="26" rot="MR90" align="center"/>
 </element>
-<element name="J4" library="1935255" package="1935255" value="1935255" x="-112.68856875" y="54.2" locked="yes" smashed="yes" rot="R270">
+<element name="J4" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="1935255" package3d_urn="urn:adsk.eagle:package:50907200/1" value="1935255" x="-112.68856875" y="54.2" locked="yes" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Phoenix Contact PT 1.5/11-5.0-H PCB Terminal Block, 11 Way/Pole, Screw Terminals, 26  14 AWG Through Hole," x="-112.68856875" y="54.2" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="11.55mm" x="-112.68856875" y="54.2" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Phoenix Contact" x="-112.68856875" y="54.2" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4285,7 +4220,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PART_NUMBER" value="651-1935255" x="-112.68856875" y="54.2" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1935255?qs=wd%252Bw3mUqFrm1E513uD0TOQ%3D%3D" x="-112.68856875" y="54.2" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="J9" library="1935200" package="1935200" value="1935200" x="-62" y="141.30065" locked="yes" smashed="yes" rot="R90">
+<element name="J9" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="1935200" package3d_urn="urn:adsk.eagle:package:50913441/1" value="1935200" x="-62" y="141.30065" locked="yes" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Fixed Terminal Blocks PT 1.5/6-5.0-H" x="-62" y="141.30065" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="HEIGHT" value="11.55mm" x="-62" y="141.30065" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Phoenix Contact" x="-62" y="141.30065" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4336,7 +4271,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TCM1A106M8R" x="87.01280625" y="134.67605" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="755-TCM1A106M8R" x="87.01280625" y="134.67605" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/TCM1A106M8R?qs=Z4wLSx0Y7o51yvfoDMdJcQ%3D%3D" x="87.01280625" y="134.67605" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="87.01280625" y="134.67605" locked="yes" size="1.27" layer="26" rot="MR90" align="center"/>
+<attribute name="NAME" x="85.01280625" y="134.67605" locked="yes" size="1.27" layer="26" rot="MR90" align="center"/>
 </element>
 <element name="C8" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="CAPPM168X90N" package3d_urn="urn:adsk.eagle:package:50982352/1" value="TCM1A106M8R" x="98.5" y="134.67605" locked="yes" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Tantalum Capacitors - Solid SMD 10 VDC 10 uF 0603 20 % ESR=9 mOhms" x="98.5" y="134.67605" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -4345,7 +4280,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TCM1A106M8R" x="98.5" y="134.67605" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="755-TCM1A106M8R" x="98.5" y="134.67605" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/TCM1A106M8R?qs=Z4wLSx0Y7o51yvfoDMdJcQ%3D%3D" x="98.5" y="134.67605" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="98.5" y="134.67605" locked="yes" size="1.27" layer="26" rot="MR90" align="center"/>
+<attribute name="NAME" x="100.5" y="134.67605" locked="yes" size="1.27" layer="26" rot="MR90" align="center"/>
 </element>
 </elements>
 <signals>
@@ -5905,6 +5840,8 @@ design rules under a new name.</description>
 <via x="95.15819375" y="129.88265625" extent="1-16" drill="0.35" locked="yes"/>
 <via x="94.16284375" y="129.88265625" extent="1-16" drill="0.35" locked="yes"/>
 <via x="96.8573625" y="131.581825" extent="1-16" drill="0.35" locked="yes"/>
+<wire x1="77.62613125" y1="163.77065" x2="77.62613125" y2="165.02065" width="0.6096" layer="16" locked="yes"/>
+<wire x1="77.62613125" y1="166.27065" x2="77.62613125" y2="165.02065" width="0.6096" layer="16" locked="yes"/>
 </signal>
 <signal name="+1V8/2">
 <contactref element="LDO7" pad="5"/>
@@ -5914,10 +5851,19 @@ design rules under a new name.</description>
 <wire x1="62" y1="166.30065" x2="68" y2="166.27065" width="1.2725" layer="16" locked="yes"/>
 <wire x1="68" y1="166.27065" x2="71.97" y2="166.30065" width="1.2725" layer="16" locked="yes"/>
 <wire x1="71.97" y1="166.30065" x2="72" y2="166.30065" width="1.2725" layer="16" locked="yes"/>
-<wire x1="78.57613125" y1="166.27065" x2="78.57613125" y2="167.5749875" width="1.2725" layer="16" locked="yes"/>
 <wire x1="78.57613125" y1="167.5749875" x2="77.55111875" y2="168.6" width="1.2725" layer="16" curve="90" locked="yes"/>
 <wire x1="77.55111875" y1="168.6" x2="75.073903125" y2="167.573903125" width="1.2725" layer="16" curve="45" locked="yes"/>
 <wire x1="75.073903125" y1="167.573903125" x2="72" y2="166.30065" width="1.2725" layer="16" curve="-45" locked="yes"/>
+<polygon width="0" layer="16" thermals="no" locked="yes">
+<vertex x="79.21238125" y="165.9203"/>
+<vertex x="79.21238125" y="167.85755" curve="90"/>
+<vertex x="78.21238125" y="168.85755"/>
+<vertex x="77.03988125" y="168.85755" curve="90"/>
+<vertex x="76.03988125" y="167.85755"/>
+<vertex x="76.03988125" y="165.9203" curve="90"/>
+<vertex x="76.28988125" y="165.6703"/>
+<vertex x="78.96238125" y="165.6703" curve="90"/>
+</polygon>
 </signal>
 <signal name="N$57">
 <contactref element="D14" pad="1"/>
@@ -6256,6 +6202,7 @@ design rules under a new name.</description>
 <via x="-95.15819375" y="139.46944375" extent="1-16" drill="0.35" locked="yes"/>
 <via x="-94.16284375" y="139.46944375" extent="1-16" drill="0.35" locked="yes"/>
 <via x="-96.8573625" y="137.770275" extent="1-16" drill="0.35" locked="yes"/>
+<wire x1="-79.52613125" y1="166.27065" x2="-79.52613125" y2="163.77065" width="0.6096" layer="16" locked="yes"/>
 </signal>
 <signal name="+3V3/2">
 <contactref element="LDO7" pad="3"/>
@@ -6293,11 +6240,16 @@ design rules under a new name.</description>
 <wire x1="62.62893125" y1="163.80065" x2="66.164465625" y2="162.336184375" width="1.2725" layer="16" curve="-45" locked="yes"/>
 <wire x1="66.164465625" y1="162.336184375" x2="67.41064375" y2="161.82" width="1.2725" layer="16" curve="45" locked="yes"/>
 <wire x1="67.41064375" y1="161.82" x2="72" y2="161.82" width="1.2725" layer="16" locked="yes"/>
-<wire x1="76.67613125" y1="163.77065" x2="76.67613125" y2="161.82" width="1.2725" layer="16" locked="yes"/>
 <wire x1="76.67613125" y1="161.82" x2="72" y2="161.82" width="1.2725" layer="16" locked="yes"/>
-<wire x1="78.57613125" y1="163.77065" x2="78.57613125" y2="162.82" width="1.2725" layer="16" locked="yes"/>
-<wire x1="78.57613125" y1="162.82" x2="77.57613125" y2="161.82" width="1.2725" layer="16" curve="-90" locked="yes"/>
-<wire x1="77.57613125" y1="161.82" x2="76.67613125" y2="161.82" width="1.2725" layer="16" locked="yes"/>
+<polygon width="0" layer="16" thermals="no" locked="yes">
+<vertex x="76.03988125" y="161.18375"/>
+<vertex x="78.21238125" y="161.18375" curve="90"/>
+<vertex x="79.21238125" y="162.18375"/>
+<vertex x="79.21238125" y="164.121" curve="90"/>
+<vertex x="78.96238125" y="164.371"/>
+<vertex x="76.28988125" y="164.371" curve="90"/>
+<vertex x="76.03988125" y="164.121"/>
+</polygon>
 </signal>
 <signal name="+5V/L/2">
 <contactref element="C18B" pad="1"/>
@@ -6784,10 +6736,22 @@ design rules under a new name.</description>
 <contactref element="C27A1" pad="1"/>
 <contactref element="C28A1" pad="1"/>
 <contactref element="J9" pad="6"/>
-<wire x1="-76.67613125" y1="166.27065" x2="-72" y2="166.27065" width="1.2725" layer="16" locked="yes"/>
 <wire x1="-72" y1="166.27065" x2="-68" y2="166.30065" width="1.2725" layer="16" locked="yes"/>
 <wire x1="-68" y1="166.30065" x2="-62" y2="166.27065" width="1.2725" layer="16" locked="yes"/>
 <wire x1="-62" y1="166.27065" x2="-62" y2="166.30065" width="1.2725" layer="16" locked="yes"/>
+<polygon width="0" layer="16" thermals="no" locked="yes">
+<vertex x="-81.11238125" y="165.9203"/>
+<vertex x="-81.11238125" y="167.85755" curve="-90"/>
+<vertex x="-80.11238125" y="168.85755"/>
+<vertex x="-78.93988125" y="168.85755" curve="-90"/>
+<vertex x="-77.93988125" y="167.85755"/>
+<vertex x="-77.93988125" y="165.9203" curve="-90"/>
+<vertex x="-78.18988125" y="165.6703"/>
+<vertex x="-80.86238125" y="165.6703" curve="-90"/>
+</polygon>
+<wire x1="-78.57613125" y1="167.5449875" x2="-77.55111875" y2="168.57" width="1.2725" layer="16" curve="-90" locked="yes"/>
+<wire x1="-77.55111875" y1="168.57" x2="-75.073903125" y2="167.543903125" width="1.2725" layer="16" curve="-45" locked="yes"/>
+<wire x1="-75.073903125" y1="167.543903125" x2="-72" y2="166.27065" width="1.2725" layer="16" curve="45" locked="yes"/>
 </signal>
 <signal name="+5V/R/1">
 <contactref element="C18B4" pad="1"/>
@@ -6847,11 +6811,7 @@ design rules under a new name.</description>
 <vertex x="-75.95613125" y="147.56991875" curve="90"/>
 <vertex x="-76.66778125" y="148.28156875"/>
 </polygon>
-<wire x1="-78.57613125" y1="163.77065" x2="-78.57613125" y2="162.82" width="1.2725" layer="16" locked="yes"/>
-<wire x1="-78.57613125" y1="162.82" x2="-77.57613125" y2="161.82" width="1.2725" layer="16" curve="90" locked="yes"/>
-<wire x1="-77.57613125" y1="161.82" x2="-76.67613125" y2="161.82" width="1.2725" layer="16" locked="yes"/>
-<wire x1="-76.67613125" y1="161.82" x2="-72" y2="161.82" width="1.2725" layer="16" locked="yes"/>
-<wire x1="-76.67613125" y1="163.77065" x2="-76.67613125" y2="161.82" width="1.2725" layer="16" locked="yes"/>
+<wire x1="-78.57613125" y1="161.82" x2="-72" y2="161.82" width="1.2725" layer="16" locked="yes"/>
 <wire x1="-62" y1="156.30065" x2="-59.964465625" y2="158.336184375" width="1.2725" layer="16" locked="yes"/>
 <wire x1="-59.964465625" y1="158.336184375" x2="-58.5" y2="161.87171875" width="1.2725" layer="16" curve="45" locked="yes"/>
 <wire x1="-72" y1="161.82" x2="-67.41064375" y2="161.82" width="1.2725" layer="16" locked="yes"/>
@@ -6860,6 +6820,15 @@ design rules under a new name.</description>
 <wire x1="-62.62893125" y1="163.80065" x2="-60.42893125" y2="163.80065" width="1.2725" layer="16" locked="yes"/>
 <wire x1="-60.42893125" y1="163.80065" x2="-58.5" y2="161.87171875" width="1.2725" layer="16" curve="-90" locked="yes"/>
 <wire x1="-70.934146875" y1="148.05206875" x2="-69.213046875" y2="148.05206875" width="1.2725" layer="16" locked="yes"/>
+<polygon width="0" layer="16" thermals="no" locked="yes">
+<vertex x="-77.93988125" y="161.18375"/>
+<vertex x="-80.11238125" y="161.18375" curve="-90"/>
+<vertex x="-81.11238125" y="162.18375"/>
+<vertex x="-81.11238125" y="164.121" curve="-90"/>
+<vertex x="-80.86238125" y="164.371"/>
+<vertex x="-78.18988125" y="164.371" curve="-90"/>
+<vertex x="-77.93988125" y="164.121"/>
+</polygon>
 </signal>
 <signal name="+5V/R/2">
 <contactref element="C18B2" pad="1"/>
@@ -6901,6 +6870,18 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="5,16,30580497db718c72"/>
+<approved hash="5,16,e253045c0a3040ee"/>
+<approved hash="5,16,499ad9681b71e84f"/>
+<approved hash="5,16,6a4911f093df790e"/>
+<approved hash="5,16,00d4cc7a7941d403"/>
+<approved hash="5,16,738eaa3f44691034"/>
+<approved hash="5,16,991f0e39a7629dca"/>
+<approved hash="5,16,32da6f91f0b9cc0e"/>
+<approved hash="5,16,966a773698990154"/>
+<approved hash="5,16,13a6286366dfc6da"/>
+</errors>
 </board>
 </drawing>
 <compatibility>

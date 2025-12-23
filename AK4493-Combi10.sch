@@ -1074,6 +1074,43 @@ type 0411, grid 15 mm</description>
 <wire x1="0.8" y1="0.425" x2="-1.35" y2="0.425" width="0.2" layer="21"/>
 <wire x1="-0.8" y1="-0.425" x2="0.8" y2="-0.425" width="0.2" layer="21"/>
 </package>
+<package name="CAPPRD750W80D1475H4700" urn="urn:adsk.eagle:footprint:47621590/1" library_version="38">
+<description>&lt;b&gt;14.5X45&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1" diameter="1.5" shape="square"/>
+<pad name="2" x="7.5" y="0" drill="1" diameter="1.5"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<circle x="3.75" y="0" radius="7.875" width="0.05" layer="21"/>
+<circle x="3.75" y="0" radius="7.375" width="0.2" layer="25"/>
+<circle x="3.75" y="0" radius="7.375" width="0.1" layer="51"/>
+</package>
+<package name="DIOAD1405W86L465D235" urn="urn:adsk.eagle:footprint:47621589/1" library_version="38">
+<description>&lt;b&gt;CASE 5910&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1.05" diameter="1.575" shape="square"/>
+<pad name="2" x="14.1" y="0" drill="1.05" diameter="1.575"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.038" y1="1.525" x2="15.137" y2="1.525" width="0.05" layer="51"/>
+<wire x1="15.137" y1="1.525" x2="15.137" y2="-1.525" width="0.05" layer="51"/>
+<wire x1="15.137" y1="-1.525" x2="-1.038" y2="-1.525" width="0.05" layer="51"/>
+<wire x1="-1.038" y1="-1.525" x2="-1.038" y2="1.525" width="0.05" layer="51"/>
+<wire x1="4.725" y1="1.175" x2="9.375" y2="1.175" width="0.1" layer="51"/>
+<wire x1="9.375" y1="1.175" x2="9.375" y2="-1.175" width="0.1" layer="51"/>
+<wire x1="9.375" y1="-1.175" x2="4.725" y2="-1.175" width="0.1" layer="51"/>
+<wire x1="4.725" y1="-1.175" x2="4.725" y2="1.175" width="0.1" layer="51"/>
+<wire x1="4.725" y1="0" x2="5.9" y2="1.175" width="0.1" layer="51"/>
+<wire x1="0" y1="0" x2="4.725" y2="0" width="0.1" layer="51"/>
+<wire x1="9.375" y1="0" x2="14.1" y2="0" width="0.1" layer="51"/>
+<wire x1="4.725" y1="1.175" x2="9.375" y2="1.175" width="0.2" layer="21"/>
+<wire x1="9.375" y1="1.175" x2="9.375" y2="-1.175" width="0.2" layer="21"/>
+<wire x1="9.375" y1="-1.175" x2="4.725" y2="-1.175" width="0.2" layer="21"/>
+<wire x1="4.725" y1="-1.175" x2="4.725" y2="1.175" width="0.2" layer="21"/>
+<wire x1="4.725" y1="0" x2="5.9" y2="1.175" width="0.2" layer="21"/>
+<wire x1="1.138" y1="0" x2="4.725" y2="0" width="0.2" layer="21"/>
+<wire x1="9.375" y1="0" x2="12.962" y2="0" width="0.2" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="MKP4G034705D00KSSD" urn="urn:adsk.eagle:package:47621660/1" type="box" library_version="3">
@@ -1155,6 +1192,18 @@ type 0411, grid 15 mm</description>
 <description>&lt;b&gt;0603_M_25&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="CAPPM168X90N"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPPRD750W80D1475H4700" urn="urn:adsk.eagle:package:47621664/1" type="box" library_version="38">
+<description>&lt;b&gt;14.5X45&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="CAPPRD750W80D1475H4700"/>
+</packageinstances>
+</package3d>
+<package3d name="DIOAD1405W86L465D235" urn="urn:adsk.eagle:package:47621663/1" type="box" library_version="38">
+<description>&lt;b&gt;CASE 5910&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="DIOAD1405W86L465D235"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1433,6 +1482,40 @@ type 0411, grid 15 mm</description>
 <vertex x="7.62" y="-2.54"/>
 <vertex x="6.858" y="-2.54"/>
 <vertex x="6.858" y="2.54"/>
+</polygon>
+</symbol>
+<symbol name="500HXW68MEFR14.5X45" urn="urn:adsk.eagle:symbol:47621520/1" library_version="38">
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.842" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.842" y1="-2.54" x2="5.842" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.842" y2="2.54" width="0.254" layer="94"/>
+<wire x1="4.572" y1="1.27" x2="3.556" y2="1.27" width="0.254" layer="94"/>
+<wire x1="4.064" y1="1.778" x2="4.064" y2="0.762" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
+<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="+" x="0" y="0" visible="pad" length="short"/>
+<pin name="-" x="12.7" y="0" visible="pad" length="short" rot="R180"/>
+<polygon width="0.254" layer="94">
+<vertex x="7.62" y="2.54"/>
+<vertex x="7.62" y="-2.54"/>
+<vertex x="6.858" y="-2.54"/>
+<vertex x="6.858" y="2.54"/>
+</polygon>
+</symbol>
+<symbol name="1N4007FFG" urn="urn:adsk.eagle:symbol:47621519/1" library_version="38">
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94"/>
+<text x="11.43" y="5.08" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="11.43" y="2.54" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="K" x="0" y="0" visible="pad" length="short"/>
+<pin name="A" x="15.24" y="0" visible="pad" length="short" rot="R180"/>
+<polygon width="0.254" layer="94">
+<vertex x="5.08" y="0"/>
+<vertex x="10.16" y="2.54"/>
+<vertex x="10.16" y="-2.54"/>
 </polygon>
 </symbol>
 </symbols>
@@ -2240,57 +2323,37 @@ Source: &lt;a href="https://datasheets.kyocera-avx.com/tc-series.pdf"&gt; Datash
 </device>
 </devices>
 </deviceset>
-</devicesets>
-</library>
-<library name="1N4007FFG">
-<description>&lt;Rectifiers 1000V 1A Standard&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="DIOAD1405W86L465D235">
-<description>&lt;b&gt;CASE 5910&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="1.05" diameter="1.575" shape="square"/>
-<pad name="2" x="14.1" y="0" drill="1.05" diameter="1.575"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.038" y1="1.525" x2="15.137" y2="1.525" width="0.05" layer="51"/>
-<wire x1="15.137" y1="1.525" x2="15.137" y2="-1.525" width="0.05" layer="51"/>
-<wire x1="15.137" y1="-1.525" x2="-1.038" y2="-1.525" width="0.05" layer="51"/>
-<wire x1="-1.038" y1="-1.525" x2="-1.038" y2="1.525" width="0.05" layer="51"/>
-<wire x1="4.725" y1="1.175" x2="9.375" y2="1.175" width="0.1" layer="51"/>
-<wire x1="9.375" y1="1.175" x2="9.375" y2="-1.175" width="0.1" layer="51"/>
-<wire x1="9.375" y1="-1.175" x2="4.725" y2="-1.175" width="0.1" layer="51"/>
-<wire x1="4.725" y1="-1.175" x2="4.725" y2="1.175" width="0.1" layer="51"/>
-<wire x1="4.725" y1="0" x2="5.9" y2="1.175" width="0.1" layer="51"/>
-<wire x1="0" y1="0" x2="4.725" y2="0" width="0.1" layer="51"/>
-<wire x1="9.375" y1="0" x2="14.1" y2="0" width="0.1" layer="51"/>
-<wire x1="4.725" y1="1.175" x2="9.375" y2="1.175" width="0.2" layer="21"/>
-<wire x1="9.375" y1="1.175" x2="9.375" y2="-1.175" width="0.2" layer="21"/>
-<wire x1="9.375" y1="-1.175" x2="4.725" y2="-1.175" width="0.2" layer="21"/>
-<wire x1="4.725" y1="-1.175" x2="4.725" y2="1.175" width="0.2" layer="21"/>
-<wire x1="4.725" y1="0" x2="5.9" y2="1.175" width="0.2" layer="21"/>
-<wire x1="1.138" y1="0" x2="4.725" y2="0" width="0.2" layer="21"/>
-<wire x1="9.375" y1="0" x2="12.962" y2="0" width="0.2" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="1N4007FFG">
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94"/>
-<text x="11.43" y="5.08" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="11.43" y="2.54" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="K" x="0" y="0" visible="pad" length="short"/>
-<pin name="A" x="15.24" y="0" visible="pad" length="short" rot="R180"/>
-<polygon width="0.254" layer="94">
-<vertex x="5.08" y="0"/>
-<vertex x="10.16" y="2.54"/>
-<vertex x="10.16" y="-2.54"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="1N4007FFG" prefix="D">
+<deviceset name="500HXW68MEFR14.5X45" urn="urn:adsk.eagle:component:47621745/1" prefix="C" library_version="38">
+<description>&lt;b&gt;Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.mouser.com/datasheet/2/977/e_HXW-1600623.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="500HXW68MEFR14.5X45" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPPRD750W80D1475H4700">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47621664/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ARROW_PART_NUMBER" value="" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" constant="no"/>
+<attribute name="HEIGHT" value="47mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Rubycon" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="232-500HXW68MEFR145X" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Rubycon/500HXW68MEFR14.5X45?qs=T3oQrply3y9UkankbpWbTw%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1N4007FFG" urn="urn:adsk.eagle:component:47621744/1" prefix="D" library_version="38">
 <description>&lt;b&gt;Rectifiers 1000V 1A Standard&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://www.onsemi.com/pub_link/Collateral/1N4001-D.PDF"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -2302,6 +2365,9 @@ Source: &lt;a href="http://www.onsemi.com/pub_link/Collateral/1N4001-D.PDF"&gt; 
 <connect gate="G$1" pin="A" pad="2"/>
 <connect gate="G$1" pin="K" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47621663/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Rectifiers 1000V 1A Standard" constant="no"/>
@@ -6874,74 +6940,6 @@ Source: &lt;a href="https://www.mouser.in/datasheet/2/293/e_ucy-3082387.pdf"&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="500HXW68MEFR14.5X45">
-<description>&lt;Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="CAPPRD750W80D1475H4700">
-<description>&lt;b&gt;14.5X45&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="1" diameter="1.5" shape="square"/>
-<pad name="2" x="7.5" y="0" drill="1" diameter="1.5"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<circle x="3.75" y="0" radius="7.875" width="0.05" layer="21"/>
-<circle x="3.75" y="0" radius="7.375" width="0.2" layer="25"/>
-<circle x="3.75" y="0" radius="7.375" width="0.1" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="500HXW68MEFR14.5X45">
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.842" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.842" y1="-2.54" x2="5.842" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.842" y2="2.54" width="0.254" layer="94"/>
-<wire x1="4.572" y1="1.27" x2="3.556" y2="1.27" width="0.254" layer="94"/>
-<wire x1="4.064" y1="1.778" x2="4.064" y2="0.762" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
-<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="+" x="0" y="0" visible="pad" length="short"/>
-<pin name="-" x="12.7" y="0" visible="pad" length="short" rot="R180"/>
-<polygon width="0.254" layer="94">
-<vertex x="7.62" y="2.54"/>
-<vertex x="7.62" y="-2.54"/>
-<vertex x="6.858" y="-2.54"/>
-<vertex x="6.858" y="2.54"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="500HXW68MEFR14.5X45" prefix="C">
-<description>&lt;b&gt;Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.mouser.com/datasheet/2/977/e_HXW-1600623.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="500HXW68MEFR14.5X45" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CAPPRD750W80D1475H4700">
-<connects>
-<connect gate="G$1" pin="+" pad="1"/>
-<connect gate="G$1" pin="-" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="ARROW_PART_NUMBER" value="" constant="no"/>
-<attribute name="ARROW_PRICE-STOCK" value="" constant="no"/>
-<attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - Radial Leaded GENERAL PURPOSE ELECTROLYTIC CAPACITORS" constant="no"/>
-<attribute name="HEIGHT" value="47mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Rubycon" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="500HXW68MEFR14.5X45" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Dual Mono Amp Library">
 <description>Generated from &lt;b&gt;AK4493-v1.64_21.sch&lt;/b&gt;&lt;p&gt;
 by exp-lbrs.ulp</description>
@@ -7501,175 +7499,6 @@ Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-xr2.pdf"
 </deviceset>
 </devicesets>
 </library>
-<library name="1935255">
-<description>&lt;Phoenix Contact PT 1.5/11-5.0-H PCB Terminal Block, 11 Way/Pole, Screw Terminals, 26  14 AWG Through Hole,&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="1935255">
-<description>&lt;b&gt;1935255-5&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="1.3" diameter="1.95" shape="square"/>
-<pad name="2" x="5" y="0" drill="1.3" diameter="1.95"/>
-<pad name="3" x="10" y="0" drill="1.3" diameter="1.95"/>
-<pad name="4" x="15" y="0" drill="1.3" diameter="1.95"/>
-<pad name="5" x="20" y="0" drill="1.3" diameter="1.95"/>
-<pad name="6" x="25" y="0" drill="1.3" diameter="1.95"/>
-<pad name="7" x="30" y="0" drill="1.3" diameter="1.95"/>
-<pad name="8" x="35" y="0" drill="1.3" diameter="1.95"/>
-<pad name="9" x="40" y="0" drill="1.3" diameter="1.95"/>
-<pad name="10" x="45" y="0" drill="1.3" diameter="1.95"/>
-<pad name="11" x="50" y="0" drill="1.3" diameter="1.95"/>
-<text x="25" y="-0.5" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="25" y="-0.5" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.5" y1="4" x2="52.5" y2="4" width="0.2" layer="51"/>
-<wire x1="52.5" y1="4" x2="52.5" y2="-5" width="0.2" layer="51"/>
-<wire x1="52.5" y1="-5" x2="-2.5" y2="-5" width="0.2" layer="51"/>
-<wire x1="-2.5" y1="-5" x2="-2.5" y2="4" width="0.2" layer="51"/>
-<wire x1="-2.5" y1="4" x2="52.5" y2="4" width="0.1" layer="21"/>
-<wire x1="52.5" y1="4" x2="52.5" y2="-5" width="0.1" layer="21"/>
-<wire x1="52.5" y1="-5" x2="-2.5" y2="-5" width="0.1" layer="21"/>
-<wire x1="-2.5" y1="-5" x2="-2.5" y2="4" width="0.1" layer="21"/>
-<wire x1="-3.5" y1="5" x2="53.5" y2="5" width="0.1" layer="51"/>
-<wire x1="53.5" y1="5" x2="53.5" y2="-6" width="0.1" layer="51"/>
-<wire x1="53.5" y1="-6" x2="-3.5" y2="-6" width="0.1" layer="51"/>
-<wire x1="-3.5" y1="-6" x2="-3.5" y2="5" width="0.1" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="1935255">
-<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-27.94" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-27.94" x2="5.08" y2="-27.94" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-27.94" width="0.254" layer="94"/>
-<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" length="middle"/>
-<pin name="2" x="0" y="-2.54" length="middle"/>
-<pin name="3" x="0" y="-5.08" length="middle"/>
-<pin name="4" x="0" y="-7.62" length="middle"/>
-<pin name="5" x="0" y="-10.16" length="middle"/>
-<pin name="6" x="0" y="-12.7" length="middle"/>
-<pin name="7" x="0" y="-15.24" length="middle"/>
-<pin name="8" x="0" y="-17.78" length="middle"/>
-<pin name="9" x="0" y="-20.32" length="middle"/>
-<pin name="10" x="0" y="-22.86" length="middle"/>
-<pin name="11" x="0" y="-25.4" length="middle"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="1935255" prefix="J">
-<description>&lt;b&gt;Phoenix Contact PT 1.5/11-5.0-H PCB Terminal Block, 11 Way/Pole, Screw Terminals, 26  14 AWG Through Hole,&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-2/sf-00057468.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="1935255" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1935255">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Phoenix Contact PT 1.5/11-5.0-H PCB Terminal Block, 11 Way/Pole, Screw Terminals, 26  14 AWG Through Hole," constant="no"/>
-<attribute name="HEIGHT" value="11.55mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Phoenix Contact" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="1935255" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="651-1935255" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1935255?qs=wd%252Bw3mUqFrm1E513uD0TOQ%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="1935200">
-<description>&lt;Fixed Terminal Blocks PT 1.5/6-5.0-H&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="1935200">
-<description>&lt;b&gt;1935200-2&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="1.3" diameter="1.95" shape="square"/>
-<pad name="2" x="5" y="0" drill="1.3" diameter="1.95"/>
-<pad name="3" x="10" y="0" drill="1.3" diameter="1.95"/>
-<pad name="4" x="15" y="0" drill="1.3" diameter="1.95"/>
-<pad name="5" x="20" y="0" drill="1.3" diameter="1.95"/>
-<pad name="6" x="25" y="0" drill="1.3" diameter="1.95"/>
-<text x="12.5" y="-0.5" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="12.5" y="-0.5" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.5" y1="-5" x2="27.5" y2="-5" width="0.2" layer="51"/>
-<wire x1="27.5" y1="-5" x2="27.5" y2="4" width="0.2" layer="51"/>
-<wire x1="27.5" y1="4" x2="-2.5" y2="4" width="0.2" layer="51"/>
-<wire x1="-2.5" y1="4" x2="-2.5" y2="-5" width="0.2" layer="51"/>
-<wire x1="-2.5" y1="4" x2="27.5" y2="4" width="0.1" layer="21"/>
-<wire x1="27.5" y1="4" x2="27.5" y2="-5" width="0.1" layer="21"/>
-<wire x1="27.5" y1="-5" x2="-2.5" y2="-5" width="0.1" layer="21"/>
-<wire x1="-2.5" y1="-5" x2="-2.5" y2="4" width="0.1" layer="21"/>
-<wire x1="-3.5" y1="5" x2="28.5" y2="5" width="0.1" layer="51"/>
-<wire x1="28.5" y1="5" x2="28.5" y2="-6" width="0.1" layer="51"/>
-<wire x1="28.5" y1="-6" x2="-3.5" y2="-6" width="0.1" layer="51"/>
-<wire x1="-3.5" y1="-6" x2="-3.5" y2="5" width="0.1" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="1935200">
-<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-15.24" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
-<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" length="middle"/>
-<pin name="2" x="0" y="-2.54" length="middle"/>
-<pin name="3" x="0" y="-5.08" length="middle"/>
-<pin name="4" x="0" y="-7.62" length="middle"/>
-<pin name="5" x="0" y="-10.16" length="middle"/>
-<pin name="6" x="0" y="-12.7" length="middle"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="1935200" prefix="J">
-<description>&lt;b&gt;Fixed Terminal Blocks PT 1.5/6-5.0-H&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-2/sf-00057463.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="1935200" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1935200">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Fixed Terminal Blocks PT 1.5/6-5.0-H" constant="no"/>
-<attribute name="HEIGHT" value="11.55mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Phoenix Contact" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="1935200" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="651-1935200" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1935200?qs=8BCRtFWWXOTOyOTMiNRITA%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7786,22 +7615,22 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <part name="Z6" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="BZX79-C16,113" device="" package3d_urn="urn:adsk.eagle:package:49478898/1"/>
 <part name="R19" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="CPF215K000FKE14" device="" package3d_urn="urn:adsk.eagle:package:23568/2" value="15k"/>
 <part name="R20" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="CPF215K000FKE14" device="" package3d_urn="urn:adsk.eagle:package:23568/2" value="15k"/>
-<part name="D7" library="1N4007FFG" deviceset="1N4007FFG" device=""/>
-<part name="D8" library="1N4007FFG" deviceset="1N4007FFG" device=""/>
-<part name="D9" library="1N4007FFG" deviceset="1N4007FFG" device=""/>
-<part name="D10" library="1N4007FFG" deviceset="1N4007FFG" device=""/>
+<part name="D7" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N4007FFG" device="" package3d_urn="urn:adsk.eagle:package:47621663/1"/>
+<part name="D8" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N4007FFG" device="" package3d_urn="urn:adsk.eagle:package:47621663/1"/>
+<part name="D9" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N4007FFG" device="" package3d_urn="urn:adsk.eagle:package:47621663/1"/>
+<part name="D10" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N4007FFG" device="" package3d_urn="urn:adsk.eagle:package:47621663/1"/>
 <part name="R2P" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="220"/>
 <part name="R3P" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="220"/>
 <part name="R4P" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="300k"/>
 <part name="R5P" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="100k"/>
-<part name="C1P" library="500HXW68MEFR14.5X45" deviceset="500HXW68MEFR14.5X45" device="" value="68u"/>
-<part name="C2P" library="500HXW68MEFR14.5X45" deviceset="500HXW68MEFR14.5X45" device="" value="68u"/>
-<part name="C3P" library="500HXW68MEFR14.5X45" deviceset="500HXW68MEFR14.5X45" device="" value="68u"/>
+<part name="C1P" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="500HXW68MEFR14.5X45" device="" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u"/>
+<part name="C2P" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="500HXW68MEFR14.5X45" device="" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u"/>
+<part name="C3P" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="500HXW68MEFR14.5X45" device="" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u"/>
 <part name="R6P" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="330"/>
 <part name="C4P" library="UCY2E220MPD1TD" deviceset="UCY2E220MPD1TD" device=""/>
-<part name="C5P" library="500HXW68MEFR14.5X45" deviceset="500HXW68MEFR14.5X45" device="" value="68u"/>
-<part name="C6P" library="500HXW68MEFR14.5X45" deviceset="500HXW68MEFR14.5X45" device="" value="68u"/>
-<part name="C7P" library="500HXW68MEFR14.5X45" deviceset="500HXW68MEFR14.5X45" device="" value="68u"/>
+<part name="C5P" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="500HXW68MEFR14.5X45" device="" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u"/>
+<part name="C6P" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="500HXW68MEFR14.5X45" device="" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u"/>
+<part name="C7P" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="500HXW68MEFR14.5X45" device="" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u"/>
 <part name="U$1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="+240VDC/2" device=""/>
 <part name="U$5" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="+240VDC/2" device=""/>
 <part name="U$6" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="66.3VAC/BRN/2" device=""/>
@@ -7848,17 +7677,17 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <part name="C26A" library="Dual Mono Amp Library" deviceset="EMK212ABJ475KG-T" device="" value="4.7u, Ceramic Capacitor X7R"/>
 <part name="C28A" library="Dual Mono Amp Library" deviceset="EMF212B7104KGHT" device="" value="0.1u, Ceramic Capacitor X7R"/>
 <part name="C27A" library="Dual Mono Amp Library" deviceset="EMK212ABJ475KG-T" device="" value="4.7u, Ceramic Capacitor X7R"/>
-<part name="D11" library="1N4007FFG" deviceset="1N4007FFG" device=""/>
-<part name="D12" library="1N4007FFG" deviceset="1N4007FFG" device=""/>
-<part name="D13" library="1N4007FFG" deviceset="1N4007FFG" device=""/>
-<part name="D14" library="1N4007FFG" deviceset="1N4007FFG" device=""/>
-<part name="C1P1" library="500HXW68MEFR14.5X45" deviceset="500HXW68MEFR14.5X45" device="" value="68u"/>
-<part name="C2P1" library="500HXW68MEFR14.5X45" deviceset="500HXW68MEFR14.5X45" device="" value="68u"/>
-<part name="C3P1" library="500HXW68MEFR14.5X45" deviceset="500HXW68MEFR14.5X45" device="" value="68u"/>
+<part name="D11" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N4007FFG" device="" package3d_urn="urn:adsk.eagle:package:47621663/1"/>
+<part name="D12" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N4007FFG" device="" package3d_urn="urn:adsk.eagle:package:47621663/1"/>
+<part name="D13" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N4007FFG" device="" package3d_urn="urn:adsk.eagle:package:47621663/1"/>
+<part name="D14" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N4007FFG" device="" package3d_urn="urn:adsk.eagle:package:47621663/1"/>
+<part name="C1P1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="500HXW68MEFR14.5X45" device="" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u"/>
+<part name="C2P1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="500HXW68MEFR14.5X45" device="" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u"/>
+<part name="C3P1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="500HXW68MEFR14.5X45" device="" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u"/>
 <part name="R6P1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="330"/>
-<part name="C5P1" library="500HXW68MEFR14.5X45" deviceset="500HXW68MEFR14.5X45" device="" value="68u"/>
-<part name="C6P1" library="500HXW68MEFR14.5X45" deviceset="500HXW68MEFR14.5X45" device="" value="68u"/>
-<part name="C7P1" library="500HXW68MEFR14.5X45" deviceset="500HXW68MEFR14.5X45" device="" value="68u"/>
+<part name="C5P1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="500HXW68MEFR14.5X45" device="" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u"/>
+<part name="C6P1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="500HXW68MEFR14.5X45" device="" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u"/>
+<part name="C7P1" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="500HXW68MEFR14.5X45" device="" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u"/>
 <part name="SUPPLY3" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="DGND/2" device=""/>
 <part name="P+2" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="VCC/2" device=""/>
 <part name="SUPPLY4" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="DGND/2" device=""/>
@@ -7907,33 +7736,33 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <part name="C18B6" library="Dual Mono Amp Library" deviceset="EMK212ABJ475KG-T" device="" value="4.7u"/>
 <part name="C20B6" library="Dual Mono Amp Library" deviceset="EMK212BB7106KG-T" device="" value="10u"/>
 <part name="C19B6" library="Dual Mono Amp Library" deviceset="EMK316BB7226ML-T" device="" package3d_urn="urn:adsk.eagle:package:23618/2" value="22u"/>
-<part name="D15" library="1N4007FFG" deviceset="1N4007FFG" device=""/>
-<part name="D16" library="1N4007FFG" deviceset="1N4007FFG" device=""/>
-<part name="D17" library="1N4007FFG" deviceset="1N4007FFG" device=""/>
-<part name="D18" library="1N4007FFG" deviceset="1N4007FFG" device=""/>
+<part name="D15" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N4007FFG" device="" package3d_urn="urn:adsk.eagle:package:47621663/1"/>
+<part name="D16" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N4007FFG" device="" package3d_urn="urn:adsk.eagle:package:47621663/1"/>
+<part name="D17" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N4007FFG" device="" package3d_urn="urn:adsk.eagle:package:47621663/1"/>
+<part name="D18" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N4007FFG" device="" package3d_urn="urn:adsk.eagle:package:47621663/1"/>
 <part name="R2P1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="220"/>
 <part name="R3P1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="220"/>
 <part name="R4P1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="300k"/>
 <part name="R5P1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="100k"/>
-<part name="C1P2" library="500HXW68MEFR14.5X45" deviceset="500HXW68MEFR14.5X45" device="" value="68u"/>
-<part name="C2P2" library="500HXW68MEFR14.5X45" deviceset="500HXW68MEFR14.5X45" device="" value="68u"/>
-<part name="C3P2" library="500HXW68MEFR14.5X45" deviceset="500HXW68MEFR14.5X45" device="" value="68u"/>
+<part name="C1P2" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="500HXW68MEFR14.5X45" device="" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u"/>
+<part name="C2P2" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="500HXW68MEFR14.5X45" device="" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u"/>
+<part name="C3P2" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="500HXW68MEFR14.5X45" device="" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u"/>
 <part name="R6P2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="330"/>
 <part name="C4P1" library="UCY2E220MPD1TD" deviceset="UCY2E220MPD1TD" device=""/>
-<part name="C5P2" library="500HXW68MEFR14.5X45" deviceset="500HXW68MEFR14.5X45" device="" value="68u"/>
-<part name="C6P2" library="500HXW68MEFR14.5X45" deviceset="500HXW68MEFR14.5X45" device="" value="68u"/>
-<part name="C7P2" library="500HXW68MEFR14.5X45" deviceset="500HXW68MEFR14.5X45" device="" value="68u"/>
-<part name="D19" library="1N4007FFG" deviceset="1N4007FFG" device=""/>
-<part name="D20" library="1N4007FFG" deviceset="1N4007FFG" device=""/>
-<part name="D21" library="1N4007FFG" deviceset="1N4007FFG" device=""/>
-<part name="D22" library="1N4007FFG" deviceset="1N4007FFG" device=""/>
-<part name="C1P3" library="500HXW68MEFR14.5X45" deviceset="500HXW68MEFR14.5X45" device="" value="68u"/>
-<part name="C2P3" library="500HXW68MEFR14.5X45" deviceset="500HXW68MEFR14.5X45" device="" value="68u"/>
-<part name="C3P3" library="500HXW68MEFR14.5X45" deviceset="500HXW68MEFR14.5X45" device="" value="68u"/>
+<part name="C5P2" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="500HXW68MEFR14.5X45" device="" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u"/>
+<part name="C6P2" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="500HXW68MEFR14.5X45" device="" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u"/>
+<part name="C7P2" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="500HXW68MEFR14.5X45" device="" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u"/>
+<part name="D19" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N4007FFG" device="" package3d_urn="urn:adsk.eagle:package:47621663/1"/>
+<part name="D20" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N4007FFG" device="" package3d_urn="urn:adsk.eagle:package:47621663/1"/>
+<part name="D21" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N4007FFG" device="" package3d_urn="urn:adsk.eagle:package:47621663/1"/>
+<part name="D22" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1N4007FFG" device="" package3d_urn="urn:adsk.eagle:package:47621663/1"/>
+<part name="C1P3" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="500HXW68MEFR14.5X45" device="" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u"/>
+<part name="C2P3" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="500HXW68MEFR14.5X45" device="" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u"/>
+<part name="C3P3" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="500HXW68MEFR14.5X45" device="" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u"/>
 <part name="R6P3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="330"/>
-<part name="C5P3" library="500HXW68MEFR14.5X45" deviceset="500HXW68MEFR14.5X45" device="" value="68u"/>
-<part name="C6P3" library="500HXW68MEFR14.5X45" deviceset="500HXW68MEFR14.5X45" device="" value="68u"/>
-<part name="C7P3" library="500HXW68MEFR14.5X45" deviceset="500HXW68MEFR14.5X45" device="" value="68u"/>
+<part name="C5P3" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="500HXW68MEFR14.5X45" device="" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u"/>
+<part name="C6P3" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="500HXW68MEFR14.5X45" device="" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u"/>
+<part name="C7P3" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="500HXW68MEFR14.5X45" device="" package3d_urn="urn:adsk.eagle:package:47621664/1" value="68u"/>
 <part name="AGND26" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="AGND/1" device=""/>
 <part name="AGND27" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="AGND/1" device=""/>
 <part name="U$21" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="+240VDC/1" device=""/>
@@ -7968,8 +7797,8 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <part name="+3V8" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="+3V3/1" device=""/>
 <part name="+3V9" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="+1V8/1" device=""/>
 <part name="+3V11" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="+3V3/1" device=""/>
-<part name="J4" library="1935255" deviceset="1935255" device=""/>
-<part name="J9" library="1935200" deviceset="1935200" device=""/>
+<part name="J4" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1935255" device="" package3d_urn="urn:adsk.eagle:package:50907200/1"/>
+<part name="J9" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="1935200" device="" package3d_urn="urn:adsk.eagle:package:50913441/1"/>
 <part name="SUPPLY23" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="DGND/1" device=""/>
 <part name="SUPPLY25" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="DGND/2" device=""/>
 <part name="IC3" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="LM1117MPX-5.0_NOPB" device="" package3d_urn="urn:adsk.eagle:package:47621665/3"/>

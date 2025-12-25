@@ -1148,6 +1148,23 @@ type 0411, grid 15 mm</description>
 <circle x="2.5" y="0" radius="5.125" width="0.2" layer="25"/>
 <circle x="2.5" y="0" radius="5.125" width="0.1" layer="51"/>
 </package>
+<package name="RESC2012X65N" urn="urn:adsk.eagle:footprint:50990420/1" library_version="39">
+<description>&lt;b&gt;CPF0805&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.95" y="0" dx="1.45" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="0.95" y="0" dx="1.45" dy="1" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.7" y1="1" x2="1.7" y2="1" width="0.05" layer="51"/>
+<wire x1="1.7" y1="1" x2="1.7" y2="-1" width="0.05" layer="51"/>
+<wire x1="1.7" y1="-1" x2="-1.7" y2="-1" width="0.05" layer="51"/>
+<wire x1="-1.7" y1="-1" x2="-1.7" y2="1" width="0.05" layer="51"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.1" layer="51"/>
+<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.1" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.1" layer="51"/>
+<wire x1="0" y1="0.525" x2="0" y2="-0.525" width="0.2" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="MKP4G034705D00KSSD" urn="urn:adsk.eagle:package:47621660/1" type="box" library_version="3">
@@ -1260,6 +1277,12 @@ type 0411, grid 15 mm</description>
 type 0411, grid 15 mm</description>
 <packageinstances>
 <packageinstance name="0411/15"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC2012X65N" urn="urn:adsk.eagle:package:47621631/2" type="box" library_version="39">
+<description>&lt;b&gt;CPF0805&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="RESC2012X65N"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1609,6 +1632,21 @@ type 0411, grid 15 mm</description>
 <vertex x="6.858" y="-2.54"/>
 <vertex x="6.858" y="2.54"/>
 </polygon>
+</symbol>
+<symbol name="R-US" urn="urn:adsk.eagle:symbol:48500913/1" library_version="39">
+<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.2032" layer="94"/>
+<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2649,6 +2687,34 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/PR02000203300
 </device>
 </devices>
 </deviceset>
+<deviceset name="CPF0805B33KE1" urn="urn:adsk.eagle:component:50990421/1" prefix="R" library_version="39">
+<description>&lt;b&gt;Thin Film Resistors - SMD CPF 0805 33K 0.1% 25PPM 1K RL&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="R-US" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC2012X65N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47621631/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD CPF 0805 33K 0.1% 25PPM 1K RL" constant="no"/>
+<attribute name="HEIGHT" value="0.65mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CPF0805B33KE1" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="279-CPF0805B33KE1" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=279-CPF0805B33KE1" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="Dual Mono Amp Library">
@@ -3268,7 +3334,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/lp5907"&gt; Datasheet &lt;/a&gt;</
 <part name="J5" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="XR2A-0811-N" device="" package3d_urn="urn:adsk.eagle:package:47621661/1"/>
 <part name="IC2" library="Dual Mono Amp Library" deviceset="LT3042" device=""/>
 <part name="R6A" library="Dual Mono Amp Library" deviceset="CHP0805-FX-1001ELF" device="" value="1k"/>
-<part name="R7A" library="Dual Mono Amp Library" deviceset="CPF0805B51KE1" device="" value="33k"/>
+<part name="R7A" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="CPF0805B33KE1" device="" package3d_urn="urn:adsk.eagle:package:47621631/2" value="33k"/>
 <part name="R8A" library="Dual Mono Amp Library" deviceset="RR1220P-204-D" device="" value="200k"/>
 <part name="C21A" library="Dual Mono Amp Library" deviceset="EMF212B7104KGHT" device="" value="0.1u"/>
 <part name="C18A" library="Dual Mono Amp Library" deviceset="EMK212ABJ475KG-T" device="" value="4.7u"/>
@@ -3356,7 +3422,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/lp5907"&gt; Datasheet &lt;/a&gt;</
 <part name="J12" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="XR2A-0811-N" device="" package3d_urn="urn:adsk.eagle:package:47621661/1"/>
 <part name="IC10" library="Dual Mono Amp Library" deviceset="LT3042" device=""/>
 <part name="R6B6" library="Dual Mono Amp Library" deviceset="CHP0805-FX-1001ELF" device="" value="1k"/>
-<part name="R7B6" library="Dual Mono Amp Library" deviceset="CPF0805B51KE1" device="" value="33k"/>
+<part name="R7B6" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" deviceset="CPF0805B33KE1" device="" package3d_urn="urn:adsk.eagle:package:47621631/2" value="33k"/>
 <part name="R8B6" library="Dual Mono Amp Library" deviceset="RR1220P-204-D" device="" value="200k"/>
 <part name="C21B6" library="Dual Mono Amp Library" deviceset="EMF212B7104KGHT" device="" value="0.1u"/>
 <part name="C18B6" library="Dual Mono Amp Library" deviceset="EMK212ABJ475KG-T" device="" value="4.7u"/>

@@ -2645,14 +2645,13 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PART_NUMBER" value="651-1935255" x="112.68856875" y="4.2" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1935255?qs=wd%252Bw3mUqFrm1E513uD0TOQ%3D%3D" x="112.68856875" y="4.2" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="J7" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="1935200" package3d_urn="urn:adsk.eagle:package:50913441/1" value="1935200" x="62" y="166.30065" locked="yes" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="Fixed Terminal Blocks PT 1.5/6-5.0-H" x="62" y="166.30065" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="11.55mm" x="62" y="166.30065" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Phoenix Contact" x="62" y="166.30065" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="1935200" x="62" y="166.30065" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="651-1935200" x="62" y="166.30065" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1935200?qs=8BCRtFWWXOTOyOTMiNRITA%3D%3D" x="62" y="166.30065" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="61.5" y="153.80065" locked="yes" size="1.27" layer="25" rot="R270" align="center"/>
+<element name="J7" library="Dual Mono Amp Library" library_urn="urn:adsk.eagle:library:47621477" package="1935200" package3d_urn="urn:adsk.eagle:package:50913441/1" value="1935200" x="62" y="166.30065" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="Fixed Terminal Blocks PT 1.5/6-5.0-H" x="62" y="166.30065" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="11.55mm" x="62" y="166.30065" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Phoenix Contact" x="62" y="166.30065" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1935200" x="62" y="166.30065" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="651-1935200" x="62" y="166.30065" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1935200?qs=8BCRtFWWXOTOyOTMiNRITA%3D%3D" x="62" y="166.30065" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R6B2" library="Dual Mono Amp Library" package="RESC2012X60N" value="1k" x="-108.741878125" y="94.244075" locked="yes" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" value="BOURNS - CHP0805-FX-1001ELF - SMD Chip Resistor, 0805 [2012 Metric], 1 kohm, CHP Series, 200 V, Thick Film, 500 mW" x="-108.741878125" y="94.244075" locked="yes" size="1.778" layer="28" rot="MR270" display="off"/>
